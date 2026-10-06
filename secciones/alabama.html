@@ -43,6 +43,8 @@
 .clc-estado tbody tr:last-child td{border-bottom:0}
 .clc-estado td.no-req{color:var(--suave);font-style:italic}
 .clc-estado td.horas{font-weight:700}
+.clc-estado .clc-oculto{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.clc-estado .clc-pie a{color:var(--azul-osc);text-decoration:underline}
 .clc-estado .clc-pie{font-size:13px;color:var(--suave);margin-top:10px}
 
 /* Cursos */
@@ -53,7 +55,7 @@
 .clc-estado .etq-nueva{background:#e6f5ea;color:var(--verde-osc)}
 .clc-estado .etq-renov{background:#e7f1fb;color:var(--azul-osc)}
 .clc-estado .clc-curso .ico{font-size:30px;line-height:1;margin-bottom:8px}
-.clc-estado .clc-curso h3{font-size:21px;margin-bottom:6px}
+.clc-estado .clc-curso h4{font-size:21px;margin-bottom:6px}
 .clc-estado .clc-curso .desc{color:var(--suave);font-size:15px;margin-bottom:14px}
 .clc-estado .clc-curso ul{list-style:none;padding:0;margin:0 0 20px;font-size:14px}
 .clc-estado .clc-curso li{padding:4px 0 4px 24px;position:relative;margin:0}
@@ -146,9 +148,10 @@
     </div>
 
     <div>
-      <h3 class="clc-titulo">Horas de estudio requeridas</h3>
+      <h3 class="clc-titulo">Horas requeridas para la licencia de seguros en Alabama</h3>
       <div class="clc-tabla-wrap">
         <table>
+          <caption class="clc-oculto">Horas de estudio para obtener y renovar la licencia de agente de seguros en Alabama</caption>
           <thead>
             <tr><th>Tipo de licencia</th><th>Licencia nueva</th><th>Renovación</th></tr>
           </thead>
@@ -161,18 +164,18 @@
           </tbody>
         </table>
       </div>
-      <p class="clc-pie">* Educación continua cada 2 años, incluidas 3 horas de ética. Son 24 horas en total por periodo, no por cada licencia. Fuente: Alabama Department of Insurance.</p>
+      <p class="clc-pie">* Educación continua cada 2 años, incluidas 3 horas de ética. Son 24 horas en total por periodo, no por cada licencia. Fuente: <a href="https://aldoi.gov/ContinuingEd/FAQ.aspx" target="_blank" rel="noopener">Alabama Department of Insurance</a>.</p>
     </div>
   </div>
 
   <!-- 3. Cursos -->
-  <h3 class="clc-titulo">Elige tu curso</h3>
+  <h3 class="clc-titulo">Cursos para tu licencia de seguros en Alabama</h3>
   <p class="clc-sub">¿No sabes cuál elegir? Si quieres vender seguros de auto o casa, elige Property &amp; Casualty. Si quieres vender seguros de vida o planes médicos, elige Vida y/o Salud.</p>
   <div class="clc-cursos">
     <div class="clc-curso destacado">
       <span class="clc-etq etq-nueva">Licencia nueva</span>
       <div class="ico" aria-hidden="true">🚗</div>
-      <h3>Property &amp; Casualty</h3>
+      <h4>Property &amp; Casualty</h4>
       <p class="desc">Para vender seguros de auto, casa, renta y negocios.</p>
       <ul>
         <li>Sirve para Líneas Generales o Líneas Personales</li>
@@ -183,13 +186,13 @@
         <li>Asistencia para programar tu cita con el estado</li>
         <li>Asistencia con tu aplicación al estado</li>
       </ul>
-      <a class="clc-btn btn-verde" href="https://centrolatinodecapacitacion.net/course/material-de-estudio-licencia-seguros-propiedad-y-perdida-seccion-federal-examen-estatal/">Inscribirme en P&amp;C →</a>
+      <a class="clc-btn btn-verde" href="https://centrolatinodecapacitacion.net/course/material-de-estudio-licencia-seguros-propiedad-y-perdida-seccion-federal-examen-estatal/" target="_blank" rel="noopener">Inscribirme en P&amp;C →</a>
     </div>
 
     <div class="clc-curso">
       <span class="clc-etq etq-nueva">Licencia nueva</span>
       <div class="ico" aria-hidden="true">❤️</div>
-      <h3>Vida y/o Salud</h3>
+      <h4>Vida y/o Salud</h4>
       <p class="desc">Para vender seguros de vida, gastos médicos, dental y anualidades.</p>
       <ul>
         <li>Sirve para Vida y Salud, solo Vida o solo Salud</li>
@@ -200,20 +203,20 @@
         <li>Asistencia para programar tu cita con el estado</li>
         <li>Asistencia con tu aplicación al estado</li>
       </ul>
-      <a class="clc-btn btn-verde" href="https://centrolatinodecapacitacion.net/course/preparacion-examen-vida-y-salud/">Inscribirme en Vida y Salud →</a>
+      <a class="clc-btn btn-verde" href="https://centrolatinodecapacitacion.net/course/preparacion-examen-vida-y-salud/" target="_blank" rel="noopener">Inscribirme en Vida y Salud →</a>
     </div>
 
     <div class="clc-curso">
       <span class="clc-etq etq-renov">Renovación</span>
       <div class="ico" aria-hidden="true">🔄</div>
-      <h3>Educación continua</h3>
+      <h4>Educación continua</h4>
       <p class="desc">¿Ya tienes licencia? Completa tus horas de renovación sin salir de casa.</p>
       <ul>
         <li>Incluye las horas de ética requeridas</li>
         <li>Certificado al terminar</li>
         <li>Avanza a tu ritmo</li>
       </ul>
-      <a class="clc-btn btn-azul" href="https://centrolatinodecapacitacion.net/course/curso-educacion-continua-ce-licencia-de-seguros/">Renovar mi licencia →</a>
+      <a class="clc-btn btn-azul" href="https://centrolatinodecapacitacion.net/course/curso-educacion-continua-ce-licencia-de-seguros/" target="_blank" rel="noopener">Renovar mi licencia →</a>
     </div>
   </div>
 
@@ -228,7 +231,7 @@
 
   <!-- 5. Preguntas frecuentes -->
   <div class="clc-faq">
-    <h3 class="clc-titulo">Preguntas frecuentes</h3>
+    <h3 class="clc-titulo">Preguntas frecuentes sobre la licencia de seguros en Alabama</h3>
     <details>
       <summary>Si Alabama no exige curso, ¿por qué debería tomarlo?</summary>
       <p>Porque el examen estatal se paga cada vez que lo presentas. Llegar preparado con exámenes de práctica te ahorra tiempo y dinero, y aumenta tus posibilidades de aprobar a la primera.</p>
@@ -238,11 +241,11 @@
       <p>Property &amp; Casualty es para seguros de auto, casa y negocios. Vida y/o Salud es para seguros de vida y planes médicos. Muchas agencias buscan agentes con P&amp;C para seguros de auto. Si no estás seguro, llámanos y te orientamos.</p>
     </details>
     <details>
-      <summary>¿Puedo sacar las dos licencias?</summary>
+      <summary>¿Puedo sacar las dos licencias en Alabama?</summary>
       <p>Sí. Puedes tomar ambos cursos y presentar los dos exámenes. Muchos agentes lo hacen para ofrecer más productos a sus clientes.</p>
     </details>
     <details>
-      <summary>¿Cada cuánto tengo que renovar mi licencia?</summary>
+      <summary>¿Cada cuánto se renueva la licencia de seguros en Alabama?</summary>
       <p>Cada 2 años. Para renovar necesitas 24 horas de educación continua, incluidas 3 horas de ética. Nuestro curso de renovación te ayuda a completarlas en línea.</p>
     </details>
     <details>
@@ -250,8 +253,16 @@
       <p>No. En Alabama el examen estatal solo se ofrece en inglés. Nuestro curso te ayuda a entender todos los conceptos en español para que llegues preparado al examen.</p>
     </details>
     <details>
+      <summary>¿Necesito experiencia en seguros para empezar?</summary>
+      <p>No. Nuestro curso empieza desde cero y te explica cada tema en español, paso a paso, para que llegues preparado al examen aunque nunca hayas trabajado en seguros.</p>
+    </details>
+    <details>
       <summary>¿Me ayudan a programar el examen y a aplicar a la licencia?</summary>
       <p>Sí. Te ayudamos a programar tu cita para el examen estatal y te guiamos en el proceso de aplicación con el estado una vez que lo apruebes.</p>
+    </details>
+    <details>
+      <summary>¿Cómo me inscribo?</summary>
+      <p>Elige tu curso en la sección de arriba y haz clic en el botón de inscripción. Si tienes dudas sobre cuál elegir, escríbenos por WhatsApp o llámanos y te ayudamos a inscribirte.</p>
     </details>
   </div>
 
