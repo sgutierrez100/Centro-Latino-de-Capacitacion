@@ -1,0 +1,349 @@
+<!--
+  Página: Programa de Revendedores del Software de Income Tax
+  Pegar completo dentro de UN widget "HTML" de Elementor (contenedor de ancho completo o de 1200 px).
+  Todo el CSS está limitado a .clc-rev, así que no afecta el resto del sitio.
+  IMPORTANTE: los botones "Quiero registrarme" llevan a WhatsApp. Si tienes un formulario o link de pago
+  para el registro de $200, reemplaza ENLACE_REGISTRO (abajo) por ese link.
+-->
+<div class="clc-rev">
+<style>
+.clc-rev{--navy:#0f2a4a;--navy2:#174273;--azul:#4FB3E3;--azul-osc:#0b66a2;--verde:#4CC266;--verde-osc:#2f9e4b;--oro:#F5B83D;--texto:#1d2330;--suave:#5b6474;--borde:#dfe7f1;--fondo-azul:#F3F8FE;--fondo-verde:#EEF8F0;
+  color:var(--texto);font-family:inherit;line-height:1.6;max-width:1200px;margin:0 auto;padding:12px 0 24px}
+.clc-rev *{box-sizing:border-box}
+.clc-rev h1,.clc-rev h2,.clc-rev h3{font-family:inherit;margin:0;line-height:1.2;color:var(--navy)}
+.clc-rev p{margin:0}
+.clc-rev a{text-decoration:none}
+.clc-rev ul,.clc-rev ol{margin:0;padding:0;list-style:none}
+.clc-rev li{margin:0}
+
+/* Botones */
+.clc-rev .rv-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:17px;padding:15px 26px;border-radius:12px;transition:transform .15s,background .15s;text-align:center;line-height:1.25}
+.clc-rev .rv-btn:hover{transform:translateY(-2px)}
+.clc-rev .rv-verde{background:var(--verde);color:#fff!important;box-shadow:0 8px 22px rgba(76,194,102,.35)}
+.clc-rev .rv-verde:hover{background:var(--verde-osc)}
+.clc-rev .rv-claro{border:2px solid rgba(255,255,255,.55);color:#fff!important}
+.clc-rev .rv-claro:hover{background:rgba(255,255,255,.1)}
+.clc-rev .rv-blanco{background:#fff;color:var(--verde-osc)!important}
+.clc-rev .rv-borde{border:2px solid var(--azul-osc);color:var(--azul-osc)!important;background:#fff}
+.clc-rev .rv-wa svg{width:22px;height:22px;fill:currentColor}
+
+/* Portada */
+.clc-rev .rv-hero{position:relative;overflow:hidden;border-radius:28px;padding:60px 52px 96px;color:#fff;
+  background:radial-gradient(circle at 85% 10%,rgba(245,184,61,.28),transparent 40%),radial-gradient(circle at 5% 100%,rgba(76,194,102,.28),transparent 42%),linear-gradient(135deg,var(--navy),var(--navy2));
+  display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+.clc-rev .rv-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;margin-bottom:18px}
+.clc-rev .rv-eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--oro);box-shadow:0 0 0 4px rgba(245,184,61,.25)}
+.clc-rev .rv-hero h1{color:#fff;font-size:clamp(34px,4.8vw,54px);font-weight:800;letter-spacing:-1px}
+.clc-rev .rv-hero h1 span{display:block;font-size:.62em;font-weight:700;color:#cfe3f6;margin-top:10px;letter-spacing:-.3px}
+.clc-rev .rv-lead{font-size:19px;color:#d9e7f6;margin-top:18px;max-width:600px}
+.clc-rev .rv-checks{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:24px}
+.clc-rev .rv-checks li{display:flex;gap:10px;align-items:flex-start;font-weight:600}
+.clc-rev .rv-checks svg{width:22px;height:22px;margin-top:1px;flex:0 0 22px}
+.clc-rev .rv-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+/* Tarjeta de comisión */
+.clc-rev .rv-ganancia{background:#fff;color:var(--texto);border-radius:22px;padding:28px;box-shadow:0 30px 60px rgba(4,18,40,.45);text-align:center}
+.clc-rev .rv-ganancia small{display:block;font-size:14px;font-weight:700;color:var(--suave);text-transform:uppercase;letter-spacing:1px}
+.clc-rev .rv-ganancia .rv-grande{font-size:72px;font-weight:800;color:var(--verde-osc);line-height:1;margin:10px 0 4px}
+.clc-rev .rv-ganancia p{color:var(--suave);font-size:15px}
+.clc-rev .rv-ganancia ul{margin-top:20px;border-top:1px solid var(--borde)}
+.clc-rev .rv-ganancia li{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px dashed var(--borde);font-size:16px}
+.clc-rev .rv-ganancia li:last-child{border-bottom:0}
+.clc-rev .rv-ganancia li strong{color:var(--navy)}
+
+/* Cifras */
+.clc-rev .rv-cifras{position:relative;z-index:2;margin:-56px 32px 0;background:#fff;border:1px solid var(--borde);border-radius:20px;box-shadow:0 18px 40px rgba(15,42,74,.12);display:grid;grid-template-columns:repeat(4,1fr)}
+.clc-rev .rv-cifras li{padding:22px 16px;text-align:center;border-right:1px solid var(--borde)}
+.clc-rev .rv-cifras li:last-child{border-right:0}
+.clc-rev .rv-cifras strong{display:block;font-size:30px;font-weight:800;color:var(--navy);line-height:1.1}
+.clc-rev .rv-cifras span{font-size:14px;color:var(--suave);font-weight:600}
+
+/* Secciones */
+.clc-rev .rv-sec{margin-top:84px}
+.clc-rev .rv-cab{text-align:center;max-width:780px;margin:0 auto 34px}
+.clc-rev .rv-kicker{display:inline-block;font-size:13px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--verde-osc);margin-bottom:10px}
+.clc-rev .rv-cab h2{font-size:clamp(28px,3.6vw,40px);font-weight:800;letter-spacing:-.5px}
+.clc-rev .rv-cab p{font-size:18px;color:var(--suave);margin-top:12px}
+
+/* Pasos */
+.clc-rev .rv-pasos{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:paso}
+.clc-rev .rv-pasos li{position:relative;background:#fff;border:1px solid var(--borde);border-radius:18px;padding:30px 22px 24px;counter-increment:paso;box-shadow:0 2px 12px rgba(15,42,74,.05)}
+.clc-rev .rv-pasos li::before{content:counter(paso);position:absolute;top:-18px;left:22px;width:40px;height:40px;border-radius:50%;background:var(--verde);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;border:4px solid #fff;box-shadow:0 4px 10px rgba(47,158,75,.3)}
+.clc-rev .rv-pasos h3{font-size:19px;margin:6px 0 8px}
+.clc-rev .rv-pasos p{color:var(--suave);font-size:15.5px}
+
+/* Calculadora */
+.clc-rev .rv-calc{background:var(--fondo-azul);border-radius:28px;padding:48px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.clc-rev .rv-calc h2{font-size:clamp(26px,3.2vw,36px);font-weight:800}
+.clc-rev .rv-calc > div > p{color:var(--suave);font-size:17px;margin-top:12px}
+.clc-rev .rv-calc label{display:block;font-weight:700;margin:26px 0 10px;color:var(--navy)}
+.clc-rev .rv-calc input[type=range]{width:100%;accent-color:var(--verde-osc);height:8px;cursor:pointer}
+.clc-rev .rv-escala{display:flex;justify-content:space-between;font-size:13px;color:var(--suave);margin-top:6px}
+.clc-rev .rv-resultado{background:#fff;border-radius:22px;padding:30px;box-shadow:0 10px 30px rgba(15,42,74,.08)}
+.clc-rev .rv-resultado li{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--borde);font-size:16px}
+.clc-rev .rv-resultado li strong{font-size:20px;color:var(--navy)}
+.clc-rev .rv-resultado .rv-total{border-bottom:0;padding-top:16px}
+.clc-rev .rv-resultado .rv-total span{font-weight:800;color:var(--navy);font-size:17px}
+.clc-rev .rv-resultado .rv-total strong{font-size:38px;color:var(--verde-osc)}
+.clc-rev .rv-nota{font-size:13px;color:var(--suave);margin-top:10px}
+
+/* Software */
+.clc-rev .rv-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.clc-rev .rv-card{background:#fff;border:1px solid var(--borde);border-radius:18px;padding:22px;box-shadow:0 2px 12px rgba(15,42,74,.05)}
+.clc-rev .rv-ico{width:50px;height:50px;border-radius:14px;background:var(--fondo-verde);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.clc-rev .rv-ico svg{width:26px;height:26px;fill:none;stroke:var(--verde-osc);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.clc-rev .rv-ico.azul{background:var(--fondo-azul)}
+.clc-rev .rv-ico.azul svg{stroke:var(--azul-osc)}
+.clc-rev .rv-card h3{font-size:18px;margin-bottom:6px}
+.clc-rev .rv-card p{color:var(--suave);font-size:15px}
+.clc-rev .rv-vender{margin-top:26px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.clc-rev .rv-vender div{background:var(--fondo-verde);border:1px solid #d3ecd9;border-radius:16px;padding:18px 20px}
+.clc-rev .rv-vender strong{display:block;color:var(--navy);font-size:17px;margin-bottom:4px}
+.clc-rev .rv-vender span{color:var(--suave);font-size:15px}
+
+/* Para quién */
+.clc-rev .rv-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+
+/* Precios del programa */
+.clc-rev .rv-plan{max-width:760px;margin:0 auto;background:#fff;border:2px solid var(--verde);border-radius:26px;padding:36px;box-shadow:0 18px 40px rgba(76,194,102,.16);display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
+.clc-rev .rv-plan .rv-precio{text-align:center;padding-right:34px;border-right:1px solid var(--borde)}
+.clc-rev .rv-plan .rv-precio small{display:block;font-weight:700;color:var(--suave);font-size:14px;text-transform:uppercase;letter-spacing:1px}
+.clc-rev .rv-plan .rv-precio strong{display:block;font-size:56px;font-weight:800;color:var(--navy);line-height:1.1}
+.clc-rev .rv-plan .rv-precio span{color:var(--suave);font-size:15px}
+.clc-rev .rv-plan ul li{position:relative;padding:6px 0 6px 28px;font-size:16px}
+.clc-rev .rv-plan ul li::before{content:"✓";position:absolute;left:0;color:var(--verde-osc);font-weight:800}
+.clc-rev .rv-plan .rv-btn{margin-top:18px;width:100%}
+
+/* Preguntas */
+.clc-rev .rv-faq{max-width:900px;margin:0 auto}
+.clc-rev .rv-faq details{border:1px solid var(--borde);border-radius:14px;padding:0 20px;margin-bottom:10px;background:#fff}
+.clc-rev .rv-faq summary{cursor:pointer;list-style:none;position:relative;padding:18px 34px 18px 0;font-weight:700;font-size:17px;color:var(--navy)}
+.clc-rev .rv-faq summary::-webkit-details-marker{display:none}
+.clc-rev .rv-faq summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:var(--azul-osc)}
+.clc-rev .rv-faq details[open] summary::after{content:"–"}
+.clc-rev .rv-faq details p{color:var(--suave);font-size:16px;padding:0 0 18px}
+
+/* Cierre */
+.clc-rev .rv-cierre{border-radius:28px;padding:56px 40px;text-align:center;color:#fff;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.18),transparent 40%),linear-gradient(135deg,var(--verde-osc),#1f7a3a)}
+.clc-rev .rv-cierre h2{color:#fff;font-size:clamp(28px,3.8vw,42px);font-weight:800;max-width:820px;margin:0 auto}
+.clc-rev .rv-cierre > p{color:#e4f6e8;font-size:18px;margin:14px auto 0;max-width:680px}
+.clc-rev .rv-cierre .rv-ctas{justify-content:center}
+.clc-rev .rv-tels{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}
+.clc-rev .rv-tels a{color:#fff!important;font-weight:700;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:8px 16px;font-size:15px}
+.clc-rev .rv-horario{font-size:15px!important;color:#d3f0da!important;margin-top:14px!important}
+
+@media (max-width:1024px){
+  .clc-rev .rv-hero{grid-template-columns:1fr;padding:48px 36px 96px}
+  .clc-rev .rv-ganancia{max-width:440px}
+  .clc-rev .rv-pasos,.clc-rev .rv-grid4{grid-template-columns:1fr 1fr}
+  .clc-rev .rv-pasos{gap:34px 22px}
+  .clc-rev .rv-calc{grid-template-columns:1fr;padding:40px 28px}
+}
+@media (max-width:820px){
+  .clc-rev .rv-cifras{grid-template-columns:1fr 1fr;margin:-56px 16px 0}
+  .clc-rev .rv-cifras li:nth-child(2){border-right:0}
+  .clc-rev .rv-cifras li:nth-child(-n+2){border-bottom:1px solid var(--borde)}
+  .clc-rev .rv-grid3,.clc-rev .rv-vender{grid-template-columns:1fr}
+  .clc-rev .rv-plan{grid-template-columns:1fr;padding:28px 22px}
+  .clc-rev .rv-plan .rv-precio{border-right:0;padding:0 0 22px;border-bottom:1px solid var(--borde)}
+}
+@media (max-width:600px){
+  .clc-rev .rv-hero{padding:36px 20px 90px;border-radius:20px}
+  .clc-rev .rv-lead{font-size:17px}
+  .clc-rev .rv-checks,.clc-rev .rv-pasos,.clc-rev .rv-grid4{grid-template-columns:1fr}
+  .clc-rev .rv-ctas .rv-btn{width:100%}
+  .clc-rev .rv-ganancia .rv-grande{font-size:60px}
+  .clc-rev .rv-cifras strong{font-size:24px}
+  .clc-rev .rv-sec{margin-top:64px}
+  .clc-rev .rv-calc{padding:32px 18px;border-radius:20px}
+  .clc-rev .rv-resultado{padding:22px 18px}
+  .clc-rev .rv-cierre{padding:44px 20px;border-radius:20px}
+}
+</style>
+
+  <!-- ===== 1. Portada ===== -->
+  <header class="rv-hero">
+    <div>
+      <p class="rv-eyebrow">Programa de revendedores</p>
+      <h1>Revende nuestro Software de Income Tax <span>y gana $150 por cada venta</span></h1>
+      <p class="rv-lead">Únete al programa de revendedores del Centro Latino de Capacitación. Recibes tu propia página personalizada para ofrecer el software profesional de impuestos y ganas una comisión por cada licencia que vendas.</p>
+      <ul class="rv-checks">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>$150 de comisión por venta</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Tu propia página personalizada</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Software profesional de $750</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Registro de solo $200</li>
+      </ul>
+      <div class="rv-ctas">
+        <a class="rv-btn rv-verde rv-registro" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20registrarme%20en%20el%20programa%20de%20revendedores%20del%20Software%20de%20Income%20Tax" target="_blank" rel="noopener">Quiero ser revendedor →</a>
+        <a class="rv-btn rv-claro" href="#calculadora">Calcular mis ganancias</a>
+      </div>
+    </div>
+    <div class="rv-ganancia">
+      <small>Tu comisión por cada venta</small>
+      <p class="rv-grande">$150</p>
+      <p>por cada licencia del software que vendas</p>
+      <ul>
+        <li><span>Precio del software</span><strong>$750</strong></li>
+        <li><span>Tu comisión</span><strong>$150</strong></li>
+        <li><span>Registro al programa</span><strong>$200</strong></li>
+        <li><span>Con 2 ventas</span><strong>ya recuperas tu registro</strong></li>
+      </ul>
+    </div>
+  </header>
+
+  <ul class="rv-cifras">
+    <li><strong>$150</strong><span>de comisión por venta</span></li>
+    <li><strong>$750</strong><span>precio del software</span></li>
+    <li><strong>$200</strong><span>registro al programa</span></li>
+    <li><strong>1</strong><span>página personalizada para ti</span></li>
+  </ul>
+
+  <!-- ===== 2. Cómo funciona ===== -->
+  <section class="rv-sec" aria-labelledby="rv-como">
+    <div class="rv-cab">
+      <span class="rv-kicker">Cómo funciona</span>
+      <h2 id="rv-como">Empieza a vender en 4 pasos</h2>
+      <p>Tú compartes el software con tus contactos y nosotros te damos la herramienta para ofrecerlo.</p>
+    </div>
+    <ol class="rv-pasos">
+      <li><h3>Regístrate</h3><p>Paga tu registro de $200 para unirte al programa de revendedores.</p></li>
+      <li><h3>Recibe tu página</h3><p>Te entregamos una página personalizada para ofrecer el software tú mismo.</p></li>
+      <li><h3>Comparte y vende</h3><p>Envía tu página a preparadores de impuestos, oficinas y personas que quieren empezar su negocio de taxes.</p></li>
+      <li><h3>Gana tu comisión</h3><p>Recibes $150 por cada software de $750 que se venda a través de ti.</p></li>
+    </ol>
+  </section>
+
+  <!-- ===== 3. Calculadora ===== -->
+  <section class="rv-sec rv-calc" id="calculadora" aria-labelledby="rv-calc">
+    <div>
+      <span class="rv-kicker">Calculadora</span>
+      <h2 id="rv-calc">¿Cuánto puedes ganar?</h2>
+      <p>Mueve la barra para ver cuánto ganarías en comisiones según el número de licencias que vendas.</p>
+      <label for="rv-ventas">Licencias vendidas: <span id="rv-num">10</span></label>
+      <input type="range" id="rv-ventas" min="1" max="50" value="10">
+      <div class="rv-escala"><span>1</span><span>25</span><span>50</span></div>
+    </div>
+    <div class="rv-resultado" aria-live="polite">
+      <ul>
+        <li><span>Licencias vendidas</span><strong id="rv-r-ventas">10</strong></li>
+        <li><span>Comisión por venta</span><strong>$150</strong></li>
+        <li><span>Total en comisiones</span><strong id="rv-r-comision">$1,500</strong></li>
+        <li><span>Registro al programa</span><strong>– $200</strong></li>
+        <li class="rv-total"><span>Tu ganancia</span><strong id="rv-r-neto">$1,300</strong></li>
+      </ul>
+      <p class="rv-nota">Ejemplo de cálculo. Tus ganancias dependen de las ventas que realices.</p>
+    </div>
+  </section>
+
+  <!-- ===== 4. El software ===== -->
+  <section class="rv-sec" aria-labelledby="rv-software">
+    <div class="rv-cab">
+      <span class="rv-kicker">Lo que vas a vender</span>
+      <h2 id="rv-software">Un software de Income Tax fácil de recomendar</h2>
+      <p>El software profesional de impuestos más rápido, económico y fácil de usar, todo por un solo precio.</p>
+    </div>
+    <div class="rv-grid4">
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></div><h3>E-file sin límites</h3><p>Con su número EFIN, transmiten electrónicamente todas las declaraciones que necesiten al IRS.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="10" r="3"/><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/></svg></div><h3>Todos los estados</h3><p>Declaraciones de todos los estados, incluyendo Puerto Rico.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/><path d="M16 9h2a2 2 0 0 1 2 2v10M2 21h20M8 7h4M8 11h4M8 15h4"/></svg></div><h3>Declaraciones corporativas</h3><p>Sociedades 1065, corporaciones 1120 y 1120S, además de 1041 y 990.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2c2.9.2 5.5 1.9 5.5 4.8"/></svg></div><h3>2 usuarios por oficina</h3><p>Incluye 2 usuarios, y pueden agregar más en la misma oficina por $50 cada uno.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 10h18M5 10v8M9 10v8M15 10v8M19 10v8M3 21h18M12 3l9 5H3z"/></svg></div><h3>Productos bancarios</h3><p>Los clientes reciben su dinero más rápido y la oficina genera ingreso adicional imprimiendo el cheque.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg></div><h3>Nóminas</h3><p>Formularios W-2, W-3, 1099-NEC, 940 y 941, con transmisión e-file al IRS.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17c3-1 4-6 6-6s1 6 3 6 3-4 4-4 2 3 5 3"/><path d="M3 21h18"/></svg></div><h3>Firma electrónica</h3><p>Capturan la firma del cliente en la nube desde un celular Apple o Android.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg></div><h3>Asistencia en español</h3><p>Soporte técnico de preparadores expertos que hablan su idioma y entienden las necesidades de los hispanos.</p></div>
+    </div>
+    <div class="rv-vender">
+      <div><strong>Clase gratis por Zoom</strong><span>Con la compra del software, tu cliente recibe una clase gratis para aprender a usarlo.</span></div>
+      <div><strong>Pago en 4 partes con Klarna</strong><span>Tu cliente puede dividir el costo del software en 4 pagos con Klarna.</span></div>
+      <div><strong>Cambio fácil de software</strong><span>Puede convertir sus declaraciones, clientes y formularios de su software anterior a MyTAXPrepOffice.</span></div>
+    </div>
+  </section>
+
+  <!-- ===== 5. Para quién ===== -->
+  <section class="rv-sec" aria-labelledby="rv-quien">
+    <div class="rv-cab">
+      <span class="rv-kicker">Para quién es</span>
+      <h2 id="rv-quien">Ideal si tienes contactos en el mundo de los impuestos</h2>
+    </div>
+    <div class="rv-grid3">
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div><h3>Preparadores de impuestos</h3><p>Recomienda a otros preparadores el software que conoces y gana una comisión por cada licencia.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></div><h3>Instructores y asesores</h3><p>Si enseñas o asesoras a personas que inician su negocio de taxes, ofréceles el software con tu página.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></div><h3>Emprendedores con red de contactos</h3><p>Si conoces oficinas de impuestos o negocios de servicios para la comunidad latina, convierte esos contactos en ingresos.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 6. Registro ===== -->
+  <section class="rv-sec" id="registro" aria-labelledby="rv-registro">
+    <div class="rv-cab">
+      <span class="rv-kicker">Registro</span>
+      <h2 id="rv-registro">Únete al programa de revendedores</h2>
+    </div>
+    <div class="rv-plan">
+      <div class="rv-precio"><small>Registro</small><strong>$200</strong><span>para unirte al programa</span></div>
+      <div>
+        <ul>
+          <li>Tu página personalizada para ofrecer el software</li>
+          <li>$150 de comisión por cada software vendido</li>
+          <li>Un software profesional de $750 fácil de recomendar</li>
+          <li>Con solo 2 ventas recuperas tu registro</li>
+        </ul>
+        <a class="rv-btn rv-verde rv-registro" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20registrarme%20en%20el%20programa%20de%20revendedores%20del%20Software%20de%20Income%20Tax" target="_blank" rel="noopener">Quiero registrarme →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 7. Preguntas ===== -->
+  <section class="rv-sec" aria-labelledby="rv-preguntas">
+    <div class="rv-cab">
+      <span class="rv-kicker">Preguntas frecuentes</span>
+      <h2 id="rv-preguntas">Preguntas sobre el programa de revendedores</h2>
+    </div>
+    <div class="rv-faq">
+      <details><summary>¿Cuánto cuesta registrarme en el programa?</summary><p>El registro al programa de revendedores cuesta $200.</p></details>
+      <details><summary>¿Cuánto gano por cada venta?</summary><p>Recibes una comisión de $150 por cada software de Income Tax que vendas. Con 2 ventas ya recuperas el costo de tu registro.</p></details>
+      <details><summary>¿Cuánto cuesta el software para mis clientes?</summary><p>El software de Income Tax cuesta $750. Tus clientes también pueden dividir el pago en 4 partes con Klarna.</p></details>
+      <details><summary>¿Qué es la página personalizada?</summary><p>Es una página con la que ofreces el software tú mismo a tus contactos y clientes, para que las ventas se hagan a través de ti.</p></details>
+      <details><summary>¿Qué incluye el software que voy a vender?</summary><p>Declaraciones sin límite de todos los estados (incluyendo Puerto Rico), e-file ilimitado para preparadores con EFIN, 2 usuarios, declaraciones personales y de negocios (1040, 1065, 1120, 1120S, 990, 1041, 706 y 709), nóminas (941, 940, 1099-NEC y W-2), productos bancarios, firma electrónica y asistencia técnica en español.</p></details>
+      <details><summary>¿Mis clientes reciben capacitación para usar el software?</summary><p>Sí. Con la compra del software reciben una clase gratis por Zoom para aprender a utilizarlo.</p></details>
+      <details><summary>¿Cómo me registro?</summary><p>Escríbenos por WhatsApp al (909) 344-0703 o llámanos de lunes a sábado, de 1 a 7 pm (hora del Este), y te ayudamos con tu registro.</p></details>
+    </div>
+  </section>
+
+  <!-- ===== 8. Cierre ===== -->
+  <section class="rv-sec rv-cierre" aria-labelledby="rv-cierre">
+    <h2 id="rv-cierre">Convierte tus contactos en ingresos</h2>
+    <p>Regístrate hoy, recibe tu página personalizada y gana $150 por cada Software de Income Tax que vendas.</p>
+    <div class="rv-ctas">
+      <a class="rv-btn rv-blanco rv-registro rv-wa" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20registrarme%20en%20el%20programa%20de%20revendedores%20del%20Software%20de%20Income%20Tax" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.21-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.21 4.24-9.45 9.46-9.45 2.53 0 4.9.99 6.69 2.78a9.4 9.4 0 0 1 2.77 6.69c0 5.21-4.24 9.45-9.44 9.45m8.04-17.49A11.3 11.3 0 0 0 12.04.68C5.77.68.66 5.78.66 12.05c0 2 .52 3.96 1.52 5.69L.57 23.6l6.02-1.58a11.35 11.35 0 0 0 5.44 1.39h.01c6.26 0 11.37-5.1 11.37-11.37 0-3.04-1.18-5.89-3.33-8.04"/></svg>Quiero ser revendedor</a>
+      <a class="rv-btn rv-claro" href="https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/" target="_blank" rel="noopener">Ver el software</a>
+    </div>
+    <div class="rv-tels">
+      <a href="tel:+17605533256">📞 (760) 553-3256</a>
+      <a href="tel:+19093440703">📞 (909) 344-0703</a>
+      <a href="tel:+19097880445">📞 (909) 788-0445</a>
+    </div>
+    <p class="rv-horario">Te atendemos en español de lunes a sábado, de 1 a 7 pm (hora del Este).</p>
+  </section>
+
+<script>
+(function () {
+  // Si tienes un link de registro/pago, ponlo aquí (entre comillas) y todos los botones de registro lo usarán.
+  var ENLACE_REGISTRO = '';
+  if (ENLACE_REGISTRO) {
+    Array.prototype.forEach.call(document.querySelectorAll('.clc-rev .rv-registro'), function (a) { a.href = ENLACE_REGISTRO; });
+  }
+  var rango = document.getElementById('rv-ventas');
+  if (!rango) return;
+  var dinero = function (n) { return (n < 0 ? '– $' : '$') + Math.abs(n).toLocaleString('en-US'); };
+  function calcular() {
+    var v = parseInt(rango.value, 10) || 0, comision = v * 150;
+    document.getElementById('rv-num').textContent = v;
+    document.getElementById('rv-r-ventas').textContent = v;
+    document.getElementById('rv-r-comision').textContent = dinero(comision);
+    document.getElementById('rv-r-neto').textContent = dinero(comision - 200);
+  }
+  rango.addEventListener('input', calcular);
+  calcular();
+})();
+</script>
+</div>
