@@ -1,0 +1,143 @@
+<!--
+  Selector de estados (form-switcher) para /licencia-agente-de-seguros/
+  Reemplaza el <script> anterior. Pegar en el mismo widget "HTML" donde estaba.
+
+  Funciona igual que antes (la opción N del menú muestra el contenido N), y además:
+  - Busca cada estado por su nombre: si la sección tiene id="estado-texas", se muestra con la
+    opción "Texas" aunque el orden de los contenidos no coincida con el del menú.
+  - Enlaces directos: /licencia-agente-de-seguros/#texas abre Texas directamente.
+    Al elegir un estado en el menú, la dirección cambia a #texas para poder compartirla.
+  - Cualquier enlace a "#texas" (por ejemplo, en el mapa) abre ese estado.
+  - Si la sección queda fuera de la pantalla, baja suavemente hasta ella.
+  - No falla si falta el menú, ni si el script carga tarde (plugins de optimización).
+-->
+<script>
+(function () {
+  'use strict';
+
+  var PREFIJO_ID = 'estado-';      // las secciones usan id="estado-texas", id="estado-new-york", etc.
+  var ESPACIO_MENU = 110;          // espacio (px) que deja arriba al bajar, para el menú fijo del sitio
+  var switchers = [];
+
+  // "New York" -> "new-york", "Washington DC" -> "washington-dc"
+  function aSlug(texto) {
+    return String(texto || '')
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function slugDelHash() {
+    var hash = location.hash.slice(1);
+    try { hash = decodeURIComponent(hash); } catch (e) { /* hash mal formado: se usa tal cual */ }
+    var slug = aSlug(hash);
+    return slug.indexOf(PREFIJO_ID) === 0 ? slug.slice(PREFIJO_ID.length) : slug;
+  }
+
+  function bajarSiHaceFalta(el) {
+    var arriba = el.getBoundingClientRect().top;
+    // Si el inicio de la sección ya se ve en la parte de arriba de la pantalla, no se mueve nada.
+    if (arriba >= ESPACIO_MENU && arriba < window.innerHeight * 0.6) return;
+    var suave = !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    window.scrollTo({ top: window.pageYOffset + arriba - ESPACIO_MENU, behavior: suave ? 'smooth' : 'auto' });
+  }
+
+  function iniciar(contenedor) {
+    if (contenedor.getAttribute('data-clc-listo')) return;   // evita iniciarlo dos veces
+
+    // Solo los contenidos y el menú propios de este contenedor (no los de otro selector anidado).
+    var contenidos = Array.prototype.filter.call(
+      contenedor.querySelectorAll('.form-switcher-content'),
+      function (el) { return el.parentElement.closest('.form-switcher') === contenedor; }
+    );
+    var select = Array.prototype.filter.call(contenedor.querySelectorAll('select'), function (s) {
+      var dentro = s.closest('.form-switcher-content');
+      return !dentro || !contenedor.contains(dentro);
+    })[0];
+    if (!select || !contenidos.length) return;
+    contenedor.setAttribute('data-clc-listo', '1');
+
+    // Relaciona cada estado con su contenido por id (id="estado-texas" o data-estado="texas").
+    var porSlug = {};
+    contenidos.forEach(function (el) {
+      var marcado = el.getAttribute('data-estado') ||
+        (el.id.indexOf(PREFIJO_ID) === 0 ? el.id : '') ||
+        (el.querySelector('[id^="' + PREFIJO_ID + '"]') || {}).id || '';
+      var slug = aSlug(marcado);
+      if (slug.indexOf(PREFIJO_ID) === 0) slug = slug.slice(PREFIJO_ID.length);
+      if (slug && !porSlug[slug]) porSlug[slug] = el;
+    });
+
+    function contenidoDe(i) {
+      var op = select.options[i];
+      if (!op) return contenidos[0];
+      return porSlug[aSlug(op.value)] || porSlug[aSlug(op.text)] || contenidos[i] || null;
+    }
+
+    function indiceDe(slug) {
+      if (!slug) return -1;
+      for (var i = 0; i < select.options.length; i++) {
+        var op = select.options[i];
+        if (aSlug(op.text) === slug || aSlug(op.value) === slug) return i;
+      }
+      return -1;
+    }
+
+    var temporizador = null;
+    function mostrar(i, bajar) {
+      var activo = contenidoDe(i);
+      contenidos.forEach(function (el) { el.style.display = el === activo ? 'block' : 'none'; });
+      if (bajar && activo) {
+        clearTimeout(temporizador);   // con las flechas del teclado, espera a que el usuario se detenga
+        temporizador = setTimeout(function () { bajarSiHaceFalta(activo); }, 300);
+      }
+    }
+
+    function actualizarDireccion(i) {
+      if (!window.history || !history.replaceState) return;
+      var base = location.pathname + location.search;
+      var slug = i > 0 ? aSlug(select.options[i].text) : '';
+      history.replaceState(history.state, '', slug ? base + '#' + slug : base);
+    }
+
+    select.addEventListener('change', function () {
+      var i = select.selectedIndex;
+      mostrar(i, true);
+      actualizarDireccion(i);
+      if (i > 0 && window.dataLayer) {   // evento para Google Tag Manager / Analytics, si existe
+        window.dataLayer.push({ event: 'clc_estado_seleccionado', estado: select.options[i].text });
+      }
+    });
+
+    var desdeHash = indiceDe(slugDelHash());
+    // Si no hay #estado en la dirección, respeta lo que el navegador haya dejado elegido al volver atrás.
+    var inicial = desdeHash > -1 ? desdeHash : Math.max(0, select.selectedIndex);
+    select.selectedIndex = inicial;
+    mostrar(inicial, desdeHash > -1);
+
+    switchers.push({ select: select, mostrar: mostrar, indiceDe: indiceDe });
+  }
+
+  function abrirDesdeHash() {
+    var slug = slugDelHash();
+    switchers.forEach(function (s) {
+      var i = s.indiceDe(slug);
+      if (i < 0) return;
+      s.select.selectedIndex = i;
+      s.mostrar(i, true);
+    });
+  }
+
+  function arrancar() {
+    Array.prototype.forEach.call(document.querySelectorAll('.form-switcher'), iniciar);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', arrancar);
+  } else {
+    arrancar();
+  }
+  window.addEventListener('hashchange', abrirDesdeHash);
+})();
+</script>
