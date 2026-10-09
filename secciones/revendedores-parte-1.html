@@ -104,15 +104,6 @@
 /* Para quién */
 .clc-rev .rv-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 
-/* Precios del programa */
-.clc-rev .rv-plan{max-width:760px;margin:0 auto;background:#fff;border:2px solid var(--verde);border-radius:26px;padding:36px;box-shadow:0 18px 40px rgba(76,194,102,.16);display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
-.clc-rev .rv-plan .rv-precio{text-align:center;padding-right:34px;border-right:1px solid var(--borde)}
-.clc-rev .rv-plan .rv-precio small{display:block;font-weight:700;color:var(--suave);font-size:14px;text-transform:uppercase;letter-spacing:1px}
-.clc-rev .rv-plan .rv-precio strong{display:block;font-size:56px;font-weight:800;color:var(--navy);line-height:1.1}
-.clc-rev .rv-plan .rv-precio span{color:var(--suave);font-size:15px}
-.clc-rev .rv-plan ul li{position:relative;padding:6px 0 6px 28px;font-size:16px}
-.clc-rev .rv-plan ul li::before{content:"✓";position:absolute;left:0;color:var(--verde-osc);font-weight:800}
-.clc-rev .rv-plan .rv-btn{margin-top:18px;width:100%}
 
 /* Preguntas */
 .clc-rev .rv-faq{max-width:900px;margin:0 auto}
@@ -130,9 +121,12 @@
 .clc-rev .rv-cierre .rv-ctas{justify-content:center}
 .clc-rev .rv-tels{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}
 .clc-rev .rv-tels a{color:#fff!important;font-weight:700;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:8px 16px;font-size:15px}
-.clc-rev .rv-form-ancla{text-align:center;max-width:760px;margin:56px auto 24px;scroll-margin-top:110px}
-.clc-rev .rv-form-ancla h2{font-size:clamp(26px,3.2vw,36px);font-weight:800}
-.clc-rev .rv-form-ancla p{font-size:18px;color:var(--suave);margin-top:10px}
+.clc-rev .rv-registro-sec{scroll-margin-top:110px;margin-bottom:28px}
+.clc-rev .rv-resumen-reg{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 12px;max-width:1100px;margin:0 auto}
+.clc-rev .rv-resumen-reg li{background:var(--fondo-verde);border:1px solid #d3ecd9;border-radius:999px;padding:9px 16px;font-weight:600;font-size:15.5px;color:var(--navy)}
+.clc-rev .rv-resumen-reg li.rv-reg-precio{background:var(--navy);border-color:var(--navy);color:#fff;display:flex;align-items:baseline;gap:8px}
+.clc-rev .rv-resumen-reg li.rv-reg-precio strong{font-size:22px}
+.clc-rev .rv-resumen-reg li.rv-reg-precio span{font-size:14px;color:#cfe3f6}
 .clc-rev .rv-horario{font-size:15px!important;color:#d3f0da!important;margin-top:14px!important}
 
 @media (max-width:1024px){
@@ -147,8 +141,6 @@
   .clc-rev .rv-cifras li:nth-child(2){border-right:0}
   .clc-rev .rv-cifras li:nth-child(-n+2){border-bottom:1px solid var(--borde)}
   .clc-rev .rv-grid3,.clc-rev .rv-vender{grid-template-columns:1fr}
-  .clc-rev .rv-plan{grid-template-columns:1fr;padding:28px 22px}
-  .clc-rev .rv-plan .rv-precio{border-right:0;padding:0 0 22px;border-bottom:1px solid var(--borde)}
 }
 @media (max-width:600px){
   .clc-rev .rv-hero{padding:36px 20px 90px;border-radius:20px}
@@ -216,27 +208,18 @@
     </ol>
   </section>
 
-  <!-- ===== 6. Registro ===== -->
-  <section class="rv-sec" id="registro" aria-labelledby="rv-registro">
+  <!-- ===== 6. Registro + formulario (el formulario va justo debajo de este widget) ===== -->
+  <section class="rv-sec rv-registro-sec" id="formulario" aria-labelledby="rv-registro">
     <div class="rv-cab">
-      <span class="rv-kicker">Registro</span>
+      <span class="rv-kicker">Formulario de registración</span>
       <h2 id="rv-registro">Únete al programa de revendedores</h2>
-      <p>Completa el formulario de registración y te enviaremos los pasos para activar tu página personalizada.</p>
+      <p>Llena tus datos y te enviaremos los pasos para completar tu registro y activar tu página personalizada.</p>
     </div>
-    <div class="rv-plan">
-      <div class="rv-precio"><small>Registro</small><strong>$200</strong><span>para unirte al programa</span></div>
-      <div>
-        <ul>
-          <li>Tu página personalizada para ofrecer el software</li>
-          <li>$150 de comisión por cada software vendido</li>
-          <li>Un software profesional de $750 fácil de recomendar</li>
-          <li>Al vender 10 softwares, te regresamos los $200</li>
-        </ul>
-        <a class="rv-btn rv-verde" href="#formulario">Llenar el formulario ↓</a>
-      </div>
-    </div>
+    <ul class="rv-resumen-reg">
+      <li class="rv-reg-precio"><strong>$200</strong><span>registro al programa</span></li>
+      <li>✓ Tu página personalizada</li>
+      <li>✓ $150 por cada software vendido</li>
+      <li>✓ Te regresamos los $200 al vender 10</li>
+    </ul>
   </section>
-
-  <!-- Ancla del formulario: el formulario de registro va justo debajo de este widget -->
-  <div id="formulario" class="rv-form-ancla"><h2>Formulario de registración</h2><p>Llena tus datos y nos pondremos en contacto contigo para completar tu registro.</p></div>
 </div>
