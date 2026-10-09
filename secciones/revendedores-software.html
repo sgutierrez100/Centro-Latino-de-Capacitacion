@@ -1,9 +1,9 @@
 <!--
   Página: Programa de Revendedores del Software de Income Tax
-  Pegar completo dentro de UN widget "HTML" de Elementor (contenedor de ancho completo o de 1200 px).
+  Pegar completo dentro de UN widget "Shortcode" de Elementor (contenedor de ancho completo o de 1200 px).
   Todo el CSS está limitado a .clc-rev, así que no afecta el resto del sitio.
-  Esta es la PARTE 1. Debajo de este widget agrega tu formulario de registro (widget de formulario o shortcode)
-  y debajo del formulario pega la PARTE 2 en otro widget "HTML".
+  IMPORTANTE: pegar en un widget "Shortcode" de Elementor (NO en el widget "HTML"), porque el widget HTML
+  no ejecuta el shortcode de Gravity Forms del formulario de registro.
 -->
 <div class="clc-rev">
 <style>
@@ -127,6 +127,14 @@
 .clc-rev .rv-resumen-reg li.rv-reg-precio{background:var(--navy);border-color:var(--navy);color:#fff;display:flex;align-items:baseline;gap:8px}
 .clc-rev .rv-resumen-reg li.rv-reg-precio strong{font-size:22px}
 .clc-rev .rv-resumen-reg li.rv-reg-precio span{font-size:14px;color:#cfe3f6}
+/* Formulario (Gravity Forms) */
+.clc-rev .rv-form-caja{max-width:780px;margin:30px auto 0;background:#fff;border:1px solid var(--borde);border-radius:22px;padding:30px 32px;box-shadow:0 18px 40px rgba(15,42,74,.1);text-align:left}
+.clc-rev .rv-form-caja .gform_wrapper{margin:0}
+.clc-rev .rv-form-caja .gfield_label{font-weight:700;color:var(--navy)}
+.clc-rev .rv-form-caja input[type=text],.clc-rev .rv-form-caja input[type=email],.clc-rev .rv-form-caja input[type=tel],.clc-rev .rv-form-caja input[type=number],.clc-rev .rv-form-caja input[type=url],.clc-rev .rv-form-caja select,.clc-rev .rv-form-caja textarea{width:100%;border:1px solid #cfd9e6;border-radius:10px;padding:12px 14px;font-size:16px;background:#fff}
+.clc-rev .rv-form-caja input:focus,.clc-rev .rv-form-caja select:focus,.clc-rev .rv-form-caja textarea:focus{outline:none;border-color:var(--verde);box-shadow:0 0 0 3px rgba(76,194,102,.2)}
+.clc-rev .rv-form-caja .gform_footer input[type=submit],.clc-rev .rv-form-caja .gform_footer button,.clc-rev .rv-form-caja .gform_page_footer input[type=submit]{background:var(--verde)!important;color:#fff!important;border:0!important;border-radius:12px!important;padding:15px 30px!important;font-size:17px!important;font-weight:700!important;cursor:pointer;width:100%}
+.clc-rev .rv-form-caja .gform_footer input[type=submit]:hover,.clc-rev .rv-form-caja .gform_footer button:hover{background:var(--verde-osc)!important}
 .clc-rev .rv-horario{font-size:15px!important;color:#d3f0da!important;margin-top:14px!important}
 
 @media (max-width:1024px){
@@ -153,6 +161,7 @@
   .clc-rev .rv-calc{padding:32px 18px;border-radius:20px}
   .clc-rev .rv-resultado{padding:22px 18px}
   .clc-rev .rv-cierre{padding:44px 20px;border-radius:20px}
+  .clc-rev .rv-form-caja{padding:22px 18px}
 }
 </style>
 
@@ -208,7 +217,7 @@
     </ol>
   </section>
 
-  <!-- ===== 6. Registro + formulario (el formulario va justo debajo de este widget) ===== -->
+  <!-- ===== 3. Registro + formulario ===== -->
   <section class="rv-sec rv-registro-sec" id="formulario" aria-labelledby="rv-registro">
     <div class="rv-cab">
       <span class="rv-kicker">Formulario de registración</span>
@@ -221,5 +230,116 @@
       <li>✓ $150 por cada software vendido</li>
       <li>✓ Te regresamos los $200 al vender 10</li>
     </ul>
+    <div class="rv-form-caja">
+      [gravityform id="ID_DEL_FORMULARIO" title="false" description="false" ajax="true"]
+    </div>
   </section>
+  <!-- ===== 4. Calculadora ===== -->
+  <section class="rv-sec rv-calc" id="calculadora" aria-labelledby="rv-calc">
+    <div>
+      <span class="rv-kicker">Calculadora</span>
+      <h2 id="rv-calc">¿Cuánto puedes ganar?</h2>
+      <p>Mueve la barra para ver cuánto ganarías según el número de licencias que vendas. Recuerda: al vender 10 softwares te regresamos los $200 del registro.</p>
+      <label for="rv-ventas">Licencias vendidas: <span id="rv-num">10</span></label>
+      <input type="range" id="rv-ventas" min="1" max="50" value="10">
+      <div class="rv-escala"><span>1</span><span>25</span><span>50</span></div>
+    </div>
+    <div class="rv-resultado" aria-live="polite">
+      <ul>
+        <li><span>Licencias vendidas</span><strong id="rv-r-ventas">10</strong></li>
+        <li><span>Comisión por venta</span><strong>$150</strong></li>
+        <li><span>Total en comisiones</span><strong id="rv-r-comision">$1,500</strong></li>
+        <li><span id="rv-r-reg-txt">Registro al programa</span><strong id="rv-r-reg">– $200</strong></li>
+        <li class="rv-total"><span>Tu ganancia</span><strong id="rv-r-neto">$1,500</strong></li>
+      </ul>
+      <p class="rv-nota">Ejemplo de cálculo. Tus ganancias dependen de las ventas que realices.</p>
+    </div>
+  </section>
+
+  <!-- ===== 5. El software ===== -->
+  <section class="rv-sec" aria-labelledby="rv-software">
+    <div class="rv-cab">
+      <span class="rv-kicker">Lo que vas a vender</span>
+      <h2 id="rv-software">Un software de Income Tax fácil de recomendar</h2>
+      <p>El software profesional de impuestos más rápido, económico y fácil de usar, todo por un solo precio.</p>
+    </div>
+    <div class="rv-grid4">
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></div><h3>E-file sin límites</h3><p>Con su número EFIN, transmiten electrónicamente todas las declaraciones que necesiten al IRS.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="10" r="3"/><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/></svg></div><h3>Todos los estados</h3><p>Declaraciones de todos los estados, incluyendo Puerto Rico.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/><path d="M16 9h2a2 2 0 0 1 2 2v10M2 21h20M8 7h4M8 11h4M8 15h4"/></svg></div><h3>Declaraciones corporativas</h3><p>Sociedades 1065, corporaciones 1120 y 1120S, además de 1041 y 990.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2c2.9.2 5.5 1.9 5.5 4.8"/></svg></div><h3>2 usuarios por oficina</h3><p>Incluye 2 usuarios, y pueden agregar más en la misma oficina por $50 cada uno.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 10h18M5 10v8M9 10v8M15 10v8M19 10v8M3 21h18M12 3l9 5H3z"/></svg></div><h3>Productos bancarios</h3><p>Los clientes reciben su dinero más rápido y la oficina genera ingreso adicional imprimiendo el cheque.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg></div><h3>Nóminas</h3><p>Formularios W-2, W-3, 1099-NEC, 940 y 941, con transmisión e-file al IRS.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17c3-1 4-6 6-6s1 6 3 6 3-4 4-4 2 3 5 3"/><path d="M3 21h18"/></svg></div><h3>Firma electrónica</h3><p>Capturan la firma del cliente en la nube desde un celular Apple o Android.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg></div><h3>Asistencia en español</h3><p>Soporte técnico de preparadores expertos que hablan su idioma y entienden las necesidades de los hispanos.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 6. Para quién ===== -->
+  <section class="rv-sec" aria-labelledby="rv-quien">
+    <div class="rv-cab">
+      <span class="rv-kicker">Para quién es</span>
+      <h2 id="rv-quien">Ideal si tienes contactos en el mundo de los impuestos</h2>
+    </div>
+    <div class="rv-grid3">
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div><h3>Preparadores de impuestos</h3><p>Recomienda a otros preparadores el software que conoces y gana una comisión por cada licencia.</p></div>
+      <div class="rv-card"><div class="rv-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></div><h3>Instructores y asesores</h3><p>Si enseñas o asesoras a personas que inician su negocio de taxes, ofréceles el software con tu página.</p></div>
+      <div class="rv-card"><div class="rv-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></div><h3>Emprendedores con red de contactos</h3><p>Si conoces oficinas de impuestos o negocios de servicios para la comunidad latina, convierte esos contactos en ingresos.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 7. Preguntas ===== -->
+  <section class="rv-sec" aria-labelledby="rv-preguntas">
+    <div class="rv-cab">
+      <span class="rv-kicker">Preguntas frecuentes</span>
+      <h2 id="rv-preguntas">Preguntas sobre el programa de revendedores</h2>
+    </div>
+    <div class="rv-faq">
+      <details><summary>¿Cuánto cuesta registrarme en el programa?</summary><p>El registro al programa de revendedores cuesta $200.</p></details>
+      <details><summary>¿Cuánto gano por cada venta?</summary><p>Recibes una comisión de $150 por cada software de Income Tax que vendas.</p></details>
+      <details><summary>¿Me regresan los $200 del registro?</summary><p>Sí. Cuando logras vender 10 softwares, te regresamos los $200 que pagaste por tu registro al programa.</p></details>
+      <details><summary>¿Cuánto cuesta el software para mis clientes?</summary><p>El software de Income Tax cuesta $750. Tus clientes también pueden dividir el pago en 4 partes con Klarna.</p></details>
+      <details><summary>¿Qué es la página personalizada?</summary><p>Es una página con la que ofreces el software tú mismo a tus contactos y clientes, para que las ventas se hagan a través de ti.</p></details>
+      <details><summary>¿Qué incluye el software que voy a vender?</summary><p>Declaraciones sin límite de todos los estados (incluyendo Puerto Rico), e-file ilimitado para preparadores con EFIN, 2 usuarios, declaraciones personales y de negocios (1040, 1065, 1120, 1120S, 990, 1041, 706 y 709), nóminas (941, 940, 1099-NEC y W-2), productos bancarios, firma electrónica y asistencia técnica en español.</p></details>
+      <details><summary>¿Mis clientes reciben capacitación para usar el software?</summary><p>Sí. Con la compra del software reciben una clase gratis por Zoom para aprender a utilizarlo.</p></details>
+      <details><summary>¿Cómo me registro?</summary><p>Llena el formulario de registración en esta página. Si tienes dudas, escríbenos por WhatsApp al (909) 344-0703 o llámanos de lunes a sábado, de 1 a 7 pm (hora del Este).</p></details>
+    </div>
+  </section>
+
+  <!-- ===== 8. Cierre ===== -->
+  <section class="rv-sec rv-cierre" aria-labelledby="rv-cierre">
+    <h2 id="rv-cierre">Convierte tus contactos en ingresos</h2>
+    <p>Regístrate hoy, recibe tu página personalizada y gana $150 por cada Software de Income Tax que vendas. Al llegar a 10 ventas, te regresamos tu registro.</p>
+    <div class="rv-ctas">
+      <a class="rv-btn rv-blanco rv-wa" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20registrarme%20en%20el%20programa%20de%20revendedores%20del%20Software%20de%20Income%20Tax" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.21-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.21 4.24-9.45 9.46-9.45 2.53 0 4.9.99 6.69 2.78a9.4 9.4 0 0 1 2.77 6.69c0 5.21-4.24 9.45-9.44 9.45m8.04-17.49A11.3 11.3 0 0 0 12.04.68C5.77.68.66 5.78.66 12.05c0 2 .52 3.96 1.52 5.69L.57 23.6l6.02-1.58a11.35 11.35 0 0 0 5.44 1.39h.01c6.26 0 11.37-5.1 11.37-11.37 0-3.04-1.18-5.89-3.33-8.04"/></svg>Escríbenos por WhatsApp</a>
+      <a class="rv-btn rv-claro" href="#formulario">Ir al formulario</a>
+      <a class="rv-btn rv-claro" href="https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/" target="_blank" rel="noopener">Ver el software</a>
+    </div>
+    <div class="rv-tels">
+      <a href="tel:+17605533256">📞 (760) 553-3256</a>
+      <a href="tel:+19093440703">📞 (909) 344-0703</a>
+      <a href="tel:+19097880445">📞 (909) 788-0445</a>
+    </div>
+    <p class="rv-horario">Te atendemos en español de lunes a sábado, de 1 a 7 pm (hora del Este).</p>
+  </section>
+
+<script>
+(function () {
+  var rango = document.getElementById('rv-ventas');
+  if (!rango) return;
+  var dinero = function (n) { return (n < 0 ? '– $' : '$') + Math.abs(n).toLocaleString('en-US'); };
+  function calcular() {
+    var v = parseInt(rango.value, 10) || 0, comision = v * 150;
+    document.getElementById('rv-num').textContent = v;
+    document.getElementById('rv-r-ventas').textContent = v;
+    document.getElementById('rv-r-comision').textContent = dinero(comision);
+    var devuelto = v >= 10;   // al vender 10 softwares se regresan los $200 del registro
+    document.getElementById('rv-r-reg-txt').textContent = devuelto ? 'Registro ($200 devueltos)' : 'Registro al programa';
+    document.getElementById('rv-r-reg').textContent = devuelto ? '$0' : '– $200';
+    document.getElementById('rv-r-neto').textContent = dinero(devuelto ? comision : comision - 200);
+  }
+  rango.addEventListener('input', calcular);
+  calcular();
+})();
+</script>
 </div>
