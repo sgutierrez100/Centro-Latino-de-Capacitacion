@@ -1,0 +1,68 @@
+<!--
+  Bloque "¿Qué incluyen nuestros cursos de seguros?" para la página /licencia-agente-de-seguros/
+  Pegar completo dentro de un widget "HTML" de Elementor, donde quieras que aparezca.
+  Todo el CSS está limitado a .clc-incluye-bloque, así que no afecta el resto del sitio.
+-->
+<section class="clc-incluye-bloque">
+<style>
+.clc-incluye-bloque{--azul:#4FB3E3;--azul-osc:#0b66a2;--verde:#4CC266;--verde-osc:#2f9e4b;--texto:#1d2330;--suave:#5b6474;--borde:#dfe7f1;--fondo-azul:#F3F8FE;--fondo-verde:#EEF8F0;
+  color:var(--texto);font-family:inherit;line-height:1.55;max-width:1200px;margin:0 auto;padding:8px 0 28px;text-align:center}
+.clc-incluye-bloque *{box-sizing:border-box}
+.clc-incluye-bloque h2,.clc-incluye-bloque h3{font-family:inherit;margin:0;line-height:1.2}
+.clc-incluye-bloque p{margin:0}
+
+/* Tarjetas */
+.clc-incluye-bloque .clc-incluye h2{font-size:clamp(24px,3vw,32px);color:var(--azul);font-weight:700}
+.clc-incluye-bloque .clc-incluye .clc-sub{color:var(--suave);font-size:16px;margin:8px auto 24px;max-width:720px}
+.clc-incluye-bloque .clc-tarjetas{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:0;margin:0;list-style:none;text-align:left}
+.clc-incluye-bloque .clc-tarjeta{background:#fff;border:1px solid var(--borde);border-radius:14px;padding:24px;box-shadow:0 2px 10px rgba(16,40,80,.05);margin:0;display:flex;flex-direction:column}
+.clc-incluye-bloque .clc-ico{width:52px;height:52px;border-radius:12px;background:var(--fondo-verde);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.clc-incluye-bloque .clc-ico svg{width:28px;height:28px;fill:none;stroke:var(--verde-osc);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.clc-incluye-bloque .clc-tarjeta h3{font-size:20px;color:var(--texto);font-weight:700;margin-bottom:8px}
+.clc-incluye-bloque .clc-tarjeta p{font-size:15px;color:var(--suave)}
+.clc-incluye-bloque .clc-tarjeta .clc-proveedor{margin-top:12px;font-size:13px;color:var(--texto);background:var(--fondo-azul);border-radius:8px;padding:8px 10px}
+
+@media (max-width:900px){.clc-incluye-bloque .clc-tarjetas{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){
+  .clc-incluye-bloque .clc-tarjetas{grid-template-columns:1fr}
+}
+</style>
+
+  <div class="clc-incluye">
+    <h2>¿Qué incluyen nuestros cursos de seguros?</h2>
+    <p class="clc-sub">Todo lo que necesitas para obtener tu licencia de Property &amp; Casualty o de Vida y Salud, explicado en español y paso a paso.</p>
+    <ul class="clc-tarjetas">
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5"/><path d="M14 3v5h5"/><path d="M14 3l5 5v3"/><path d="M8 9h3M8 13h5"/><circle cx="17" cy="16" r="3"/><path d="M15.5 18.5 15 22l2-1 2 1-.5-3.5"/></svg></div>
+        <h3>Certificado de prelicencia</h3>
+        <p>Si tu estado requiere horas de prelicencia, al completar el curso recibirás un certificado que cumple con las horas requeridas por el estado.</p>
+        <p class="clc-proveedor">Certificate issued by A.D. Banker Provider #742</p>
+      </li>
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M8 7h7M8 11h5"/></svg></div>
+        <h3>Material de estudio completo</h3>
+        <p>Libros digitales, simuladores de examen, videos de repaso, flashcards y juegos educativos para reforzar los temas importantes y llegar con confianza a tu examen.</p>
+      </li>
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Acceso 24/7, a tu ritmo</h3>
+        <p>Estudia en línea desde cualquier lugar, con acceso a la plataforma todos los días y en el horario que más te convenga.</p>
+      </li>
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 11h7M8.5 14h4"/></svg></div>
+        <h3>Asistencia de instructor</h3>
+        <p>Recibe apoyo en español de nuestro equipo de instructores para aclarar tus dudas y acompañarte durante toda tu preparación.</p>
+      </li>
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/></svg></div>
+        <h3>Te ayudamos a programar tu examen</h3>
+        <p>Cuando estés listo, te ayudamos a programar la cita de tu examen estatal para que no tengas que hacer el trámite solo.</p>
+      </li>
+      <li class="clc-tarjeta">
+        <div class="clc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="m9 14 2 2 4-4"/></svg></div>
+        <h3>Asistencia con tu aplicación</h3>
+        <p>Después de aprobar el examen, te guiamos en la aplicación de tu licencia con el estado para que empieces a vender seguros.</p>
+      </li>
+    </ul>
+  </div>
+</section>
