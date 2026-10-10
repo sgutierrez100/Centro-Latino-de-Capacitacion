@@ -1,0 +1,563 @@
+<!--
+  Página: Software Profesional de Income Tax
+  (https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/)
+  Pegar completo dentro de UN widget "HTML" de Elementor, en una página con el ancho completo
+  (Elementor > Diseño > Ancho de contenido: "Ancho completo" o un contenedor de 1200 px).
+  Borra el contenido anterior de la página para no repetir el título principal (H1).
+  Todo el CSS está limitado a .clc-sw, así que no afecta el resto del sitio.
+-->
+<div class="clc-sw">
+<style>
+.clc-sw{--navy:#0f2a4a;--navy2:#174273;--azul:#4FB3E3;--azul-osc:#0b66a2;--verde:#4CC266;--verde-osc:#2f9e4b;--texto:#1d2330;--suave:#5b6474;--borde:#dfe7f1;--fondo-azul:#F3F8FE;--fondo-verde:#EEF8F0;
+  color:var(--texto);font-family:inherit;line-height:1.6;max-width:1200px;margin:0 auto;padding:12px 0 24px}
+.clc-sw *{box-sizing:border-box}
+.clc-sw h1,.clc-sw h2,.clc-sw h3{font-family:inherit;margin:0;line-height:1.2;color:var(--navy)}
+.clc-sw p{margin:0}
+.clc-sw a{text-decoration:none}
+.clc-sw ul,.clc-sw ol{margin:0;padding:0;list-style:none}
+.clc-sw li{margin:0}
+.clc-sw img{max-width:100%;height:auto;display:block}
+.clc-sw svg{flex:0 0 auto}
+
+/* Botones */
+.clc-sw .sw-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:17px;padding:15px 26px;border-radius:12px;transition:transform .15s,background .15s;text-align:center;line-height:1.25}
+.clc-sw .sw-btn:hover{transform:translateY(-2px)}
+.clc-sw .sw-btn-verde{background:var(--verde);color:#fff!important;box-shadow:0 8px 22px rgba(76,194,102,.35)}
+.clc-sw .sw-btn-verde:hover{background:var(--verde-osc)}
+.clc-sw .sw-btn-claro{border:2px solid rgba(255,255,255,.55);color:#fff!important}
+.clc-sw .sw-btn-claro:hover{background:rgba(255,255,255,.1)}
+.clc-sw .sw-btn-azul{background:var(--azul-osc);color:#fff!important}
+.clc-sw .sw-btn-azul:hover{background:#08507f}
+.clc-sw .sw-btn-borde{border:2px solid var(--azul-osc);color:var(--azul-osc)!important;background:#fff}
+.clc-sw .sw-btn-borde:hover{background:var(--fondo-azul)}
+.clc-sw .sw-btn-blanco{background:#fff;color:var(--verde-osc)!important}
+.clc-sw .sw-btn-wa{background:#25D366;color:#fff!important}
+.clc-sw .sw-btn-wa:hover{background:#1da851}
+
+/* Portada */
+.clc-sw .sw-hero{position:relative;overflow:hidden;border-radius:28px;padding:60px 52px 92px;color:#fff;
+  background:radial-gradient(circle at 85% 15%,rgba(79,179,227,.35),transparent 45%),radial-gradient(circle at 10% 100%,rgba(76,194,102,.25),transparent 40%),linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%);
+  display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.clc-sw .sw-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;margin-bottom:18px}
+.clc-sw .sw-eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 4px rgba(76,194,102,.25)}
+.clc-sw .sw-hero h1{color:#fff;font-size:clamp(34px,4.8vw,56px);font-weight:800;letter-spacing:-1px}
+.clc-sw .sw-lead{font-size:19px;color:#d9e7f6;margin-top:18px;max-width:610px}
+.clc-sw .sw-checks{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:24px}
+.clc-sw .sw-checks li{display:flex;gap:10px;align-items:flex-start;font-weight:600;font-size:16px}
+.clc-sw .sw-checks svg{width:22px;height:22px;margin-top:1px}
+.clc-sw .sw-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+/* Tarjeta de precio en la portada */
+.clc-sw .sw-oferta{position:relative;background:#fff;color:var(--texto);border-radius:22px;padding:30px 28px 24px;box-shadow:0 30px 60px rgba(4,18,40,.45);text-align:center}
+.clc-sw .sw-oferta-sello{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--verde);color:#fff;font-size:13px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:999px;padding:6px 16px;white-space:nowrap;box-shadow:0 6px 16px rgba(76,194,102,.4)}
+.clc-sw .sw-oferta-titulo{font-size:18px;font-weight:700;color:var(--navy);margin-top:6px}
+.clc-sw .sw-oferta-precio{display:flex;align-items:center;justify-content:center;gap:12px;margin:12px 0 4px}
+.clc-sw .sw-oferta-precio strong{font-size:54px;font-weight:800;color:var(--navy);line-height:1}
+.clc-sw .sw-oferta-precio span{text-align:left;font-size:14px;color:var(--suave);line-height:1.4}
+.clc-sw .sw-oferta ul{text-align:left;margin:18px 0 22px;border-top:1px solid var(--borde);padding-top:14px}
+.clc-sw .sw-oferta li{position:relative;padding:6px 0 6px 28px;font-size:15.5px}
+.clc-sw .sw-oferta li::before{content:"✓";position:absolute;left:4px;color:var(--verde-osc);font-weight:800}
+.clc-sw .sw-oferta .sw-btn{width:100%}
+.clc-sw .sw-oferta small{display:block;margin-top:10px;font-size:13px;color:var(--suave)}
+
+/* Cifras */
+.clc-sw .sw-cifras{position:relative;z-index:2;margin:-54px 32px 0;background:#fff;border:1px solid var(--borde);border-radius:20px;box-shadow:0 18px 40px rgba(15,42,74,.12);display:grid;grid-template-columns:repeat(4,1fr)}
+.clc-sw .sw-cifras li{padding:22px 18px;text-align:center;border-right:1px solid var(--borde)}
+.clc-sw .sw-cifras li:last-child{border-right:0}
+.clc-sw .sw-cifras strong{display:block;font-size:30px;font-weight:800;color:var(--navy);line-height:1.1}
+.clc-sw .sw-cifras span{font-size:14px;color:var(--suave);font-weight:600}
+
+/* Reconocimientos */
+.clc-sw .sw-premios{margin:44px auto 0;max-width:980px;text-align:center}
+.clc-sw .sw-premios p{font-size:14px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--suave);margin-bottom:6px}
+.clc-sw .sw-premios img{margin:0 auto}
+
+/* Secciones */
+.clc-sw .sw-sec{margin-top:84px}
+.clc-sw .sw-cab{text-align:center;max-width:780px;margin:0 auto 34px}
+.clc-sw .sw-kicker{display:inline-block;font-size:13px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--verde-osc);margin-bottom:10px}
+.clc-sw .sw-cab h2{font-size:clamp(28px,3.6vw,40px);font-weight:800;letter-spacing:-.5px}
+.clc-sw .sw-cab p{font-size:18px;color:var(--suave);margin-top:12px}
+
+/* Funciones */
+.clc-sw .sw-funciones{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.clc-sw .sw-card{background:#fff;border:1px solid var(--borde);border-radius:18px;padding:24px;box-shadow:0 2px 12px rgba(15,42,74,.05)}
+.clc-sw .sw-ico{width:52px;height:52px;border-radius:14px;background:var(--fondo-verde);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.clc-sw .sw-ico svg{width:27px;height:27px;fill:none;stroke:var(--verde-osc);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.clc-sw .sw-ico.azul{background:var(--fondo-azul)}
+.clc-sw .sw-ico.azul svg{stroke:var(--azul-osc)}
+.clc-sw .sw-card h3{font-size:19px;font-weight:700;margin-bottom:8px}
+.clc-sw .sw-card p{color:var(--suave);font-size:15.5px}
+
+/* Formularios */
+.clc-sw .sw-formas{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.clc-sw .sw-forma{background:var(--fondo-azul);border-radius:22px;padding:30px}
+.clc-sw .sw-forma h3{font-size:21px;margin-bottom:6px}
+.clc-sw .sw-forma > p{color:var(--suave);font-size:15.5px}
+.clc-sw .sw-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.clc-sw .sw-chips li{background:#fff;border:1px solid var(--borde);border-radius:999px;padding:6px 14px;font-size:14.5px;font-weight:700;color:var(--navy)}
+.clc-sw .sw-chips li span{font-weight:500;color:var(--suave)}
+
+/* Planes */
+.clc-sw .sw-guia{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:34px}
+.clc-sw .sw-guia div{border-radius:18px;padding:22px 24px;border:1px solid var(--borde);background:#fff}
+.clc-sw .sw-guia strong{display:block;font-size:18px;color:var(--navy);margin-bottom:4px}
+.clc-sw .sw-guia p{color:var(--suave);font-size:15.5px}
+.clc-sw .sw-guia .sw-guia-etq{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:999px;padding:4px 12px;margin-bottom:10px;background:var(--fondo-azul);color:var(--azul-osc)}
+.clc-sw .sw-guia div:last-child .sw-guia-etq{background:var(--fondo-verde);color:var(--verde-osc)}
+.clc-sw .sw-planes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.clc-sw .sw-plan{position:relative;background:#fff;border:1px solid var(--borde);border-radius:22px;padding:30px 26px;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(15,42,74,.05)}
+.clc-sw .sw-plan.destacado{border:2px solid var(--verde);box-shadow:0 18px 40px rgba(76,194,102,.18)}
+.clc-sw .sw-sello{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--verde);color:#fff;font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:999px;padding:5px 14px;white-space:nowrap}
+.clc-sw .sw-plan h3{font-size:19px;font-weight:800}
+.clc-sw .sw-plan .sw-sub{color:var(--suave);font-size:15px;margin-top:2px}
+.clc-sw .sw-plan .sw-monto{font-size:46px;font-weight:800;color:var(--navy);line-height:1.1;margin:14px 0 0}
+.clc-sw .sw-plan .sw-monto small{font-size:17px;font-weight:700;color:var(--suave)}
+.clc-sw .sw-plan ul{margin:18px 0 20px}
+.clc-sw .sw-plan li{position:relative;padding:5px 0 5px 26px;font-size:15.5px}
+.clc-sw .sw-plan li::before{content:"✓";position:absolute;left:0;color:var(--verde-osc);font-weight:800}
+.clc-sw .sw-plan .sw-nota{font-size:14px;color:var(--suave);margin-bottom:20px}
+.clc-sw .sw-plan .sw-btn{margin-top:auto;width:100%}
+.clc-sw .sw-extras{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+.clc-sw .sw-extra{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;border-radius:18px;padding:20px 24px}
+.clc-sw .sw-extra strong{display:block;font-size:18px;color:var(--navy)}
+.clc-sw .sw-extra p{color:var(--suave);font-size:15px}
+.clc-sw .sw-extra.verde{background:var(--fondo-verde);border:2px dashed #9fd9ad}
+.clc-sw .sw-extra.azul{background:var(--fondo-azul);border:2px dashed #b7d3ee}
+
+/* Comparación */
+.clc-sw .sw-tabla-caja{overflow-x:auto;border-radius:20px;border:1px solid var(--borde);box-shadow:0 2px 14px rgba(15,42,74,.06);-webkit-overflow-scrolling:touch}
+.clc-sw table{width:100%;min-width:720px;border-collapse:collapse;background:#fff;font-size:15.5px}
+.clc-sw th,.clc-sw td{padding:14px 12px;text-align:center;border-bottom:1px solid var(--borde)}
+.clc-sw thead th{background:var(--fondo-azul);color:var(--navy);font-weight:800;line-height:1.3}
+.clc-sw thead th span{display:block;font-size:20px;margin-top:2px}
+.clc-sw tbody th{text-align:left;font-weight:600;color:var(--texto)}
+.clc-sw tbody tr:last-child th,.clc-sw tbody tr:last-child td{border-bottom:0}
+.clc-sw .sw-nuestro{background:var(--navy)!important;color:#fff!important}
+.clc-sw td.sw-nuestro{background:#eaf1fa!important;color:var(--navy)!important;font-weight:800}
+.clc-sw .si{color:var(--verde-osc);font-weight:800;font-size:19px}
+.clc-sw .no{color:#c0392b;font-weight:800;font-size:19px}
+.clc-sw .sw-tabla-nota{font-size:13.5px;color:var(--suave);text-align:center;margin-top:12px}
+
+/* Cambio de software */
+.clc-sw .sw-cambio{display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;border-radius:28px;padding:48px;color:#fff;background:radial-gradient(circle at 90% 10%,rgba(79,179,227,.3),transparent 45%),linear-gradient(135deg,var(--navy),var(--navy2))}
+.clc-sw .sw-cambio h2{color:#fff;font-size:clamp(26px,3.2vw,36px);font-weight:800}
+.clc-sw .sw-cambio > div > p{color:#d9e7f6;font-size:17px;margin-top:10px;max-width:660px}
+.clc-sw .sw-ruta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:18px}
+.clc-sw .sw-ruta li{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.clc-sw .sw-ruta li.flecha{background:none;border:0;padding:0 2px;color:#8fe0a2}
+.clc-sw .sw-cambio .sw-btn{white-space:nowrap}
+
+/* Curso */
+.clc-sw .sw-curso{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center;background:var(--fondo-verde);border:1px solid #d3ecd9;border-radius:24px;padding:30px 32px}
+.clc-sw .sw-curso .sw-ico{margin:0;width:64px;height:64px;background:#fff}
+.clc-sw .sw-curso .sw-ico svg{width:32px;height:32px}
+.clc-sw .sw-curso h2{font-size:clamp(22px,2.4vw,28px);font-weight:800}
+.clc-sw .sw-curso p{color:var(--suave);font-size:16px;margin-top:6px}
+
+/* Preguntas */
+.clc-sw .sw-faq{max-width:900px;margin:0 auto}
+.clc-sw .sw-faq details{border:1px solid var(--borde);border-radius:14px;padding:0 20px;margin-bottom:10px;background:#fff}
+.clc-sw .sw-faq summary{cursor:pointer;list-style:none;position:relative;padding:18px 34px 18px 0;font-weight:700;font-size:17px;color:var(--navy)}
+.clc-sw .sw-faq summary::-webkit-details-marker{display:none}
+.clc-sw .sw-faq summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:var(--azul-osc)}
+.clc-sw .sw-faq details[open] summary::after{content:"–"}
+.clc-sw .sw-faq details p{color:var(--suave);font-size:16px;padding:0 0 18px}
+.clc-sw .sw-faq details a{color:var(--azul-osc);text-decoration:underline}
+
+/* Cierre */
+.clc-sw .sw-cierre{border-radius:28px;padding:56px 40px;text-align:center;color:#fff;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.18),transparent 40%),linear-gradient(135deg,var(--verde-osc),#1f7a3a)}
+.clc-sw .sw-cierre h2{color:#fff;font-size:clamp(28px,3.8vw,42px);font-weight:800;max-width:820px;margin:0 auto}
+.clc-sw .sw-cierre > p{color:#e4f6e8;font-size:18px;margin:14px auto 0;max-width:680px}
+.clc-sw .sw-cierre .sw-ctas{justify-content:center}
+.clc-sw .sw-tels{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}
+.clc-sw .sw-tels a{color:#fff!important;font-weight:700;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:8px 16px;font-size:15px}
+.clc-sw .sw-tels a:hover{background:rgba(255,255,255,.12)}
+.clc-sw .sw-cierre .sw-horario{font-size:15px;color:#d3f0da;margin-top:14px}
+
+/* Responsive */
+@media (max-width:1024px){
+  .clc-sw .sw-hero{grid-template-columns:1fr;padding:48px 36px 92px}
+  .clc-sw .sw-oferta{max-width:440px;margin-top:10px}
+  .clc-sw .sw-funciones{grid-template-columns:1fr 1fr}
+  .clc-sw .sw-cambio{grid-template-columns:1fr}
+  .clc-sw .sw-cambio .sw-btn{justify-self:start}
+  .clc-sw .sw-curso{grid-template-columns:auto 1fr}
+  .clc-sw .sw-curso .sw-btn{grid-column:1/-1;justify-self:start}
+}
+@media (max-width:820px){
+  .clc-sw .sw-cifras{grid-template-columns:1fr 1fr;margin:-54px 16px 0}
+  .clc-sw .sw-cifras li:nth-child(2){border-right:0}
+  .clc-sw .sw-cifras li:nth-child(-n+2){border-bottom:1px solid var(--borde)}
+  .clc-sw .sw-formas,.clc-sw .sw-guia,.clc-sw .sw-extras{grid-template-columns:1fr}
+  .clc-sw .sw-planes{grid-template-columns:1fr;max-width:460px;margin:0 auto;gap:30px}
+}
+@media (max-width:600px){
+  .clc-sw .sw-hero{padding:36px 20px 86px;border-radius:20px}
+  .clc-sw .sw-lead{font-size:17px}
+  .clc-sw .sw-checks{grid-template-columns:1fr}
+  .clc-sw .sw-ctas .sw-btn,.clc-sw .sw-extra .sw-btn{width:100%}
+  .clc-sw .sw-cifras strong{font-size:24px}
+  .clc-sw .sw-sec{margin-top:64px}
+  .clc-sw .sw-funciones{grid-template-columns:1fr}
+  .clc-sw .sw-forma{padding:24px 20px}
+  .clc-sw .sw-cambio{padding:34px 20px;border-radius:20px}
+  .clc-sw .sw-cambio .sw-btn{width:100%;white-space:normal}
+  .clc-sw .sw-curso{grid-template-columns:1fr;text-align:center;padding:26px 20px}
+  .clc-sw .sw-curso .sw-ico{margin:0 auto}
+  .clc-sw .sw-curso .sw-btn{width:100%}
+  .clc-sw .sw-cierre{padding:44px 20px;border-radius:20px}
+}
+</style>
+
+  <!-- ===== 1. Portada ===== -->
+  <header class="sw-hero">
+    <div>
+      <p class="sw-eyebrow">Para preparadores de impuestos</p>
+      <h1>Software Profesional de Income Tax</h1>
+      <p class="sw-lead">Impulsa tu negocio de impuestos con funcionalidad, precisión y facilidad, todo por un precio accesible. Declaraciones personales y de negocios, todos los estados y e-file sin límites en un solo programa de impuestos.</p>
+      <ul class="sw-checks">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>E-file sin límites</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Todos los estados y Puerto Rico</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Declaraciones corporativas</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Soporte técnico en tu idioma</li>
+      </ul>
+      <div class="sw-ctas">
+        <a class="sw-btn sw-btn-verde" href="#planes">Ver planes y precios →</a>
+        <a class="sw-btn sw-btn-claro" href="https://centrolatinodecapacitacion.net/solicitar-acceso-software-de-income-tax-gratis/" target="_blank" rel="noopener">Acceso gratis: Pago x Declarar</a>
+      </div>
+    </div>
+
+    <div class="sw-oferta">
+      <span class="sw-oferta-sello">Clase gratis incluida</span>
+      <p class="sw-oferta-titulo">Licencia del software</p>
+      <div class="sw-oferta-precio"><strong>$750</strong><span>por año<br>para 2 usuarios</span></div>
+      <ul>
+        <li>Declaraciones sin límite</li>
+        <li>E-file ilimitado con tu EFIN</li>
+        <li>Todos los estados incluidos</li>
+        <li>Personales, negocios y nóminas</li>
+        <li>Clase gratis por Zoom para aprender a usarlo</li>
+      </ul>
+      <a class="sw-btn sw-btn-verde" href="#planes">Elegir mi plan →</a>
+      <small>También puedes pagar en 4 partes con Klarna</small>
+    </div>
+  </header>
+
+  <ul class="sw-cifras">
+    <li><strong>$750</strong><span>licencia anual</span></li>
+    <li><strong>Ilimitado</strong><span>e-file con tu EFIN</span></li>
+    <li><strong>50 + PR</strong><span>todos los estados y Puerto Rico</span></li>
+    <li><strong>2</strong><span>usuarios por oficina</span></li>
+  </ul>
+
+  <div class="sw-premios">
+    <p>Software reconocido por preparadores</p>
+    <img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/06/My-Tax-ratings-1.png" width="1138" height="325" loading="lazy" decoding="async" alt="Reconocimientos del software de impuestos MyTAXPrepOffice: Top-Rated en Software Advice, #1 en Sitejabber, Readers' Choice 2024 de CPA Practice Advisor y A+ en el BBB">
+  </div>
+
+  <!-- ===== 2. Funciones ===== -->
+  <section class="sw-sec" id="funciones" aria-labelledby="sw-funciones">
+    <div class="sw-cab">
+      <span class="sw-kicker">Todo por un solo precio</span>
+      <h2 id="sw-funciones">El software de impuestos más rápido, económico y fácil de usar</h2>
+      <p>Todo lo que necesita tu oficina de impuestos para preparar, firmar y transmitir declaraciones, sin pagar extras por cada función.</p>
+    </div>
+    <div class="sw-funciones">
+      <div class="sw-card">
+        <div class="sw-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></div>
+        <h3>E-file sin límites</h3>
+        <p>Si tienes tu número EFIN, transmites electrónicamente al IRS todas las declaraciones que necesites.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+        <h3>Todos los estados</h3>
+        <p>Acceso para hacer declaraciones de todos los estados, incluyendo Puerto Rico.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/><path d="M16 9h2a2 2 0 0 1 2 2v10M2 21h20M8 7h4M8 11h4M8 15h4"/></svg></div>
+        <h3>Declaraciones corporativas</h3>
+        <p>Sociedades 1065, corporaciones 1120 y 1120S, fideicomisos 1041 y organizaciones 990.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.5 3.3-5.5 6.5-5.5s5.9 2 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.7.8 2.8 2.6 3 5.2"/></svg></div>
+        <h3>2 usuarios</h3>
+        <p>Incluye 2 usuarios por oficina. Puedes agregar más usuarios en la misma oficina por solamente $50 cada uno.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 10h18M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18M12 3 3 8h18l-9-5z"/></svg></div>
+        <h3>Productos bancarios</h3>
+        <p>Tus clientes reciben su dinero más rápido, tú generas ingreso adicional e imprimes el cheque en tu oficina.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+        <h3>Nóminas</h3>
+        <p>Completa los formularios de retenciones de nómina para generar W-2, W-3, 1099-NEC, 940 y 941, con transmisión e-file al IRS.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M9 14c1-2 2-2 2.5-.5s1.5 1.5 3.5-1"/><path d="M11 18h2"/></svg></div>
+        <h3>Firma electrónica</h3>
+        <p>Captura la firma de tu cliente en la nube desde tu dispositivo Apple o Android y accede a ella en MyTAXPrepOffice.</p>
+      </div>
+      <div class="sw-card">
+        <div class="sw-ico azul" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg></div>
+        <h3>Asistencia técnica</h3>
+        <p>Te ayudan preparadores expertos que hablan tu idioma y entienden las necesidades de los hispanos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. Formularios incluidos ===== -->
+  <section class="sw-sec" aria-labelledby="sw-formas">
+    <div class="sw-cab">
+      <span class="sw-kicker">Formularios incluidos</span>
+      <h2 id="sw-formas">Declaraciones personales, de negocios y nóminas</h2>
+      <p>Con la licencia del software preparas declaraciones sin límite de estos formularios del IRS.</p>
+    </div>
+    <div class="sw-formas">
+      <div class="sw-forma">
+        <h3>Declaraciones de impuestos</h3>
+        <p>Personales, de negocios, corporativas, de fideicomisos y más.</p>
+        <ul class="sw-chips">
+          <li>1040 <span>individual</span></li><li>1065 <span>sociedades</span></li><li>1120 <span>corporaciones</span></li><li>1120S <span>corporaciones S</span></li><li>1041 <span>fideicomisos</span></li><li>990 <span>organizaciones</span></li><li>706</li><li>709</li>
+        </ul>
+      </div>
+      <div class="sw-forma">
+        <h3>Nóminas (payroll)</h3>
+        <p>Formularios de retenciones de nómina con transmisión e-file al IRS.</p>
+        <ul class="sw-chips">
+          <li>W-2</li><li>W-3</li><li>1099-NEC</li><li>940</li><li>941</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. Planes ===== -->
+  <section class="sw-sec" id="planes" aria-labelledby="sw-planes">
+    <div class="sw-cab">
+      <span class="sw-kicker">Planes disponibles</span>
+      <h2 id="sw-planes">¿Cuánto cuesta el software de Income Tax?</h2>
+      <p>Elige el plan según el número de clientes que tienes.</p>
+    </div>
+    <div class="sw-guia">
+      <div>
+        <span class="sw-guia-etq">Si estás iniciando</span>
+        <strong>Tienes pocos clientes</strong>
+        <p>Selecciona la modalidad Pago x Declarar: tienes acceso gratis al software y solamente pagas cuando solicitas el servicio.</p>
+      </div>
+      <div>
+        <span class="sw-guia-etq">Más de 10 clientes</span>
+        <strong>Te conviene la licencia</strong>
+        <p>Con la licencia mantienes a tus clientes siempre a tu disposición, guardados en el software, y recibes la clase gratis por Zoom.</p>
+      </div>
+    </div>
+
+    <div class="sw-planes">
+      <div class="sw-plan">
+        <h3>Pago x Declarar</h3>
+        <p class="sw-sub">Gratis · Solo pagas por el servicio</p>
+        <p class="sw-monto">$0 <small>/ año</small></p>
+        <ul><li>Declaraciones de impuestos</li><li>Todos los estados incluidos</li><li>Declaraciones personales y de negocios</li></ul>
+        <p class="sw-nota">Tienes acceso temporal gratis al software de impuestos; solamente pagas cuando solicitas el servicio. <a href="https://efile-mariolga.com/pago-x-declarar/" target="_blank" rel="noopener" style="color:var(--azul-osc);text-decoration:underline">Ver los servicios de Pago x Declarar</a>.</p>
+        <a class="sw-btn sw-btn-borde" href="https://centrolatinodecapacitacion.net/solicitar-acceso-software-de-income-tax-gratis/" target="_blank" rel="noopener">Registrarme gratis</a>
+      </div>
+      <div class="sw-plan destacado">
+        <span class="sw-sello">Precio protegido</span>
+        <h3>Suscripción anual</h3>
+        <p class="sw-sub">Conservas el precio al renovar</p>
+        <p class="sw-monto">$750 <small>/ año</small></p>
+        <ul><li>Declaraciones sin límite</li><li>Todos los estados incluidos</li><li>E-file ilimitado para preparadores con EFIN</li><li>Para 2 usuarios</li><li>Personales, negocios y nóminas</li><li>Clase gratis por Zoom</li></ul>
+        <p class="sw-nota">Tu suscripción se renueva cada año y conservas el mismo precio mientras no la canceles. Si cancelas y vuelves a registrarte, aplica el precio disponible en ese momento.</p>
+        <a class="sw-btn sw-btn-verde" href="https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-suscripcion-software-de-income-tax/" target="_blank" rel="noopener">Suscribirme por $750</a>
+      </div>
+      <div class="sw-plan">
+        <h3>Pago anual</h3>
+        <p class="sw-sub">Pago único por un año</p>
+        <p class="sw-monto">$750 <small>/ año</small></p>
+        <ul><li>Declaraciones sin límite</li><li>Todos los estados incluidos</li><li>E-file ilimitado para preparadores con EFIN</li><li>Para 2 usuarios</li><li>Personales, negocios y nóminas</li><li>Clase gratis por Zoom</li></ul>
+        <p class="sw-nota">La licencia es válida por un año. Al terminar, puedes renovarla al precio disponible en ese momento (no conservas el precio).</p>
+        <a class="sw-btn sw-btn-azul" href="https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-para-software-de-income-tax/" target="_blank" rel="noopener">Comprar licencia por $750</a>
+      </div>
+    </div>
+
+    <div class="sw-extras">
+      <div class="sw-extra verde">
+        <div><strong>Paga en 4 partes con Klarna</strong><p>Divide el costo de tu software en 4 pagos y empieza hoy mismo.</p></div>
+        <a class="sw-btn sw-btn-verde" href="https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-con-klarna-software-de-income-tax/" target="_blank" rel="noopener">Solicitar pago con Klarna</a>
+      </div>
+      <div class="sw-extra azul">
+        <div><strong>¿Aún no te decides?</strong><p>Llámanos de 1 a 7 pm (hora del Este) y te ayudamos a elegir.</p></div>
+        <a class="sw-btn sw-btn-borde" href="tel:+19093440703">📞 (909) 344-0703</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. Comparación ===== -->
+  <section class="sw-sec" id="comparacion" aria-labelledby="sw-comparacion">
+    <div class="sw-cab">
+      <span class="sw-kicker">Compara</span>
+      <h2 id="sw-comparacion">Las mismas funciones por mucho menos</h2>
+      <p>Compara MyTAXPrepOffice con otros programas de impuestos profesionales.</p>
+    </div>
+    <div class="sw-tabla-caja">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col"><span class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Función</span></th>
+            <th scope="col">Drake Tax<span>$2,395</span></th>
+            <th scope="col">TaxWise<span>$3,899</span></th>
+            <th scope="col">Intuit ProSeries<span>$5,495</span></th>
+            <th scope="col">TaxSlayer Pro<span>$1,695</span></th>
+            <th scope="col" class="sw-nuestro">MyTAXPrepOffice<span>$750</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">E-file sin límites</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Firma electrónica (sin costo extra)</th><td class="si">✓</td><td class="no" aria-label="No">✕</td><td class="no" aria-label="No">✕</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Declaraciones personales y corporativas ilimitadas</th><td class="si">✓</td><td class="si">✓</td><td class="no" aria-label="No">✕</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Todos los estados</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Soporte técnico</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Productos bancarios</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sw-tabla-nota">Precios de referencia de otros programas de impuestos profesionales. Desliza la tabla hacia los lados en tu teléfono.</p>
+  </section>
+
+  <!-- ===== 6. Cambio de software ===== -->
+  <section class="sw-sec sw-cambio" aria-labelledby="sw-cambio">
+    <div>
+      <span class="sw-kicker" style="color:#8fe0a2">No tengas miedo al cambio</span>
+      <h2 id="sw-cambio">Trae tus declaraciones de tu software anterior</h2>
+      <p>Convierte rápidamente tus declaraciones, la información de tus clientes, formularios y anexos a MyTAXPrepOffice. En el menú izquierdo de tu panel, selecciona tu software anterior y comienza la conversión.</p>
+      <ul class="sw-ruta" aria-label="Ruta en el menú">
+        <li>Declaraciones</li><li class="flecha" aria-hidden="true">→</li><li>Convertir Declaraciones</li><li class="flecha" aria-hidden="true">→</li><li>Elige tu software anterior</li>
+      </ul>
+    </div>
+    <a class="sw-btn sw-btn-verde" href="https://www.youtube.com/playlist?list=PLWdP2TwC9HM0iEyfzvgldTSiljJnnSvlY" target="_blank" rel="noopener">▶ Ver video con instrucciones</a>
+  </section>
+
+  <!-- ===== 7. Curso ===== -->
+  <section class="sw-sec" aria-labelledby="sw-curso">
+    <div class="sw-curso">
+      <div class="sw-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></div>
+      <div>
+        <h2 id="sw-curso">¿Todavía no sabes preparar impuestos?</h2>
+        <p>Aprende desde cero con nuestro Curso de Income Tax: practicas con software profesional, tienes un instructor asignado y recibes tu certificado al terminar.</p>
+      </div>
+      <a class="sw-btn sw-btn-verde" href="https://centrolatinodecapacitacion.net/curso-de-income-tax/" target="_blank" rel="noopener">Ver el Curso de Income Tax →</a>
+    </div>
+  </section>
+
+  <!-- ===== 8. Preguntas frecuentes ===== -->
+  <section class="sw-sec" id="preguntas" aria-labelledby="sw-preguntas">
+    <div class="sw-cab">
+      <span class="sw-kicker">Preguntas frecuentes</span>
+      <h2 id="sw-preguntas">Preguntas sobre el Software de Income Tax</h2>
+    </div>
+    <div class="sw-faq">
+      <details>
+        <summary>¿Cuánto cuesta el software de Income Tax?</summary>
+        <p>La licencia cuesta $750 al año e incluye declaraciones sin límite, todos los estados, e-file ilimitado con tu EFIN y 2 usuarios. Si estás iniciando, puedes usar la modalidad Pago x Declarar, con acceso gratis al software, y pagar solamente cuando solicitas el servicio.</p>
+      </details>
+      <details>
+        <summary>¿Qué diferencia hay entre la suscripción anual y el pago anual?</summary>
+        <p>Las dos cuestan $750 al año e incluyen lo mismo. Con la suscripción anual conservas el mismo precio al renovar mientras no la canceles. Con el pago anual la licencia es válida por un año y, al renovarla, pagas el precio disponible en ese momento.</p>
+      </details>
+      <details>
+        <summary>¿Qué plan me conviene?</summary>
+        <p>Si estás iniciando y tienes pocos clientes, te conviene Pago x Declarar. Si tienes más de 10 clientes, te conviene comprar la licencia, porque mantienes a tus clientes siempre guardados en el software. Si necesitas ayuda para decidir, llámanos de 1 a 7 pm (hora del Este) al <a href="tel:+19093440703">(909) 344-0703</a>.</p>
+      </details>
+      <details>
+        <summary>¿Puedo transmitir declaraciones electrónicamente (e-file)?</summary>
+        <p>Sí. Si tienes tu número EFIN, puedes transmitir al IRS todas las declaraciones que necesites, sin límite.</p>
+      </details>
+      <details>
+        <summary>¿Qué formularios y declaraciones puedo preparar?</summary>
+        <p>Declaraciones personales y de negocios: 1040, 1065, 1120, 1120S, 990, 1041, 706 y 709, además de los formularios de nómina 941, 940, 1099-NEC, W-2 y W-3. Incluye todos los estados y Puerto Rico.</p>
+      </details>
+      <details>
+        <summary>¿Cuántos usuarios incluye?</summary>
+        <p>Incluye 2 usuarios por oficina. Puedes agregar más usuarios en la misma oficina por solamente $50 cada uno.</p>
+      </details>
+      <details>
+        <summary>¿Me enseñan a usar el software?</summary>
+        <p>Sí. Al comprar la licencia del software recibes una clase gratis por Zoom para aprender a utilizarlo, y tienes asistencia técnica de preparadores expertos que hablan tu idioma.</p>
+      </details>
+      <details>
+        <summary>¿Puedo pagar el software en partes?</summary>
+        <p>Sí. Puedes dividir el costo de tu software en 4 pagos con Klarna. <a href="https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-con-klarna-software-de-income-tax/" target="_blank" rel="noopener">Solicitar pago con Klarna</a>.</p>
+      </details>
+      <details>
+        <summary>¿Puedo pasar mis declaraciones de otro software?</summary>
+        <p>Sí. En tu panel ve a Declaraciones &gt; Convertir Declaraciones, selecciona tu software anterior y comienza la conversión de declaraciones, información de clientes, formularios y anexos. <a href="https://www.youtube.com/playlist?list=PLWdP2TwC9HM0iEyfzvgldTSiljJnnSvlY" target="_blank" rel="noopener">Ver el video con instrucciones</a>.</p>
+      </details>
+      <details>
+        <summary>¿El software tiene firma electrónica y productos bancarios?</summary>
+        <p>Sí. Capturas la firma de tu cliente en la nube desde un dispositivo Apple o Android, y con los productos bancarios tus clientes reciben su dinero más rápido mientras tú generas ingreso adicional e imprimes el cheque en tu oficina.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ===== 9. Cierre ===== -->
+  <section class="sw-sec sw-cierre" aria-labelledby="sw-cierre">
+    <h2 id="sw-cierre">Empieza la temporada de impuestos con el software correcto</h2>
+    <p>Todas las funciones que necesita tu oficina por $750 al año, con una clase gratis para aprender a usarlo.</p>
+    <div class="sw-ctas">
+      <a class="sw-btn sw-btn-blanco" href="#planes">Ver planes y precios →</a>
+      <a class="sw-btn sw-btn-claro" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Software%20de%20Income%20Tax" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+    </div>
+    <div class="sw-tels">
+      <a href="tel:+17605533256">📞 (760) 553-3256</a>
+      <a href="tel:+19093440703">📞 (909) 344-0703</a>
+      <a href="tel:+19097880445">📞 (909) 788-0445</a>
+    </div>
+    <p class="sw-horario">Te atendemos de lunes a sábado, de 1 a 7 pm (hora del Este).</p>
+  </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/#software",
+      "name": "Software Profesional de Income Tax (MyTAXPrepOffice)",
+      "description": "Software de impuestos para preparadores: declaraciones personales, de negocios y corporativas (1040, 1065, 1120, 1120S, 1041, 990, 706, 709), nóminas (W-2, W-3, 1099-NEC, 940, 941), todos los estados y Puerto Rico, e-file ilimitado con EFIN, firma electrónica, productos bancarios y 2 usuarios.",
+      "url": "https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "es",
+      "image": "https://centrolatinodecapacitacion.net/wp-content/uploads/2026/06/My-tax-prep-price-comparison.png",
+      "offers": [
+        { "@type": "Offer", "name": "Suscripción anual (precio protegido)", "price": "750", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-suscripcion-software-de-income-tax/" },
+        { "@type": "Offer", "name": "Pago anual", "price": "750", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://centrolatinodecapacitacion.net/formulario-registracion-y-pago-para-software-de-income-tax/" },
+        { "@type": "Offer", "name": "Pago x Declarar", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://centrolatinodecapacitacion.net/solicitar-acceso-software-de-income-tax-gratis/" }
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "Centro Latino de Capacitación",
+        "url": "https://centrolatinodecapacitacion.net/",
+        "telephone": "+1-909-344-0703"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/#preguntas",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Cuánto cuesta el software de Income Tax?", "acceptedAnswer": { "@type": "Answer", "text": "La licencia cuesta $750 al año e incluye declaraciones sin límite, todos los estados, e-file ilimitado con tu EFIN y 2 usuarios. Si estás iniciando, puedes usar la modalidad Pago x Declarar, con acceso gratis al software, y pagar solamente cuando solicitas el servicio." } },
+        { "@type": "Question", "name": "¿Qué diferencia hay entre la suscripción anual y el pago anual?", "acceptedAnswer": { "@type": "Answer", "text": "Las dos cuestan $750 al año e incluyen lo mismo. Con la suscripción anual conservas el mismo precio al renovar mientras no la canceles. Con el pago anual la licencia es válida por un año y, al renovarla, pagas el precio disponible en ese momento." } },
+        { "@type": "Question", "name": "¿Qué plan me conviene?", "acceptedAnswer": { "@type": "Answer", "text": "Si estás iniciando y tienes pocos clientes, te conviene Pago x Declarar. Si tienes más de 10 clientes, te conviene comprar la licencia, porque mantienes a tus clientes siempre guardados en el software. Si necesitas ayuda para decidir, llámanos de 1 a 7 pm (hora del Este) al (909) 344-0703." } },
+        { "@type": "Question", "name": "¿Puedo transmitir declaraciones electrónicamente (e-file)?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Si tienes tu número EFIN, puedes transmitir al IRS todas las declaraciones que necesites, sin límite." } },
+        { "@type": "Question", "name": "¿Qué formularios y declaraciones puedo preparar?", "acceptedAnswer": { "@type": "Answer", "text": "Declaraciones personales y de negocios: 1040, 1065, 1120, 1120S, 990, 1041, 706 y 709, además de los formularios de nómina 941, 940, 1099-NEC, W-2 y W-3. Incluye todos los estados y Puerto Rico." } },
+        { "@type": "Question", "name": "¿Cuántos usuarios incluye?", "acceptedAnswer": { "@type": "Answer", "text": "Incluye 2 usuarios por oficina. Puedes agregar más usuarios en la misma oficina por solamente $50 cada uno." } },
+        { "@type": "Question", "name": "¿Me enseñan a usar el software?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Al comprar la licencia del software recibes una clase gratis por Zoom para aprender a utilizarlo, y tienes asistencia técnica de preparadores expertos que hablan tu idioma." } },
+        { "@type": "Question", "name": "¿Puedo pagar el software en partes?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Puedes dividir el costo de tu software en 4 pagos con Klarna." } },
+        { "@type": "Question", "name": "¿Puedo pasar mis declaraciones de otro software?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. En tu panel ve a Declaraciones > Convertir Declaraciones, selecciona tu software anterior y comienza la conversión de declaraciones, información de clientes, formularios y anexos." } },
+        { "@type": "Question", "name": "¿El software tiene firma electrónica y productos bancarios?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Capturas la firma de tu cliente en la nube desde un dispositivo Apple o Android, y con los productos bancarios tus clientes reciben su dinero más rápido mientras tú generas ingreso adicional e imprimes el cheque en tu oficina." } }
+      ]
+    }
+  ]
+}
+</script>
+</div>
