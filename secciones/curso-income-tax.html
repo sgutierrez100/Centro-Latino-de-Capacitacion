@@ -48,20 +48,18 @@
 .clc-tax .tx-precio-nota{margin-top:16px;font-size:15px;color:#c3d6ec}
 .clc-tax .tx-precio-nota strong{color:#fff}
 
-/* Tarjeta de práctica (ilustración) */
-.clc-tax .tx-mock{position:relative;background:#fff;color:var(--texto);border-radius:20px;padding:22px;box-shadow:0 30px 60px rgba(4,18,40,.45)}
-.clc-tax .tx-mock-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid var(--borde);margin-bottom:12px}
-.clc-tax .tx-mock-top strong{font-size:16px;color:var(--navy)}
-.clc-tax .tx-mock-top span{font-size:12px;font-weight:700;color:var(--verde-osc);background:var(--fondo-verde);border-radius:999px;padding:4px 10px}
-.clc-tax .tx-mock li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px dashed var(--borde);font-size:15px}
-.clc-tax .tx-mock li:last-child{border-bottom:0}
-.clc-tax .tx-mock li small{display:block;color:var(--suave);font-size:13px}
-.clc-tax .tx-ok{width:26px;height:26px;border-radius:50%;background:var(--verde);display:flex;align-items:center;justify-content:center}
-.clc-tax .tx-ok svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:3}
-.clc-tax .tx-barra{height:8px;background:var(--fondo-azul);border-radius:99px;margin-top:14px;overflow:hidden}
-.clc-tax .tx-barra i{display:block;height:100%;width:86%;background:linear-gradient(90deg,var(--azul),var(--verde));border-radius:99px}
-.clc-tax .tx-mock-badge{position:absolute;left:-18px;bottom:-22px;background:var(--navy);color:#fff;border:3px solid #fff;border-radius:14px;padding:10px 14px;font-size:14px;font-weight:700;display:flex;gap:8px;align-items:center;box-shadow:0 12px 24px rgba(4,18,40,.3)}
-.clc-tax .tx-mock-badge svg{width:20px;height:20px;stroke:var(--verde);fill:none;stroke-width:2.4}
+/* Tarjeta de oferta */
+.clc-tax .tx-oferta{position:relative;background:#fff;color:var(--texto);border-radius:22px;padding:30px 28px 24px;box-shadow:0 30px 60px rgba(4,18,40,.45);text-align:center}
+.clc-tax .tx-oferta-sello{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--verde);color:#fff;font-size:13px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:999px;padding:6px 16px;white-space:nowrap;box-shadow:0 6px 16px rgba(76,194,102,.4)}
+.clc-tax .tx-oferta-titulo{font-size:18px;font-weight:700;color:var(--navy);margin-top:6px}
+.clc-tax .tx-oferta-precio{display:flex;align-items:center;justify-content:center;gap:12px;margin:12px 0 4px}
+.clc-tax .tx-oferta-precio strong{font-size:54px;font-weight:800;color:var(--navy);line-height:1}
+.clc-tax .tx-oferta-precio span{text-align:left;font-size:14px;color:var(--suave);line-height:1.4}
+.clc-tax .tx-oferta ul{text-align:left;margin:18px 0 22px;border-top:1px solid var(--borde);padding-top:14px}
+.clc-tax .tx-oferta li{position:relative;padding:6px 0 6px 28px;font-size:15.5px}
+.clc-tax .tx-oferta li::before{content:"✓";position:absolute;left:4px;color:var(--verde-osc);font-weight:800}
+.clc-tax .tx-oferta .tx-btn{width:100%}
+.clc-tax .tx-oferta small{display:block;margin-top:10px;font-size:13px;color:var(--suave)}
 
 /* Cifras */
 .clc-tax .tx-cifras{position:relative;z-index:2;margin:-54px 32px 0;background:#fff;border:1px solid var(--borde);border-radius:20px;box-shadow:0 18px 40px rgba(15,42,74,.12);display:grid;grid-template-columns:repeat(4,1fr)}
@@ -103,26 +101,13 @@
 .clc-tax .tx-incluye h3{font-size:19px;margin-bottom:6px}
 .clc-tax .tx-incluye p{color:var(--suave);font-size:15px}
 
-/* Temario */
-.clc-tax .tx-temario{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:start}
-.clc-tax .tx-resumen{position:sticky;top:110px;background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;border-radius:22px;padding:30px}
-.clc-tax .tx-resumen h2{color:#fff;font-size:clamp(26px,3vw,34px);font-weight:800}
-.clc-tax .tx-resumen p{color:#d9e7f6;margin-top:12px;font-size:16px}
-.clc-tax .tx-resumen ul{margin:20px 0 24px}
-.clc-tax .tx-resumen li{display:flex;gap:10px;align-items:flex-start;padding:7px 0;font-weight:600}
-.clc-tax .tx-resumen li svg{width:20px;height:20px;margin-top:2px}
-.clc-tax .tx-resumen .tx-btn{width:100%}
-.clc-tax .tx-modulos details{background:#fff;border:1px solid var(--borde);border-radius:14px;margin-bottom:10px;transition:box-shadow .15s}
-.clc-tax .tx-modulos details[open]{box-shadow:0 8px 22px rgba(15,42,74,.08);border-color:#c9daee}
-.clc-tax .tx-modulos summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:14px;padding:16px 46px 16px 16px;position:relative;font-weight:700;font-size:17px;color:var(--navy)}
-.clc-tax .tx-modulos summary::-webkit-details-marker{display:none}
-.clc-tax .tx-modulos summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:var(--azul-osc)}
-.clc-tax .tx-modulos details[open] summary::after{content:"–"}
-.clc-tax .tx-num{flex:0 0 38px;height:38px;border-radius:10px;background:var(--fondo-azul);color:var(--azul-osc);font-size:15px;font-weight:800;display:flex;align-items:center;justify-content:center}
-.clc-tax .tx-gratis{font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--verde-osc);background:var(--fondo-verde);border-radius:999px;padding:3px 9px;margin-left:auto}
-.clc-tax .tx-modulos ul{padding:0 18px 18px 68px}
-.clc-tax .tx-modulos li{position:relative;padding:4px 0 4px 20px;color:var(--suave);font-size:15.5px}
-.clc-tax .tx-modulos li::before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--azul)}
+/* Temario (llamado a la acción) */
+.clc-tax .tx-temario-cta{display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;border-radius:28px;padding:48px;color:#fff;background:radial-gradient(circle at 90% 10%,rgba(79,179,227,.3),transparent 45%),linear-gradient(135deg,var(--navy),var(--navy2))}
+.clc-tax .tx-temario-cta h2{color:#fff;font-size:clamp(26px,3.2vw,36px);font-weight:800}
+.clc-tax .tx-temario-cta p{color:#d9e7f6;font-size:17px;margin-top:10px;max-width:640px}
+.clc-tax .tx-temas{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.clc-tax .tx-temas li{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.clc-tax .tx-temario-cta .tx-btn{white-space:nowrap}
 
 /* Al terminar */
 .clc-tax .tx-split{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:stretch}
@@ -134,11 +119,13 @@
 .clc-tax .tx-negocio{background:var(--fondo-verde);border:1px solid #d3ecd9;border-radius:22px;padding:30px}
 .clc-tax .tx-negocio h3{font-size:22px;margin-bottom:8px}
 .clc-tax .tx-negocio > p{color:var(--suave);font-size:16px;margin-bottom:18px}
-.clc-tax .tx-enlace{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid #d3ecd9;border-radius:14px;padding:14px 16px;margin-bottom:10px;color:var(--texto)!important;transition:transform .15s,box-shadow .15s}
-.clc-tax .tx-enlace:hover{transform:translateX(4px);box-shadow:0 6px 16px rgba(47,158,75,.15)}
-.clc-tax .tx-enlace strong{display:block;color:var(--navy);font-size:16px}
-.clc-tax .tx-enlace small{color:var(--suave);font-size:14px}
-.clc-tax .tx-enlace .tx-flecha{margin-left:auto;color:var(--verde-osc);font-weight:800;font-size:20px}
+.clc-tax .tx-camino{counter-reset:camino}
+.clc-tax .tx-camino li{position:relative;counter-increment:camino;padding:0 0 20px 54px}
+.clc-tax .tx-camino li:last-child{padding-bottom:0}
+.clc-tax .tx-camino li::before{content:counter(camino);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--verde);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.clc-tax .tx-camino li:not(:last-child)::after{content:"";position:absolute;left:18px;top:42px;bottom:4px;width:2px;background:#bfe5c9}
+.clc-tax .tx-camino strong{display:block;color:var(--navy);font-size:17px;line-height:1.3;padding-top:7px}
+.clc-tax .tx-camino span{color:var(--suave);font-size:15px}
 
 /* Precios */
 .clc-tax .tx-prueba{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;background:var(--fondo-verde);border:2px dashed #9fd9ad;border-radius:18px;padding:20px 24px;margin-bottom:26px}
@@ -197,9 +184,9 @@
 /* Responsive */
 @media (max-width:1024px){
   .clc-tax .tx-hero{grid-template-columns:1fr;padding:48px 36px 92px}
-  .clc-tax .tx-mock{max-width:520px}
-  .clc-tax .tx-temario,.clc-tax .tx-split{grid-template-columns:1fr}
-  .clc-tax .tx-resumen{position:static}
+  .clc-tax .tx-oferta{max-width:440px;margin-top:10px}
+  .clc-tax .tx-split,.clc-tax .tx-temario-cta{grid-template-columns:1fr}
+  .clc-tax .tx-temario-cta .tx-btn{justify-self:start}
   .clc-tax .tx-instructor{grid-template-columns:auto 1fr}
   .clc-tax .tx-contactos{grid-column:1/-1;flex-direction:row;flex-wrap:wrap}
   .clc-tax .tx-cursos{grid-template-columns:1fr 1fr}
@@ -220,11 +207,11 @@
   .clc-tax .tx-lead{font-size:17px}
   .clc-tax .tx-checks{grid-template-columns:1fr}
   .clc-tax .tx-ctas .tx-btn{width:100%}
-  .clc-tax .tx-mock-badge{left:10px;bottom:-20px}
   .clc-tax .tx-cifras strong{font-size:24px}
   .clc-tax .tx-sec{margin-top:64px}
   .clc-tax .tx-incluye,.clc-tax .tx-cursos{grid-template-columns:1fr}
-  .clc-tax .tx-modulos ul{padding:0 16px 16px 20px}
+  .clc-tax .tx-temario-cta{padding:34px 20px;border-radius:20px}
+  .clc-tax .tx-temario-cta .tx-btn{width:100%;white-space:normal}
   .clc-tax .tx-instructor{grid-template-columns:1fr;text-align:center;padding:26px 20px}
   .clc-tax .tx-avatar{margin:0 auto}
   .clc-tax .tx-contactos{flex-direction:column}
@@ -241,7 +228,7 @@
       <p class="tx-lead">Aprende a preparar declaraciones de impuestos desde cero y conviértete en un profesional de los taxes. Practicas desde la primera lección con software profesional de Income Tax y un instructor asignado que revisa tus tareas.</p>
       <ul class="tx-checks">
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Sin experiencia previa</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>A tu ritmo, en unas 4 semanas</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>A tu ritmo</li>
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Software profesional incluido</li>
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Certificado al terminar</li>
       </ul>
@@ -249,20 +236,21 @@
         <a class="tx-btn tx-btn-verde" href="https://centrolatinodecapacitacion.net/course/curso-de-income-tax-para-principiantes/" target="_blank" rel="noopener">Ver el primer módulo gratis →</a>
         <a class="tx-btn tx-btn-claro" href="#precios">Ver precios</a>
       </div>
-      <p class="tx-precio-nota">Solo pagas si el curso es de tu agrado: <strong>$175 en un solo pago</strong> o <strong>8 cuotas semanales de $25</strong>.</p>
     </div>
 
-    <div class="tx-mock" aria-hidden="true">
-      <div class="tx-mock-top"><strong>Declaración de práctica · Formulario 1040</strong><span>En el software</span></div>
+    <div class="tx-oferta">
+      <span class="tx-oferta-sello">Primer módulo GRATIS</span>
+      <p class="tx-oferta-titulo">Curso de Income Tax completo</p>
+      <div class="tx-oferta-precio"><strong>$175</strong><span>pago único<br>o 8 cuotas semanales de $25</span></div>
       <ul>
-        <li><div>Información del cliente<small>Datos personales y dependientes</small></div><span class="tx-ok"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4L18 8"/></svg></span></li>
-        <li><div>Estado civil<small>Cabeza de familia (HOH)</small></div><span class="tx-ok"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4L18 8"/></svg></span></li>
-        <li><div>Ingresos<small>W-2 · 1099-NEC · Schedule C</small></div><span class="tx-ok"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4L18 8"/></svg></span></li>
-        <li><div>Créditos<small>EITC · CTC · AOTC</small></div><span class="tx-ok"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4L18 8"/></svg></span></li>
-        <li><div>Declaración estatal<small>Lista para revisar</small></div><span class="tx-ok"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4L18 8"/></svg></span></li>
+        <li>Software profesional de Income Tax</li>
+        <li>Libros digitales en PDF</li>
+        <li>Instructor asignado</li>
+        <li>Certificado de completación</li>
+        <li>10 semanas de acceso</li>
       </ul>
-      <div class="tx-barra"><i></i></div>
-      <div class="tx-mock-badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 3 3 5-6"/></svg>Tu instructor revisa tu tarea</div>
+      <a class="tx-btn tx-btn-verde" href="https://centrolatinodecapacitacion.net/course/curso-de-income-tax-para-principiantes/" target="_blank" rel="noopener">Empezar gratis →</a>
+      <small>Solo pagas si el curso es de tu agrado</small>
     </div>
   </header>
 
@@ -313,7 +301,7 @@
       </li>
       <li>
         <h3>Practica en el software</h3>
-        <p>Preparas declaraciones con el software tributario profesional y con simuladores, desde la primera lección.</p>
+        <p>Preparas declaraciones con el software tributario profesional.</p>
       </li>
       <li>
         <h3>Recibe la revisión de tu instructor</h3>
@@ -357,85 +345,17 @@
     </ul>
   </section>
 
-  <!-- ===== 5. Temario ===== -->
-  <section class="tx-sec" id="temario" aria-labelledby="tx-temario">
-    <div class="tx-temario">
-      <aside class="tx-resumen">
-        <span class="tx-kicker" style="color:#8fe0a2">Temario completo</span>
-        <h2 id="tx-temario">¿Qué aprenderás en el curso de Income Tax?</h2>
-        <p>Un programa completo con las formas, anexos y créditos clave del IRS para individuos y pequeños negocios.</p>
-        <ul>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Más de 60 lecciones en video y PDF</li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Prácticas con simuladores y tareas</li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Actualización tributaria 2026–2027</li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Las primeras lecciones son gratis</li>
-        </ul>
-        <a class="tx-btn tx-btn-verde" href="https://centrolatinodecapacitacion.net/course/curso-de-income-tax-para-principiantes/" target="_blank" rel="noopener">Empezar gratis →</a>
-      </aside>
-
-      <div class="tx-modulos">
-        <details open>
-          <summary><span class="tx-num">01</span>Introducción a la declaración de impuestos<span class="tx-gratis">Gratis</span></summary>
-          <ul><li>Lo que aprenderás y cómo tomar las clases</li><li>El software de impuestos del curso</li><li>Cómo tomar la información del cliente</li><li>El nuevo Formulario 1040</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">02</span>Contribuyente soltero sin dependientes</summary>
-          <ul><li>Estados de presentación (filing status)</li><li>La declaración estatal</li><li>Créditos para solteros sin dependientes</li><li>Casos prácticos, tareas y simulador</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">03</span>Créditos tributarios</summary>
-          <ul><li>Clasificación y uso de los créditos</li><li>Crédito por Ingreso del Trabajo (EITC)</li><li>Crédito tributario por hijos (CTC/ACTC)</li><li>Créditos por estudios (AOTC/LLC) y por otros dependientes (ODC)</li><li>Simulador de créditos reembolsables y no reembolsables</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">04</span>Contribuyente casado y dependientes</summary>
-          <ul><li>Casado declarando juntos (MFJ) y por separado (MFS)</li><li>Los dependientes: reglas y clasificación</li><li>Declaraciones de matrimonios con hijos</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">05</span>Cabeza de familia (Head of Household)</summary>
-          <ul><li>El estatus de cabeza de familia (HOH)</li><li>Deducción estándar y deducción detallada: diferencias y uso</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">06</span>Mercado de salud: Formularios 1095-A y 8962</summary>
-          <ul><li>Cómo reportar el seguro médico del Mercado de Salud</li><li>Declaración completa con el Formulario 8962</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">07</span>Uber, Lyft, DoorDash y trabajos similares</summary>
-          <ul><li>Deducción de millas o de gastos reales</li><li>Declaración de negocios con el Schedule C</li><li>Casos de conductores con y sin hijos</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">08</span>Contribuyentes con ingresos de rentas</summary>
-          <ul><li>Cómo declarar ingresos por alquiler</li><li>Caso práctico y tarea</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">09</span>Pequeños negocios y LLC de un miembro</summary>
-          <ul><li>La LLC y su función</li><li>Casos de negocios: jardinería y daycare</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">10</span>Declaraciones con solicitud de ITIN</summary>
-          <ul><li>El número ITIN y su proceso de aplicación</li><li>ITIN para trabajadores por cuenta propia</li><li>ITIN para toda la familia</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">11</span>Enmiendas y ética del preparador</summary>
-          <ul><li>Cómo corregir una declaración (enmiendas)</li><li>Ética profesional del preparador de impuestos</li><li>Robo de identidad</li><li>Contactos importantes para el preparador</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">12</span>Licencia y registro para iniciar tu negocio<span class="tx-gratis">Gratis</span></summary>
-          <ul><li>Registro del PTIN con el IRS</li><li>Registro del EFIN con el IRS</li><li>Requisitos estatales de licencia</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">13</span>Actualización tributaria 2026–2027</summary>
-          <ul><li>Formulario 1040 (2026) y sus nuevos anexos</li><li>Schedule 1-A: horas extra, propinas, intereses y mayores de 65</li><li>Formulario 4547: bono de $1,000 para bebés</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">14</span>¿Qué sigue después del curso?</summary>
-          <ul><li>Tu certificado del curso</li><li>Productos bancarios para tus clientes</li><li>Cómo iniciar tu negocio como preparador de impuestos</li><li>Seguro de errores y omisiones</li><li>Registro al software de Income Tax profesional</li><li>Certificación anual IRS-AFSP, Agente de Aceptación ITIN y Agente Registrado (Enrolled Agent)</li></ul>
-        </details>
-        <details>
-          <summary><span class="tx-num">15</span>Recursos del software</summary>
-          <ul><li>Cómo iniciar una nueva declaración</li><li>Depreciación usando el software</li></ul>
-        </details>
-      </div>
+  <!-- ===== 5. Temario (llamado a la acción) ===== -->
+  <section class="tx-sec tx-temario-cta" id="temario" aria-labelledby="tx-temario">
+    <div>
+      <span class="tx-kicker" style="color:#8fe0a2">Temario</span>
+      <h2 id="tx-temario">Conoce el temario completo del curso</h2>
+      <p>Más de 60 lecciones en 14 módulos, desde tu primera declaración de impuestos hasta iniciar tu propio negocio.</p>
+      <ul class="tx-temas">
+        <li>Formulario 1040</li><li>Estados civiles y dependientes</li><li>Créditos EITC y CTC</li><li>Uber, Lyft y DoorDash</li><li>Rentas y LLC</li><li>ITIN</li><li>Enmiendas y ética</li><li>PTIN y EFIN</li><li>Actualización 2026–2027</li>
+      </ul>
     </div>
+    <a class="tx-btn tx-btn-verde" href="https://centrolatinodecapacitacion.net/course/curso-de-income-tax-para-principiantes/" target="_blank" rel="noopener">Ver el temario completo →</a>
   </section>
 
   <!-- ===== 6. Al terminar ===== -->
@@ -454,11 +374,14 @@
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Cumplir con las licencias de tu estado</strong><span>Conocerás los requisitos estatales de licencia para trabajar como preparador.</span></div></li>
       </ul>
       <div class="tx-negocio">
-        <h3>Prueba estas lecciones gratis</h3>
-        <p>Algunas lecciones del módulo de licencias están abiertas para que conozcas el curso antes de pagar.</p>
-        <a class="tx-enlace" href="https://centrolatinodecapacitacion.net/lesson/registracion-ptin-con-el-irs/" target="_blank" rel="noopener"><div><strong>Registro del PTIN con el IRS</strong><small>Tu número de preparador de impuestos</small></div><span class="tx-flecha" aria-hidden="true">→</span></a>
-        <a class="tx-enlace" href="https://centrolatinodecapacitacion.net/lesson/registracion-efin-con-el-irs/" target="_blank" rel="noopener"><div><strong>Registro del EFIN con el IRS</strong><small>Para transmitir declaraciones electrónicas</small></div><span class="tx-flecha" aria-hidden="true">→</span></a>
-        <a class="tx-enlace" href="https://centrolatinodecapacitacion.net/lesson/requisitos-estatales/" target="_blank" rel="noopener"><div><strong>Requisitos estatales de licencia</strong><small>Qué pide tu estado para preparar impuestos</small></div><span class="tx-flecha" aria-hidden="true">→</span></a>
+        <h3>Tu camino como preparador de impuestos</h3>
+        <p>Así pasas del curso a tu primer cliente.</p>
+        <ol class="tx-camino">
+          <li><strong>Termina el curso</strong><span>Recibe tu certificado de completación.</span></li>
+          <li><strong>Tramita tu PTIN</strong><span>Tu número de preparador de impuestos ante el IRS.</span></li>
+          <li><strong>Regístrate para e-file</strong><span>Obtén tu EFIN para transmitir declaraciones.</span></li>
+          <li><strong>Empieza a trabajar</strong><span>Cumple los requisitos de tu estado y abre tu negocio o únete a una oficina de impuestos.</span></li>
+        </ol>
       </div>
     </div>
   </section>
@@ -511,7 +434,7 @@
       </div>
       <div class="tx-contactos">
         <a class="tx-btn tx-btn-wa" href="https://wa.me/19093440703?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Curso%20de%20Income%20Tax" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.21-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.21 4.24-9.45 9.46-9.45 2.53 0 4.9.99 6.69 2.78a9.4 9.4 0 0 1 2.77 6.69c0 5.21-4.24 9.45-9.44 9.45m8.04-17.49A11.3 11.3 0 0 0 12.04.68C5.77.68.66 5.78.66 12.05c0 2 .52 3.96 1.52 5.69L.57 23.6l6.02-1.58a11.35 11.35 0 0 0 5.44 1.39h.01c6.26 0 11.37-5.1 11.37-11.37 0-3.04-1.18-5.89-3.33-8.04"/></svg>WhatsApp (909) 344-0703</a>
-        <a class="tx-btn tx-btn-borde" href="tel:+19097880445">📞 Llamar (909) 788-0445</a>
+        <a class="tx-btn tx-btn-borde" href="tel:+19093440703">📞 Llamar (909) 344-0703</a>
       </div>
     </div>
   </section>
@@ -585,7 +508,7 @@
       </details>
       <details>
         <summary>¿Cómo me comunico con el instructor?</summary>
-        <p>Tu instructor, Francisco Arce, te atiende de 1:00 a 7:00 p. m. (hora del Este) por teléfono al <a href="tel:+19097880445">(909) 788-0445</a> o por WhatsApp al <a href="https://wa.me/19093440703" target="_blank" rel="noopener">(909) 344-0703</a>.</p>
+        <p>Tu instructor, Francisco Arce, te atiende de 1:00 a 7:00 p. m. (hora del Este) por teléfono o WhatsApp al <a href="tel:+19093440703">(909) 344-0703</a>.</p>
       </details>
     </div>
   </section>
@@ -652,7 +575,7 @@
         { "@type": "Question", "name": "¿Qué voy a poder hacer cuando termine el curso?", "acceptedAnswer": { "@type": "Answer", "text": "Podrás preparar declaraciones de impuestos individuales y de pequeños negocios, y estarás listo para abrir tu propio negocio de impuestos o trabajar en una agencia o firma de impuestos." } },
         { "@type": "Question", "name": "¿El curso me ayuda con el PTIN, el EFIN y la licencia de mi estado?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. El curso incluye lecciones sobre el registro del PTIN y del EFIN con el IRS y sobre los requisitos estatales de licencia, y te acompañamos para que te registres y obtengas las licencias que se requieran." } },
         { "@type": "Question", "name": "¿Puedo tomar el curso desde cualquier lugar?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. El curso es 100% en línea: estudias desde cualquier lugar, en el horario que mejor te convenga, a través de nuestra plataforma virtual." } },
-        { "@type": "Question", "name": "¿Cómo me comunico con el instructor?", "acceptedAnswer": { "@type": "Answer", "text": "Tu instructor, Francisco Arce, te atiende de 1:00 a 7:00 p. m. (hora del Este) por teléfono al (909) 788-0445 o por WhatsApp al (909) 344-0703." } }
+        { "@type": "Question", "name": "¿Cómo me comunico con el instructor?", "acceptedAnswer": { "@type": "Answer", "text": "Tu instructor, Francisco Arce, te atiende de 1:00 a 7:00 p. m. (hora del Este) por teléfono o WhatsApp al (909) 344-0703." } }
       ]
     }
   ]
