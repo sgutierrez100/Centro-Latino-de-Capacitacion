@@ -72,6 +72,12 @@
 .clc-sw .sw-premios p{font-size:14px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--suave);margin-bottom:6px}
 .clc-sw .sw-premios img{margin:0 auto}
 
+/* Calificaciones */
+.clc-sw .sw-notas{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:14px}
+.clc-sw .sw-notas li{background:#fff;border:1px solid var(--borde);border-radius:14px;padding:10px 18px;font-size:14.5px;color:var(--suave);box-shadow:0 2px 10px rgba(15,42,74,.05)}
+.clc-sw .sw-notas strong{color:var(--navy);font-size:16px;margin-right:4px}
+.clc-sw .sw-notas .estrellas{color:#f5a623;letter-spacing:1px;margin-right:4px}
+
 /* Secciones */
 .clc-sw .sw-sec{margin-top:84px}
 .clc-sw .sw-cab{text-align:center;max-width:780px;margin:0 auto 34px}
@@ -88,6 +94,22 @@
 .clc-sw .sw-ico.azul svg{stroke:var(--azul-osc)}
 .clc-sw .sw-card h3{font-size:19px;font-weight:700;margin-bottom:8px}
 .clc-sw .sw-card p{color:var(--suave);font-size:15.5px}
+
+/* Más herramientas */
+.clc-sw .sw-nube{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;align-items:stretch}
+.clc-sw .sw-nube-destacado{border-radius:24px;padding:34px;color:#fff;background:radial-gradient(circle at 90% 10%,rgba(79,179,227,.35),transparent 45%),linear-gradient(135deg,var(--navy),var(--navy2))}
+.clc-sw .sw-nube-destacado h3{color:#fff;font-size:24px;margin-bottom:10px}
+.clc-sw .sw-nube-destacado p{color:#d9e7f6;font-size:16px}
+.clc-sw .sw-disp{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.clc-sw .sw-disp li{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.clc-sw .sw-nube-destacado .sw-seguro{display:flex;gap:12px;align-items:flex-start;margin-top:22px;padding-top:20px;border-top:1px solid rgba(255,255,255,.18)}
+.clc-sw .sw-nube-destacado .sw-seguro svg{width:30px;height:30px;fill:none;stroke:#8fe0a2;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.clc-sw .sw-nube-destacado .sw-seguro strong{display:block;color:#fff;font-size:16.5px}
+.clc-sw .sw-nube-destacado .sw-seguro span{color:#c3d6ec;font-size:15px}
+.clc-sw .sw-herr{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.clc-sw .sw-herr li{background:#fff;border:1px solid var(--borde);border-radius:16px;padding:18px 18px 16px}
+.clc-sw .sw-herr strong{display:block;color:var(--navy);font-size:16.5px;line-height:1.3;margin-bottom:4px}
+.clc-sw .sw-herr span{color:var(--suave);font-size:14.5px;display:block}
 
 /* Formularios */
 .clc-sw .sw-formas{display:grid;grid-template-columns:1fr 1fr;gap:22px}
@@ -137,6 +159,10 @@
 .clc-sw td.sw-nuestro{background:#eaf1fa!important;color:var(--navy)!important;font-weight:800}
 .clc-sw .si{color:var(--verde-osc);font-weight:800;font-size:19px}
 .clc-sw .no{color:#c0392b;font-weight:800;font-size:19px}
+.clc-sw .sw-ahorro{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin:22px auto 0;max-width:900px;background:var(--fondo-verde);border:1px solid #d3ecd9;border-radius:18px;padding:18px 24px;text-align:center}
+.clc-sw .sw-ahorro p{font-size:16.5px;color:var(--texto)}
+.clc-sw .sw-ahorro s{color:var(--suave)}
+.clc-sw .sw-ahorro strong{color:var(--verde-osc)}
 .clc-sw .sw-tabla-nota{font-size:13.5px;color:var(--suave);text-align:center;margin-top:12px}
 
 /* Cambio de software */
@@ -189,7 +215,7 @@
   .clc-sw .sw-cifras{grid-template-columns:1fr 1fr;margin:-54px 16px 0}
   .clc-sw .sw-cifras li:nth-child(2){border-right:0}
   .clc-sw .sw-cifras li:nth-child(-n+2){border-bottom:1px solid var(--borde)}
-  .clc-sw .sw-formas,.clc-sw .sw-guia,.clc-sw .sw-extras{grid-template-columns:1fr}
+  .clc-sw .sw-formas,.clc-sw .sw-guia,.clc-sw .sw-extras,.clc-sw .sw-nube{grid-template-columns:1fr}
   .clc-sw .sw-planes{grid-template-columns:1fr;max-width:460px;margin:0 auto;gap:30px}
 }
 @media (max-width:600px){
@@ -201,6 +227,8 @@
   .clc-sw .sw-sec{margin-top:64px}
   .clc-sw .sw-funciones{grid-template-columns:1fr}
   .clc-sw .sw-forma{padding:24px 20px}
+  .clc-sw .sw-herr{grid-template-columns:1fr}
+  .clc-sw .sw-nube-destacado{padding:28px 20px}
   .clc-sw .sw-cambio{padding:34px 20px;border-radius:20px}
   .clc-sw .sw-cambio .sw-btn{width:100%;white-space:normal}
   .clc-sw .sw-curso{grid-template-columns:1fr;text-align:center;padding:26px 20px}
@@ -213,9 +241,9 @@
   <!-- ===== 1. Portada ===== -->
   <header class="sw-hero">
     <div>
-      <p class="sw-eyebrow">Para preparadores de impuestos</p>
+      <p class="sw-eyebrow">Software en la nube para preparadores de impuestos</p>
       <h1>Software Profesional de Income Tax</h1>
-      <p class="sw-lead">Impulsa tu negocio de impuestos con funcionalidad, precisión y facilidad, todo por un precio accesible. Declaraciones personales y de negocios, todos los estados y e-file sin límites en un solo programa de impuestos.</p>
+      <p class="sw-lead">Impulsa tu negocio de impuestos con funcionalidad, precisión y facilidad, todo por un precio accesible. Declaraciones personales y de negocios, todos los estados y e-file sin límites en un solo programa de impuestos que funciona desde tu computadora, tableta o teléfono.</p>
       <ul class="sw-checks">
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>E-file sin límites</li>
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4CC266"/><path d="m7 12.5 3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Todos los estados y Puerto Rico</li>
@@ -254,6 +282,11 @@
   <div class="sw-premios">
     <p>Software reconocido por preparadores</p>
     <img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/06/My-Tax-ratings-1.png" width="1138" height="325" loading="lazy" decoding="async" alt="Reconocimientos del software de impuestos MyTAXPrepOffice: Top-Rated en Software Advice, #1 en Sitejabber, Readers' Choice 2024 de CPA Practice Advisor y A+ en el BBB">
+    <ul class="sw-notas">
+      <li><strong>#2</strong>Readers' Choice Awards 2026 de CPA Practice Advisor</li>
+      <li><span class="estrellas" aria-hidden="true">★★★★★</span><strong>4.6/5</strong>en Capterra</li>
+      <li><strong>A+</strong>en el BBB · 4.77/5</li>
+    </ul>
   </div>
 
   <!-- ===== 2. Funciones ===== -->
@@ -304,6 +337,34 @@
         <h3>Asistencia técnica</h3>
         <p>Te ayudan preparadores expertos que hablan tu idioma y entienden las necesidades de los hispanos.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- ===== 2b. Más herramientas ===== -->
+  <section class="sw-sec" id="herramientas" aria-labelledby="sw-herramientas">
+    <div class="sw-cab">
+      <span class="sw-kicker">Más herramientas incluidas</span>
+      <h2 id="sw-herramientas">Trabaja desde cualquier lugar, con tus datos protegidos</h2>
+      <p>MyTAXPrepOffice está en la nube: no instalas nada y tu trabajo se mantiene sincronizado en todos tus dispositivos.</p>
+    </div>
+    <div class="sw-nube">
+      <div class="sw-nube-destacado">
+        <h3>100% en la nube</h3>
+        <p>Entras desde el navegador, sin descargas ni redes, y pasas de la oficina a tu casa sin perder nada. Preparas declaraciones, haces e-file y atiendes a tus clientes desde donde estés.</p>
+        <ul class="sw-disp"><li>PC con Windows</li><li>Mac</li><li>Tableta</li><li>iPhone y Android</li></ul>
+        <div class="sw-seguro">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+          <div><strong>Tus datos, seguros</strong><span>Desarrollador y transmisor autorizado por el IRS. Información cifrada con TLS/SSL y cifrado AES de 256 bits.</span></div>
+        </div>
+      </div>
+      <ul class="sw-herr">
+        <li><strong>Portal de clientes (MyTAXPortal)</strong><span>Con tu logo: recibe documentos e información, envía declaraciones para revisión y pide firmas a distancia.</span></li>
+        <li><strong>Asistente con inteligencia artificial</strong><span>Sube W-2, 1099 y K-1; el asistente identifica el formulario y extrae los datos para que tú los revises y apruebes.</span></li>
+        <li><strong>Formularios del IRS en español</strong><span>Imprime en español los formularios del IRS disponibles para tus clientes.</span></li>
+        <li><strong>Años anteriores incluidos</strong><span>Prepara también declaraciones de los años 2024 y 2025.</span></li>
+        <li><strong>Vista instantánea del formulario</strong><span>Mira el formulario llenarse en tiempo real mientras capturas los datos, incluso en una segunda pantalla.</span></li>
+        <li><strong>Facturas y vista previa rápida</strong><span>Genera facturas sencillas para tus clientes y revisa cómo se imprimirá la declaración sin descargar el PDF.</span></li>
+      </ul>
     </div>
   </section>
 
@@ -413,7 +474,7 @@
         </thead>
         <tbody>
           <tr><th scope="row">E-file sin límites</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
-          <tr><th scope="row">Firma electrónica (sin costo extra)</th><td class="si">✓</td><td class="no" aria-label="No">✕</td><td class="no" aria-label="No">✕</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
+          <tr><th scope="row">Firma electrónica (sin costo extra)*</th><td class="si">✓</td><td class="no" aria-label="No">✕</td><td class="no" aria-label="No">✕</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
           <tr><th scope="row">Declaraciones personales y corporativas ilimitadas</th><td class="si">✓</td><td class="si">✓</td><td class="no" aria-label="No">✕</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
           <tr><th scope="row">Todos los estados</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
           <tr><th scope="row">Soporte técnico</th><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="si">✓</td><td class="sw-nuestro si">✓</td></tr>
@@ -421,7 +482,10 @@
         </tbody>
       </table>
     </div>
-    <p class="sw-tabla-nota">Precios de referencia de otros programas de impuestos profesionales. Desliza la tabla hacia los lados en tu teléfono.</p>
+    <div class="sw-ahorro">
+      <p>Directamente con MyTAXPrepOffice, el plan con declaraciones de negocios, nóminas y 2 usuarios (Essential) cuesta <s>$1,195 al año</s>. Con nosotros pagas <strong>$750 al año</strong>.</p>
+    </div>
+    <p class="sw-tabla-nota">Precios de referencia de otros programas de impuestos profesionales. *La firma a distancia que requiere verificación de identidad cuesta $1. Desliza la tabla hacia los lados en tu teléfono.</p>
   </section>
 
   <!-- ===== 6. Cambio de software ===== -->
@@ -493,6 +557,18 @@
         <p>Sí. En tu panel ve a Declaraciones &gt; Convertir Declaraciones, selecciona tu software anterior y comienza la conversión de declaraciones, información de clientes, formularios y anexos. <a href="https://www.youtube.com/playlist?list=PLWdP2TwC9HM0iEyfzvgldTSiljJnnSvlY" target="_blank" rel="noopener">Ver el video con instrucciones</a>.</p>
       </details>
       <details>
+        <summary>¿Tengo que instalar el software en mi computadora?</summary>
+        <p>No. MyTAXPrepOffice funciona en la nube desde tu navegador, sin descargas. Puedes usarlo en una PC con Windows, una Mac, una tableta o tu teléfono iPhone o Android, y tu trabajo se mantiene sincronizado en todos tus dispositivos.</p>
+      </details>
+      <details>
+        <summary>¿La información de mis clientes está segura?</summary>
+        <p>Sí. MyTAXPrepOffice es desarrollador y transmisor autorizado por el IRS, y protege la información con cifrado TLS/SSL al enviarla y cifrado AES de 256 bits al guardarla.</p>
+      </details>
+      <details>
+        <summary>¿Puedo preparar declaraciones de años anteriores?</summary>
+        <p>Sí. Además del año en curso, puedes preparar declaraciones de los años 2024 y 2025.</p>
+      </details>
+      <details>
         <summary>¿El software tiene firma electrónica y productos bancarios?</summary>
         <p>Sí. Capturas la firma de tu cliente en la nube desde un dispositivo Apple o Android, y con los productos bancarios tus clientes reciben su dinero más rápido mientras tú generas ingreso adicional e imprimes el cheque en tu oficina.</p>
       </details>
@@ -523,10 +599,10 @@
       "@type": "SoftwareApplication",
       "@id": "https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/#software",
       "name": "Software Profesional de Income Tax (MyTAXPrepOffice)",
-      "description": "Software de impuestos para preparadores: declaraciones personales, de negocios y corporativas (1040, 1065, 1120, 1120S, 1041, 990, 706, 709), nóminas (W-2, W-3, 1099-NEC, 940, 941), todos los estados y Puerto Rico, e-file ilimitado con EFIN, firma electrónica, productos bancarios y 2 usuarios.",
+      "description": "Software de impuestos para preparadores: declaraciones personales, de negocios y corporativas (1040, 1065, 1120, 1120S, 1041, 990, 706, 709), nóminas (W-2, W-3, 1099-NEC, 940, 941), todos los estados y Puerto Rico, e-file ilimitado con EFIN, 100% en la nube, portal de clientes, firma electrónica, productos bancarios y 2 usuarios.",
       "url": "https://centrolatinodecapacitacion.net/software-de-income-tax-programa-de-impuestos/",
       "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
+      "operatingSystem": "Web (Windows, macOS, iOS, Android)",
       "inLanguage": "es",
       "image": "https://centrolatinodecapacitacion.net/wp-content/uploads/2026/06/My-tax-prep-price-comparison.png",
       "offers": [
@@ -554,6 +630,9 @@
         { "@type": "Question", "name": "¿Me enseñan a usar el software?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Al comprar la licencia del software recibes una clase gratis por Zoom para aprender a utilizarlo, y tienes asistencia técnica de preparadores expertos que hablan tu idioma." } },
         { "@type": "Question", "name": "¿Puedo pagar el software en partes?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Puedes dividir el costo de tu software en 4 pagos con Klarna." } },
         { "@type": "Question", "name": "¿Puedo pasar mis declaraciones de otro software?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. En tu panel ve a Declaraciones > Convertir Declaraciones, selecciona tu software anterior y comienza la conversión de declaraciones, información de clientes, formularios y anexos." } },
+        { "@type": "Question", "name": "¿Tengo que instalar el software en mi computadora?", "acceptedAnswer": { "@type": "Answer", "text": "No. MyTAXPrepOffice funciona en la nube desde tu navegador, sin descargas. Puedes usarlo en una PC con Windows, una Mac, una tableta o tu teléfono iPhone o Android, y tu trabajo se mantiene sincronizado en todos tus dispositivos." } },
+        { "@type": "Question", "name": "¿La información de mis clientes está segura?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. MyTAXPrepOffice es desarrollador y transmisor autorizado por el IRS, y protege la información con cifrado TLS/SSL al enviarla y cifrado AES de 256 bits al guardarla." } },
+        { "@type": "Question", "name": "¿Puedo preparar declaraciones de años anteriores?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Además del año en curso, puedes preparar declaraciones de los años 2024 y 2025." } },
         { "@type": "Question", "name": "¿El software tiene firma electrónica y productos bancarios?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Capturas la firma de tu cliente en la nube desde un dispositivo Apple o Android, y con los productos bancarios tus clientes reciben su dinero más rápido mientras tú generas ingreso adicional e imprimes el cheque en tu oficina." } }
       ]
     }
