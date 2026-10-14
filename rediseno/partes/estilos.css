@@ -178,3 +178,4 @@ h3{font-size:21px;font-weight:600}
 .menu a{white-space:nowrap;padding:10px 12px}
 .head-der{flex:0 0 auto}
 .top .cont{max-width:1380px}
+.cab .eti+p{margin-top:0}

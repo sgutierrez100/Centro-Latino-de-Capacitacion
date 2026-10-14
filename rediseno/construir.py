@@ -24,7 +24,7 @@ def catalogo():
         cls = 'ico v' if color == 'verde' else 'ico'
         bloques.append(f'<div class="area" id="{k}"><div class="area-cab"><span class="{cls}"><svg viewBox="0 0 24 24">{ICONOS[ic]}</svg></span><h3>{t}</h3><span class="cuenta">{len(l)} {"curso" if len(l) == 1 else "cursos"}</span></div><div class="cgrid">{cards}</div></div>')
     return ('<section class="sec sec-gris" id="cursos"><div class="cont"><div class="cab"><span class="eti">Todos nuestros cursos</span>'
-            f'<h2>{total} cursos en línea, 100% en español</h2><p>Elige un área para ir directo a sus cursos.</p></div>'
+            f'<p>Elige un área para ir directo a sus cursos.</p></div>'
             f'<div class="area-nav">{nav}</div></div><div class="cat-full">{"".join(bloques)}</div></section>')
 N_ = 'https://centrolatinodecapacitacion.net/'
 
