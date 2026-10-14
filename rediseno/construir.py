@@ -13,14 +13,14 @@ ICONO = re.sub(r'role="img" aria-label="[^"]*" ', '', ICONO)
 CSS = (PARTES / 'estilos.css').read_text(encoding='utf-8')
 U = 'https://centrolatinodecapacitacion.com/wp-content/uploads/'
 NUEVAS = '../imagenes-cursos/'
-from cursos import AREAS, ICONOS
+from cursos import AREAS, ICONOS, IMAGENES_ACTUALES
 
 def catalogo():
     total = sum(len(a[4]) for a in AREAS)
     nav = ''.join(f'<a class="chip" href="#{k}">{t} <b>{len(l)}</b></a>' for k, t, _, _, l in AREAS)
     bloques = []
     for k, t, ic, color, l in AREAS:
-        cards = ''.join(f'<a class="cc" href="{N_}{url}"><img src="{NUEVAS}{arch}.webp" alt="{n} en español – Centro Latino de Capacitación" width="1200" height="800"><span><b>{n}</b><i>Ver curso →</i></span></a>' for n, arch, _, url in l)
+        cards = ''.join(f'<a class="cc" href="{N_}{url}"><img src="{U}{IMAGENES_ACTUALES[arch]}" alt="{n} en español – Centro Latino de Capacitación"><span><b>{n}</b><i>Ver curso →</i></span></a>' for n, arch, _, url in l)
         cls = 'ico v' if color == 'verde' else 'ico'
         bloques.append(f'<div class="area" id="{k}"><div class="area-cab"><span class="{cls}"><svg viewBox="0 0 24 24">{ICONOS[ic]}</svg></span><h3>{t}</h3><span class="cuenta">{len(l)} {"curso" if len(l) == 1 else "cursos"}</span></div><div class="cgrid">{cards}</div></div>')
     return ('<section class="sec sec-gris" id="cursos"><div class="cont"><div class="cab"><span class="eti">Todos nuestros cursos</span>'
@@ -48,7 +48,7 @@ def mega():
     h = ''.join(f'<div class="col"><h4>{t}</h4><ul>' + ''.join(f'<li><a href="#">{x}</a></li>' for x in l) + '</ul></div>' for t, l in cols)
     dest = (f'<div class="dest"><img src="{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp" alt="">'
             '<b>Curso de Income Tax</b><p>Aprende a preparar taxes desde cero. Primer módulo gratis.</p>'
-            '<a class="btn btn-verde btn-sm" href="#">Ver curso →</a></div>').replace(f'{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp', NUEVAS + 'curso-de-income-tax-online.webp')
+            '<a class="btn btn-verde btn-sm" href="#">Ver curso →</a></div>')
     return f'<div class="mega"><div class="cont">{h}{dest}</div></div>'
 
 def encabezado(act, con_mega=False):
