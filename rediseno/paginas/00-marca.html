@@ -5,10 +5,10 @@ body{background:#fff}
 .lg{display:grid;grid-template-columns:1.4fr 1fr;gap:26px}
 .caja{border-radius:24px;display:flex;align-items:center;justify-content:center;padding:50px;min-height:300px;position:relative}
 .caja .nota{position:absolute;left:24px;bottom:18px;font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--suave)}
-.caja.osc .nota{color:#8fb3cf}
+.caja.osc .nota{color:var(--azul)}
 .grande .logo svg{width:120px;height:120px}.grande .logo{gap:24px}
 .grande .logo b{font-size:52px}.grande .logo span{font-size:24px;letter-spacing:5px;margin-top:6px}
-.osc{background:var(--azul)}.osc .logo b{color:#fff}.osc .logo span{color:var(--celeste)}
+.osc{background:var(--verde)}.osc .logo b{color:var(--azul)}.osc .logo span{color:var(--azul)}
 .apilado{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
 .apilado svg{width:120px;height:120px}
 .apilado b{font-family:var(--f-titulo);font-size:36px;color:var(--azul);line-height:1}
@@ -16,7 +16,7 @@ body{background:#fff}
 .apilado i{font-style:normal;font-size:16px;color:var(--suave);margin-top:4px}
 .iconos{display:flex;gap:40px;align-items:flex-end}
 .iconos div{text-align:center;font-size:13px;color:var(--suave);font-weight:700}
-.app{border-radius:28%;background:var(--azul);display:flex;align-items:center;justify-content:center}
+.app{border-radius:28%;background:var(--verde);display:flex;align-items:center;justify-content:center}
 .colores{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
 .col{border-radius:20px;overflow:hidden;border:1px solid var(--borde)}
 .col .m{height:150px;display:flex;align-items:flex-end;padding:16px;font-family:var(--f-titulo);font-weight:700;font-size:18px}
@@ -36,7 +36,7 @@ h2.s{font-size:30px;margin:56px 0 22px}
   <div class="lg">
     <div class="caja grande" style="background:var(--fondo-gris)"><!--LOGO--><span class="nota">Principal · horizontal</span></div>
     <div class="caja" style="background:var(--fondo-celeste)"><div class="apilado"><!--ICONO--><div><b>Centro Latino</b><br><span>de Capacitación</span></div><i>Aprende un oficio desde tu casa</i></div><span class="nota">Vertical con frase</span></div>
-    <div class="caja grande osc"><!--LOGO--><span class="nota">Sobre fondo oscuro</span></div>
+    <div class="caja grande osc"><!--LOGO--><span class="nota">Sobre fondo verde</span></div>
     <div class="caja" style="background:#fff;border:1px solid var(--borde)"><div class="iconos">
       <div><div style="width:120px"><!--ICONO--></div>Ícono</div>
       <div><div class="app" style="width:96px;height:96px"><div style="width:68px"><!--ICONO--></div></div>App / redes</div>
@@ -52,14 +52,14 @@ h2.s{font-size:30px;margin:56px 0 22px}
 
   <h2 class="s">Colores</h2>
   <div class="colores">
-    <div class="col"><div class="m" style="background:#6EC1E4;color:#0B2E4F">Celeste</div><div class="d"><b>#6EC1E4</b>Color principal de la marca</div></div>
-    <div class="col"><div class="m" style="background:#61CE70;color:#0B2E4F">Verde</div><div class="d"><b>#61CE70</b>Botones y acentos</div></div>
-    <div class="col"><div class="m" style="background:#0B2E4F;color:#fff">Azul profundo</div><div class="d"><b>#0B2E4F</b>Títulos, textos y fondos oscuros</div></div>
+    <div class="col"><div class="m" style="background:#6EC1E4;color:#1F2A33">Celeste</div><div class="d"><b>#6EC1E4</b>Color principal de la marca</div></div>
+    <div class="col"><div class="m" style="background:#61CE70;color:#1F2A33">Verde</div><div class="d"><b>#61CE70</b>Botones y acentos</div></div>
+    <div class="col"><div class="m" style="background:#1F2A33;color:#fff">Texto</div><div class="d"><b>#1F2A33</b>Solo para títulos y textos</div></div>
     <div class="col"><div class="m" style="background:#1B7FAE;color:#fff">Celeste oscuro</div><div class="d"><b>#1B7FAE</b>Enlaces sobre fondo blanco</div></div>
-    <div class="col"><div class="m" style="background:#EEF8FC;color:#0B2E4F">Celeste claro</div><div class="d"><b>#EEF8FC</b>Fondos de secciones</div></div>
-    <div class="col"><div class="m" style="background:#EFFAF1;color:#0B2E4F">Verde claro</div><div class="d"><b>#EFFAF1</b>Fondos de avisos</div></div>
+    <div class="col"><div class="m" style="background:#EEF8FC;color:#1F2A33">Celeste claro</div><div class="d"><b>#EEF8FC</b>Fondos de secciones</div></div>
+    <div class="col"><div class="m" style="background:#EFFAF1;color:#1F2A33">Verde claro</div><div class="d"><b>#EFFAF1</b>Fondos de avisos</div></div>
   </div>
-  <p style="color:var(--suave);margin-top:16px;font-size:15px">El celeste y el verde de la marca no dan buena lectura con letra blanca. Por eso los botones verdes llevan letra azul profundo, y el texto celeste usa el celeste oscuro.</p>
+  <p style="color:var(--suave);margin-top:16px;font-size:15px">El celeste y el verde son los protagonistas: fondos de secciones, botones y bloques destacados. La letra sobre ellos va en gris carbón, porque la letra blanca casi no se lee sobre estos colores.</p>
 
   <h2 class="s">Tipografías y botones</h2>
   <div class="tipos">
