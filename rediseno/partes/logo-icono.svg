@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Centro Latino de Capacitación"><defs><clipPath id="gc"><circle cx="32" cy="40" r="21"/></clipPath></defs>
-<circle cx="32" cy="40" r="21" fill="#6EC1E4"/>
-<g clip-path="url(#gc)" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".75"><ellipse cx="32" cy="40" rx="9" ry="21"/><path d="M32 19v42M11 40h42M14 50h36"/></g>
-<path d="M17 19V28C17 33 47 33 47 28V19Z" fill="#2E9E44"/>
-<path d="M32 4L61 15L32 26L3 15Z" fill="#61CE70"/>
-<path d="M32 15L53 19V32" fill="none" stroke="#1F2A33" stroke-width="1.8" stroke-linecap="round"/>
-<circle cx="53" cy="33.5" r="2.6" fill="#1F2A33"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Centro Latino de Capacitación"><defs><clipPath id="gc"><circle cx="32" cy="38" r="24"/></clipPath></defs>
+<circle cx="32" cy="38" r="24" fill="#6EC1E4"/>
+<g clip-path="url(#gc)" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".75"><ellipse cx="32" cy="38" rx="10.3" ry="24"/><path d="M32 14v48M8 38h48M10.9 49.5h42.1"/></g>
+<path d="M21.0 12.5V17.5C21.0 22.0 43.0 22.0 43.0 17.5V12.5Z" fill="#2E9E44"/>
+<path d="M32 3L54.0 11.5L32 20L10.0 11.5Z" fill="#61CE70"/>
+<path d="M32 11.5L49 14.5V24" fill="none" stroke="#1F2A33" stroke-width="1.7" stroke-linecap="round"/>
+<circle cx="49" cy="25.4" r="2.2" fill="#1F2A33"/></svg>
