@@ -1,6 +1,6 @@
 <!--TITULO Inicio · Centro Latino de Capacitación-->
 <style>
-.hero{background:radial-gradient(circle at 100% 100%,rgba(97,206,112,.55),transparent 45%),linear-gradient(135deg,#6EC1E4 0%,#93D3EE 100%);padding:80px 0 96px;overflow:hidden}
+.hero{background:radial-gradient(circle at 100% 100%,rgba(97,206,112,.14),transparent 42%),radial-gradient(circle at 0 0,rgba(110,193,228,.16),transparent 45%),#F5F8FA;border-bottom:1px solid var(--borde);padding:80px 0 96px;overflow:hidden}
 .hero .cont{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
 .hero h1{font-size:62px}
 .hero h1 em{font-style:normal;background:var(--verde);padding:0 14px;border-radius:14px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
@@ -9,16 +9,16 @@
 .buscador{display:flex;align-items:center;background:#fff;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:var(--sombra);max-width:560px;border:1px solid var(--borde)}
 .buscador span{flex:1;color:#8a98a6;font-size:16.5px}
 .populares{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;align-items:center;font-size:14.5px;color:var(--azul);font-weight:600}
-.flot{position:absolute;background:#fff;border-radius:16px;box-shadow:var(--sombra);padding:14px 18px;display:flex;gap:12px;align-items:center;font-weight:700;color:var(--azul);font-size:15px}
+.flot{position:absolute;background:#fff;border-radius:16px;box-shadow:0 12px 30px rgba(11,46,79,.10);border:1px solid var(--borde);padding:14px 18px;display:flex;gap:12px;align-items:center;font-weight:700;color:var(--azul);font-size:15px}
 .flot small{display:block;font-weight:600;color:var(--suave);font-size:13px}
 .flot .ico{width:44px;height:44px;border-radius:12px}
 .flot .ico svg{width:22px;height:22px}
 .escena{position:relative;height:540px}
 .sello{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;background:#fff;border-radius:50%;display:grid;place-items:center;box-shadow:0 30px 60px rgba(11,46,79,.18);animation:latir 5s ease-in-out infinite;z-index:2}
 .sello svg{width:170px;height:170px}
-.onda{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;border-radius:50%;border:2px solid rgba(255,255,255,.8);animation:onda 4s ease-out infinite}
+.onda{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;border-radius:50%;border:2px solid rgba(110,193,228,.7);animation:onda 4s ease-out infinite}
 .onda.o2{animation-delay:2s}
-.orbita{position:absolute;left:50%;top:50%;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;border:2px dashed rgba(255,255,255,.65);animation:girar 40s linear infinite}
+.orbita{position:absolute;left:50%;top:50%;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;border:2px dashed rgba(110,193,228,.55);animation:girar 40s linear infinite}
 .flot{z-index:3;animation:flotar 6s ease-in-out infinite}
 .f1{left:0;top:20px}.f2{right:0;top:100px;animation-delay:-1.5s}.f4{right:0;bottom:50px;animation-delay:-3s}.f5{left:-30px;bottom:90px;animation-delay:-4.5s}
 @keyframes flotar{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
@@ -97,7 +97,7 @@
     <span class="onda o1"></span><span class="onda o2"></span><span class="orbita"></span>
     <div class="sello"><!--ICONO--></div>
     <div class="flot f1"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></span><div>Certificado<small>en la mayoría de los cursos</small></div></div>
-    <div class="flot f2"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span><div>39 cursos en línea<small>Income Tax, Notarios y más</small></div></div>
+    <div class="flot f2"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span><div>Cursos en línea<small>Income Tax, Notarios y más</small></div></div>
     <div class="flot f4"><span class="ico v"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="m10 9 5 2.5-5 2.5z"/></svg></span><div>Pregrabados o por Zoom<small>según el curso</small></div></div>
     <div class="flot f5"><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><div>Pagos seguros<small>procesados por Stripe</small></div></div>
   </div>
