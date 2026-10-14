@@ -81,8 +81,8 @@ def pie():
             + col('Más cursos', ['Inmigración', 'Agente de Seguros', 'QuickBooks', 'Payroll', 'Creación de Empresas', 'Dealer de Autos'])
             + col('Centro Latino', ['Servicios', 'Calendario de cursos', 'Tienda empresarial', 'Librería digital', 'Blog', 'Contacto'])
             + '</div>'
-            '<div class="ayuda"><div><b>¿Problemas para entrar a tu curso?</b><br>Te ayudamos por llamada o con asistencia remota por AnyDesk.</div>'
-            '<div style="display:flex;gap:10px"><a class="btn btn-linea-bl btn-sm" href="#">Descargar AnyDesk</a><a class="btn btn-verde btn-sm" href="#">Ver tutorial</a></div></div>'
+            '<div class="ayuda"><div><b>¿Problemas para entrar a tu curso?</b><br>Escríbenos por WhatsApp o llámanos y te ayudamos a resolverlo.</div>'
+            '<div style="display:flex;gap:10px"><a class="btn btn-verde btn-sm" href="#">Escribir por WhatsApp</a></div></div>'
             '<div class="base"><span>© 2026 Centro Latino de Capacitación · Aprende un oficio desde tu casa</span>'
             '<nav><a href="#">Política de Privacidad</a><a href="#">Política de Reembolso</a><a href="#">Política de Cumplimiento</a></nav></div>'
             '</div></footer>')
