@@ -12,6 +12,21 @@ ICONO = (PARTES / 'logo-icono.svg').read_text(encoding='utf-8').replace('<svg ',
 ICONO = re.sub(r'role="img" aria-label="[^"]*" ', '', ICONO)
 CSS = (PARTES / 'estilos.css').read_text(encoding='utf-8')
 U = 'https://centrolatinodecapacitacion.com/wp-content/uploads/'
+NUEVAS = '../imagenes-cursos/'
+from cursos import AREAS, ICONOS
+
+def catalogo():
+    total = sum(len(a[4]) for a in AREAS)
+    nav = ''.join(f'<a class="chip" href="#{k}">{t} <b>{len(l)}</b></a>' for k, t, _, _, l in AREAS)
+    bloques = []
+    for k, t, ic, color, l in AREAS:
+        cards = ''.join(f'<a class="cc" href="{N_}{url}"><img src="{NUEVAS}{arch}.webp" alt="{n} en español – Centro Latino de Capacitación" width="1200" height="800"><span><b>{n}</b><i>Ver curso →</i></span></a>' for n, arch, _, url in l)
+        cls = 'ico v' if color == 'verde' else 'ico'
+        bloques.append(f'<div class="area" id="{k}"><div class="area-cab"><span class="{cls}"><svg viewBox="0 0 24 24">{ICONOS[ic]}</svg></span><h3>{t}</h3><span class="cuenta">{len(l)} {"curso" if len(l) == 1 else "cursos"}</span></div><div class="cgrid">{cards}</div></div>')
+    return ('<section class="sec sec-gris" id="cursos"><div class="cont"><div class="cab"><span class="eti">Todos nuestros cursos</span>'
+            f'<h2>{total} cursos en línea, 100% en español</h2><p>Elige un área para ir directo a sus cursos.</p></div>'
+            f'<div class="area-nav">{nav}</div></div><div class="cat-full">{"".join(bloques)}</div></section>')
+N_ = 'https://centrolatinodecapacitacion.net/'
 
 def logo(href='#'):
     return f'<a class="logo" href="{href}">{ICONO}<div><b>Centro Latino</b><span>de Capacitación</span></div></a>'
@@ -33,17 +48,17 @@ def mega():
     h = ''.join(f'<div class="col"><h4>{t}</h4><ul>' + ''.join(f'<li><a href="#">{x}</a></li>' for x in l) + '</ul></div>' for t, l in cols)
     dest = (f'<div class="dest"><img src="{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp" alt="">'
             '<b>Curso de Income Tax</b><p>Aprende a preparar taxes desde cero. Primer módulo gratis.</p>'
-            '<a class="btn btn-verde btn-sm" href="#">Ver curso →</a></div>')
+            '<a class="btn btn-verde btn-sm" href="#">Ver curso →</a></div>').replace(f'{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp', NUEVAS + 'curso-de-income-tax-online.webp')
     return f'<div class="mega"><div class="cont">{h}{dest}</div></div>'
 
 def encabezado(act, con_mega=False):
     items = ''.join(f'<a href="#" class="{"act " if k == act else ""}{"dd" if dd else ""}">{t}</a>' for k, t, dd in MENU)
     top = ('<div class="top"><div class="cont"><div class="tels"><span>Lunes a sábado · 1 a 7 pm (hora del Este)</span>'
            '<a href="#">(760) 553-3256</a><a href="#">(909) 344-0703</a><a href="#">(909) 788-0445</a></div>'
-           f'<div class="acc"><a href="#">{USR}Mis cursos</a><a href="#">{PC}Login software</a></div></div></div>')
+           '</div></div>')
     lupa = '<span class="lupa"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>'
     head = (f'<header class="head"><div class="cont">{logo()}<nav class="menu">{items}</nav>'
-            f'<div class="head-der"><a class="btn btn-verde btn-sm" href="#">Ver cursos</a><span class="ham"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span></div></div>'
+            f'<div class="head-der"><a class="btn btn-verde btn-sm" href="#">{USR}Mis cursos</a><a class="btn btn-linea btn-sm" href="#">{PC}Login software</a><span class="ham"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span></div></div>'
             f'{mega() if con_mega else ""}</header>')
     return top + head
 
@@ -86,7 +101,7 @@ def construir():
         if m:
             extra, src = m.group(1), src.replace(m.group(0), '')
         src = re.sub(r'<!--ENCABEZADO (\w+)( mega)?-->', lambda m: encabezado(m.group(1), bool(m.group(2))), src)
-        src = src.replace('<!--PIE-->', pie()).replace('<!--LOGO-->', logo()).replace('<!--ICONO-->', ICONO).replace('{U}', U)
+        src = src.replace('<!--CATALOGO-->', catalogo()).replace('<!--PIE-->', pie()).replace('<!--LOGO-->', logo()).replace('<!--ICONO-->', ICONO).replace('{U}', U)
         src = re.sub(r'<!--TITULO .*?-->', '', src)
         (SALIDA / f.name).write_text(PLANTILLA.format(titulo=titulo, css=CSS, extra=extra, cuerpo=src), encoding='utf-8')
         print('ok', f.name)

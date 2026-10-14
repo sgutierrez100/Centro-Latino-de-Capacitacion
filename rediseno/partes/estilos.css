@@ -172,3 +172,9 @@ h3{font-size:21px;font-weight:600}
 /* Ajustes sobre fondos de color de marca */
 .cta .btn-verde{background:#fff;color:var(--azul)}
 .pie .logo svg{background:#fff;border-radius:50%;padding:3px}
+.head-der .btn svg{width:16px;height:16px}
+.head>.cont{max-width:1380px}
+.logo div{white-space:nowrap}
+.menu a{white-space:nowrap;padding:10px 12px}
+.head-der{flex:0 0 auto}
+.top .cont{max-width:1380px}
