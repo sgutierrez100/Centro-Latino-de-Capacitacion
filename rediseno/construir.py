@@ -53,7 +53,7 @@ def mega():
 
 def encabezado(act, con_mega=False):
     items = ''.join(f'<a href="#" class="{"act " if k == act else ""}{"dd" if dd else ""}">{t}</a>' for k, t, dd in MENU)
-    top = ('<div class="top"><div class="cont"><div class="tels"><span>Lunes a sábado · 1 a 7 pm (hora del Este)</span>'
+    top = ('<div class="top"><div class="cont"><span>Lunes a sábado · 1 a 7 pm (hora del Este)</span><div class="tels">'
            '<a href="#">(760) 553-3256</a><a href="#">(909) 344-0703</a><a href="#">(909) 788-0445</a></div>'
            '</div></div>')
     lupa = '<span class="lupa"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>'
