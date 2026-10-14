@@ -5,8 +5,8 @@
 <path d="M32 4L51 11.5L32 19L13 11.5Z" fill="#61CE70"/>
 <path d="M32 11.5L47 14V22" fill="none" stroke="#1F2A33" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="47" cy="23.4" r="2" fill="#1F2A33"/>
-<path d="M32 51C25 47 15 45.5 3.5 46.5V58.5C15 57.5 25 58.5 32 62.5C39 58.5 49 57.5 60.5 58.5V46.5C49 45.5 39 47 32 51Z" fill="#61CE70"/>
+<g transform="translate(32 56) scale(.8) translate(-32 -56)"><path d="M32 51C25 47 15 45.5 3.5 46.5V58.5C15 57.5 25 58.5 32 62.5C39 58.5 49 57.5 60.5 58.5V46.5C49 45.5 39 47 32 51Z" fill="#61CE70"/>
 <path d="M31.2 49C25 45 16 43.4 7 44.2V55.6C16 54.9 25 56.2 31.2 59.6Z" fill="#fff" stroke="#2E9E44" stroke-width="1.3" stroke-linejoin="round"/>
 <path d="M32.8 49C39 45 48 43.4 57 44.2V55.6C48 54.9 39 56.2 32.8 59.6Z" fill="#fff" stroke="#2E9E44" stroke-width="1.3" stroke-linejoin="round"/>
-<path d="M11 48.2C16.5 47.8 22 48.8 27.5 51.6M11 51.6C16.5 51.2 22 52.2 27.5 55M36.5 51.6C42 48.8 47.5 47.8 53 48.2M36.5 55C42 52.2 47.5 51.2 53 51.6" fill="none" stroke="#6EC1E4" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M11 48.2C16.5 47.8 22 48.8 27.5 51.6M11 51.6C16.5 51.2 22 52.2 27.5 55M36.5 51.6C42 48.8 47.5 47.8 53 48.2M36.5 55C42 52.2 47.5 51.2 53 51.6" fill="none" stroke="#6EC1E4" stroke-width="1.3" stroke-linecap="round"/></g>
 </svg>
