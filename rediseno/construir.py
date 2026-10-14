@@ -58,7 +58,7 @@ def encabezado(act, con_mega=False):
            '</div></div>')
     lupa = '<span class="lupa"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>'
     head = (f'<header class="head"><div class="cont">{logo()}<nav class="menu">{items}</nav>'
-            f'<div class="head-der"><a class="btn btn-verde btn-sm" href="#">{USR}Mis cursos</a><a class="btn btn-linea btn-sm" href="#">{PC}Login software</a><span class="ham"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span></div></div>'
+            f'<div class="head-der"><span class="ham"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span></div></div>'
             f'{mega() if con_mega else ""}</header>')
     return top + head
 
