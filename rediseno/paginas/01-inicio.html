@@ -9,16 +9,23 @@
 .buscador{display:flex;align-items:center;background:#fff;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:var(--sombra);max-width:560px;border:1px solid var(--borde)}
 .buscador span{flex:1;color:#8a98a6;font-size:16.5px}
 .populares{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;align-items:center;font-size:14.5px;color:var(--azul);font-weight:600}
-.collage{position:relative;height:520px}
-.collage img{position:absolute;border-radius:22px;box-shadow:0 24px 50px rgba(11,46,79,.18);object-fit:cover}
-.collage .a{width:390px;height:260px;right:0;top:0}
-.collage .b{width:330px;height:220px;left:0;top:180px}
-.collage .c{width:300px;height:200px;right:30px;bottom:0}
 .flot{position:absolute;background:#fff;border-radius:16px;box-shadow:var(--sombra);padding:14px 18px;display:flex;gap:12px;align-items:center;font-weight:700;color:var(--azul);font-size:15px}
 .flot small{display:block;font-weight:600;color:var(--suave);font-size:13px}
 .flot .ico{width:44px;height:44px;border-radius:12px}
 .flot .ico svg{width:22px;height:22px}
-.f1{left:20px;top:40px}.f2{left:100px;bottom:10px}
+.escena{position:relative;height:540px}
+.sello{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;background:#fff;border-radius:50%;display:grid;place-items:center;box-shadow:0 30px 60px rgba(11,46,79,.18);animation:latir 5s ease-in-out infinite;z-index:2}
+.sello svg{width:170px;height:170px}
+.onda{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;border-radius:50%;border:2px solid rgba(255,255,255,.8);animation:onda 4s ease-out infinite}
+.onda.o2{animation-delay:2s}
+.orbita{position:absolute;left:50%;top:50%;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;border:2px dashed rgba(255,255,255,.65);animation:girar 40s linear infinite}
+.flot{z-index:3;animation:flotar 6s ease-in-out infinite}
+.f1{left:0;top:20px}.f2{right:0;top:100px;animation-delay:-1.5s}.f4{right:0;bottom:50px;animation-delay:-3s}.f5{left:-30px;bottom:90px;animation-delay:-4.5s}
+@keyframes flotar{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes latir{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@keyframes onda{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes girar{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.sello,.onda,.orbita,.flot{animation:none}}
 .confianza{background:#fff;border-bottom:1px solid var(--borde)}
 .confianza .cont{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:28px;padding-bottom:28px}
 .confianza .cont>div{display:flex;gap:14px;align-items:center;font-weight:700;color:var(--azul);font-size:16px}
@@ -72,7 +79,7 @@
 .faq details p{color:var(--suave);margin-top:10px}
 @media (max-width:760px){
  .hero{padding:44px 0 56px}.hero .cont{grid-template-columns:1fr;gap:36px}.hero h1{font-size:36px}.hero h1 em{white-space:nowrap;padding:0 10px}.hero .btn{flex:1 1 100%;justify-content:center}.hero .lead{font-size:17.5px}
- .buscador span{font-size:14.5px}.collage{height:330px}.collage .a{width:250px;height:167px}.collage .b{width:220px;height:147px;top:110px}.collage .c{width:200px;height:133px;right:0}.flot{display:none}
+ .buscador span{font-size:14.5px}.escena{height:440px}.sello,.onda{width:170px;height:170px;margin:-85px 0 0 -85px}.sello svg{width:115px;height:115px}.orbita{width:290px;height:290px;margin:-145px 0 0 -145px}.flot{padding:10px 12px;font-size:13px;gap:8px}.flot small{font-size:11.5px}.flot .ico{width:34px;height:34px}.flot .ico svg{width:18px;height:18px}.f1{left:0;top:0}.f2{right:0;top:62px}.f4{right:0;bottom:66px}.f5{left:0;bottom:0}
  .confianza .cont{grid-template-columns:1fr;gap:14px}.cgrid{grid-template-columns:1fr 1fr;gap:10px}.area{padding:14px;border-radius:18px}.area-cab h3{font-size:19px}.cat-full{padding:0 12px}.cc b{font-size:14px}.cc span{padding:10px}.cats,.pasos,.serv,.blog{grid-template-columns:1fr}.pasos{gap:34px}
  .soft{grid-template-columns:1fr;padding:34px 22px}.soft ul{grid-template-columns:1fr}.libros{grid-template-columns:repeat(3,1fr)}.faq{grid-template-columns:1fr;gap:20px}
 }
@@ -86,12 +93,13 @@
     <p class="lead">Cursos online 100% en español de Income Tax, Notario, Agente de Seguros, Migración, Contabilidad y más, diseñados para cumplir con las regulaciones de tu estado.</p>
     <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-verde" href="#" target="_blank" rel="noopener">Login a mis cursos</a><a class="btn btn-verde" href="#" target="_blank" rel="noopener">Login a software</a></div>
   </div>
-  <div class="collage">
-    <img class="a" src="{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp" alt="Curso de Income Tax Online en español">
-    <img class="b" src="{U}2026/10/Curso-de-Notario-Publico-1024x683.webp" alt="Curso de Notario Público en español">
-    <img class="c" src="{U}2026/10/Curso-de-Agente-de-Seguros-1024x683.webp" alt="Curso de Agente de Seguros en español">
+  <div class="escena" aria-hidden="true">
+    <span class="onda o1"></span><span class="onda o2"></span><span class="orbita"></span>
+    <div class="sello"><!--ICONO--></div>
     <div class="flot f1"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></span><div>Certificado<small>en la mayoría de los cursos</small></div></div>
-    <div class="flot f2"><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="m10 9 5 2.5-5 2.5z"/></svg></span><div>Pregrabados o por Zoom<small>según el curso</small></div></div>
+    <div class="flot f2"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span><div>39 cursos en línea<small>Income Tax, Notarios y más</small></div></div>
+    <div class="flot f4"><span class="ico v"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="m10 9 5 2.5-5 2.5z"/></svg></span><div>Pregrabados o por Zoom<small>según el curso</small></div></div>
+    <div class="flot f5"><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><div>Pagos seguros<small>procesados por Stripe</small></div></div>
   </div>
 </div></section>
 

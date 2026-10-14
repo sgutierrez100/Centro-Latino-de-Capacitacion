@@ -181,4 +181,6 @@ h3{font-size:21px;font-weight:600}
 .cab .eti+p{margin-top:0}
 .pie .h4-sep{margin-top:28px}
 .head>.cont{justify-content:flex-start;gap:40px}
-.head-der{margin-left:auto}
+.head .menu{margin-left:auto}
+.head-der{display:none}
+@media (max-width:760px){.head-der{display:flex;margin-left:auto}}
