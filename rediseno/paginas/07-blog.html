@@ -1,0 +1,44 @@
+<!--TITULO Blog · Centro Latino de Capacitación-->
+<style>
+.bl{display:grid;grid-template-columns:1fr 320px;gap:44px}
+.dest-post{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;background:#fff;border:1px solid var(--borde);border-radius:22px;overflow:hidden;margin-bottom:36px}
+.dest-post img{width:100%;height:100%;object-fit:cover}
+.dest-post div{padding:30px 30px 30px 0;display:flex;flex-direction:column;gap:12px;justify-content:center}
+.dest-post h2{font-size:30px}
+.posts{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.pt{background:#fff;border:1px solid var(--borde);border-radius:18px;overflow:hidden}
+.pt img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.pt div{padding:18px 20px 22px}
+.pt .f,.dest-post .f{font-size:13.5px;color:var(--suave);font-weight:600}
+.pt h3{font-size:18px;margin:6px 0 10px}
+.pt a,.dest-post a.l{font-family:var(--f-titulo);font-weight:600;color:var(--celeste-osc);font-size:15px}
+.side .tarjeta{margin-bottom:20px}
+.side h3{font-size:18px;margin-bottom:14px}
+.side .in{height:48px;border:1px solid var(--borde);border-radius:12px;display:flex;align-items:center;padding:0 14px;color:#8a98a6}
+.side li{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--borde);font-weight:600;color:var(--azul)}
+.side li span{color:var(--suave);font-weight:600}
+@media (max-width:760px){.bl,.dest-post,.posts{grid-template-columns:1fr}.dest-post div{padding:0 22px 24px}}
+</style>
+<!--ENCABEZADO blog-->
+<section class="banner"><div class="cont">
+  <div class="migas"><a href="#">Inicio</a> / Blog</div>
+  <h1>Blog</h1>
+  <p class="lead">Casos prácticos, novedades del IRS y guías para notarios, preparadores de impuestos y emprendedores.</p>
+</div></section>
+<section class="sec" style="padding-top:48px"><div class="cont bl">
+  <div>
+    <article class="dest-post"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2026/01/ITIN-y-social-300x167.jpg" alt=""><div><span class="eti">Artículo más reciente</span><span class="f">Income Tax · 27 de enero de 2026</span><h2>Padres con ITIN, hijos con Seguro Social</h2><p style="color:var(--suave)">Para el año fiscal 2025, cuyas declaraciones se presentan en 2026, existen cambios importantes…</p><a class="l" href="#">Leer artículo →</a></div></article>
+    <div class="posts">
+      <article class="pt"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/apostillar-en-florida-300x200.jpeg" alt=""><div><span class="f">Notarios · 14 de agosto de 2025</span><h3>Apostillar documentos notarizados por notarios de Florida</h3><a href="#">Leer más →</a></div></article>
+      <article class="pt"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/apostillar-en-texas-300x200.jpg" alt=""><div><span class="f">Notarios · 14 de agosto de 2025</span><h3>Proceso de apostillado para notarios de Texas</h3><a href="#">Leer más →</a></div></article>
+      <article class="pt"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/05/shutterstock_1049033096-300x200.jpg" alt=""><div><span class="f">Income Tax · 28 de mayo de 2025</span><h3>Cómo solicitar la cancelación al IRS del número EIN</h3><a href="#">Leer más →</a></div></article>
+      <article class="pt"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/05/shutterstock_1112143694-300x200.jpg" alt=""><div><span class="f">Income Tax · 16 de mayo de 2025</span><h3>Deducir el costo de paneles solares para una propiedad de renta</h3><a href="#">Leer más →</a></div></article>
+    </div>
+  </div>
+  <aside class="side">
+    <div class="tarjeta"><h3>Buscar</h3><div class="in">Buscar artículos…</div></div>
+    <div class="tarjeta"><h3>Categorías</h3><ul><li>Income Tax <span>›</span></li><li>Notarios <span>›</span></li><li>Casos prácticos <span>›</span></li><li>Nóminas <span>›</span></li></ul></div>
+    <div class="tarjeta" style="background:var(--azul);border-color:var(--azul)"><h3 style="color:#fff">Aprende a preparar taxes</h3><p style="color:#c9dcec;font-size:15px;margin-bottom:16px">Curso de Income Tax en español. Primer módulo gratis.</p><a class="btn btn-verde btn-sm" href="#">Ver el curso →</a></div>
+  </aside>
+</div></section>
+<!--PIE-->

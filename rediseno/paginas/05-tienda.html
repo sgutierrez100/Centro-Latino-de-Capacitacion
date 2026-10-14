@@ -1,0 +1,29 @@
+<!--TITULO Tienda empresarial · Centro Latino de Capacitación-->
+<style>
+.tiendas{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.tienda{background:#fff;border:1px solid var(--borde);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.tienda img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.tienda div{padding:22px 24px 24px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tienda p{color:var(--suave);font-size:15px;flex:1}
+.tienda .btn{align-self:flex-start}
+.tienda.grande{grid-column:span 2;flex-direction:row}
+.tienda.grande img{width:58%;aspect-ratio:auto}
+.prox{background:var(--fondo-gris);color:var(--suave);border-radius:999px;padding:8px 16px;font-weight:700;font-size:14px;align-self:flex-start}
+@media (max-width:760px){.tiendas{grid-template-columns:1fr}.tienda.grande{grid-column:auto;flex-direction:column}.tienda.grande img{width:100%;aspect-ratio:16/9}}
+</style>
+<!--ENCABEZADO tienda-->
+<section class="banner"><div class="cont">
+  <div class="migas"><a href="#">Inicio</a> / Tienda empresarial</div>
+  <h1>Tienda empresarial</h1>
+  <p class="lead">Todo lo que necesitas para tu trabajo profesional en un solo lugar: artículos para notarios, libros, suministros para preparadores de impuestos y productos de oficina.</p>
+</div></section>
+<section class="sec"><div class="cont">
+  <div class="tiendas">
+    <div class="tienda grande"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/Libreria-1024x576.png" alt=""><div><span class="eti">Librería digital</span><h3 style="font-size:26px">Librería</h3><p>Libros en inglés y español sobre Notaría, Migración, Seguros, Contabilidad y más. Publicamos materiales gratuitos y de pago.</p><a class="btn btn-verde" href="#">Visitar la librería →</a></div></div>
+    <div class="tienda"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/La-tienda-del-notario-1-1024x512.png" alt=""><div><h3>Tienda del Notario</h3><p>Sellos oficiales, libros de registro, sellos dorados, certificados, formatos y más.</p><a class="btn btn-linea btn-sm" href="#">Visitar →</a></div></div>
+    <div class="tienda"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/09/Segruos-y-bonds-1024x576.png" alt=""><div><h3>Seguros y Bonds</h3><p>Pólizas y bonds para notarios, preparadores de impuestos y negocios.</p><a class="btn btn-linea btn-sm" href="#">Visitar →</a></div></div>
+    <div class="tienda"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/White-Teal-And-Black-Modern-Personal-Income-Tax-Filing-Facebook-Cover-1024x577.png" alt=""><div><h3>Tienda para Preparadores</h3><p>Impresoras, papel, carpetas, calculadoras y más para tu oficina de impuestos.</p><span class="prox">Próximamente</span></div></div>
+    <div class="tienda"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/Neutral-Elegant-Minimalist-Digital-Marketing-Zoom-Virtual-Background-1024x576.png" alt=""><div><h3>Tienda para Oficinas</h3><p>Papelería, muebles, equipos, computadoras y suministros de uso diario.</p><span class="prox">Próximamente</span></div></div>
+  </div>
+</div></section>
+<!--PIE-->

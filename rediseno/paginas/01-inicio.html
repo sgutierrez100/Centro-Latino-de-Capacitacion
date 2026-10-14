@@ -1,0 +1,176 @@
+<!--TITULO Inicio · Centro Latino de Capacitación-->
+<style>
+.hero{background:radial-gradient(circle at 92% 8%,rgba(110,193,228,.35),transparent 40%),radial-gradient(circle at 0% 100%,rgba(97,206,112,.22),transparent 38%),var(--fondo-celeste);padding:80px 0 96px;overflow:hidden}
+.hero .cont{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:62px}
+.hero h1 em{font-style:normal;color:var(--celeste-osc)}
+.hero .lead{font-size:20px;color:var(--suave);margin:20px 0 30px;max-width:560px}
+.buscador{display:flex;align-items:center;background:#fff;border-radius:999px;padding:8px 8px 8px 24px;box-shadow:var(--sombra);max-width:560px;border:1px solid var(--borde)}
+.buscador span{flex:1;color:#8a98a6;font-size:16.5px}
+.populares{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;align-items:center;font-size:14.5px;color:var(--suave)}
+.collage{position:relative;height:520px}
+.collage img{position:absolute;border-radius:22px;box-shadow:0 24px 50px rgba(11,46,79,.18);object-fit:cover}
+.collage .a{width:390px;height:260px;right:0;top:0}
+.collage .b{width:330px;height:220px;left:0;top:180px}
+.collage .c{width:300px;height:200px;right:30px;bottom:0}
+.flot{position:absolute;background:#fff;border-radius:16px;box-shadow:var(--sombra);padding:14px 18px;display:flex;gap:12px;align-items:center;font-weight:700;color:var(--azul);font-size:15px}
+.flot small{display:block;font-weight:600;color:var(--suave);font-size:13px}
+.flot .ico{width:44px;height:44px;border-radius:12px}
+.flot .ico svg{width:22px;height:22px}
+.f1{left:20px;top:40px}.f2{left:100px;bottom:10px}
+.confianza{background:#fff;border-bottom:1px solid var(--borde)}
+.confianza .cont{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:28px;padding-bottom:28px}
+.confianza .cont>div{display:flex;gap:14px;align-items:center;font-weight:700;color:var(--azul);font-size:16px}
+.confianza small{display:block;font-weight:600;color:var(--suave);font-size:14px}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.cat-t{background:#fff;border:1px solid var(--borde);border-radius:var(--radio);padding:26px;display:flex;flex-direction:column;gap:14px;transition:.2s}
+.cat-t h3{font-size:19px}
+.cat-t p{color:var(--suave);font-size:15px}
+.cat-t .n{font-family:var(--f-titulo);font-weight:600;font-size:14px;color:var(--celeste-osc);margin-top:auto}
+.cat-t.dest{background:var(--azul);border-color:var(--azul)}
+.cat-t.dest h3{color:#fff}.cat-t.dest p{color:#c9dcec}.cat-t.dest .n{color:var(--verde)}
+.pasos{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:p}
+.paso{position:relative;padding:30px 24px 26px;background:#fff;border-radius:var(--radio);border:1px solid var(--borde)}
+.paso::before{counter-increment:p;content:counter(p);position:absolute;top:-18px;left:24px;width:40px;height:40px;border-radius:50%;background:var(--verde);color:var(--azul);font-family:var(--f-titulo);font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 6px var(--fondo-celeste)}
+.paso h3{font-size:18.5px;margin:8px 0 6px}.paso p{color:var(--suave);font-size:15px}
+.serv{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.serv .tarjeta{display:flex;gap:16px;align-items:flex-start}
+.serv h3{font-size:17.5px;margin-bottom:4px}.serv p{color:var(--suave);font-size:14.5px}
+.soft{background:linear-gradient(120deg,var(--azul),var(--azul-2));border-radius:28px;padding:56px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;color:#fff}
+.soft h2{color:#fff}.soft p{color:#c9dcec;font-size:18px;margin:12px 0 22px}
+.soft ul{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-bottom:28px}
+.soft li{color:#e8f3fb}
+.soft .precio{background:#fff;border-radius:22px;padding:30px;color:var(--texto);text-align:center}
+.soft .precio strong{font-family:var(--f-titulo);font-size:64px;color:var(--azul);line-height:1}
+.libros{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.libros img{border-radius:12px;background:#fff;aspect-ratio:1/1;object-fit:contain}
+.blog{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.post img{width:100%;border-radius:var(--radio);aspect-ratio:16/10;object-fit:cover;margin-bottom:16px}
+.post .f{font-size:13.5px;color:var(--suave);font-weight:600}
+.post h3{font-size:19px;margin:6px 0 8px}
+.post a.l{font-family:var(--f-titulo);font-weight:600;color:var(--celeste-osc);font-size:15px}
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px}
+.faq details{border-bottom:1px solid var(--borde);padding:20px 0}
+.faq summary{font-family:var(--f-titulo);font-weight:600;color:var(--azul);font-size:17.5px;list-style:none;display:flex;justify-content:space-between}
+.faq summary::after{content:"+";color:var(--celeste-osc);font-size:24px;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{color:var(--suave);margin-top:10px}
+@media (max-width:760px){
+ .hero{padding:44px 0 56px}.hero .cont{grid-template-columns:1fr;gap:36px}.hero h1{font-size:40px}.hero .lead{font-size:17.5px}
+ .buscador span{font-size:14.5px}.collage{height:330px}.collage .a{width:250px;height:167px}.collage .b{width:220px;height:147px;top:110px}.collage .c{width:200px;height:133px;right:0}.flot{display:none}
+ .confianza .cont{grid-template-columns:1fr;gap:14px}.cats,.pasos,.serv,.blog{grid-template-columns:1fr}.pasos{gap:34px}
+ .soft{grid-template-columns:1fr;padding:34px 22px}.soft ul{grid-template-columns:1fr}.libros{grid-template-columns:repeat(3,1fr)}.faq{grid-template-columns:1fr;gap:20px}
+}
+</style>
+<!--ENCABEZADO inicio-->
+
+<section class="hero"><div class="cont">
+  <div>
+    <span class="eti">Cursos online 100% en español</span>
+    <h1>Aprende un oficio <em>desde tu casa</em></h1>
+    <p class="lead">Cursos de Income Tax, Notario, Agente de Seguros, Migración, Contabilidad y más, diseñados para cumplir con las regulaciones de tu estado.</p>
+    <div class="buscador"><span>¿Qué quieres aprender? Ej. Income Tax, Notario…</span><a class="btn btn-verde" href="#">Buscar</a></div>
+    <div class="populares">Populares: <a class="chip" href="#">Income Tax</a><a class="chip" href="#">Notario Público</a><a class="chip" href="#">Agente de Seguros</a><a class="chip" href="#">Inmigración</a></div>
+  </div>
+  <div class="collage">
+    <img class="a" src="{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp" alt="Curso de Income Tax">
+    <img class="b" src="{U}2026/10/Curso-de-Notario-Publico-1024x683.webp" alt="Curso de Notario Público">
+    <img class="c" src="{U}2026/10/Curso-de-Agente-de-Seguros-1024x683.webp" alt="Curso de Agente de Seguros">
+    <div class="flot f1"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></span><div>Certificado<small>al terminar tu curso</small></div></div>
+    <div class="flot f2"><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="m10 9 5 2.5-5 2.5z"/></svg></span><div>Pregrabados o por Zoom<small>tú eliges cómo estudiar</small></div></div>
+  </div>
+</div></section>
+
+<section class="confianza"><div class="cont">
+  <div><span class="ico v"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></span><div>100% en español<small>Clases, libros y atención</small></div></div>
+  <div><span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><div>Cursos en línea<small>Pregrabados y en vivo por Zoom</small></div></div>
+  <div><span class="ico v"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg></span><div>Certificados<small>En la mayoría de los cursos</small></div></div>
+  <div><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><div>Pagos seguros<small>Procesados por Stripe</small></div></div>
+</div></section>
+
+<section class="sec"><div class="cont">
+  <div class="cab"><span class="eti">Áreas de estudio</span><h2>Elige el oficio que quieres aprender</h2><p>Cada área tiene cursos para empezar desde cero, renovar tu licencia o especializarte.</p></div>
+  <div class="cats">
+    <a class="cat-t dest" href="#"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span><h3>Income Tax</h3><p>Preparación de impuestos, AFSP, ITIN, CTEC, Sales Tax y software.</p><span class="n">11 cursos y servicios →</span></a>
+    <a class="cat-t" href="#"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span><h3>Notarios</h3><p>Notario público, remoto, firmas hipotecarias, bodas y traducciones.</p><span class="n">7 cursos →</span></a>
+    <a class="cat-t" href="#"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/></svg></span><h3>Agente de Seguros</h3><p>Curso de prelicencia para todos los estados y análisis de tu examen.</p><span class="n">2 cursos →</span></a>
+    <a class="cat-t" href="#"><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><h3>Migración</h3><p>Curso intensivo por módulos, N-400, visa juvenil, mociones y más.</p><span class="n">8 cursos y talleres →</span></a>
+    <a class="cat-t" href="#"><span class="ico v"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M8 6h8M8 10h2M12 10h2M8 14h2M12 14h2M8 18h8"/></svg></span><h3>Contabilidad</h3><p>QuickBooks, nóminas, creación de empresas y contabilidad con IA.</p><span class="n">5 cursos →</span></a>
+    <a class="cat-t" href="#"><span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><h3>Tecnología</h3><p>Webinars de ChatGPT, Canva, CapCut, Notion y negocios digitales.</p><span class="n">5 webinars →</span></a>
+    <a class="cat-t" href="#"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M5 17h14v-5l-2-5H7l-2 5z"/><circle cx="8" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg></span><h3>Dealer de Autos</h3><p>Prepárate para abrir tu propio negocio de venta de autos.</p><span class="n">1 curso →</span></a>
+    <a class="cat-t" href="#" style="background:var(--fondo-celeste);border-color:var(--fondo-celeste)"><span class="ico" style="background:#fff"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></span><h3>Librería digital</h3><p>Guías de estudio y libros para tu examen y tu profesión.</p><span class="n">Visitar la librería →</span></a>
+  </div>
+</div></section>
+
+<section class="sec sec-gris"><div class="cont">
+  <div class="cab izq" style="display:flex;justify-content:space-between;align-items:flex-end;max-width:none"><div><span class="eti">Más buscados</span><h2>Cursos destacados</h2></div><a class="btn btn-linea" href="#">Ver todos los cursos →</a></div>
+  <div class="grid3">
+    <div class="curso"><img src="{U}2026/08/Curso-de-Income-Tax-Online-en-Espanol-1.webp" alt=""><div class="cu-b"><span class="cat">Income Tax</span><h3>Curso de Income Tax Online</h3><p style="color:var(--suave);font-size:15px">Aprende a preparar declaraciones desde cero con software profesional.</p><div class="pie-cu"><span>Primer módulo gratis</span><a href="#">Ver curso →</a></div></div></div>
+    <div class="curso"><img src="{U}2026/10/Curso-de-Notario-Publico-1024x683.webp" alt=""><div class="cu-b"><span class="cat">Notarios</span><h3>Curso de Notario Público</h3><p style="color:var(--suave);font-size:15px">Para obtener tu comisión por primera vez o renovarla.</p><div class="pie-cu"><span>Nuevo o renovación</span><a href="#">Ver curso →</a></div></div></div>
+    <div class="curso"><img src="{U}2026/10/Curso-de-Agente-de-Seguros-1024x683.webp" alt=""><div class="cu-b"><span class="cat">Seguros</span><h3>Curso de Agente / Broker de Seguros</h3><p style="color:var(--suave);font-size:15px">Elige tu estado y conoce los requisitos de tu licencia.</p><div class="pie-cu"><span>Todos los estados</span><a href="#">Ver curso →</a></div></div></div>
+    <div class="curso"><img src="{U}2026/10/Curso-Intensivo-de-Immigracion.webp" alt=""><div class="cu-b"><span class="cat">Migración</span><h3>Curso Intensivo de Inmigración</h3><p style="color:var(--suave);font-size:15px">Todos los módulos del curso en una sola inscripción.</p><div class="pie-cu"><span>Módulos 1, 2 y 3</span><a href="#">Ver curso →</a></div></div></div>
+    <div class="curso"><img src="{U}2026/10/Curso-de-Quickbooks-Online.webp" alt=""><div class="cu-b"><span class="cat">Contabilidad</span><h3>Curso de QuickBooks Online</h3><p style="color:var(--suave);font-size:15px">Lleva la contabilidad de pequeños negocios.</p><div class="pie-cu"><span>Online y Desktop</span><a href="#">Ver curso →</a></div></div></div>
+    <div class="curso"><img src="{U}2026/08/Curso-de-Income-Tax-por-Zoom-en-Espanol-1.webp" alt=""><div class="cu-b"><span class="cat">Income Tax</span><h3>Curso de Income Tax por Zoom</h3><p style="color:var(--suave);font-size:15px">Clases en vivo con instructor por Zoom.</p><div class="pie-cu"><span>En vivo</span><a href="#">Ver curso →</a></div></div></div>
+  </div>
+</div></section>
+
+<section class="sec sec-celeste"><div class="cont">
+  <div class="cab"><span class="eti">Así de fácil</span><h2>¿Cómo funcionan nuestros cursos?</h2></div>
+  <div class="pasos">
+    <div class="paso"><h3>Elige tu curso</h3><p>Busca por área o por estado y revisa los requisitos de tu licencia.</p></div>
+    <div class="paso"><h3>Inscríbete en línea</h3><p>Paga de forma segura. Muchos cursos tienen opciones de pago.</p></div>
+    <div class="paso"><h3>Estudia a tu manera</h3><p>Cursos pregrabados a tu ritmo o clases en vivo por Zoom.</p></div>
+    <div class="paso"><h3>Obtén tu certificado</h3><p>Al terminar recibes tu certificado y te ayudamos con los siguientes pasos.</p></div>
+  </div>
+</div></section>
+
+<section class="sec"><div class="cont">
+  <div class="cab izq" style="display:flex;justify-content:space-between;align-items:flex-end;max-width:none"><div><span class="eti">Servicios profesionales</span><h2>Trámites que mantienen tu negocio en regla</h2></div><a class="btn btn-linea" href="#">Ver los 9 servicios →</a></div>
+  <div class="serv">
+    <div class="tarjeta"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/></svg></span><div><h3>Seguros y Bonds</h3><p>Notary bonds, errores y omisiones, preparadores de impuestos y más.</p></div></div>
+    <div class="tarjeta"><span class="ico v"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg></span><div><h3>Servicios para preparadores</h3><p>Revisiones, transmisiones, declaraciones corporativas e ITIN.</p></div></div>
+    <div class="tarjeta"><span class="ico"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-6 7 6v11"/></svg></span><div><h3>Solicitud de número EIN</h3><p>Gestionamos el EIN de tu negocio de forma rápida y sencilla.</p></div></div>
+  </div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="cont"><div class="soft">
+  <div><span class="eti" style="color:var(--verde)">Para preparadores de impuestos</span><h2>Software Profesional de Income Tax</h2><p>Todo lo que necesita tu oficina de impuestos en un solo programa en la nube.</p>
+  <ul><li class="check">E-file sin límites</li><li class="check">Todos los estados y PR</li><li class="check">Declaraciones corporativas</li><li class="check">Soporte en tu idioma</li></ul>
+  <a class="btn btn-verde" href="#">Ver planes del software →</a></div>
+  <div class="precio"><span class="eti cel">Licencia anual</span><br><strong>$750</strong><p style="color:var(--suave);margin-top:10px">por año · 2 usuarios incluidos<br>o acceso gratis con Pago x Declarar</p></div>
+</div></div></section>
+
+<section class="sec sec-gris"><div class="cont">
+  <div class="cab izq" style="display:flex;justify-content:space-between;align-items:flex-end;max-width:none"><div><span class="eti">Librería digital</span><h2>Guías de estudio para tu examen</h2></div><a class="btn btn-linea" href="#">Visitar la librería →</a></div>
+  <div class="libros">
+    <img src="{U}2025/09/3D-California-PC-1024x944.png" alt=""><img src="{U}2025/09/3D-guia-estudio-ley-estatal-seguros-PC-LG-TX-1024x944.png" alt=""><img src="{U}2025/09/3D-guia-estudio-ley-estatal-PC-FL-1024x944.png" alt=""><img src="{U}2025/09/3D-california-preparacion-examen-notary-public-1024x944.png" alt=""><img src="{U}2025/09/3D-guia-para-dominar-schedule-C-1024x944.png" alt=""><img src="{U}2025/09/3D-proceso-solicitud-agente-ITIN-IRS-1024x944.png" alt="">
+  </div>
+</div></section>
+
+<section class="sec"><div class="cont">
+  <div class="cab izq" style="display:flex;justify-content:space-between;align-items:flex-end;max-width:none"><div><span class="eti">Blog</span><h2>Aprende algo nuevo cada semana</h2></div><a class="btn btn-linea" href="#">Ir al blog →</a></div>
+  <div class="blog">
+    <article class="post"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2026/01/ITIN-y-social-300x167.jpg" alt=""><span class="f">Income Tax · Enero 2026</span><h3>Padres con ITIN, hijos con Seguro Social</h3><a class="l" href="#">Leer artículo →</a></article>
+    <article class="post"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/08/apostillar-en-florida-300x200.jpeg" alt=""><span class="f">Notarios · Agosto 2025</span><h3>Apostillar documentos notarizados por notarios de Florida</h3><a class="l" href="#">Leer artículo →</a></article>
+    <article class="post"><img src="https://centrolatinodecapacitacion.net/wp-content/uploads/2025/05/shutterstock_422736631-300x200.jpg" alt=""><span class="f">Nóminas · Mayo 2025</span><h3>Corrección de Formularios 941</h3><a class="l" href="#">Leer artículo →</a></article>
+  </div>
+</div></section>
+
+<section class="sec sec-gris"><div class="cont faq">
+  <div><span class="eti">Preguntas frecuentes</span><h2>¿Tienes dudas?</h2><p style="color:var(--suave);font-size:18px;margin:14px 0 24px">Si no encuentras tu respuesta, llámanos de lunes a sábado, de 1 a 7 pm (hora del Este).</p><a class="btn btn-azul" href="#">Contáctanos</a></div>
+  <div>
+    <details open><summary>¿Qué requisitos necesito para inscribirme?</summary><p>Depende de tu estado. En la página de cada curso encontrarás los requisitos de tu estado.</p></details>
+    <details><summary>¿Los cursos incluyen certificado?</summary></details>
+    <details><summary>¿Los pagos son seguros?</summary></details>
+    <details><summary>¿Los cursos son en línea o presenciales?</summary></details>
+    <details><summary>¿Ofrecen descuentos para grupos o empresas?</summary></details>
+    <details><summary>¿Qué hago si no puedo entrar a la plataforma?</summary></details>
+  </div>
+</div></section>
+
+<section class="sec"><div class="cont"><div class="cta">
+  <div><h2>Empieza hoy tu nuevo oficio</h2><p>Te ayudamos a elegir el curso correcto para tu estado. Llámanos o escríbenos por WhatsApp.</p><div style="display:flex;gap:12px;margin-top:26px"><a class="btn btn-verde" href="#">Ver cursos</a><a class="btn btn-linea-bl" href="#">Escribir por WhatsApp</a></div></div>
+  <div class="tels"><a href="#">(760) 553-3256 <small>Llamar</small></a><a href="#">(909) 344-0703 <small>Llamar · WhatsApp</small></a><a href="#">(909) 788-0445 <small>Llamar</small></a></div>
+</div></div></section>
+
+<!--PIE-->

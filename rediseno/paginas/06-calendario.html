@@ -1,0 +1,32 @@
+<!--TITULO Calendario de cursos · Centro Latino de Capacitación-->
+<style>
+.cal-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.meses{display:flex;gap:8px}
+.evento{display:grid;grid-template-columns:110px 1fr auto;gap:24px;align-items:center;background:#fff;border:1px solid var(--borde);border-radius:18px;padding:20px 24px;margin-bottom:14px}
+.fecha{background:var(--fondo-celeste);border-radius:14px;text-align:center;padding:12px 0}
+.fecha b{display:block;font-family:var(--f-titulo);font-size:30px;color:var(--azul);line-height:1}
+.fecha span{font-size:13px;font-weight:700;color:var(--celeste-osc);text-transform:uppercase;letter-spacing:1px}
+.evento h3{font-size:19px}
+.evento .meta{display:flex;gap:16px;color:var(--suave);font-size:14.5px;margin-top:6px;flex-wrap:wrap}
+.nota{background:var(--fondo-verde);border:1px solid #cdeed3;border-radius:16px;padding:16px 20px;color:var(--azul);font-weight:600;margin-bottom:28px;display:flex;gap:10px;align-items:center}
+@media (max-width:760px){.evento{grid-template-columns:80px 1fr}.evento .btn{grid-column:1/-1}}
+</style>
+<!--ENCABEZADO calendario-->
+<section class="banner"><div class="cont">
+  <div class="migas"><a href="#">Inicio</a> / Calendario de cursos</div>
+  <h1>Calendario de cursos</h1>
+  <p class="lead">Consulta todas las fechas disponibles de nuestros cursos en vivo por Zoom y elige la que mejor te funcione.</p>
+</div></section>
+<section class="sec" style="padding-top:44px"><div class="cont">
+  <div class="nota">🕐 Todos los horarios están en hora del Este (Florida).</div>
+  <div class="cal-top">
+    <div class="meses"><a class="chip on" href="#">[Mes actual]</a><a class="chip" href="#">[Mes siguiente]</a><a class="chip" href="#">[Mes +2]</a></div>
+    <div style="display:flex;gap:8px"><a class="chip" href="#">Todas las áreas ▾</a></div>
+  </div>
+  <div class="evento"><div class="fecha"><b>[DD]</b><span>[Mes]</span></div><div><span class="eti cel" style="margin-bottom:4px">Income Tax · Por Zoom</span><h3>Curso de Income Tax por Zoom</h3><div class="meta"><span>🕐 [Hora] (hora del Este)</span><span>📅 [N] clases</span></div></div><a class="btn btn-verde btn-sm" href="#">Inscribirme</a></div>
+  <div class="evento"><div class="fecha"><b>[DD]</b><span>[Mes]</span></div><div><span class="eti cel" style="margin-bottom:4px">Income Tax · Por Zoom</span><h3>Curso de Impuestos Corporativos</h3><div class="meta"><span>🕐 [Hora] (hora del Este)</span><span>📅 [N] clases</span></div></div><a class="btn btn-verde btn-sm" href="#">Inscribirme</a></div>
+  <div class="evento"><div class="fecha"><b>[DD]</b><span>[Mes]</span></div><div><span class="eti cel" style="margin-bottom:4px">Income Tax · Por Zoom</span><h3>Curso de Sales Tax</h3><div class="meta"><span>🕐 [Hora] (hora del Este)</span><span>📅 [N] clases</span></div></div><a class="btn btn-verde btn-sm" href="#">Inscribirme</a></div>
+  <div class="evento"><div class="fecha"><b>[DD]</b><span>[Mes]</span></div><div><span class="eti cel" style="margin-bottom:4px">Migración · Taller</span><h3>Taller Naturalización N-400</h3><div class="meta"><span>🕐 [Hora] (hora del Este)</span><span>📅 [N] clases</span></div></div><a class="btn btn-verde btn-sm" href="#">Inscribirme</a></div>
+  <div class="evento"><div class="fecha"><b>[DD]</b><span>[Mes]</span></div><div><span class="eti cel" style="margin-bottom:4px">Tecnología · Webinar</span><h3>Webinar de Canva</h3><div class="meta"><span>🕐 [Hora] (hora del Este)</span><span>📅 [N] clases</span></div></div><a class="btn btn-verde btn-sm" href="#">Inscribirme</a></div>
+</div></section>
+<!--PIE-->
