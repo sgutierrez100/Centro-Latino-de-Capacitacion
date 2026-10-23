@@ -1,0 +1,36 @@
+{
+  "appId": "com.centrolatinodecapacitacion.app",
+  "appName": "Centro Latino",
+  "webDir": "www",
+  "server": {
+    "url": "https://centrolatinodecapacitacion.com/",
+    "errorPath": "sin-conexion.html",
+    "allowNavigation": [
+      "centrolatinodecapacitacion.com",
+      "*.centrolatinodecapacitacion.com",
+      "centrolatinodecapacitacion.net",
+      "*.centrolatinodecapacitacion.net",
+      "centrolatinodecapacitacion.org",
+      "*.centrolatinodecapacitacion.org"
+    ]
+  },
+  "android": {
+    "appendUserAgent": "CentroLatinoApp",
+    "allowMixedContent": false
+  },
+  "ios": {
+    "appendUserAgent": "CentroLatinoApp",
+    "contentInset": "automatic"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#F5F8FA",
+      "showSpinner": false
+    },
+    "SystemBars": {
+      "insetsHandling": "css"
+    }
+  }
+}

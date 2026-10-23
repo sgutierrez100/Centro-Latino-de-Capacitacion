@@ -1,0 +1,24 @@
+{
+  "name": "centro-latino-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App de Centro Latino de Capacitación (Android y iPhone) basada en el sitio web",
+  "scripts": {
+    "sync": "cap sync",
+    "assets": "capacitor-assets generate --iconBackgroundColor '#F5F8FA' --splashBackgroundColor '#F5F8FA' --splashBackgroundColorDark '#1F2A33'",
+    "android:debug": "cap sync android && cd android && ./gradlew assembleDebug",
+    "android:release": "cap sync android && cd android && ./gradlew bundleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3"
+  }
+}

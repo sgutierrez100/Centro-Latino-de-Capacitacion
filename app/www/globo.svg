@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Centro Latino de Capacitación">
+<defs>
+<radialGradient id="mar" cx="38%" cy="32%" r="72%"><stop offset="0" stop-color="#C4E9F7"/><stop offset=".5" stop-color="#6EC1E4"/><stop offset="1" stop-color="#3796C4"/></radialGradient>
+<radialGradient id="tierra" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#9BE3A5"/><stop offset=".55" stop-color="#61CE70"/><stop offset="1" stop-color="#2E9E44"/></radialGradient>
+<clipPath id="cg"><circle cx="50" cy="50" r="47"/></clipPath>
+</defs>
+<circle cx="50" cy="50" r="47" fill="url(#mar)"/>
+<g clip-path="url(#cg)" fill="url(#tierra)">
+<path d="M6 30C8 24 14 20 20 19L26 17C30 13 36 11 42 12C46 13 48 16 46 19C44 21 43 24 45 26C47 28 50 27 51 24C52 21 55 20 57 22C60 25 61 29 58 32C56 34 55 36 53 38C51 40 50 43 50 46C51 49 52 52 51 54C49 54 48 51 47 49C44 48 41 48 39 50C37 52 38 55 40 57C42 58 44 59 45 61C46 63 47 64 47.5 65C45 65 43 63 41 61C37 58 33 55 31 52C29 49 27 47 25.5 45C24 41 21 37 18 35C14 33 10 33 6 30Z"/>
+<path d="M47.5 66C51 64 55 65 58 67C62 69 67 71 70 74C70 78 66 80 63 83C60 86 57 89 55 93C53 96 51 98 49.5 98C48.5 94 48.5 90 48 86C47 81 45 76 44 72C43.5 69 45 67 47.5 66Z"/>
+<path d="M57 7C62 5 68 6 70 9C70 13 67 16 63 18C60 17 58 14 57 11Z"/>
+<path d="M80 22C85 21 90 24 94 28C97 33 99 40 99 46C97 52 94 56 92 60C88 57 86 52 84 47C82 43 80 40 79 36C79 31 79 26 80 22Z"/>
+</g>
+<circle cx="50" cy="50" r="46.5" fill="none" stroke="#1B7FAE" stroke-opacity=".25"/>
+</svg>

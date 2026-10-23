@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Centro Latino</string>
+    <string name="title_activity_main">Centro Latino</string>
+    <string name="package_name">com.centrolatinodecapacitacion.app</string>
+    <string name="custom_url_scheme">com.centrolatinodecapacitacion.app</string>
+</resources>
