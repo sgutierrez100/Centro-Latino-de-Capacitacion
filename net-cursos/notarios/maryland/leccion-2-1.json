@@ -1,209 +1,108 @@
 {
  "post": 183060,
- "titulo": "2.1 Dónde se aplica: la Secretaría de Estado y su portal en línea",
+ "titulo": "2.1 La solicitud en línea, paso a paso",
+ "fuentes": "SG §18-102, §18-103; COMAR 01.02.08.03, .15; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 26/10/2026",
  "secciones": [
-  {
-   "tipo": "resumen",
-   "titulo": "Lo más importante",
-   "icono": "fas fa-star",
-   "items": [
-    "La solicitud la recibe la <strong>Secretaría de Estado de Maryland</strong> (Secretary of State), en su <strong>Notary Division</strong> (división de notarios).",
-    "Se hace <strong>solo en línea</strong>, en el portal oficial <strong>mdsos2.my.site.com</strong>. No se manda por correo ni se lleva en persona.",
-    "En el mismo portal puedes <strong>revisar el estado</strong> de tu solicitud y, más adelante, renovar o actualizar tus datos.",
-    "Toda la comunicación de la Secretaría llega por <strong>correo electrónico</strong>: usa uno que revises seguido."
-   ]
-  },
-  {
-   "titulo": "Quién recibe tu solicitud",
-   "icono": "fas fa-landmark",
-   "bloques": [
-    {
-     "tipo": "texto",
-     "texto": "En Maryland, los notarios los nombra el <strong>Gobernador</strong>, con la aprobación de tu <strong>senador estatal</strong> o de la <strong>Secretaría de Estado</strong>, si el senador le pasó esa tarea (SG § 18-101). Pero todas las solicitudes entran por un solo lugar: la <strong>Notary Division</strong> de la Secretaría de Estado. Ella revisa que tu solicitud esté completa, hace la verificación de antecedentes y te avisa por correo electrónico."
-    },
-    {
-     "tipo": "texto",
-     "texto": "Datos de la oficina, según su página oficial:"
-    },
-    {
-     "tipo": "lista",
-     "items": [
-      [
-       "fas fa-map-marker-alt",
-       "<strong>Dirección:</strong> 16 Francis St., Annapolis, MD 21401."
-      ],
-      [
-       "fas fa-phone",
-       "<strong>Teléfono para preguntas de notarios:</strong> 410-974-5520."
-      ],
-      [
-       "fas fa-envelope",
-       "<strong>Correo electrónico:</strong> dlnotary_sos@maryland.gov."
-      ],
-      [
-       "fas fa-clock",
-       "<strong>Horario de oficina:</strong> de 8:30 a 4:30."
-      ]
-     ]
-    },
-    {
-     "tipo": "nota",
-     "texto": "<strong>Importante:</strong> la solicitud de notario <strong>solo se hace en línea</strong>. La Secretaría de Estado dice: «You must apply online» (debes solicitar en línea). Entra siempre desde la página oficial de la Secretaría, sos.maryland.gov/Notary, para llegar al portal correcto."
-    }
-   ]
-  },
-  {
-   "titulo": "Lo que puedes hacer en el portal",
-   "icono": "fas fa-laptop",
-   "bloques": [
-    {
-     "tipo": "texto",
-     "texto": "El portal tiene botones en inglés. Estos son los que vas a usar:"
-    },
-    {
-     "tipo": "lista",
-     "items": [
-      "<strong>«Apply for a New Notary Commission»:</strong> solicitar una comisión nueva. Es el que usas la primera vez.",
-      "<strong>«Check Status of a Submitted Application»:</strong> revisar el estado de una solicitud que ya enviaste.",
-      "<strong>«Renew Your Notary Commission»:</strong> renovar tu comisión cuando esté por vencer.",
-      "<strong>«Update Your Notary Information»:</strong> cambiar tu nombre o tu dirección después de tener tu comisión."
-     ]
-    },
-    {
-     "tipo": "texto",
-     "texto": "En el portal también hay una página para <strong>buscar notarios</strong> (Search a Notary). Ahí cualquiera puede confirmar si una persona es notario vigente en Maryland."
-    }
-   ]
-  },
-  {
-   "titulo": "Antes de entrar al portal",
-   "icono": "fas fa-clipboard-check",
-   "bloques": [
-    {
-     "tipo": "texto",
-     "texto": "La solicitud nueva toma unos <strong>15 minutos</strong>, según la Secretaría, si ya tienes todo listo. Prepara esto antes de empezar:"
-    },
-    {
-     "tipo": "pasos",
-     "items": [
-      "<strong>Tus dos certificados:</strong> el <strong>Certificate of Completion</strong> del curso y el <strong>Certificate of Passing</strong> del examen, en copia electrónica (COMAR 01.02.08.15).",
-      "<strong>Tu distrito legislativo y el nombre de tu senador.</strong> Los encuentras con la herramienta de búsqueda de la Asamblea General de Maryland: escribes tu dirección y te los da.",
-      "<strong>Una copia de tu identificación</strong> con foto, emitida por el gobierno, como tu licencia de manejo.",
-      "<strong>Los datos de 3 referencias:</strong> nombre, dirección, teléfono y correo electrónico.",
-      "<strong>Una tarjeta para pagar $25</strong> (SG § 18-103; COMAR 01.02.08.03).",
-      "<strong>Un correo electrónico</strong> que revises seguido."
-     ]
-    },
-    {
-     "tipo": "texto",
-     "texto": "En la lección 2.2 llenamos la solicitud campo por campo."
-    }
-   ]
-  },
-  {
-   "titulo": "Qué pasa cuando la envías",
-   "icono": "fas fa-paper-plane",
-   "bloques": [
-    {
-     "tipo": "pasos",
-     "items": [
-      "Al terminar y pagar, te llega un <strong>correo de confirmación</strong> del sistema de registro en línea.",
-      "La Secretaría de Estado recibe tu solicitud el <strong>siguiente día hábil</strong>.",
-      "La revisan, verifican tus antecedentes y te avisan por <strong>correo electrónico</strong> si te aprueban o te niegan."
-     ]
-    }
-   ]
-  },
-  {
-   "titulo": "Enlaces oficiales",
-   "icono": "fas fa-link",
-   "bloques": [
-    {
-     "tipo": "botones",
-     "items": [
-      {
-       "texto": "Portal de solicitud",
-       "url": "https://mdsos2.my.site.com/"
-      },
-      {
-       "texto": "Notary Division (Secretaría de Estado)",
-       "url": "https://sos.maryland.gov/Notary/Pages/default.aspx"
-      },
-      {
-       "texto": "Busca tu distrito legislativo",
-       "url": "https://mgaleg.maryland.gov/mgawebsite/members/district"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "casos",
-   "titulo": "Casos de la oficina",
-   "icono": "fas fa-briefcase",
-   "items": [
-    [
-     "Una vecina imprimió una solicitud de otro estado y quiere mandarla por correo a Annapolis.",
-     "Explícale que en Maryland la solicitud solo se hace en línea, en el portal de la Secretaría de Estado."
-    ],
-    [
-     "Un amigo quiere usar el correo electrónico de su trabajo, que casi nunca revisa.",
-     "Recomiéndale usar uno que revise seguido. Todos los avisos de la Secretaría llegan por correo electrónico, incluido el de aprobación."
-    ],
-    [
-     "Enviaste tu solicitud hace unos días y quieres saber en qué va.",
-     "Entra al portal y usa «Check Status of a Submitted Application»."
-    ]
-   ]
-  },
-  {
-   "tipo": "errores",
-   "titulo": "Errores comunes",
-   "icono": "fas fa-exclamation-triangle",
-   "items": [
-    "Empezar la solicitud sin tener listos los dos certificados.",
-    "No saber tu distrito legislativo ni el nombre de tu senador.",
-    "Dar un correo electrónico que no revisas.",
-    "Buscar el portal en internet en vez de entrar desde la página oficial de la Secretaría."
-   ]
-  },
-  {
-   "tipo": "ejercicios",
-   "titulo": "Ejercicios",
-   "icono": "fas fa-edit",
-   "items": [
-    {
-     "tipo": "vf",
-     "pregunta": "La solicitud de notario de Maryland se puede mandar en papel por correo.",
-     "ok": "F",
-     "razon": "Solo se hace en línea."
-    },
-    {
-     "tipo": "vf",
-     "pregunta": "La Secretaría de Estado te avisa por correo electrónico si te aprueban o te niegan.",
-     "ok": "V"
-    },
-    {
-     "tipo": "om",
-     "pregunta": "¿Qué botón del portal usas la primera vez?",
-     "opciones": [
-      "Renew Your Notary Commission",
-      "Apply for a New Notary Commission",
-      "Update Your Notary Information"
-     ],
-     "ok": "b"
-    },
-    {
-     "tipo": "om",
-     "pregunta": "¿Qué oficina recibe las solicitudes de notario en Maryland?",
-     "opciones": [
-      "El Clerk of the Circuit Court",
-      "La Secretaría de Estado",
-      "La MVA"
-     ],
-     "ok": "b"
-    }
-   ]
-  }
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "La solicitud se hace <strong>solo en línea</strong>, en el portal de la <strong>Secretaría de Estado de Maryland</strong>, y la firmas <strong>bajo juramento</strong> (SG § 18-103).",
+   "Antes de empezar necesitas tus <strong>2 certificados</strong>, tu <strong>identificación</strong>, tu <strong>distrito legislativo</strong>, <strong>3 referencias</strong> y <strong>$25</strong> para pagar.",
+   "Tu <strong>dirección de casa</strong> debe ser la misma que la de tu identificación, y tu <strong>nombre</strong> debe ser igual al de tu identificación.",
+   "Declara con la verdad tus <strong>condenas penales y sentencias civiles</strong>: si no lo haces, te niegan la solicitud.",
+   "Toda la comunicación llega por <strong>correo electrónico</strong>: usa uno que revises seguido."]},
+
+  {"titulo": "Antes de empezar: revisa que cumples los requisitos", "icono": "fas fa-user-check", "bloques": [
+   {"tipo": "texto", "texto": "Para que te nombren notario debes cumplir todo esto (SG § 18-102):"},
+   {"tipo": "lista", "items": [
+    "Tener por lo menos <strong>18 años</strong>.",
+    "Tener <strong>buen carácter moral e integridad</strong>.",
+    "<strong>Vivir en Maryland</strong>, o tener un lugar de empleo o de práctica profesional en Maryland.",
+    "Haber <strong>terminado el curso y aprobado el examen</strong> (eso lo vemos en el capítulo 3).",
+    "Si vives en Maryland, vivir en el distrito senatorial desde el que te nombran.",
+    "Si vives en otro estado, que ese estado permita a quienes viven en Maryland y trabajan allá ser notarios allá."]}]},
+
+  {"titulo": "Dónde se aplica", "icono": "fas fa-landmark", "bloques": [
+   {"tipo": "texto", "texto": "Todas las solicitudes entran por la <strong>Notary Division</strong> (división de notarios) de la <strong>Secretaría de Estado de Maryland</strong> (Secretary of State). La solicitud se hace en su portal: <strong>mdsos2.my.site.com</strong>."},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> la solicitud <strong>solo se hace en línea</strong>. La Secretaría dice: «You must apply online» (debes solicitar en línea). No se manda por correo ni se lleva en persona. Entra siempre desde la página oficial, sos.maryland.gov/Notary, para llegar al portal correcto."},
+   {"tipo": "texto", "texto": "Si tienes dudas, la Notary Division atiende en:"},
+   {"tipo": "lista", "items": [
+    ["fas fa-phone", "<strong>Teléfono para preguntas de notarios:</strong> 410-974-5520."],
+    ["fas fa-envelope", "<strong>Correo electrónico:</strong> dlnotary_sos@maryland.gov."],
+    ["fas fa-map-marker-alt", "<strong>Oficina:</strong> 16 Francis St., Annapolis, MD 21401. Horario de 8:30 a 4:30."]]}]},
+
+  {"titulo": "Lo que necesitas tener listo", "icono": "fas fa-clipboard-check", "bloques": [
+   {"tipo": "texto", "texto": "La Secretaría calcula unos <strong>15 minutos</strong> para llenar la solicitud nueva, si ya tienes todo a la mano. Junta esto antes de entrar al portal:"},
+   {"tipo": "pasos", "items": [
+    "<strong>Tu distrito legislativo y el nombre de tu senador estatal.</strong> Los encuentras en la búsqueda de la Asamblea General de Maryland: escribes tu dirección y te los da. Si vives fuera de Maryland, ve la sección «Si vives en otro estado».",
+    "<strong>Una copia de tu licencia de manejo</strong> u otra identificación válida emitida por el gobierno.",
+    "<strong>Tu MVA Change of Address Card</strong> (tarjeta de cambio de dirección de la MVA), <strong>solo si</strong> la dirección de tu identificación no es la misma que pones en la solicitud.",
+    "<strong>Los datos de 3 referencias:</strong> nombre, dirección, teléfono y correo electrónico de cada una.",
+    "<strong>Una copia electrónica de tus 2 certificados:</strong> el <strong>Certificate of Completion</strong> (curso) y el <strong>Certificate of Passing</strong> (examen) (COMAR 01.02.08.15).",
+    "<strong>Una forma de pago para la tarifa de $25</strong> (SG § 18-103; COMAR 01.02.08.03).",
+    "<strong>Un correo electrónico personal</strong> que revises seguido. Ahí te llega todo, incluido el aviso de aprobación."]}]},
+
+  {"titulo": "Paso a paso", "icono": "fas fa-laptop", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Entra a la página de notarios de la Secretaría</strong> (sos.maryland.gov/Notary) y abre el enlace del portal en línea.",
+    "<strong>Elige «Apply for a New Notary Commission»</strong> (solicitar una comisión nueva).",
+    "<strong>Escribe tus datos personales</strong> con tu nombre tal como aparece en tu identificación.",
+    "<strong>Escribe tu dirección de casa y la de tu trabajo.</strong> La de casa es obligatoria y debe coincidir con tu identificación.",
+    "<strong>Escribe tu distrito legislativo y tu senador.</strong>",
+    "<strong>Agrega los datos de tus 3 referencias.</strong>",
+    "<strong>Declara tus antecedentes:</strong> las condenas penales y las sentencias civiles que haya en tu contra. Si no hay, lo indicas. Di siempre la verdad.",
+    "<strong>Sube tus documentos:</strong> identificación, los 2 certificados y, si aplica, la tarjeta de cambio de dirección de la MVA.",
+    "<strong>Revisa todo, firma bajo juramento y paga $25.</strong> Firmar bajo juramento significa que declaras que todo es verdad (SG § 18-103).",
+    "<strong>Espera el correo de confirmación</strong> de la solicitud y del pago."]},
+   {"tipo": "texto", "texto": "El portal puede pedirte estos datos en otro orden. Lo importante es que no te falte ninguno."}]},
+
+  {"titulo": "Tu dirección: la de tu casa", "icono": "fas fa-home", "bloques": [
+   {"tipo": "lista", "items": [
+    "La ley pide que te comisionen en el condado donde vives. Por eso te piden tu <strong>dirección de casa</strong>, no la del trabajo.",
+    "La Secretaría compara tu dirección de casa con la de tu <strong>identificación con foto</strong>.",
+    "Si no coinciden, tienes que subir tu <strong>MVA Change of Address Card</strong>. La Secretaría no acepta otro documento para comprobar tu dirección.",
+    "También pones tu dirección de trabajo, pero <strong>no sustituye</strong> a la de casa.",
+    "La dirección de casa de un notario es <strong>información pública</strong> según la ley."]}]},
+
+  {"titulo": "Tu nombre: igual que en tu identificación", "icono": "fas fa-id-card", "bloques": [
+   {"tipo": "texto", "texto": "El nombre de tu comisión debe ser igual al de tu identificación con foto. <strong>No se aceptan apodos</strong> ni títulos como Ph.D. o Esq."},
+   {"tipo": "texto", "texto": "Si tu identificación dice <strong>María Guadalupe Hernández</strong>, puedes usar «María Guadalupe Hernández», «María G. Hernández» o «M. G. Hernández». No puedes usar «Lupita Hernández». Si tu apellido lleva guion en la identificación, también debe llevarlo en la comisión."}]},
+
+  {"titulo": "Si vives en otro estado", "icono": "fas fa-map-marked-alt", "bloques": [
+   {"tipo": "lista", "items": [
+    "Puedes ser notario de Maryland si <strong>trabajas en Maryland</strong>.",
+    "Eliges el <strong>condado de Maryland donde está tu trabajo</strong>. Si no tienes una dirección de trabajo fija en Maryland, eliges el condado donde trabajas más seguido.",
+    "Si no tienes una dirección de trabajo fija en Maryland, también escribes una <strong>explicación de qué haces</strong> que cuenta como trabajar en Maryland.",
+    "Si tu casa y tu trabajo tienen direcciones de otro estado, la Secretaría te pedirá por correo una <strong>prueba de que trabajas en Maryland</strong>, como un contrato o una factura."]}]},
+
+  {"titulo": "Después de enviarla", "icono": "fas fa-paper-plane", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Te llega un <strong>correo de confirmación</strong> de la solicitud y del pago.",
+    "La Secretaría recibe tu solicitud el <strong>siguiente día hábil</strong>.",
+    "La revisan, verifican tus antecedentes, contactan a tus referencias y te avisan por <strong>correo electrónico</strong> si te aprueban o te niegan."]},
+   {"tipo": "texto", "texto": "Para ver en qué va, entra al portal y usa <strong>«Check Status of a Submitted Application»</strong>. Todo lo que pasa después lo vemos en la lección 2.2."}]},
+
+  {"titulo": "Enlaces oficiales", "icono": "fas fa-link", "bloques": [
+   {"tipo": "botones", "items": [
+    {"texto": "Portal de solicitud", "url": "https://mdsos2.my.site.com/"},
+    {"texto": "Notary Division (Secretaría de Estado)", "url": "https://sos.maryland.gov/Notary/Pages/NewApplicant.aspx"},
+    {"texto": "Busca tu distrito legislativo", "url": "https://mgaleg.maryland.gov/mgawebsite/members/district"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Una clienta se mudó hace 3 meses y su licencia todavía tiene la dirección anterior.", "Además de su licencia, debe subir su MVA Change of Address Card con la dirección nueva. La Secretaría no acepta otro documento."],
+   ["Un amigo vive en Virginia y trabaja en una oficina de Silver Spring, en el condado de Montgomery.", "Puede solicitar. Elige el condado de Montgomery, donde trabaja, y escribe sus dos direcciones."],
+   ["Tu vecino quiere que su comisión diga «Chuy Ramírez», como lo conoce todo el mundo.", "No se puede. Su comisión debe llevar el nombre de su identificación, por ejemplo «Jesús Ramírez»."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Poner una dirección de casa distinta a la de tu identificación sin subir la tarjeta de cambio de dirección de la MVA.",
+   "Poner la dirección del trabajo en lugar de la de tu casa.",
+   "Usar un apodo o un nombre que no es igual al de tu identificación.",
+   "No declarar una condena penal o una sentencia civil.",
+   "Empezar la solicitud sin tener listos los 2 certificados.",
+   "Dar un correo electrónico que no revisas."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Puedes mandar tu solicitud de notario en papel por correo a Annapolis.", "ok": "F", "razon": "Solo se hace en línea."},
+   {"tipo": "vf", "pregunta": "Si vives en Maryland, puedes poner la dirección de tu trabajo en lugar de la de tu casa.", "ok": "F", "razon": "Debes dar tu dirección de casa."},
+   {"tipo": "om", "pregunta": "La dirección de tu licencia no coincide con la de tu solicitud. ¿Qué subes?", "opciones": ["Un recibo de luz", "Tu MVA Change of Address Card", "Una carta de tu trabajo"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuántas referencias pide la solicitud?", "opciones": ["2", "3", "5"], "ok": "b"}]}
  ]
 }
