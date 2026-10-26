@@ -3,7 +3,7 @@ const {chromium}=require('playwright');const fs=require('fs');
 (async()=>{const [url,htmlf,titulo,out]=[fs.readFileSync(process.argv[2],'utf8').trim(),process.argv[3],process.argv[4],process.argv[5]];
 const frag=fs.readFileSync(htmlf,'utf8');const b=await chromium.launch();
 for(const [n,w,h] of [['esc',1280,900],['cel',390,844]]){const p=await b.newPage({viewport:{width:w,height:h},deviceScaleFactor:n=='cel'?2:1});
-await p.goto(url,{waitUntil:'networkidle',timeout:90000});
+for(let k=0;k<3;k++){await p.goto(url,{waitUntil:'networkidle',timeout:90000});if(await p.$('.clc-lec'))break;}
 await p.evaluate(([frag,titulo])=>{const r=document.querySelector('.clc-lec');r.outerHTML=frag;
  document.querySelectorAll('h1').forEach(h=>{if(/1\.4/.test(h.textContent))h.textContent=titulo;});
  document.querySelectorAll('video,iframe,.clc-lec-video,.llms-video-wrapper').forEach(v=>v.remove());

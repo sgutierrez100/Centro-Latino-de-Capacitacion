@@ -64,6 +64,11 @@ class Armador:
         if t == 'nota':
             return self.el('e-flexbox', 'Nota', ['clc-lec-nota'], hijos=[
                 self.svg('fas fa-info-circle', ['clc-lec-marca'], 'color: #1B7FAE;'), self.p(b['texto'])])
+        if t == 'formulario':
+            # Gravity Forms por shortcode (etiqueta dinámica); span porque un <p> no puede llevar el <form> dentro.
+            sc = f'[gravityform id="{b["id"]}" title="false" description="false" ajax="true"]'
+            return self.el('e-flexbox', 'Formulario', ['clc-lec-caso'], hijos=[
+                self.el('e-paragraph', 'Shortcode', cfg={'tag': 'span', 'paragraph': {'name': 'shortcode', 'settings': {'shortcode': sc}}})])
         if t == 'botones':
             # Estilo local: las clases clc-btn no se cargan en las lecciones.
             return self.el('e-flexbox', 'Botones', css='display: flex; flex-direction: row; flex-wrap: wrap; gap: 12px; padding: 0px;', hijos=[

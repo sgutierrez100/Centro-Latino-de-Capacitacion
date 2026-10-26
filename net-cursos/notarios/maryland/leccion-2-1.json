@@ -1,0 +1,40 @@
+{
+ "post": 183073,
+ "titulo": "2.1 Solicitar certificado requerido por el estado de Maryland",
+ "fuentes": "SG §18-102, §18-103; COMAR 01.02.08.15, .16; sos.maryland.gov/Notary (New Applicant), revisado el 26/10/2026",
+ "formulario": "Gravity Forms 240 «Solicitud Certificado Notario de Maryland»",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Para tu primera solicitud de notario, Maryland pide <strong>2 certificados</strong>: el <strong>Certificate of Completion</strong> y el <strong>Certificate of Passing</strong> (SG § 18-102; COMAR 01.02.08.15).",
+   "Sin esos certificados, tu solicitud queda <strong>incompleta</strong>.",
+   "Pídelos con el <strong>formulario de esta lección</strong>. Los recibes en tu <strong>email</strong> en aproximadamente <strong>24-48 horas</strong>.",
+   "Guárdalos bien: los vas a <strong>subir en tu solicitud en línea</strong> (lección 2.2)."]},
+
+  {"titulo": "Por qué necesitas este certificado", "icono": "fas fa-landmark", "bloques": [
+   {"tipo": "texto", "texto": "Desde el <strong>1 de octubre de 2021</strong>, la ley de Maryland pide que toda persona que solicita ser notario por primera vez <strong>termine un curso de estudio y apruebe un examen</strong> (SG § 18-102). El curso cubre la ley de notarios de Maryland, las regulaciones, la ética, los procedimientos y el Notary Handbook (COMAR 01.02.08.16)."},
+   {"tipo": "texto", "texto": "La prueba de que cumpliste son <strong>2 certificados</strong>. La Secretaría de Estado pide una copia electrónica de cada uno <strong>dentro de tu solicitud en línea</strong>. Si falta uno, tu solicitud no está completa y no la pueden aprobar."},
+   {"tipo": "nota", "texto": "<strong>Si estás renovando</strong> tu comisión, la ley solo pide el curso, no el examen. En ese caso necesitas únicamente el <strong>Certificate of Completion</strong> (SG § 18-102)."}]},
+
+  {"titulo": "Los 2 certificados", "icono": "fas fa-certificate", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Certificate of Completion</strong> (certificado de terminación): prueba que terminaste el <strong>curso de estudio</strong>.",
+    "<strong>Certificate of Passing</strong> (certificado de aprobación): prueba que aprobaste el <strong>examen</strong> con <strong>80 % o más</strong> (COMAR 01.02.08.15 y .16)."]}]},
+
+  {"titulo": "Cómo solicitarlo", "icono": "fas fa-clipboard-check", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Llena el formulario</strong> de abajo con tu nombre, teléfono, email y dirección.",
+    "<strong>Envíalo.</strong> Te llega un email de confirmación.",
+    "<strong>En aproximadamente 24-48 horas</strong> te enviamos el certificado a tu email.",
+    "<strong>Guárdalo</strong> en tu computadora o celular. Lo vas a subir en tu solicitud en línea (lección 2.2)."]},
+   {"tipo": "nota", "texto": "<strong>Escribe tu nombre tal como aparece en tu identificación</strong>, porque tu solicitud de notario debe llevar ese mismo nombre. Usa un email que revises seguido y, si no ves nuestro mensaje, busca también en la carpeta de spam o correo no deseado."}]},
+
+  {"titulo": "Formulario de solicitud", "icono": "fas fa-edit", "bloques": [
+   {"tipo": "formulario", "id": 240}]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Escribir un apodo o un nombre distinto al de tu identificación.",
+   "Escribir mal tu email: el certificado no te llega.",
+   "No revisar la carpeta de spam o correo no deseado.",
+   "Empezar la solicitud en línea antes de tener tus certificados."]}
+ ]
+}
