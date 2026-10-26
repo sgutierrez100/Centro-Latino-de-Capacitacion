@@ -1,56 +1,193 @@
 {
  "curso": 183043,
- "nota": "Estructura aprobada el 26/10/2026: 30 lecciones. Las lecciones que sobran quedan en borrador con «SOBRA –» en el título; las borra el usuario.",
+ "nota": "Estructura al 26/10/2026 (capítulos 2 y 3 unidos). Solo lecciones publicadas; las sobrantes están en borrador con «SOBRA –» y el capítulo 183059 quedó vacío. Los borra el usuario.",
  "capitulos": [
-  {"id": 183048, "titulo": "1. Bienvenida y el notario en Maryland", "lecciones": [
-   [183049, "1.1 Bienvenida: cómo funciona el curso"],
-   [183051, "1.2 ¿Qué es un notario público en Estados Unidos?"],
-   [183053, "1.3 El notario en Maryland: quién lo nombra, la ley y tu manual de referencia"],
-   [183055, "1.4 Tu ruta para ser notario en Maryland"],
-   [183057, "1.5 Inglés para el notario"]]},
-  {"id": 183072, "titulo": "2. El curso y el examen", "lecciones": [
-   [183073, "2.1 El curso y el examen, de principio a fin"],
-   [183075, "2.2 Cómo leer las preguntas en inglés: palabras clave y trampas"]],
-   "sobran": [183077, 183079, 183081]},
-  {"id": 183059, "titulo": "3. La solicitud", "lecciones": [
-   [183060, "3.1 La solicitud en línea, paso a paso"],
-   [183062, "3.2 Antecedentes, referencias y aprobación"],
-   [183064, "3.3 Si te niegan la solicitud"]],
-   "sobran": [183066, 183068, 183070]},
-  {"id": 183083, "titulo": "4. El juramento y tus herramientas", "lecciones": [
-   [183084, "4.1 El juramento ante el Clerk y tu comisión"],
-   [183086, "4.2 El sello y el journal"],
-   [183088, "4.3 El seguro E&O y otros materiales"]],
-   "sobran": [183090, 183092, 183094]},
-  {"id": 183096, "titulo": "5. Los actos notariales", "lecciones": [
-   [183097, "5.1 Acknowledgment, jurat, oath y affirmation"],
-   [183099, "5.2 Copias certificadas y otros actos"],
-   [183101, "5.3 Los certificados notariales: cómo llenarlos"],
-   [183103, "5.4 Casos especiales de firma y apostillas"]],
-   "sobran": [183105, 183107, 183109, 183111]},
-  {"id": 183113, "titulo": "6. La notarización correcta", "lecciones": [
-   [183114, "6.1 Los pasos de toda notarización"],
-   [183116, "6.2 Cómo identificar al firmante y revisar el documento"],
-   [183118, "6.3 Cuándo negarte, con casos de la oficina"]],
-   "sobran": [183120, 183122, 183124]},
-  {"id": 183126, "titulo": "7. Tarifas, ética y límites", "lecciones": [
-   [183127, "7.1 Tarifas del notario"],
-   [183129, "7.2 Lo que no puedes hacer: práctica del derecho y la palabra «notario»"],
-   [183131, "7.3 Conflictos de interés y sanciones"]],
-   "sobran": [183133, 183135]},
-  {"id": 183137, "titulo": "8. Cómo mantener tu comisión", "lecciones": [
-   [183138, "8.1 Cambios de dirección, nombre o empleador, y sello o journal perdido"],
-   [183140, "8.2 Renovación, mudanza o renuncia"]],
-   "sobran": [183142, 183144]},
-  {"id": 183146, "titulo": "9. Tu negocio de notario", "lecciones": [
-   [183147, "9.1 Servicios, precios y modelos listos"],
-   [183149, "9.2 Notario de firmas (Loan Signing Agent)"],
-   [183151, "9.3 Notarización remota y electrónica"]],
-   "sobran": [183153, 183155, 183157]},
-  {"id": 183159, "titulo": "10. Repaso final y qué sigue", "lecciones": [
-   [183160, "10.1 Repaso final"],
-   [183162, "10.2 Qué sigue: más cursos, redes y membresía"]],
-   "sobran": [183164]}
+  {
+   "id": 183048,
+   "titulo": "1. Bienvenida y el notario en Maryland",
+   "lecciones": [
+    [
+     183049,
+     "1.1 Bienvenida: cómo funciona el curso"
+    ],
+    [
+     183051,
+     "1.2 ¿Qué es un notario público en Estados Unidos?"
+    ],
+    [
+     183053,
+     "1.3 El notario en Maryland: quién lo nombra, la ley y tu manual de referencia"
+    ],
+    [
+     183055,
+     "1.4 Tu ruta para ser notario en Maryland"
+    ],
+    [
+     183057,
+     "1.5 Inglés para el notario"
+    ]
+   ]
+  },
+  {
+   "id": 183072,
+   "titulo": "2. El curso, el examen y la solicitud",
+   "lecciones": [
+    [
+     183073,
+     "2.1 Solicitar certificado requerido por el estado de Maryland"
+    ],
+    [
+     183060,
+     "2.2 La solicitud en línea, paso a paso"
+    ],
+    [
+     183062,
+     "2.3 Antecedentes, referencias y aprobación"
+    ],
+    [
+     183064,
+     "2.4 Si te niegan la solicitud"
+    ],
+    [
+     183075,
+     "2.5 Cómo leer las preguntas en inglés: palabras clave y trampas"
+    ]
+   ]
+  },
+  {
+   "id": 183083,
+   "titulo": "3. El juramento y tus herramientas",
+   "lecciones": [
+    [
+     183084,
+     "3.1 El juramento ante el Clerk y tu comisión"
+    ],
+    [
+     183086,
+     "3.2 El sello y el journal"
+    ],
+    [
+     183088,
+     "3.3 El seguro E&O y otros materiales"
+    ]
+   ]
+  },
+  {
+   "id": 183096,
+   "titulo": "4. Los actos notariales",
+   "lecciones": [
+    [
+     183097,
+     "4.1 Acknowledgment, jurat, oath y affirmation"
+    ],
+    [
+     183099,
+     "4.2 Copias certificadas y otros actos"
+    ],
+    [
+     183101,
+     "4.3 Los certificados notariales: cómo llenarlos"
+    ],
+    [
+     183103,
+     "4.4 Casos especiales de firma y apostillas"
+    ]
+   ]
+  },
+  {
+   "id": 183113,
+   "titulo": "5. La notarización correcta",
+   "lecciones": [
+    [
+     183114,
+     "5.1 Los pasos de toda notarización"
+    ],
+    [
+     183116,
+     "5.2 Cómo identificar al firmante y revisar el documento"
+    ],
+    [
+     183118,
+     "5.3 Cuándo negarte, con casos de la oficina"
+    ]
+   ]
+  },
+  {
+   "id": 183126,
+   "titulo": "6. Tarifas, ética y límites",
+   "lecciones": [
+    [
+     183127,
+     "6.1 Tarifas del notario"
+    ],
+    [
+     183129,
+     "6.2 Lo que no puedes hacer: práctica del derecho y la palabra «notario»"
+    ],
+    [
+     183131,
+     "6.3 Conflictos de interés y sanciones"
+    ]
+   ]
+  },
+  {
+   "id": 183137,
+   "titulo": "7. Cómo mantener tu comisión",
+   "lecciones": [
+    [
+     183138,
+     "7.1 Cambios de dirección, nombre o empleador, y sello o journal perdido"
+    ],
+    [
+     183140,
+     "7.2 Renovación, mudanza o renuncia"
+    ]
+   ]
+  },
+  {
+   "id": 183146,
+   "titulo": "8. Tu negocio de notario",
+   "lecciones": [
+    [
+     183147,
+     "8.1 Servicios, precios y modelos listos"
+    ],
+    [
+     183149,
+     "8.2 Notario de firmas (Loan Signing Agent)"
+    ],
+    [
+     183151,
+     "8.3 Notarización remota y electrónica"
+    ]
+   ]
+  },
+  {
+   "id": 183159,
+   "titulo": "9. Repaso final y qué sigue",
+   "lecciones": [
+    [
+     183160,
+     "9.1 Repaso final"
+    ],
+    [
+     183162,
+     "9.2 Qué sigue: más cursos, redes y membresía"
+    ]
+   ]
+  },
+  {
+   "id": 183059,
+   "titulo": "SOBRA – capítulo vacío (borrar)",
+   "lecciones": []
+  }
  ],
- "videos": ["5.3", "6.1", "10.1"]
+ "videos": [
+  "4.3",
+  "5.1",
+  "9.1"
+ ],
+ "formularios": {
+  "240": "Solicitud Certificado Notario de Maryland (lección 2.1)"
+ }
 }
