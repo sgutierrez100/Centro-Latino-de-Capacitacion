@@ -1,6 +1,6 @@
 {
  "post": 183060,
- "titulo": "2.1 La solicitud en línea, paso a paso",
+ "titulo": "3.1 La solicitud en línea, paso a paso",
  "fuentes": "SG §18-102, §18-103; COMAR 01.02.08.03, .15; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 26/10/2026",
  "secciones": [
   {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
@@ -16,7 +16,7 @@
     "Tener por lo menos <strong>18 años</strong>.",
     "Tener <strong>buen carácter moral e integridad</strong>.",
     "<strong>Vivir en Maryland</strong>, o tener un lugar de empleo o de práctica profesional en Maryland.",
-    "Haber <strong>terminado el curso y aprobado el examen</strong> (eso lo vemos en el capítulo 3).",
+    "Haber <strong>terminado el curso y aprobado el examen</strong> (eso lo vemos en el capítulo 2).",
     "Si vives en Maryland, vivir en el distrito senatorial desde el que te nombran.",
     "Si vives en otro estado, que ese estado permita a quienes viven en Maryland y trabajan allá ser notarios allá."]}]},
 
@@ -78,7 +78,7 @@
     "Te llega un <strong>correo de confirmación</strong> de la solicitud y del pago.",
     "La Secretaría recibe tu solicitud el <strong>siguiente día hábil</strong>.",
     "La revisan, verifican tus antecedentes, contactan a tus referencias y te avisan por <strong>correo electrónico</strong> si te aprueban o te niegan."]},
-   {"tipo": "texto", "texto": "Para ver en qué va, entra al portal y usa <strong>«Check Status of a Submitted Application»</strong>. Todo lo que pasa después lo vemos en la lección 2.2."}]},
+   {"tipo": "texto", "texto": "Para ver en qué va, entra al portal y usa <strong>«Check Status of a Submitted Application»</strong>. Todo lo que pasa después lo vemos en la lección 3.2."}]},
 
   {"titulo": "Enlaces oficiales", "icono": "fas fa-link", "bloques": [
    {"tipo": "botones", "items": [
