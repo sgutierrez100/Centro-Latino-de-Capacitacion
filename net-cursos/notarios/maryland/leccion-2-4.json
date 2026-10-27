@@ -1,0 +1,60 @@
+{
+ "post": 183064,
+ "titulo": "2.4 Si te niegan la solicitud",
+ "fuentes": "SG §18-102, §18-103, §18-104; COMAR 01.02.08.10, .11; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 27/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Te pueden negar la solicitud por cualquier hecho que muestre falta de <strong>honestidad, integridad, capacidad o confiabilidad</strong> para ser notario (SG § 18-104).",
+   "La Secretaría advierte que, si <strong>no declaras con exactitud tus antecedentes penales</strong>, te niegan la solicitud.",
+   "Si es tu <strong>primera solicitud</strong>, la ley <strong>no te da derecho a una audiencia</strong> por la negación (SG § 18-104).",
+   "El aviso te llega por <strong>correo electrónico</strong>. Léelo con calma y, si no entiendes el motivo, pregunta a la Notary Division."]},
+
+  {"titulo": "Por qué te pueden negar la solicitud", "icono": "fas fa-gavel", "bloques": [
+   {"tipo": "texto", "texto": "La ley permite negar una comisión por cualquier acto u omisión que muestre que la persona no tiene la <strong>honestidad, integridad, capacidad o confiabilidad</strong> para ser notario (SG § 18-104; COMAR 01.02.08.11). La ley da estos ejemplos:"},
+   {"tipo": "lista", "items": [
+    "Una <strong>declaración falsa, engañosa o una omisión</strong> en tu solicitud. Por ejemplo, no declarar una condena o una sentencia civil.",
+    "Una <strong>condena por un delito grave</strong> (felony) o por un delito de <strong>fraude, deshonestidad o engaño</strong>.",
+    "Una <strong>sentencia en tu contra</strong>, o haber aceptado responsabilidad, en un proceso legal o disciplinario por fraude, deshonestidad o engaño.",
+    "Usar <strong>anuncios falsos o engañosos</strong> para hacer creer que tienes derechos que un notario no tiene.",
+    "Que <strong>otro estado</strong> te haya negado, revocado o suspendido una comisión de notario.",
+    "No cumplir la ley de notarios o sus regulaciones."]},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> la Secretaría dice que si no declaras con exactitud tus antecedentes penales, <strong>tu solicitud será negada</strong>. Por eso, en tu solicitud di siempre la verdad."}]},
+
+  {"titulo": "No cumplir un requisito", "icono": "fas fa-user-times", "bloques": [
+   {"tipo": "texto", "texto": "Tampoco te pueden nombrar si no cumples algún requisito de la ley (SG § 18-102):"},
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "Tener menos de <strong>18 años</strong>."],
+    ["fas fa-times-circle", "<strong>No vivir ni trabajar</strong> en Maryland."],
+    ["fas fa-times-circle", "No haber <strong>terminado el curso y aprobado el examen</strong>."],
+    ["fas fa-times-circle", "Si vives en otro estado, que ese estado <strong>no permita</strong> a quienes viven en Maryland y trabajan allá ser notarios allá."]]}]},
+
+  {"titulo": "Qué hacer si te la niegan", "icono": "fas fa-tools", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Lee completo el correo de la Secretaría.</strong> Todas sus comunicaciones llegan por correo electrónico (COMAR 01.02.08.10).",
+    "<strong>Si no entiendes el motivo, pregunta.</strong> Escribe a la Notary Division (dlnotary_sos@maryland.gov) o llama al 410-974-5520.",
+    "<strong>Revisa si cumples todos los requisitos</strong> de la ley (SG § 18-102).",
+    "<strong>Pregunta a la Secretaría si puedes volver a solicitar, y cuándo.</strong> La ley no fija un plazo para eso, así que la Secretaría es quien te lo puede decir.",
+    "<strong>Si el motivo tiene que ver con una condena o un caso legal,</strong> busca el consejo de un abogado. Un notario no puede darte consejo legal."]},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> en una primera solicitud, la ley no obliga a darte aviso previo ni una audiencia por la negación (SG § 18-104). Esa audiencia es para quien ya es notario, cuando le quieren quitar o suspender la comisión."}]},
+
+  {"titulo": "Negada no es lo mismo que revocada", "icono": "fas fa-exchange-alt", "bloques": [
+   {"tipo": "texto", "texto": "Si te <strong>aprobaron</strong> pero no fuiste con el Clerk of the Circuit Court dentro de los <strong>30 días</strong>, tu solicitud no fue negada: <strong>te revocan la comisión</strong>. En ese caso, la Secretaría dice que debes enviar una <strong>solicitud nueva</strong> y pagar otra vez la tarifa de <strong>$25</strong> (SG § 18-103)."}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["A un cliente le negaron la solicitud y quiere pedir una audiencia para explicarse.", "En una primera solicitud, la ley no le da derecho a una audiencia. Puede escribir o llamar a la Notary Division para entender el motivo y preguntar si puede volver a solicitar."],
+   ["Una amiga no puso en su solicitud una condena de hace años y se la negaron.", "Ocultar antecedentes es causa de negación. Que pregunte a la Secretaría qué puede hacer y, por la condena, busque el consejo de un abogado."],
+   ["Un vecino fue aprobado, pero se le pasaron los 30 días para jurar.", "No se la negaron: le revocaron la comisión. Debe enviar una solicitud nueva y pagar otra vez."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Ocultar una condena o una sentencia civil para que no te nieguen la solicitud.",
+   "Volver a enviar la misma solicitud sin entender por qué te la negaron.",
+   "Pedirle a un notario consejo legal sobre tu caso.",
+   "Confundir una solicitud negada con una comisión revocada por no jurar a tiempo."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En una primera solicitud negada, la ley te da derecho a una audiencia.", "ok": "F", "razon": "Para una primera solicitud, la ley no la exige."},
+   {"tipo": "vf", "pregunta": "Una omisión engañosa en la solicitud puede ser causa para negarla.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Cuál de estas es una causa para negar la solicitud según la ley?", "opciones": ["No tener licencia de manejo de Maryland", "Una condena por un delito de fraude", "No hablar inglés"], "ok": "b"},
+   {"tipo": "om", "pregunta": "Te aprobaron, pero no juraste ante el Clerk en 30 días. ¿Qué pasa?", "opciones": ["Te revocan la comisión y debes solicitar otra vez", "Te dan 30 días más", "No pasa nada"], "ok": "a"}]}
+ ]
+}
