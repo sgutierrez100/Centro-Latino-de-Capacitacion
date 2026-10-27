@@ -4,6 +4,9 @@ import xml.etree.ElementTree as ET
 D=os.path.dirname(os.path.abspath(__file__))
 c=json.load(open(sys.argv[1]))
 def fa(v):
+  n=re.sub(r"^.*?fa-","",v); f=f'{D}/scratchpad/fa/{n}.svg'
+  if not os.path.exists(f):
+    import urllib.request; urllib.request.urlretrieve(f'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/svgs/solid/{n}.svg',f)
   s=open(f'{D}/scratchpad/fa/{re.sub(r"^.*?fa-","",v)}.svg').read(); s=re.sub(r'<!--.*?-->','',s)
   return s.replace('<svg ','<svg fill="currentColor" style="width: 100%; height: 100%; overflow: unset;" ')
 def r(e):
