@@ -1,0 +1,69 @@
+{
+ "post": 183099,
+ "titulo": "4.2 Copias certificadas y otros actos",
+ "fuentes": "SG §18-201, §18-203, §18-204, §18-205, §18-216; COMAR 01.02.08.02; Commercial Law §3-505(b), revisado el 28/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Además del acknowledgment y el jurat, en Maryland puedes <strong>ser testigo de una firma</strong>, <strong>certificar copias</strong> y hacer el <strong>protesto</strong> de un documento negociable (SG § 18-201).",
+   "Para <strong>certificar una copia</strong>, compruebas que sea una copia <strong>completa, fiel y exacta</strong> del original (SG § 18-204).",
+   "También puedes certificar que la <strong>copia impresa</strong> de un documento electrónico es exacta, si tú la imprimes o ves cómo se imprime.",
+   "Cada acto lleva su <strong>certificado</strong>, con la frase que da la ley (SG § 18-216)."]},
+
+  {"titulo": "Ser testigo de una firma (witnessing)", "icono": "fas fa-eye", "bloques": [
+   {"tipo": "texto", "texto": "Es cuando la persona <strong>firma frente a ti</strong> y tú das fe de que quien firmó es quien dice ser. Debes identificarla por conocimiento personal o con evidencia satisfactoria (SG § 18-204)."},
+   {"tipo": "lista", "items": [
+    "La persona se presenta ante ti y la <strong>identificas</strong>.",
+    "<strong>Firma frente a ti.</strong>",
+    "No hay juramento: solo das fe de la firma y de la identidad."]},
+   {"tipo": "nota", "texto": "Frase del certificado: «<strong>Signed (or attested) before me on … by …</strong>» (SG § 18-216)."}]},
+
+  {"titulo": "Certificar una copia (certified copy)", "icono": "fas fa-copy", "bloques": [
+   {"tipo": "texto", "texto": "Certificas que una copia es <strong>completa, fiel y exacta</strong> al documento o al objeto que se copió (SG § 18-204)."},
+   {"tipo": "pasos", "items": [
+    "Pide que te muestren el <strong>original</strong>.",
+    "<strong>Compara</strong> la copia con el original, página por página. Consejo: lo más seguro es que hagas la copia tú o veas cómo se hace.",
+    "Si la copia es completa y exacta, llena el <strong>certificado</strong>, fírmalo y pon tu <strong>sello</strong>.",
+    "Anótalo en tu <strong>journal</strong>."]},
+   {"tipo": "nota", "texto": "Frase del certificado: «<strong>I certify that this is a true and correct copy of a record in the possession of …</strong>» (SG § 18-216). Ahí escribes quién tiene el original."}]},
+
+  {"titulo": "Copia impresa de un documento electrónico", "icono": "fas fa-print", "bloques": [
+   {"tipo": "texto", "texto": "También puedes certificar que una <strong>copia en papel</strong> de un documento <strong>electrónico</strong> es exacta (SG § 18-203). Para hacerlo, la ley te pide (SG § 18-204):"},
+   {"tipo": "lista", "items": [
+    "Revisar, de manera razonable, que el documento electrónico esté en un formato que <strong>muestre si alguien lo alteró</strong> (tamper-evident).",
+    "<strong>Imprimirlo tú</strong>, o ver cómo se imprime.",
+    "<strong>No certificarlo</strong> si notas un cambio o un error en una firma electrónica o en otra información del documento."]},
+   {"tipo": "nota", "texto": "Frase del certificado: «<strong>I certify that this is a true and correct copy of an electronic record entitled …, dated …, containing … pages</strong>» (SG § 18-216)."}]},
+
+  {"titulo": "El protesto (protest)", "icono": "fas fa-file-invoice-dollar", "bloques": [
+   {"tipo": "texto", "texto": "El <strong>protesto</strong> es un acto poco común. Se usa con documentos negociables, como un cheque o un pagaré, cuando no se pagan o no se aceptan. El notario lo hace siguiendo las reglas del Commercial Law Article, § 3-505(b) (SG § 18-204). Si te lo piden, revisa esa regla o consulta a la Secretaría antes de hacerlo."}]},
+
+  {"titulo": "Cuánto puedes cobrar", "icono": "fas fa-dollar-sign", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "<strong>$8</strong> como máximo por cada acto notarial, como una copia certificada (COMAR 01.02.08.02)."],
+    ["fas fa-check-circle", "<strong>$2</strong> como máximo por cada copia que hagas de un documento notarizado o de una entrada de tu journal."],
+    ["fas fa-check-circle", "<strong>$6</strong> por certificar la copia de una entrada de tu journal."]]},
+   {"tipo": "texto", "texto": "Las tarifas completas las vemos en la lección 6.1."}]},
+
+  {"titulo": "Consigue tus sellos auxiliares", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras un <strong>sello para copias certificadas</strong> y otros sellos auxiliares que te ahorran tiempo. Antes de usarlos, revisa que el texto diga lo que pide la ley de Maryland."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un cliente trae una fotocopia de su diploma y te pide que la certifiques, pero dejó el original en su casa.", "No puedes certificarla sin ver el original. Pídele que regrese con el original para compararlo."],
+   ["Una clienta te manda por email un contrato en PDF y quiere una copia certificada en papel.", "Puedes hacerlo si el archivo está en un formato que muestra alteraciones, lo imprimes tú y no ves cambios ni errores en las firmas o los datos."],
+   ["Una persona quiere que seas testigo de su firma, pero ya firmó en su casa.", "Para ser testigo de una firma, la persona tiene que firmar frente a ti."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Certificar una copia sin ver el original.",
+   "No revisar todas las páginas de la copia.",
+   "Certificar la copia impresa de un documento electrónico que no imprimiste tú ni viste imprimir.",
+   "Ser testigo de una firma que no se hizo frente a ti.",
+   "Cobrar más de $8 por un acto notarial."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Para certificar una copia, debes compararla con el original.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Si notas un error en una firma electrónica, igual puedes certificar la copia impresa.", "ok": "F", "razon": "La ley no te deja certificarla si detectas un cambio o un error."},
+   {"tipo": "om", "pregunta": "¿Qué frase lleva el certificado cuando eres testigo de una firma?", "opciones": ["«This record was acknowledged before me»", "«Signed (or attested) before me»", "«I certify that this is a true and correct copy»"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuánto es lo máximo que cobras por certificar una copia?", "opciones": ["$2", "$8", "$25"], "ok": "b"}]}
+ ]
+}
