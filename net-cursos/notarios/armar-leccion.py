@@ -86,6 +86,18 @@ class Armador:
                         self.p(v)]) for e, v in b['filas']]
             return self.el('e-flexbox', 'Ficha de ejemplo', ['clc-lec-caso'], hijos=[
                 self.p(b['titulo'], 'clc-lec-etq'), self.el('e-flexbox', 'Filas', css='display: flex; flex-direction: column; gap: 0px;', hijos=filas)])
+        if t == 'comparar':
+            # Tarjetas lado a lado (en celular, una debajo de otra): título, subtítulo y filas etiqueta / texto.
+            tarjetas = []
+            for c in b['tarjetas']:
+                filas = [self.el('e-flexbox', 'Dato', css='display: flex; flex-direction: column; gap: 2px; padding: 10px 0px; border-top: 1px solid #E3ECF2;', hijos=[
+                    self.el('e-paragraph', 'Etiqueta', cfg={'paragraph': e},
+                            css='margin: 0px; font-family: Poppins; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #237a35; text-transform: uppercase;'),
+                    self.p(v)]) for e, v in c['filas']]
+                tarjetas.append(self.el('e-flexbox', c['titulo'], ['clc-lec-termino'], hijos=[
+                    self.p(c['titulo'], 'clc-lec-en'), self.p(c['sub'], 'clc-lec-es')] + filas))
+            return self.el('e-grid', 'Comparación', css='padding: 0px; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); '
+                           'grid-template-rows: none; @media(--mobile) { gap: 16px; }', hijos=tarjetas)
         if t == 'imagen':
             # Imagen de la biblioteca de medios (id); el alt sale de la biblioteca.
             return self.el('e-image', 'Imagen', cfg={'image': {'src': {'id': b['id']}, 'size': 'full'}},

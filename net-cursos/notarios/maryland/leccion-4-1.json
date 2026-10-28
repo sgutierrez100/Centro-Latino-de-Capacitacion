@@ -1,0 +1,277 @@
+{
+ "post": 183097,
+ "titulo": "4.1 Acknowledgment, jurat, oath y affirmation",
+ "fuentes": "SG §18-201, §18-203, §18-204, §18-205, §18-206, §18-215, §18-216, §18-224; sos.maryland.gov/Notary (FAQ), revisado el 28/10/2026",
+ "secciones": [
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "En el <strong>acknowledgment</strong> (reconocimiento de firma), la persona <strong>declara ante ti</strong> que firmó el documento.",
+    "En el <strong>jurat</strong> (verification on oath or affirmation), la persona <strong>jura o afirma</strong> ante ti que lo que dice el documento es <strong>verdad</strong>.",
+    "El <strong>oath</strong> (juramento) y la <strong>affirmation</strong> (afirmación) son promesas de decir la verdad. La afirmación no menciona a Dios.",
+    "En los dos actos, la persona debe <strong>presentarse ante ti</strong> y tú debes <strong>identificarla</strong> (SG § 18-204 a § 18-206)."
+   ]
+  },
+  {
+   "titulo": "Los actos que puedes hacer",
+   "icono": "fas fa-list-ul",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "La ley de Maryland dice que un acto notarial incluye (SG § 18-201):"
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      "Tomar un <strong>acknowledgment</strong> (reconocimiento de firma).",
+      "Tomar un <strong>oath</strong> (juramento) o una <strong>affirmation</strong> (afirmación).",
+      "Tomar una <strong>verification on oath or affirmation</strong>, que en la práctica se llama <strong>jurat</strong>.",
+      "Ser testigo de una firma (<strong>witnessing</strong>).",
+      "Certificar una copia (<strong>certified copy</strong>).",
+      "Hacer el protesto de un documento negociable (<strong>protest</strong>)."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "En esta lección vemos los más comunes: acknowledgment, jurat, oath y affirmation. Los demás, en la lección 4.2."
+    }
+   ]
+  },
+  {
+   "titulo": "Acknowledgment (reconocimiento de firma)",
+   "icono": "fas fa-signature",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Es cuando la persona <strong>declara ante ti</strong> que <strong>firmó el documento</strong> para lo que dice el documento. Si firma en nombre de otra persona o de una empresa, declara también que tenía autoridad para firmar (SG § 18-201)."
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "La persona se <strong>presenta ante ti</strong> (SG § 18-205).",
+      "La <strong>identificas</strong> porque la conoces personalmente o con una identificación válida (SG § 18-206).",
+      "Compruebas que <strong>la firma del documento es suya</strong> (SG § 18-204).",
+      "La persona <strong>declara</strong> que firmó el documento.",
+      "Llenas y firmas el <strong>certificado</strong>, pones tu <strong>sello</strong> y lo anotas en tu <strong>journal</strong>."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Importante:</strong> en el acknowledgment, la persona pudo haber firmado <strong>antes</strong>. Lo que la ley pide es que se presente ante ti y declare que la firma es suya. Frase del certificado: «This record was acknowledged before me on … by …» (SG § 18-216)."
+    }
+   ]
+  },
+  {
+   "titulo": "Jurat (verificación bajo juramento o afirmación)",
+   "icono": "fas fa-hand-paper",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "La ley lo llama <strong>verification on oath or affirmation</strong>: la persona declara, <strong>bajo juramento o afirmación</strong>, que lo que dice el documento es <strong>verdad</strong> (SG § 18-201). Se usa, por ejemplo, en declaraciones juradas (affidavits)."
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "La persona se <strong>presenta ante ti</strong> (SG § 18-205).",
+      "La <strong>identificas</strong> (SG § 18-206).",
+      "<strong>Firma el documento frente a ti.</strong> El certificado dice «Signed and sworn to before me»: firmado y jurado ante mí.",
+      "Le tomas el <strong>juramento o la afirmación</strong> de que lo que dice el documento es verdad.",
+      "Llenas y firmas el <strong>certificado</strong>, pones tu <strong>sello</strong> y lo anotas en tu <strong>journal</strong>."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Importante:</strong> el jurat siempre lleva un <strong>juramento o una afirmación</strong>. Si no se lo tomas, no hiciste un jurat. Frase del certificado: «Signed and sworn to (or affirmed) before me on … by …» (SG § 18-216)."
+    }
+   ]
+  },
+  {
+   "titulo": "Acknowledgment contra jurat",
+   "icono": "fas fa-columns",
+   "bloques": [
+    {
+     "tipo": "comparar",
+     "tarjetas": [
+      {
+       "titulo": "Acknowledgment",
+       "sub": "Reconocimiento de firma",
+       "filas": [
+        [
+         "Qué declara la persona",
+         "Que <strong>firmó</strong> el documento."
+        ],
+        [
+         "Cuándo firma",
+         "Pudo firmar <strong>antes</strong> de verte."
+        ],
+        [
+         "Juramento",
+         "<strong>No</strong> hace falta."
+        ],
+        [
+         "Frase del certificado",
+         "«This record was acknowledged before me on … by …»"
+        ]
+       ]
+      },
+      {
+       "titulo": "Jurat",
+       "sub": "Verificación bajo juramento o afirmación",
+       "filas": [
+        [
+         "Qué declara la persona",
+         "Que lo que dice el documento es <strong>verdad</strong>."
+        ],
+        [
+         "Cuándo firma",
+         "<strong>Frente a ti.</strong>"
+        ],
+        [
+         "Juramento",
+         "<strong>Sí:</strong> oath o affirmation."
+        ],
+        [
+         "Frase del certificado",
+         "«Signed and sworn to (or affirmed) before me on … by …»"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Oath y affirmation",
+   "icono": "fas fa-microphone",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "El <strong>oath</strong> (juramento) es una promesa solemne de decir la verdad que <strong>menciona a Dios</strong>.",
+      "La <strong>affirmation</strong> (afirmación) es la misma promesa, pero <strong>sin mencionar a Dios</strong>. Tiene el mismo valor.",
+      "La persona elige si jura o afirma. Respeta lo que prefiera."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Estas preguntas son un ejemplo nuestro; la ley no fija las palabras. Lo importante es que la persona conteste <strong>en voz alta</strong> que sí:"
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      [
+       "fas fa-comment",
+       "<strong>Oath:</strong> «Do you solemnly swear that the statements in this document are true, so help you God?»"
+      ],
+      [
+       "fas fa-comment",
+       "<strong>Affirmation:</strong> «Do you solemnly affirm that the statements in this document are true?»"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Lo que se repite en todos",
+   "icono": "fas fa-check-double",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "La persona se <strong>presenta ante ti</strong>, en persona o, si estás autorizado, a distancia por tecnología (SG § 18-205).",
+      "La <strong>identificas</strong>: la conoces personalmente, te muestra una identificación válida o la identifica un testigo creíble (SG § 18-206).",
+      "<strong>No</strong> notarizas si tú o tu esposo o esposa son parte del documento o tienen un beneficio directo (SG § 18-203).",
+      "Cada acto lleva su <strong>certificado</strong>, con tu firma, la fecha, el lugar, tu cargo, tu sello y la fecha en que vence tu comisión (SG § 18-215).",
+      "Firmas el certificado <strong>solo después</strong> de hacer el acto (SG § 18-215).",
+      "Lo anotas en tu <strong>journal</strong> (SG § 18-219)."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Quién decide qué acto se hace",
+   "icono": "fas fa-user-tie",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Casi siempre el documento ya trae el certificado, y ese certificado dice qué acto es. Si el documento no lo trae y la persona no sabe qué necesita, debe preguntarle a <strong>quien le pidió el documento</strong> o a un <strong>abogado</strong>."
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Cuidado:</strong> escoger por el cliente qué acto le conviene puede ser dar <strong>consejo legal</strong>, y un notario que no es abogado no puede darlo (SG § 18-224)."
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    [
+     "Un cliente llega con un poder notarial que ya firmó en su casa. El certificado dice «acknowledged before me».",
+     "Puedes hacerlo: en el acknowledgment pudo firmar antes. Que se presente ante ti, lo identificas, compruebas que la firma es suya y declara que la firmó."
+    ],
+    [
+     "Una señora trae una declaración jurada (affidavit) ya firmada. El certificado dice «Signed and sworn to before me».",
+     "Así no se puede: el certificado dice «Signed and sworn to before me», o sea que firma frente a ti. Pídele el documento sin firmar para que lo firme frente a ti, y tómale el juramento o la afirmación."
+    ],
+    [
+     "Un cliente te dice que no quiere jurar «por Dios» por sus creencias.",
+     "Tómale una afirmación: tiene el mismo valor y no menciona a Dios."
+    ]
+   ]
+  },
+  {
+   "tipo": "errores",
+   "titulo": "Errores comunes",
+   "icono": "fas fa-exclamation-triangle",
+   "items": [
+    "Hacer un jurat sin tomar el juramento o la afirmación.",
+    "Aceptar en un jurat un documento que ya venía firmado.",
+    "Escoger por el cliente si necesita acknowledgment o jurat.",
+    "Firmar el certificado antes de hacer el acto.",
+    "Notarizar un documento donde tú o tu esposo o esposa son parte."
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {
+     "tipo": "vf",
+     "pregunta": "En un acknowledgment, la persona puede haber firmado el documento antes de presentarse ante ti.",
+     "ok": "V"
+    },
+    {
+     "tipo": "vf",
+     "pregunta": "Una affirmation tiene menos valor que un oath.",
+     "ok": "F",
+     "razon": "Tienen el mismo valor; la afirmación solo no menciona a Dios."
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Qué acto lleva la frase «Signed and sworn to (or affirmed) before me»?",
+     "opciones": [
+      "Acknowledgment",
+      "Jurat (verification on oath or affirmation)",
+      "Copia certificada"
+     ],
+     "ok": "b"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿En cuál de estos casos NO puedes notarizar?",
+     "opciones": [
+      "Cuando el documento es de un vecino",
+      "Cuando tu esposa es parte del documento",
+      "Cuando el documento se usará en otro estado"
+     ],
+     "ok": "b"
+    }
+   ]
+  }
+ ]
+}
