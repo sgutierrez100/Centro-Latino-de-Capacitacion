@@ -64,6 +64,28 @@ class Armador:
         if t == 'nota':
             return self.el('e-flexbox', 'Nota', ['clc-lec-nota'], hijos=[
                 self.svg('fas fa-info-circle', ['clc-lec-marca'], 'color: #1B7FAE;'), self.p(b['texto'])])
+        if t == 'sello':
+            # Sello de ejemplo hecho con bloques: líneas centradas dentro de un borde doble, con la marca EJEMPLO.
+            lineas = [self.el('e-paragraph', 'Línea del sello', cfg={'paragraph': x},
+                              css=f'margin: 0px; text-align: center; font-family: Poppins; font-weight: {800 if k == 0 else 700}; '
+                                  f'font-size: {22 if k == 0 else 17}px; letter-spacing: 1px; color: #1F3A68; line-height: 1.35;')
+                      for k, x in enumerate(b['lineas'])]
+            return self.el('e-flexbox', 'Ejemplo de sello', css='display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 8px 0px;', hijos=[
+                self.el('e-paragraph', 'Marca ejemplo', cfg={'paragraph': 'EJEMPLO · DATOS INVENTADOS'},
+                        css='margin: 0px; font-family: Poppins; font-weight: 700; font-size: 13px; letter-spacing: 2px; color: #E5484D;'),
+                self.el('e-flexbox', 'Sello', css='display: flex; flex-direction: column; gap: 2px; padding: 22px 34px; border: 5px double #1F3A68; '
+                        'border-radius: 16px; background-color: #F7F9FD; max-width: 420px;', hijos=lineas),
+                self.p(b['pie'], 'clc-lec-def') if b.get('pie') else ''])
+        if t == 'ficha':
+            # Ficha de ejemplo (por ejemplo, una entrada del journal): filas etiqueta / valor.
+            filas = [self.el('e-flexbox', 'Fila', css='display: flex; flex-direction: row; gap: 14px; padding: 10px 0px; border-bottom: 1px solid #E3ECF2; '
+                             '@media(--mobile) { flex-direction: column; gap: 2px; }', hijos=[
+                        self.el('e-paragraph', 'Etiqueta', cfg={'paragraph': e},
+                                css='margin: 0px; flex: none; width: 210px; font-family: Poppins; font-weight: 700; font-size: 15px; color: #237a35; '
+                                    '@media(--mobile) { width: auto; }'),
+                        self.p(v)]) for e, v in b['filas']]
+            return self.el('e-flexbox', 'Ficha de ejemplo', ['clc-lec-caso'], hijos=[
+                self.p(b['titulo'], 'clc-lec-etq'), self.el('e-flexbox', 'Filas', css='display: flex; flex-direction: column; gap: 0px;', hijos=filas)])
         if t == 'imagen':
             # Imagen de la biblioteca de medios (id); el alt sale de la biblioteca.
             return self.el('e-image', 'Imagen', cfg={'image': {'src': {'id': b['id']}, 'size': 'full'}},

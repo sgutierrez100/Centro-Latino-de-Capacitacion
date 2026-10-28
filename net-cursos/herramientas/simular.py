@@ -21,7 +21,7 @@ def r(e):
     return f'<img src="{m["source_url"]}" alt="{html.escape(m.get("alt_text",""))}" class="e-image-base"{sty}>'
   if t=='e-heading': return f'<h2 class="{cl} e-heading-base e-default-h2">{s["title"]}</h2>'
   if t=="e-paragraph" and isinstance(s["paragraph"],dict): return f'<div style="padding:28px;border:2px dashed #9bc;border-radius:12px;text-align:center;font-family:sans-serif;color:#357">[Aquí aparece el formulario: {html.escape(s["paragraph"]["settings"]["shortcode"])}]</div>'
-  if t=="e-paragraph": return f'<p class="{cl} e-paragraph-base e-default-p">{s["paragraph"]}</p>'
+  if t=="e-paragraph": return f'<p class="{cl} e-paragraph-base e-default-p"{sty}>{s["paragraph"]}</p>'
   if t=='e-button': return f'<a href="{s["link"]["destination"]}" target="_blank" class="{cl} e-button-base e-default-a"{sty}>{s["text"]}</a>'
   raise ValueError(t)
 print(r(ET.fromstring(c['xml_structure'])))
