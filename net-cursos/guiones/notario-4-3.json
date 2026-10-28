@@ -3,13 +3,30 @@
  "velocidad": 1.06,
  "nota": "Lección 4.3 (antes 5.6). English goes written in English. Certificate phrases are the short forms of SG § 18-216; required parts from SG § 18-215.",
  "escenas": [
-  {"voz": "Cada acto notarial termina en un certificado. En esta lección aprenderás qué debe tener y cómo llenarlo sin errores."},
-  {"voz": "El certificado es el texto que tú llenas, firmas y sellas. La ley de Maryland dice que todo acto notarial lleva uno."},
-  {"voz": "Primero va el lugar: State of Maryland, County of, y el condado donde estás al notarizar. No siempre es el condado de tu comisión."},
-  {"voz": "Después van la fecha del acto y el nombre de la persona. Escribe la fecha real y no dejes ningún espacio en blanco."},
-  {"voz": "Cada acto tiene su frase. El acknowledgment dice: acknowledged before me. El jurat dice: signed and sworn to, or affirmed, before me."},
-  {"voz": "Al final va tu firma, igual a la que registraste con el Clerk; tu cargo, Notary Public; y tu sello, claro y sin tapar el texto."},
-  {"voz": "Escribe My commission expires con la fecha en que vence tu comisión. Y recuerda: firmas el certificado solo después de hacer el acto."},
-  {"voz": "En resumen: lugar, fecha, nombre, la frase correcta, tu firma, tu sello y el vencimiento. En la siguiente lección vemos casos especiales de firma y las apostillas."}
- ]
+  {
+   "voz": "Cada acto notarial termina en un certificado. En esta lección aprenderás qué debe tener y cómo llenarlo sin errores."
+  },
+  {
+   "voz": "El certificado es el texto que tú llenas, firmas y sellas. La ley de Maryland dice que todo acto notarial lleva uno."
+  },
+  {
+   "voz": "Primero va el lugar: State of Maryland, County of, y el condado donde estás al notarizar. No siempre es el condado de tu comisión."
+  },
+  {
+   "voz": "Después van la fecha del acto y el nombre de la persona. Escribe la fecha real y no dejes ningún espacio en blanco."
+  },
+  {
+   "voz": "Cada acto tiene su frase. El acknowledgment dice: acknowledged before me. El jurat dice: signed and sworn to, or affirmed, before me."
+  },
+  {
+   "voz": "Al final va tu firma, igual a la que registraste con el Clerk; tu cargo, Notary Public; y tu sello, claro y sin tapar el texto."
+  },
+  {
+   "voz": "Escribe My commission expires con la fecha en que vence tu comisión. Y recuerda: firmas el certificado solo después de hacer el acto."
+  },
+  {
+   "voz": "En resumen: lugar, fecha, nombre, la frase correcta, tu firma, tu sello y el vencimiento. En la siguiente lección vemos casos especiales de firma y las apostillas."
+  }
+ ],
+ "aprobado": "2026-10-28"
 }

@@ -1,0 +1,86 @@
+{
+ "post": 183103,
+ "titulo": "4.4 Casos especiales de firma y apostillas",
+ "fuentes": "SG §18-201, §18-207, §18-208, §18-213, §18-216; sos.maryland.gov/Certifications (Certifications/Apostilles), revisado el 28/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Si una persona <strong>no puede firmar</strong> por una razón física, puede pedirle a <strong>otra persona</strong> que firme por ella frente a ti, y tú escribes una nota en el documento (SG § 18-208).",
+   "Una <strong>marca</strong>, como una X, puede ser una firma, si la persona la hace con la intención de firmar (SG § 18-201).",
+   "Puedes <strong>negarte</strong> si no estás seguro de que la persona entiende lo que firma o de que firma por su propia voluntad (SG § 18-207).",
+   "La <strong>apostilla</strong> no la da el notario: el documento pasa por el <strong>Clerk</strong> de tu condado y luego por la <strong>Secretaría de Estado</strong>, que cobra <strong>$5</strong> por documento."]},
+
+  {"titulo": "Si la persona no puede firmar", "icono": "fas fa-hands-helping", "bloques": [
+   {"tipo": "texto", "texto": "Si una persona <strong>no puede firmar físicamente</strong>, por ejemplo por una lesión o una enfermedad, la ley le permite pedirle a otra persona que firme por ella (SG § 18-208):"},
+   {"tipo": "pasos", "items": [
+    "La persona que no puede firmar <strong>se presenta ante ti</strong> y la <strong>identificas</strong>.",
+    "La otra persona, la que va a firmar por ella, <strong>también está presente</strong> al mismo tiempo.",
+    "La persona le <strong>pide</strong> a la otra que firme su nombre en el documento.",
+    "La otra persona firma. <strong>Tú no puedes</strong> ser quien firme.",
+    "Tú escribes en el documento: «<strong>Signature affixed by (nombre de quien firmó) at the direction of (nombre de la persona)</strong>», o palabras parecidas."]},
+   {"tipo": "certificado", "marca": "EJEMPLO · DATOS INVENTADOS", "lineas": ["Signature affixed by <strong>Luis M. Ortega</strong> at the direction of <strong>Rosa E. Ortega</strong>."], "pie": "Esta es la nota que escribe el notario en el documento, cerca de la firma."}]},
+
+  {"titulo": "Firma con una marca", "icono": "fas fa-times", "bloques": [
+   {"tipo": "texto", "texto": "La ley define <strong>firmar</strong> como hacer o adoptar un <strong>símbolo</strong> con la intención de autenticar un documento (SG § 18-201). Por eso, una persona que no sabe escribir su nombre puede firmar con una <strong>marca</strong>, como una X."},
+   {"tipo": "lista", "items": [
+    "Igual tienes que <strong>identificar</strong> a la persona y comprobar que la marca es <strong>suya</strong>.",
+    "Anota en tu <strong>journal</strong> que firmó con una marca. Es un consejo nuestro, para que quede claro."]}]},
+
+  {"titulo": "Firmar en nombre de otro", "icono": "fas fa-building", "bloques": [
+   {"tipo": "texto", "texto": "A veces la persona firma en <strong>representación</strong> de otra persona o de una empresa (SG § 18-201). Por ejemplo:"},
+   {"tipo": "lista", "items": [
+    "Un <strong>oficial</strong> o representante de una empresa.",
+    "Un <strong>apoderado</strong> (attorney-in-fact) que firma con un poder notarial.",
+    "Un <strong>fideicomisario</strong> (trustee), un tutor (guardian) o un representante personal."]},
+   {"tipo": "texto", "texto": "Para un acknowledgment en representación, la ley tiene un formulario que dice además <strong>en qué calidad</strong> firma y <strong>por quién</strong>: «… by (nombre) as (type of authority, such as an officer or trustee) of (name of party) » (SG § 18-216)."}]},
+
+  {"titulo": "Capacidad y voluntad", "icono": "fas fa-brain", "bloques": [
+   {"tipo": "texto", "texto": "Puedes <strong>negarte</strong> a hacer el acto si no estás convencido de que la persona (SG § 18-207):"},
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "Tiene la <strong>capacidad</strong> de entender y firmar el documento."],
+    ["fas fa-times-circle", "Firma <strong>sabiendo lo que hace</strong> y por su <strong>propia voluntad</strong>."]]},
+   {"tipo": "texto", "texto": "Cuándo y cómo negarte lo vemos en la lección 5.3."}]},
+
+  {"titulo": "Documentos que no puedes notarizar", "icono": "fas fa-ban", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "La Secretaría de Estado indica que los <strong>documentos de naturalización e inmigración</strong> no se pueden notarizar, ni los originales ni las copias."],
+    ["fas fa-times-circle", "Un documento donde <strong>tú o tu esposo o esposa</strong> son parte o tienen un beneficio directo (SG § 18-203)."]]}]},
+
+  {"titulo": "Qué es una apostilla", "icono": "fas fa-globe-americas", "bloques": [
+   {"tipo": "texto", "texto": "Una <strong>apostilla</strong> es un certificado que hace válido un documento en <strong>otro país</strong> que firmó el <strong>Convenio de La Haya de 1961</strong>. Confirma que la firma y el cargo de quien firmó el documento son auténticos (SG § 18-213). En Maryland, las apostillas las da la <strong>Secretaría de Estado</strong>."},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> el notario <strong>no</strong> da apostillas. Tú solo notarizas el documento; el cliente hace el trámite de la apostilla después. Y la Secretaría avisa que <strong>no puede garantizar</strong> que otro país acepte el documento."}]},
+
+  {"titulo": "Cómo se apostilla un documento notarizado", "icono": "fas fa-route", "bloques": [
+   {"tipo": "pasos", "items": [
+    "El notario <strong>notariza</strong> el documento.",
+    "El cliente lleva el documento al <strong>Clerk of the Circuit Court del condado donde está comisionado el notario</strong>. Ese condado aparece en el sello del notario. El Clerk certifica que el notario está vigente.",
+    "Después lo lleva o lo manda a la <strong>Secretaría de Estado</strong> en Annapolis. Cobra <strong>$5 por documento</strong>.",
+    "Si el país <strong>firmó el Convenio de La Haya</strong>, recibe una <strong>apostilla</strong> y el documento ya está listo.",
+    "Si el país <strong>no lo firmó</strong>, recibe una certificación y luego debe pasar por el <strong>Departamento de Estado de EE. UU.</strong> y por la embajada del país."]},
+   {"tipo": "lista", "items": [
+    "<strong>Actas de nacimiento, matrimonio o divorcio de Maryland</strong> y otros documentos del estado o del condado van <strong>directo</strong> a la Secretaría de Estado, sin notario.",
+    "<strong>Documentos federales</strong>, como los del FBI o de USCIS, se apostillan en el <strong>Departamento de Estado de EE. UU.</strong>",
+    "Por correo: con FedEx, UPS o USPS Priority tarda unos <strong>3 a 4 días</strong>; por correo normal, de <strong>7 a 14 días hábiles</strong>. En persona, la Secretaría avisó que por ahora no atiende sin cita y que hay un límite de 10 documentos por persona al día: revisa su página antes de ir.",
+    "Para dudas, la oficina de certificaciones atiende al <strong>410-974-5521</strong>."]},
+   {"tipo": "botones", "items": [
+    {"texto": "Certificaciones y apostillas (Secretaría)", "url": "https://sos.maryland.gov/Certifications/Pages/default.aspx"},
+    {"texto": "Lista para enviar por correo (en español)", "url": "https://sos.maryland.gov/Certifications/SiteAssets/Pages/default/SPANISH-check%20list%20FOR%20DOCUMENTS%20to%20be%20certified1.pdf"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un señor con el brazo enyesado no puede firmar y viene con su hijo.", "Su hijo puede firmar por él si el señor se lo pide frente a ti. Identificas al señor, el hijo firma y tú escribes «Signature affixed by (hijo) at the direction of (señor)»."],
+   ["Una clienta quiere apostillar un poder notarial para usarlo en México. Tú la notarizaste.", "Primero el Clerk del condado donde estás comisionado y después la Secretaría de Estado. México firmó el Convenio de La Haya, así que recibe una apostilla."],
+   ["Un cliente te pide que notarices la copia de su certificado de naturalización.", "No se puede: la Secretaría indica que los documentos de naturalización e inmigración no se notarizan, ni originales ni copias."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Firmar tú por la persona que no puede firmar.",
+   "Olvidar escribir la nota «Signature affixed by … at the direction of …».",
+   "Decirle al cliente que tú le das la apostilla.",
+   "Mandar al cliente directo a la Secretaría sin pasar antes por el Clerk.",
+   "Notarizar documentos de naturalización o inmigración."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Si una persona no puede firmar, el notario puede firmar por ella.", "ok": "F", "razon": "Firma otra persona que no sea el notario."},
+   {"tipo": "vf", "pregunta": "En Maryland, la apostilla la da la Secretaría de Estado, no el notario.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Cuál es el primer paso para apostillar un documento notarizado en Maryland?", "opciones": ["Ir al Departamento de Estado de EE. UU.", "Ir al Clerk of the Circuit Court del condado del notario", "Ir a la embajada del país"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuánto cobra la Secretaría de Estado por cada apostilla?", "opciones": ["$5", "$8", "$25"], "ok": "a"}]}
+ ]
+}
