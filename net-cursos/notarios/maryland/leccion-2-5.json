@@ -1,0 +1,74 @@
+{
+ "post": 183075,
+ "titulo": "2.5 Cómo leer las preguntas en inglés: palabras clave y trampas",
+ "fuentes": "COMAR 01.02.08.02, .16; SG §18-103; sos.maryland.gov/Notary (página principal y FAQ), revisado el 28/10/2026. Las estrategias de lectura son consejo de Centro Latino de Capacitación.",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "El examen tiene <strong>por lo menos 20 preguntas</strong> de opción múltiple, con <strong>4 opciones</strong> y <strong>una sola correcta</strong>. Apruebas con <strong>80 %</strong> (COMAR 01.02.08.16).",
+   "Las preguntas salen de <strong>todas las secciones del Notary Handbook</strong>: ley, regulaciones, ética y procedimientos.",
+   "Lee la pregunta completa y busca las <strong>palabras clave</strong>: NOT, EXCEPT, must, may, always, never.",
+   "Lee <strong>las 4 opciones</strong> antes de contestar: muchas trampas están en números parecidos."]},
+
+  {"titulo": "Cómo es el examen", "icono": "fas fa-clipboard-list", "bloques": [
+   {"tipo": "lista", "items": [
+    "Tiene <strong>por lo menos 20 preguntas</strong> de opción múltiple, escritas de forma clara.",
+    "Cada pregunta tiene <strong>4 respuestas</strong> y <strong>solo una es correcta</strong>.",
+    "Las preguntas cubren la <strong>ley</strong>, las <strong>regulaciones</strong>, la <strong>ética</strong> y los <strong>procedimientos</strong> del Notary Handbook.",
+    "Necesitas <strong>80 %</strong> para aprobar. Por ejemplo, en un examen de 20 preguntas, por lo menos 16 buenas.",
+    "El resultado te sale <strong>al terminar el examen</strong> (COMAR 01.02.08.16).",
+    "Si no apruebas, el proveedor te tiene que dar la oportunidad de <strong>presentarlo otra vez</strong> (COMAR 01.02.08.15)."]}]},
+
+  {"titulo": "Cómo leer cada pregunta", "icono": "fas fa-glasses", "bloques": [
+   {"tipo": "texto", "texto": "Este método es un consejo nuestro para no caer en las trampas:"},
+   {"tipo": "pasos", "items": [
+    "<strong>Lee la pregunta completa</strong>, despacio, hasta el signo de interrogación.",
+    "<strong>Busca las palabras clave</strong> (NOT, EXCEPT, must, may…) y fíjate si cambian el sentido.",
+    "<strong>Di la pregunta en español</strong> con tus palabras, en tu mente.",
+    "<strong>Piensa la respuesta</strong> antes de ver las opciones.",
+    "<strong>Lee las 4 opciones</strong>, aunque la primera te parezca buena.",
+    "<strong>Descarta</strong> las que estén claramente mal y elige entre las que quedan."]}]},
+
+  {"tipo": "glosario", "titulo": "Palabras clave del examen", "icono": "fas fa-key", "items": [
+   ["NOT", "No", "La pregunta busca lo que NO es cierto o lo que NO se permite"],
+   ["EXCEPT", "Excepto", "Tres opciones son ciertas; escoge la que no lo es"],
+   ["must / shall", "Debe / deberá", "Es obligatorio por ley"],
+   ["may", "Puede", "Está permitido, pero no es obligatorio"],
+   ["may not", "No puede", "Está prohibido"],
+   ["always / never", "Siempre / nunca", "Palabras absolutas: revisa si de verdad no hay excepciones"],
+   ["no more than", "No más de", "Es el máximo; se puede cobrar o hacer menos"],
+   ["within", "Dentro de", "Un plazo: tienes hasta esa fecha, no después"]]},
+
+  {"titulo": "Las trampas más comunes", "icono": "fas fa-exclamation-circle", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-hashtag", "<strong>Números parecidos.</strong> Por ejemplo $8, $10 y $11, o 4, 10 y 30. Repasa bien cada número: qué es y de qué se trata."],
+    ["fas fa-random", "<strong>NOT y EXCEPT.</strong> Si no los ves, vas a escoger justo la respuesta contraria."],
+    ["fas fa-balance-scale", "<strong>may contra must.</strong> «May» deja elegir; «must» obliga. Una sola palabra cambia la respuesta."],
+    ["fas fa-infinity", "<strong>Palabras absolutas.</strong> Una opción con «always» o «never» muchas veces es falsa, pero no siempre: piensa en la regla real."],
+    ["fas fa-flag-usa", "<strong>Reglas de otros estados.</strong> El examen es de Maryland. Contesta con la regla de Maryland, no con lo que se hace en otro estado o en tu país."]]}]},
+
+  {"titulo": "Números que debes saber", "icono": "fas fa-calculator", "bloques": [
+   {"tipo": "texto", "texto": "Estos números salen en la ley de Maryland y se confunden fácilmente:"},
+   {"tipo": "lista", "items": [
+    "<strong>$8:</strong> lo máximo que cobras por un acto notarial (COMAR 01.02.08.02).",
+    "<strong>$30:</strong> lo máximo por un acto notarial remoto (COMAR 01.02.08.02).",
+    "<strong>$25:</strong> la tarifa de la solicitud (COMAR 01.02.08.03).",
+    "<strong>$11:</strong> lo que pagas al Clerk cuando juras ($10 de la comisión y $1 de registro).",
+    "<strong>30 días:</strong> el plazo para jurar ante el Clerk después del aviso de aprobación (SG § 18-103).",
+    "<strong>4 años:</strong> lo que dura tu comisión (SG § 18-103).",
+    "<strong>10 años:</strong> el tiempo que guardas tu journal después del último acto anotado.",
+    "<strong>80 %:</strong> la calificación para aprobar el examen (COMAR 01.02.08.16)."]}]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Contestar sin leer la pregunta completa.",
+   "No ver la palabra NOT o EXCEPT.",
+   "Escoger la primera opción que parece buena, sin leer las otras.",
+   "Confundir «may» (puede) con «must» (debe).",
+   "Contestar con reglas de otro estado o de tu país."]},
+
+  {"tipo": "ejercicios", "titulo": "Práctica: preguntas en inglés", "icono": "fas fa-edit", "items": [
+   {"tipo": "om", "pregunta": "What is the maximum fee a Maryland notary public may charge for an original notarial act (not remote)?", "opciones": ["$5", "$8", "$11"], "ok": "b", "razon": "Lo máximo son $8 (COMAR 01.02.08.02). Los $11 son lo que pagas al Clerk cuando juras."},
+   {"tipo": "om", "pregunta": "After you are notified of your approval, you must take the oath of office before the Clerk of the Circuit Court within:", "opciones": ["30 days", "60 days", "90 days"], "ok": "a", "razon": "Tienes 30 días (SG § 18-103)."},
+   {"tipo": "om", "pregunta": "A notary public must keep the journal for how long after the last notarial act in it?", "opciones": ["4 years", "7 years", "10 years"], "ok": "c", "razon": "Lo guardas 10 años. Los 4 años son lo que dura tu comisión."},
+   {"tipo": "om", "pregunta": "All of the following must be included in the notary's official stamp EXCEPT:", "opciones": ["The notary's name as it appears on the commission", "The notary's home address", "The words \"Notary Public\""], "ok": "b", "razon": "EXCEPT: busca la que NO va. La dirección de tu casa no va en el sello."}]}
+ ]
+}
