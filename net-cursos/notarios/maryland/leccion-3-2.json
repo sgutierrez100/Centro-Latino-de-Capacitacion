@@ -3,81 +3,254 @@
  "titulo": "3.2 El sello y el journal",
  "fuentes": "SG §18-217, §18-218, §18-219; COMAR 01.02.08.08; sos.maryland.gov/Notary (FAQ), revisado el 28/10/2026",
  "secciones": [
-  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
-   "Antes de tu primer acto necesitas tu <strong>sello oficial</strong> (official stamp) y tu <strong>libro de registro</strong> (journal). La Secretaría no te los da: <strong>los compras tú</strong>.",
-   "Tu sello lleva tu <strong>nombre</strong> como está en tu comisión, las palabras <strong>«Notary Public»</strong> y tu <strong>condado</strong> (SG § 18-217).",
-   "Solo tú puedes usar tu sello. Si se pierde o te lo roban, <strong>avisa de inmediato</strong> a la Secretaría.",
-   "Anota <strong>cada acto</strong> en tu journal en el momento en que lo haces, y guárdalo <strong>10 años</strong> después del último acto anotado (SG § 18-219)."]},
-
-  {"titulo": "Tu sello oficial", "icono": "fas fa-stamp", "bloques": [
-   {"tipo": "texto", "texto": "Tu sello oficial (official stamp) debe llevar (SG § 18-217):"},
-   {"tipo": "pasos", "items": [
-    "<strong>Tu nombre</strong>, tal como aparece en tu comisión.",
-    "Las palabras <strong>«Notary Public»</strong>.",
-    "<strong>Tu condado</strong> (o Baltimore City): si vives en Maryland, el condado donde vives; si vives en otro estado, el condado donde te comisionaron.",
-    "<strong>La fecha en que vence tu comisión</strong>, a menos que la escribas en el certificado notarial. Como todo acto lleva certificado, la Secretaría explica que no hace falta que la fecha vaya en el sello."]},
-   {"tipo": "sello", "lineas": ["MARÍA G. HERNÁNDEZ", "NOTARY PUBLIC", "MONTGOMERY COUNTY"], "pie": "Así se ve la información que lleva un sello. El diseño y el tamaño los eliges tú con la tienda donde lo mandes a hacer."},
-   {"tipo": "lista", "items": [
-    "Puede ser un sello de <strong>tinta</strong>, un <strong>sello en relieve</strong> (embosser) o un sello <strong>electrónico</strong>.",
-    "Debe poder <strong>copiarse</strong> junto con el documento: en una fotocopia o un escaneo, el sello tiene que verse (SG § 18-217)."]}]},
-
-  {"titulo": "Cuida tu sello", "icono": "fas fa-shield-alt", "bloques": [
-   {"tipo": "lista", "items": [
-    "Tú eres <strong>responsable</strong> de que tu sello esté seguro, y <strong>no puedes dejar que otra persona lo use</strong> (SG § 18-218).",
-    "Tu sello es un <strong>sello público</strong> ante la ley (SG § 18-217 y § 18-218).",
-    "Si tu trabajo te pagó el sello, <strong>sigue siendo tuyo</strong> y tu responsabilidad. Si dejas ese trabajo, la Secretaría te recomienda llevártelo."]},
-   {"tipo": "nota", "texto": "<strong>Si se pierde o te lo roban:</strong> avisa de inmediato a la Secretaría por correo a dlnotary_sos@maryland.gov (SG § 18-218). Incluye el nombre con el que te comisionaron, tu dirección, tu condado y la fecha en que se perdió o te lo robaron. Si hiciste reporte a la policía, agrega una copia o el número del reporte."},
-   {"tipo": "texto", "texto": "Cuando <strong>renuncies</strong>, te <strong>revoquen</strong> la comisión o <strong>se venza</strong>, tienes que dejar tu sello inservible: destruirlo, borrarlo o guardarlo de manera que ya no se pueda usar (SG § 18-218)."}]},
-
-  {"titulo": "Tu journal (libro de registro)", "icono": "fas fa-book", "bloques": [
-   {"tipo": "lista", "items": [
-    "Es <strong>obligatorio</strong>: ahí anotas <strong>todos</strong> tus actos notariales (SG § 18-219).",
-    "Si es de <strong>papel</strong>, debe ser un libro <strong>encuadernado</strong>, permanente y con <strong>páginas numeradas</strong>. No sirven las hojas sueltas.",
-    "Puede ser <strong>electrónico</strong>, en un formato permanente que muestre si alguien lo alteró (tamper-evident).",
-    "Solo puedes tener <strong>un journal de papel a la vez</strong> para tus actos con documentos en papel.",
-    "Lo guardas <strong>10 años</strong> después del último acto anotado en él."]}]},
-
-  {"titulo": "Qué anotar en cada entrada", "icono": "fas fa-pen", "bloques": [
-   {"tipo": "texto", "texto": "Cada entrada la escribes <strong>en el momento</strong> en que haces el acto, y debe tener (SG § 18-219; COMAR 01.02.08.08):"},
-   {"tipo": "pasos", "items": [
-    "La <strong>fecha y la hora</strong> del acto.",
-    "Una <strong>descripción del documento</strong>, si hay, y el <strong>tipo de acto</strong> notarial.",
-    "El <strong>nombre completo y la dirección</strong> de cada persona para quien haces el acto.",
-    "<strong>Cómo la identificaste:</strong> si la conoces personalmente, lo indicas; si te mostró una identificación, anotas qué identificación fue, su <strong>número</strong>, su fecha de emisión y su fecha de vencimiento.",
-    "La <strong>tarifa</strong> que cobraste. Si no cobraste, lo indicas.",
-    "Si la persona estuvo <strong>en persona</strong> frente a ti o <strong>a distancia</strong> por medio de tecnología."]},
-   {"tipo": "ficha", "titulo": "Ejemplo de una entrada · datos inventados", "filas": [
-    ["Fecha y hora", "10/15/2026, 3:40 p.m."],
-    ["Tipo de acto", "Acknowledgment (reconocimiento de firma)"],
-    ["Documento", "Poder notarial (power of attorney), 4 páginas"],
-    ["Nombre y dirección", "Carlos A. Ramírez, 123 Main St., Silver Spring, MD 20901"],
-    ["Identificación", "Licencia de manejo de Maryland, núm. M-000-000-000-000, emitida 01/05/2023, vence 01/05/2031"],
-    ["Tarifa", "$8"],
-    ["Presencia", "En persona, frente al notario"]]}]},
-
-  {"titulo": "Si pierdes el journal o dejas de ser notario", "icono": "fas fa-exclamation-circle", "bloques": [
-   {"tipo": "lista", "items": [
-    "Si tu journal <strong>se pierde o te lo roban</strong>, avisa de inmediato a la Secretaría (SG § 18-219).",
-    "Si <strong>renuncias</strong> o te <strong>revocan o suspenden</strong> la comisión, sigues guardando tu journal los 10 años y le <strong>dices a la Secretaría dónde está</strong>.",
-    "En lugar de guardarlo tú, la ley permite entregarlo a un <strong>depósito aprobado</strong> por la Secretaría."]},
-   {"tipo": "texto", "texto": "Los cambios y las pérdidas los vemos con detalle en la lección 7.1."}]},
-
-  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
-   ["Tu compañera de trabajo, que también es notario, se quedó sin sello y te pide prestado el tuyo «solo por hoy».", "No se lo prestes. La ley no te deja permitir que otra persona use tu sello."],
-   ["Un cliente tiene prisa y te pide que anotes su entrada en el journal mañana.", "Anótala en el momento. Cada entrada se escribe cuando haces el acto."],
-   ["Quieres usar un cuaderno de hojas sueltas como journal porque es más barato.", "No sirve. Si tu journal es de papel, debe ser un libro encuadernado y con páginas numeradas."]]},
-
-  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
-   "Mandar a hacer el sello con un nombre distinto al de tu comisión.",
-   "Dejar el sello en la oficina, al alcance de otras personas.",
-   "No anotar el número de la identificación en el journal.",
-   "Llenar el journal después, de memoria.",
-   "Tirar el sello a la basura cuando vence tu comisión, sin dejarlo inservible."]},
-
-  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
-   {"tipo": "vf", "pregunta": "Puedes prestarle tu sello a otro notario de confianza.", "ok": "F", "razon": "Nadie más puede usar tu sello."},
-   {"tipo": "vf", "pregunta": "Si tu journal es de papel, debe ser un libro encuadernado con páginas numeradas.", "ok": "V"},
-   {"tipo": "om", "pregunta": "¿Cuánto tiempo guardas tu journal?", "opciones": ["4 años, lo que dura tu comisión", "10 años después del último acto anotado", "Hasta que se llene"], "ok": "b"},
-   {"tipo": "om", "pregunta": "¿Qué NO tiene que llevar tu sello?", "opciones": ["Tu nombre como está en tu comisión", "Las palabras «Notary Public»", "Tu número de teléfono"], "ok": "c"}]}
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Antes de tu primer acto necesitas tu <strong>sello oficial</strong> (official stamp) y tu <strong>libro de registro</strong> (journal). La Secretaría no te los da: <strong>los compras tú</strong>. Los encuentras en <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación.",
+    "Tu sello lleva tu <strong>nombre</strong> como está en tu comisión, las palabras <strong>«Notary Public»</strong> y tu <strong>condado</strong> (SG § 18-217).",
+    "Solo tú puedes usar tu sello. Si se pierde o te lo roban, <strong>avisa de inmediato</strong> a la Secretaría.",
+    "Anota <strong>cada acto</strong> en tu journal en el momento en que lo haces, y guárdalo <strong>10 años</strong> después del último acto anotado (SG § 18-219)."
+   ]
+  },
+  {
+   "titulo": "Tu sello oficial",
+   "icono": "fas fa-stamp",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Tu sello oficial (official stamp) debe llevar (SG § 18-217):"
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "<strong>Tu nombre</strong>, tal como aparece en tu comisión.",
+      "Las palabras <strong>«Notary Public»</strong>.",
+      "<strong>Tu condado</strong> (o Baltimore City): si vives en Maryland, el condado donde vives; si vives en otro estado, el condado donde te comisionaron.",
+      "<strong>La fecha en que vence tu comisión</strong>, a menos que la escribas en el certificado notarial. Como todo acto lleva certificado, la Secretaría explica que no hace falta que la fecha vaya en el sello."
+     ]
+    },
+    {
+     "tipo": "sello",
+     "lineas": [
+      "MARÍA G. HERNÁNDEZ",
+      "NOTARY PUBLIC",
+      "MONTGOMERY COUNTY"
+     ],
+     "pie": "Así se ve la información que lleva un sello. El diseño y el tamaño los eliges tú con la tienda donde lo mandes a hacer."
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      "Puede ser un sello de <strong>tinta</strong>, un <strong>sello en relieve</strong> (embosser) o un sello <strong>electrónico</strong>.",
+      "Debe poder <strong>copiarse</strong> junto con el documento: en una fotocopia o un escaneo, el sello tiene que verse (SG § 18-217)."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cuida tu sello",
+   "icono": "fas fa-shield-alt",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "Tú eres <strong>responsable</strong> de que tu sello esté seguro, y <strong>no puedes dejar que otra persona lo use</strong> (SG § 18-218).",
+      "Tu sello es un <strong>sello público</strong> ante la ley (SG § 18-217 y § 18-218).",
+      "Si tu trabajo te pagó el sello, <strong>sigue siendo tuyo</strong> y tu responsabilidad. Si dejas ese trabajo, la Secretaría te recomienda llevártelo."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Si se pierde o te lo roban:</strong> avisa de inmediato a la Secretaría por correo a dlnotary_sos@maryland.gov (SG § 18-218). Incluye el nombre con el que te comisionaron, tu dirección, tu condado y la fecha en que se perdió o te lo robaron. Si hiciste reporte a la policía, agrega una copia o el número del reporte."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Cuando <strong>renuncies</strong>, te <strong>revoquen</strong> la comisión o <strong>se venza</strong>, tienes que dejar tu sello inservible: destruirlo, borrarlo o guardarlo de manera que ya no se pueda usar (SG § 18-218)."
+    }
+   ]
+  },
+  {
+   "titulo": "Tu journal (libro de registro)",
+   "icono": "fas fa-book",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "Es <strong>obligatorio</strong>: ahí anotas <strong>todos</strong> tus actos notariales (SG § 18-219).",
+      "Si es de <strong>papel</strong>, debe ser un libro <strong>encuadernado</strong>, permanente y con <strong>páginas numeradas</strong>. No sirven las hojas sueltas.",
+      "Puede ser <strong>electrónico</strong>, en un formato permanente que muestre si alguien lo alteró (tamper-evident).",
+      "Solo puedes tener <strong>un journal de papel a la vez</strong> para tus actos con documentos en papel.",
+      "Lo guardas <strong>10 años</strong> después del último acto anotado en él."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Qué anotar en cada entrada",
+   "icono": "fas fa-pen",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Cada entrada la escribes <strong>en el momento</strong> en que haces el acto, y debe tener (SG § 18-219; COMAR 01.02.08.08):"
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "La <strong>fecha y la hora</strong> del acto.",
+      "Una <strong>descripción del documento</strong>, si hay, y el <strong>tipo de acto</strong> notarial.",
+      "El <strong>nombre completo y la dirección</strong> de cada persona para quien haces el acto.",
+      "<strong>Cómo la identificaste:</strong> si la conoces personalmente, lo indicas; si te mostró una identificación, anotas qué identificación fue, su <strong>número</strong>, su fecha de emisión y su fecha de vencimiento.",
+      "La <strong>tarifa</strong> que cobraste. Si no cobraste, lo indicas.",
+      "Si la persona estuvo <strong>en persona</strong> frente a ti o <strong>a distancia</strong> por medio de tecnología."
+     ]
+    },
+    {
+     "tipo": "ficha",
+     "titulo": "Ejemplo de una entrada · datos inventados",
+     "filas": [
+      [
+       "Fecha y hora",
+       "10/15/2026, 3:40 p.m."
+      ],
+      [
+       "Tipo de acto",
+       "Acknowledgment (reconocimiento de firma)"
+      ],
+      [
+       "Documento",
+       "Poder notarial (power of attorney), 4 páginas"
+      ],
+      [
+       "Nombre y dirección",
+       "Carlos A. Ramírez, 123 Main St., Silver Spring, MD 20901"
+      ],
+      [
+       "Identificación",
+       "Licencia de manejo de Maryland, núm. M-000-000-000-000, emitida 01/05/2023, vence 01/05/2031"
+      ],
+      [
+       "Tarifa",
+       "$8"
+      ],
+      [
+       "Presencia",
+       "En persona, frente al notario"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Consigue tu sello y tu journal",
+   "icono": "fas fa-shopping-bag",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación te recomendamos lo que necesitas para empezar: <strong>sellos de tinta</strong>, <strong>sellos de relieve</strong> (embosser), <strong>journals</strong>, sellos auxiliares y un bolso de seguridad para guardar tu sello bajo llave."
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Antes de pedir tu sello,</strong> revisa que lleve lo que pide Maryland: tu <strong>nombre</strong> como está en tu comisión, las palabras <strong>«Notary Public»</strong> y tu <strong>condado</strong>. Y si compras un journal de papel, que sea <strong>encuadernado y con páginas numeradas</strong>."
+    },
+    {
+     "tipo": "botones",
+     "items": [
+      {
+       "texto": "Visitar La Tienda del Notario",
+       "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Si pierdes el journal o dejas de ser notario",
+   "icono": "fas fa-exclamation-circle",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "Si tu journal <strong>se pierde o te lo roban</strong>, avisa de inmediato a la Secretaría (SG § 18-219).",
+      "Si <strong>renuncias</strong> o te <strong>revocan o suspenden</strong> la comisión, sigues guardando tu journal los 10 años y le <strong>dices a la Secretaría dónde está</strong>.",
+      "En lugar de guardarlo tú, la ley permite entregarlo a un <strong>depósito aprobado</strong> por la Secretaría."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Los cambios y las pérdidas los vemos con detalle en la lección 7.1."
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    [
+     "Tu compañera de trabajo, que también es notario, se quedó sin sello y te pide prestado el tuyo «solo por hoy».",
+     "No se lo prestes. La ley no te deja permitir que otra persona use tu sello."
+    ],
+    [
+     "Un cliente tiene prisa y te pide que anotes su entrada en el journal mañana.",
+     "Anótala en el momento. Cada entrada se escribe cuando haces el acto."
+    ],
+    [
+     "Quieres usar un cuaderno de hojas sueltas como journal porque es más barato.",
+     "No sirve. Si tu journal es de papel, debe ser un libro encuadernado y con páginas numeradas."
+    ]
+   ]
+  },
+  {
+   "tipo": "errores",
+   "titulo": "Errores comunes",
+   "icono": "fas fa-exclamation-triangle",
+   "items": [
+    "Mandar a hacer el sello con un nombre distinto al de tu comisión.",
+    "Dejar el sello en la oficina, al alcance de otras personas.",
+    "No anotar el número de la identificación en el journal.",
+    "Llenar el journal después, de memoria.",
+    "Tirar el sello a la basura cuando vence tu comisión, sin dejarlo inservible."
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {
+     "tipo": "vf",
+     "pregunta": "Puedes prestarle tu sello a otro notario de confianza.",
+     "ok": "F",
+     "razon": "Nadie más puede usar tu sello."
+    },
+    {
+     "tipo": "vf",
+     "pregunta": "Si tu journal es de papel, debe ser un libro encuadernado con páginas numeradas.",
+     "ok": "V"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Cuánto tiempo guardas tu journal?",
+     "opciones": [
+      "4 años, lo que dura tu comisión",
+      "10 años después del último acto anotado",
+      "Hasta que se llene"
+     ],
+     "ok": "b"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Qué NO tiene que llevar tu sello?",
+     "opciones": [
+      "Tu nombre como está en tu comisión",
+      "Las palabras «Notary Public»",
+      "Tu número de teléfono"
+     ],
+     "ok": "c"
+    }
+   ]
+  }
  ]
 }
