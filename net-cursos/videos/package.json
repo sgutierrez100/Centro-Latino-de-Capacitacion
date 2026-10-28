@@ -1,0 +1,12 @@
+{
+  "name": "clc-videos-notario-maryland",
+  "private": true,
+  "scripts": {"studio": "remotion studio src/index.jsx", "render": "remotion render src/index.jsx"},
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@remotion/google-fonts": "4.0.537",
+    "remotion": "4.0.537",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

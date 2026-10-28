@@ -1,0 +1,797 @@
+{
+ "voz": "8mBRP99B2Ng2QwsJMFQl",
+ "escenas": [
+  {
+   "voz": "Cada acto notarial termina en un certificado. En esta lección aprenderás qué debe tener y cómo llenarlo sin errores.",
+   "dura": 8.05,
+   "palabras": [
+    {
+     "t": "Cada",
+     "de": 0.0
+    },
+    {
+     "t": "acto",
+     "de": 0.36
+    },
+    {
+     "t": "notarial",
+     "de": 0.639
+    },
+    {
+     "t": "termina",
+     "de": 1.161
+    },
+    {
+     "t": "en",
+     "de": 1.567
+    },
+    {
+     "t": "un",
+     "de": 1.718
+    },
+    {
+     "t": "certificado.",
+     "de": 1.834
+    },
+    {
+     "t": "En",
+     "de": 3.135
+    },
+    {
+     "t": "esta",
+     "de": 3.309
+    },
+    {
+     "t": "lección",
+     "de": 3.518
+    },
+    {
+     "t": "aprenderás",
+     "de": 4.005
+    },
+    {
+     "t": "qué",
+     "de": 4.714
+    },
+    {
+     "t": "debe",
+     "de": 4.981
+    },
+    {
+     "t": "tener",
+     "de": 5.294
+    },
+    {
+     "t": "y",
+     "de": 5.909
+    },
+    {
+     "t": "cómo",
+     "de": 6.13
+    },
+    {
+     "t": "llenarlo",
+     "de": 6.444
+    },
+    {
+     "t": "sin",
+     "de": 7.094
+    },
+    {
+     "t": "errores.",
+     "de": 7.314
+    }
+   ]
+  },
+  {
+   "voz": "El certificado es el texto que tú llenas, firmas y sellas. La ley de Maryland dice que todo acto notarial lleva uno.",
+   "dura": 9.251,
+   "palabras": [
+    {
+     "t": "El",
+     "de": 0.214
+    },
+    {
+     "t": "certificado",
+     "de": 0.423
+    },
+    {
+     "t": "es",
+     "de": 1.189
+    },
+    {
+     "t": "el",
+     "de": 1.387
+    },
+    {
+     "t": "texto",
+     "de": 1.584
+    },
+    {
+     "t": "que",
+     "de": 2.05
+    },
+    {
+     "t": "tú",
+     "de": 2.234
+    },
+    {
+     "t": "llenas,",
+     "de": 2.443
+    },
+    {
+     "t": "firmas",
+     "de": 3.198
+    },
+    {
+     "t": "y",
+     "de": 3.836
+    },
+    {
+     "t": "sellas.",
+     "de": 3.976
+    },
+    {
+     "t": "La",
+     "de": 5.276
+    },
+    {
+     "t": "ley",
+     "de": 5.427
+    },
+    {
+     "t": "de",
+     "de": 5.601
+    },
+    {
+     "t": "Maryland",
+     "de": 5.764
+    },
+    {
+     "t": "dice",
+     "de": 6.426
+    },
+    {
+     "t": "que",
+     "de": 6.809
+    },
+    {
+     "t": "todo",
+     "de": 7.099
+    },
+    {
+     "t": "acto",
+     "de": 7.459
+    },
+    {
+     "t": "notarial",
+     "de": 7.749
+    },
+    {
+     "t": "lleva",
+     "de": 8.296
+    },
+    {
+     "t": "uno.",
+     "de": 8.678
+    }
+   ]
+  },
+  {
+   "voz": "Primero va el lugar: State of Maryland, County of, y el condado donde estás al notarizar. No siempre es el condado de tu comisión.",
+   "dura": 10.279,
+   "palabras": [
+    {
+     "t": "Primero",
+     "de": 0.244
+    },
+    {
+     "t": "va",
+     "de": 0.836
+    },
+    {
+     "t": "el",
+     "de": 1.01
+    },
+    {
+     "t": "lugar:",
+     "de": 1.138
+    },
+    {
+     "t": "State",
+     "de": 2.252
+    },
+    {
+     "t": "of",
+     "de": 2.786
+    },
+    {
+     "t": "Maryland,",
+     "de": 3.03
+    },
+    {
+     "t": "County",
+     "de": 3.843
+    },
+    {
+     "t": "of,",
+     "de": 4.388
+    },
+    {
+     "t": "y",
+     "de": 5.05
+    },
+    {
+     "t": "el",
+     "de": 5.178
+    },
+    {
+     "t": "condado",
+     "de": 5.294
+    },
+    {
+     "t": "donde",
+     "de": 5.712
+    },
+    {
+     "t": "estás",
+     "de": 5.991
+    },
+    {
+     "t": "al",
+     "de": 6.397
+    },
+    {
+     "t": "notarizar.",
+     "de": 6.502
+    },
+    {
+     "t": "No",
+     "de": 7.755
+    },
+    {
+     "t": "siempre",
+     "de": 7.953
+    },
+    {
+     "t": "es",
+     "de": 8.382
+    },
+    {
+     "t": "el",
+     "de": 8.522
+    },
+    {
+     "t": "condado",
+     "de": 8.638
+    },
+    {
+     "t": "de",
+     "de": 9.137
+    },
+    {
+     "t": "tu",
+     "de": 9.253
+    },
+    {
+     "t": "comisión.",
+     "de": 9.381
+    }
+   ]
+  },
+  {
+   "voz": "Después van la fecha del acto y el nombre de la persona. Escribe la fecha real y no dejes ningún espacio en blanco.",
+   "dura": 8.177,
+   "palabras": [
+    {
+     "t": "Después",
+     "de": 0.163
+    },
+    {
+     "t": "van",
+     "de": 0.755
+    },
+    {
+     "t": "la",
+     "de": 0.951
+    },
+    {
+     "t": "fecha",
+     "de": 1.091
+    },
+    {
+     "t": "del",
+     "de": 1.427
+    },
+    {
+     "t": "acto",
+     "de": 1.637
+    },
+    {
+     "t": "y",
+     "de": 2.102
+    },
+    {
+     "t": "el",
+     "de": 2.206
+    },
+    {
+     "t": "nombre",
+     "de": 2.369
+    },
+    {
+     "t": "de",
+     "de": 2.762
+    },
+    {
+     "t": "la",
+     "de": 2.867
+    },
+    {
+     "t": "persona.",
+     "de": 2.983
+    },
+    {
+     "t": "Escribe",
+     "de": 4.168
+    },
+    {
+     "t": "la",
+     "de": 4.69
+    },
+    {
+     "t": "fecha",
+     "de": 4.817
+    },
+    {
+     "t": "real",
+     "de": 5.155
+    },
+    {
+     "t": "y",
+     "de": 5.711
+    },
+    {
+     "t": "no",
+     "de": 5.863
+    },
+    {
+     "t": "dejes",
+     "de": 6.003
+    },
+    {
+     "t": "ningún",
+     "de": 6.409
+    },
+    {
+     "t": "espacio",
+     "de": 6.884
+    },
+    {
+     "t": "en",
+     "de": 7.36
+    },
+    {
+     "t": "blanco.",
+     "de": 7.454
+    }
+   ]
+  },
+  {
+   "voz": "Cada acto tiene su frase. El acknowledgment dice: acknowledged before me. El jurat dice: signed and sworn to, or affirmed, before me.",
+   "dura": 11.951,
+   "palabras": [
+    {
+     "t": "Cada",
+     "de": 0.221
+    },
+    {
+     "t": "acto",
+     "de": 0.615
+    },
+    {
+     "t": "tiene",
+     "de": 1.022
+    },
+    {
+     "t": "su",
+     "de": 1.358
+    },
+    {
+     "t": "frase.",
+     "de": 1.521
+    },
+    {
+     "t": "El",
+     "de": 2.496
+    },
+    {
+     "t": "acknowledgment",
+     "de": 2.821
+    },
+    {
+     "t": "dice:",
+     "de": 3.901
+    },
+    {
+     "t": "acknowledged",
+     "de": 4.783
+    },
+    {
+     "t": "before",
+     "de": 5.492
+    },
+    {
+     "t": "me.",
+     "de": 5.921
+    },
+    {
+     "t": "El",
+     "de": 6.595
+    },
+    {
+     "t": "jurat",
+     "de": 6.804
+    },
+    {
+     "t": "dice:",
+     "de": 7.187
+    },
+    {
+     "t": "signed",
+     "de": 7.883
+    },
+    {
+     "t": "and",
+     "de": 8.429
+    },
+    {
+     "t": "sworn",
+     "de": 8.638
+    },
+    {
+     "t": "to,",
+     "de": 9.195
+    },
+    {
+     "t": "or",
+     "de": 9.764
+    },
+    {
+     "t": "affirmed,",
+     "de": 10.101
+    },
+    {
+     "t": "before",
+     "de": 11.053
+    },
+    {
+     "t": "me.",
+     "de": 11.529
+    }
+   ]
+  },
+  {
+   "voz": "Al final va tu firma, igual a la que registraste con el Clerk; tu cargo, Notary Public; y tu sello, claro y sin tapar el texto.",
+   "dura": 9.651,
+   "palabras": [
+    {
+     "t": "Al",
+     "de": 0.29
+    },
+    {
+     "t": "final",
+     "de": 0.499
+    },
+    {
+     "t": "va",
+     "de": 1.01
+    },
+    {
+     "t": "tu",
+     "de": 1.254
+    },
+    {
+     "t": "firma,",
+     "de": 1.416
+    },
+    {
+     "t": "igual",
+     "de": 2.101
+    },
+    {
+     "t": "a",
+     "de": 2.461
+    },
+    {
+     "t": "la",
+     "de": 2.531
+    },
+    {
+     "t": "que",
+     "de": 2.659
+    },
+    {
+     "t": "registraste",
+     "de": 2.786
+    },
+    {
+     "t": "con",
+     "de": 3.471
+    },
+    {
+     "t": "el",
+     "de": 3.645
+    },
+    {
+     "t": "Clerk;",
+     "de": 3.773
+    },
+    {
+     "t": "tu",
+     "de": 4.702
+    },
+    {
+     "t": "cargo,",
+     "de": 4.887
+    },
+    {
+     "t": "Notary",
+     "de": 5.491
+    },
+    {
+     "t": "Public;",
+     "de": 5.967
+    },
+    {
+     "t": "y",
+     "de": 6.71
+    },
+    {
+     "t": "tu",
+     "de": 6.873
+    },
+    {
+     "t": "sello,",
+     "de": 7.012
+    },
+    {
+     "t": "claro",
+     "de": 7.465
+    },
+    {
+     "t": "y",
+     "de": 8.022
+    },
+    {
+     "t": "sin",
+     "de": 8.196
+    },
+    {
+     "t": "tapar",
+     "de": 8.394
+    },
+    {
+     "t": "el",
+     "de": 8.788
+    },
+    {
+     "t": "texto.",
+     "de": 8.916
+    }
+   ]
+  },
+  {
+   "voz": "Escribe My commission expires con la fecha en que vence tu comisión. Y recuerda: firmas el certificado solo después de hacer el acto.",
+   "dura": 9.309,
+   "palabras": [
+    {
+     "t": "Escribe",
+     "de": 0.192
+    },
+    {
+     "t": "My",
+     "de": 0.83
+    },
+    {
+     "t": "commission",
+     "de": 1.051
+    },
+    {
+     "t": "expires",
+     "de": 1.713
+    },
+    {
+     "t": "con",
+     "de": 2.235
+    },
+    {
+     "t": "la",
+     "de": 2.386
+    },
+    {
+     "t": "fecha",
+     "de": 2.525
+    },
+    {
+     "t": "en",
+     "de": 2.874
+    },
+    {
+     "t": "que",
+     "de": 3.001
+    },
+    {
+     "t": "vence",
+     "de": 3.164
+    },
+    {
+     "t": "tu",
+     "de": 3.535
+    },
+    {
+     "t": "comisión.",
+     "de": 3.663
+    },
+    {
+     "t": "Y",
+     "de": 4.882
+    },
+    {
+     "t": "recuerda:",
+     "de": 5.068
+    },
+    {
+     "t": "firmas",
+     "de": 5.927
+    },
+    {
+     "t": "el",
+     "de": 6.345
+    },
+    {
+     "t": "certificado",
+     "de": 6.461
+    },
+    {
+     "t": "solo",
+     "de": 7.297
+    },
+    {
+     "t": "después",
+     "de": 7.61
+    },
+    {
+     "t": "de",
+     "de": 8.086
+    },
+    {
+     "t": "hacer",
+     "de": 8.179
+    },
+    {
+     "t": "el",
+     "de": 8.516
+    },
+    {
+     "t": "acto.",
+     "de": 8.655
+    }
+   ]
+  },
+  {
+   "voz": "En resumen: lugar, fecha, nombre, la frase correcta, tu firma, tu sello y el vencimiento. En la siguiente lección vemos casos especiales de firma y las apostillas.",
+   "dura": 13.216,
+   "palabras": [
+    {
+     "t": "En",
+     "de": 0.139
+    },
+    {
+     "t": "resumen:",
+     "de": 0.349
+    },
+    {
+     "t": "lugar,",
+     "de": 1.219
+    },
+    {
+     "t": "fecha,",
+     "de": 2.067
+    },
+    {
+     "t": "nombre,",
+     "de": 2.891
+    },
+    {
+     "t": "la",
+     "de": 3.761
+    },
+    {
+     "t": "frase",
+     "de": 3.889
+    },
+    {
+     "t": "correcta,",
+     "de": 4.203
+    },
+    {
+     "t": "tu",
+     "de": 5.109
+    },
+    {
+     "t": "firma,",
+     "de": 5.294
+    },
+    {
+     "t": "tu",
+     "de": 6.061
+    },
+    {
+     "t": "sello",
+     "de": 6.293
+    },
+    {
+     "t": "y",
+     "de": 6.942
+    },
+    {
+     "t": "el",
+     "de": 7.082
+    },
+    {
+     "t": "vencimiento.",
+     "de": 7.186
+    },
+    {
+     "t": "En",
+     "de": 8.638
+    },
+    {
+     "t": "la",
+     "de": 8.8
+    },
+    {
+     "t": "siguiente",
+     "de": 8.904
+    },
+    {
+     "t": "lección",
+     "de": 9.38
+    },
+    {
+     "t": "vemos",
+     "de": 9.892
+    },
+    {
+     "t": "casos",
+     "de": 10.228
+    },
+    {
+     "t": "especiales",
+     "de": 10.6
+    },
+    {
+     "t": "de",
+     "de": 11.32
+    },
+    {
+     "t": "firma",
+     "de": 11.448
+    },
+    {
+     "t": "y",
+     "de": 11.819
+    },
+    {
+     "t": "las",
+     "de": 11.889
+    },
+    {
+     "t": "apostillas.",
+     "de": 12.075
+    }
+   ]
+  }
+ ]
+}
