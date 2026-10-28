@@ -1,0 +1,88 @@
+{
+ "post": 183101,
+ "titulo": "4.3 Los certificados notariales: cómo llenarlos",
+ "fuentes": "SG §18-215, §18-216, §18-217; sos.maryland.gov/Notary (FAQ), revisado el 28/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "<strong>Todo acto notarial lleva un certificado</strong>: el texto que tú llenas, firmas y sellas (SG § 18-215).",
+   "El certificado dice el <strong>lugar</strong> donde haces el acto, la <strong>fecha</strong>, el <strong>nombre</strong> del firmante, tu <strong>firma</strong>, tu <strong>cargo</strong>, tu <strong>sello</strong> y la fecha en que <strong>vence tu comisión</strong>.",
+   "Lo llenas <strong>en el momento</strong> del acto, y lo firmas <strong>solo después</strong> de hacer el acto.",
+   "Si el documento no trae certificado, <strong>adjuntas uno</strong> y lo sujetas bien al documento."]},
+
+  {"titulo": "Lo que debe tener todo certificado", "icono": "fas fa-list-ol", "bloques": [
+   {"tipo": "texto", "texto": "La ley de Maryland pide que cada certificado (SG § 18-215):"},
+   {"tipo": "pasos", "items": [
+    "Diga el <strong>lugar</strong> donde haces el acto: «State of Maryland, County of …». Va el condado <strong>donde estás</strong> al notarizar, no necesariamente el de tu comisión.",
+    "Lleve la <strong>fecha</strong> del acto.",
+    "Lleve el <strong>nombre</strong> de la persona para quien haces el acto.",
+    "Lleve <strong>tu firma</strong>, igual a como la registraste con el Clerk of the Circuit Court.",
+    "Diga tu <strong>cargo</strong>: «Notary Public».",
+    "Lleve tu <strong>sello oficial</strong>, si el documento es de papel.",
+    "Diga la <strong>fecha en que vence tu comisión</strong>: «My commission expires: …»."]}]},
+
+  {"titulo": "Ejemplo: acknowledgment", "icono": "fas fa-signature", "bloques": [
+   {"tipo": "texto", "texto": "Así queda llenado el formulario corto de acknowledgment de la ley (SG § 18-216). Lo que llena el notario está en negritas:"},
+   {"tipo": "certificado", "lineas": [
+    "State of <strong>Maryland</strong>, County of <strong>Montgomery</strong>",
+    "This record was acknowledged before me on the <strong>15th</strong> day of <strong>October</strong>, 20<strong>26</strong> by <strong>Carlos A. Ramírez</strong>.",
+    "______________________________ <em>(firma: María G. Hernández)</em>",
+    "Signature of notarial officer",
+    "<strong>Notary Public</strong>",
+    "<em>[sello]</em>",
+    "My commission expires: <strong>03/14/2030</strong>"],
+    "pie": "Si la persona firma en nombre de una empresa u otra persona, la ley tiene otro formulario que agrega «as (type of authority) of (name of party)»."}]},
+
+  {"titulo": "Ejemplo: jurat", "icono": "fas fa-hand-paper", "bloques": [
+   {"tipo": "texto", "texto": "Así queda el formulario corto de verification on oath or affirmation (jurat) (SG § 18-216):"},
+   {"tipo": "certificado", "lineas": [
+    "State of <strong>Maryland</strong>, County of <strong>Prince George's</strong>",
+    "Signed and sworn to (or affirmed) before me on the <strong>2nd</strong> day of <strong>November</strong>, 20<strong>26</strong> by <strong>Ana L. Torres</strong>.",
+    "______________________________ <em>(firma: María G. Hernández)</em>",
+    "Signature of notarial officer",
+    "<strong>Notary Public</strong>",
+    "<em>[sello]</em>",
+    "My commission expires: <strong>03/14/2030</strong>"],
+    "pie": "Fíjate: la notaria de este ejemplo está comisionada en Montgomery, pero el acto lo hizo en Prince George's. Por eso el certificado dice «County of Prince George's»."}]},
+
+  {"titulo": "Las frases de cada acto", "icono": "fas fa-quote-left", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Acknowledgment", "sub": "Reconocimiento de firma", "filas": [["Frase", "«This record was acknowledged before me on … by …»"]]},
+    {"titulo": "Jurat", "sub": "Verificación bajo juramento", "filas": [["Frase", "«Signed and sworn to (or affirmed) before me on … by …»"]]},
+    {"titulo": "Witnessing", "sub": "Testigo de una firma", "filas": [["Frase", "«Signed (or attested) before me on … by …»"]]},
+    {"titulo": "Certified copy", "sub": "Copia certificada", "filas": [["Frase", "«I certify that this is a true and correct copy of a record in the possession of …»"]]}]}]},
+
+  {"titulo": "Cómo llenarlo bien", "icono": "fas fa-pen-nib", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Lee el certificado</strong> que trae el documento y confirma qué acto pide.",
+    "<strong>Haz el acto completo</strong>: presencia, identificación y, si es jurat, el juramento o la afirmación.",
+    "<strong>Llena todos los espacios</strong>: lugar, fecha y nombre. No dejes espacios en blanco.",
+    "<strong>Firma</strong> como registraste tu firma con el Clerk.",
+    "<strong>Pon tu sello</strong> de manera que se vea claro y se pueda copiar, sin tapar el texto.",
+    "<strong>Escribe la fecha</strong> en que vence tu comisión, si no está en tu sello.",
+    "<strong>Anota el acto</strong> en tu journal."]},
+   {"tipo": "nota", "texto": "<strong>Si el documento no trae certificado,</strong> la Secretaría dice que debes adjuntar uno sujetándolo de manera segura al documento (SG § 18-215). Usa el formulario corto del acto que corresponde."}]},
+
+  {"titulo": "Consigue tus sellos de certificado", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras <strong>sellos para acknowledgment y para jurat</strong>, que estampan el texto del certificado en segundos. Antes de usarlos, compara el texto con el formulario de Maryland de esta lección."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Estás comisionada en Montgomery, pero hiciste el acto en tu otra oficina de Howard.", "En el certificado pones «County of Howard»: va el lugar donde hiciste el acto."],
+   ["Un documento trae el certificado con la fecha en blanco y el cliente te dice «ponga cualquier fecha».", "Escribe la fecha real del acto. El certificado se llena en el momento y con datos verdaderos."],
+   ["Un documento de otro estado trae un certificado con otro texto.", "La ley de Maryland acepta, entre otros, un certificado en forma permitida por la ley del lugar donde haces el acto, o que describa lo que hiciste. Si tienes dudas, consulta a la Secretaría antes de firmar."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Poner el condado de tu comisión en vez del condado donde hiciste el acto.",
+   "Dejar espacios en blanco en el certificado.",
+   "Firmar el certificado antes de hacer el acto.",
+   "Usar un certificado de acknowledgment cuando el documento pide jurat.",
+   "Poner el sello encima del texto o de manera que no se lea.",
+   "Olvidar la fecha en que vence tu comisión."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En el certificado va el condado donde haces el acto.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Puedes firmar el certificado antes de que llegue el cliente para ahorrar tiempo.", "ok": "F", "razon": "Lo firmas solo después de hacer el acto."},
+   {"tipo": "om", "pregunta": "¿Qué frase lleva el certificado de acknowledgment?", "opciones": ["«Signed and sworn to before me»", "«This record was acknowledged before me»", "«I certify that this is a true and correct copy»"], "ok": "b"},
+   {"tipo": "om", "pregunta": "El documento no trae certificado. ¿Qué haces?", "opciones": ["Solo pones tu sello y tu firma", "Adjuntas un certificado y lo sujetas bien al documento", "Le pides al cliente que escriba el certificado"], "ok": "b"}]}
+ ]
+}

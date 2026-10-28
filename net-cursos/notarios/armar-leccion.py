@@ -86,6 +86,17 @@ class Armador:
                         self.p(v)]) for e, v in b['filas']]
             return self.el('e-flexbox', 'Ficha de ejemplo', ['clc-lec-caso'], hijos=[
                 self.p(b['titulo'], 'clc-lec-etq'), self.el('e-flexbox', 'Filas', css='display: flex; flex-direction: column; gap: 0px;', hijos=filas)])
+        if t == 'certificado':
+            # Certificado de ejemplo: recuadro tipo documento; los datos llenados van en <strong>.
+            lineas = [self.el('e-paragraph', 'Línea', cfg={'paragraph': x},
+                              css='margin: 0px; font-family: Noto Serif; font-size: 17px; line-height: 1.7; color: #1d1d1b;')
+                      for x in b['lineas']]
+            return self.el('e-flexbox', 'Ejemplo de certificado', css='display: flex; flex-direction: column; gap: 8px;', hijos=[
+                self.el('e-paragraph', 'Marca ejemplo', cfg={'paragraph': b.get('marca', 'EJEMPLO · DATOS INVENTADOS')},
+                        css='margin: 0px; font-family: Poppins; font-weight: 700; font-size: 13px; letter-spacing: 2px; color: #E5484D;'),
+                self.el('e-flexbox', 'Certificado', css='display: flex; flex-direction: column; gap: 4px; padding: 26px 30px; background-color: #FFFFFF; '
+                        'border: 1px solid #C9D6E2; border-radius: 6px; box-shadow: 0 10px 30px rgba(20,60,90,0.08); @media(--mobile) { padding: 20px 18px; }', hijos=lineas),
+                self.p(b['pie'], 'clc-lec-def') if b.get('pie') else ''])
         if t == 'comparar':
             # Tarjetas lado a lado (en celular, una debajo de otra): título, subtítulo y filas etiqueta / texto.
             tarjetas = []
