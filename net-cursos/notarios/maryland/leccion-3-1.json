@@ -3,73 +3,202 @@
  "titulo": "3.1 El juramento ante el Clerk y tu comisión",
  "fuentes": "SG §18-103, §18-105; COMAR 01.02.08.10; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 28/10/2026",
  "secciones": [
-  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
-   "Cuando te aprueban, tienes <strong>30 días</strong> para presentarte ante el <strong>Clerk of the Circuit Court</strong> y hacer tu <strong>juramento del cargo</strong> (oath of office).",
-   "Le pagas al Clerk <strong>$11</strong>: $10 por la comisión y $1 de registro (SG § 18-103).",
-   "Si no vas a tiempo, <strong>te revocan la comisión</strong> y tienes que solicitar y pagar otra vez.",
-   "Después del juramento recibes tu <strong>comisión por correo electrónico</strong>. Dura <strong>4 años</strong> y vale en <strong>todo Maryland</strong>."]},
-
-  {"titulo": "Qué es el Clerk of the Circuit Court", "icono": "fas fa-landmark", "bloques": [
-   {"tipo": "texto", "texto": "El <strong>Clerk of the Circuit Court</strong> es la oficina del secretario del tribunal de circuito. Hay una en cada una de las <strong>24 jurisdicciones</strong> de Maryland: los 23 condados y Baltimore City. Ahí haces tu juramento y recibes tu comisión."},
-   {"tipo": "lista", "items": [
-    "<strong>Si vives en Maryland:</strong> vas con el Clerk del <strong>condado donde vives</strong>, porque ahí te comisionan.",
-    "<strong>Si vives en otro estado:</strong> vas con el Clerk del condado que elegiste en tu solicitud, casi siempre donde trabajas. El correo de aprobación te dice a cuál."]}]},
-
-  {"titulo": "Paso a paso del juramento", "icono": "fas fa-gavel", "bloques": [
-   {"tipo": "pasos", "items": [
-    "<strong>Lee el correo de aprobación</strong> de la Secretaría y su <strong>archivo adjunto</strong>: ahí vienen las instrucciones para obtener tu comisión con el Clerk.",
-    "<strong>Ubica la oficina del Clerk</strong> del condado que te indican y revisa su horario.",
-    "<strong>Ve en persona dentro de los 30 días</strong> siguientes al aviso. Los 30 días cuentan desde la fecha del correo que te avisa que vayas con el Clerk.",
-    "<strong>Paga $11:</strong> $10 por la comisión y $1 de registro. Es aparte de los $25 que pagaste a la Secretaría.",
-    "<strong>Haz tu juramento del cargo.</strong> El Clerk te toma el juramento.",
-    "<strong>Espera tu comisión por correo electrónico</strong>, en el email que diste en tu solicitud. Con eso ya eres notario público de Maryland."]},
-   {"tipo": "nota", "texto": "<strong>Consejo:</strong> lleva el correo de aprobación con sus instrucciones y tu identificación con foto, y pregúntale antes al Clerk qué formas de pago acepta. Lo que necesitas llevar exactamente lo dice el archivo adjunto de tu correo."}]},
-
-  {"titulo": "Si se te pasan los 30 días", "icono": "fas fa-hourglass-end", "bloques": [
-   {"tipo": "lista", "items": [
-    ["fas fa-times-circle", "La ley dice que <strong>te revocan</strong> el nombramiento y la comisión (SG § 18-103)."],
-    ["fas fa-times-circle", "Según la Secretaría, debes enviar una <strong>solicitud nueva</strong> y pagar <strong>otra vez</strong> la tarifa de $25."],
-    ["fas fa-info-circle", "La ley permite que la Secretaría <strong>restablezca</strong> una comisión revocada cuando hay una <strong>causa justificada</strong> (good cause) (SG § 18-103). Si te pasó por algo grave, escribe a la Notary Division y explica tu caso."]]}]},
-
-  {"titulo": "Tu comisión", "icono": "fas fa-file-signature", "bloques": [
-   {"tipo": "lista", "items": [
-    "Dura <strong>4 años</strong> (SG § 18-103).",
-    "Vale en <strong>todo Maryland</strong>, siempre que estés <strong>físicamente en el estado</strong> al notarizar (SG § 18-105).",
-    "Te llega <strong>por correo electrónico</strong>. Toda la comunicación de la Secretaría llega así (COMAR 01.02.08.10).",
-    "Lleva tu nombre <strong>tal como está en tu identificación</strong>."]},
-   {"tipo": "texto", "texto": "Desde que tienes tu comisión, cualquiera puede buscarte en <strong>«Search a Notary»</strong>, en el portal de la Secretaría. Se ve tu nombre, tu condado, la fecha en que vence tu comisión, tu teléfono de trabajo y si haces notarizaciones remotas."}]},
-
-  {"titulo": "Qué revisar cuando te llegue", "icono": "fas fa-search", "bloques": [
-   {"tipo": "pasos", "items": [
-    "<strong>Tu nombre:</strong> que esté escrito igual que en tu identificación.",
-    "<strong>El condado</strong> donde te comisionaron.",
-    "<strong>La fecha en que vence.</strong> Anótala: la vas a escribir en tus certificados y la necesitas para renovar a tiempo."]},
-   {"tipo": "nota", "texto": "<strong>Si ves un error,</strong> escribe de inmediato a la Notary Division (dlnotary_sos@maryland.gov) o llama al 410-974-5520 antes de mandar a hacer tu sello, porque el sello debe llevar tu nombre tal como aparece en tu comisión."}]},
-
-  {"titulo": "Copias de tu comisión", "icono": "fas fa-copy", "bloques": [
-   {"tipo": "lista", "items": [
-    "<strong>Copia electrónica:</strong> pídela por correo a dlnotary_sos@maryland.gov. Te mandan un PDF.",
-    "<strong>Copia en papel:</strong> manda una carta con el nombre con el que te comisionaron, tu dirección postal, tu condado y un cheque o money order de <strong>$5</strong> a nombre de «Secretary of State». Dirección: Attn: Notary Division, Secretary of State, State House, Annapolis, MD 21401."]}]},
-
-  {"titulo": "Cada vez que renueves", "icono": "fas fa-redo", "bloques": [
-   {"tipo": "texto", "texto": "Cada vez que te dan una comisión nueva, también al <strong>renovar</strong>, tienes que volver a hacer el juramento ante el Clerk. La renovación la vemos en la lección 7.2."}]},
-
-  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
-   ["Una clienta vive en el condado de Prince George's pero trabaja en Montgomery. ¿A qué Clerk va?", "Al de Prince George's. Si vives en Maryland, te comisionan en el condado donde vives."],
-   ["Un amigo ya juró, pero su comisión dice «Jose» sin acento y su licencia dice «José».", "Que escriba a la Notary Division antes de mandar a hacer su sello, para revisar cómo debe quedar su nombre."],
-   ["Te aprobaron hace 28 días y no has ido con el Clerk.", "Ve de inmediato: te quedan 2 días. Si se pasan los 30, te revocan la comisión."]]},
-
-  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
-   "Dejar pasar los 30 días para jurar.",
-   "Ir con el Clerk de un condado que no es el tuyo.",
-   "Pensar que los $11 del Clerk ya iban incluidos en los $25 de la solicitud.",
-   "Notarizar antes de hacer el juramento y recibir la comisión.",
-   "No revisar tu comisión y mandar a hacer el sello con un nombre distinto."]},
-
-  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
-   {"tipo": "vf", "pregunta": "Puedes notarizar en cualquier parte de Maryland, siempre que estés físicamente en el estado.", "ok": "V"},
-   {"tipo": "vf", "pregunta": "Los $11 que pagas al Clerk ya están incluidos en la tarifa de la solicitud.", "ok": "F", "razon": "Son aparte de los $25 de la solicitud."},
-   {"tipo": "om", "pregunta": "¿Cuánto dura una comisión de notario en Maryland?", "opciones": ["2 años", "4 años", "10 años"], "ok": "b"},
-   {"tipo": "om", "pregunta": "Vives en Maryland. ¿Ante qué Clerk haces tu juramento?", "opciones": ["El del condado donde trabajas", "El del condado donde vives", "Cualquiera que esté cerca"], "ok": "b"}]}
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Cuando te aprueban, tienes <strong>30 días</strong> para presentarte ante el <strong>Clerk of the Circuit Court</strong> y hacer tu <strong>juramento del cargo</strong> (oath of office).",
+    "Le pagas al Clerk <strong>$11</strong>: $10 por la comisión y $1 de registro (SG § 18-103).",
+    "Si no vas a tiempo, <strong>te revocan la comisión</strong> y tienes que solicitar y pagar otra vez.",
+    "Después del juramento recibes tu <strong>comisión por correo electrónico</strong>. Dura <strong>4 años</strong> y vale en <strong>todo Maryland</strong>."
+   ]
+  },
+  {
+   "titulo": "Qué es el Clerk of the Circuit Court",
+   "icono": "fas fa-landmark",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "El <strong>Clerk of the Circuit Court</strong> es la oficina del secretario del tribunal de circuito. Hay una en cada una de las <strong>24 jurisdicciones</strong> de Maryland: los 23 condados y Baltimore City. Ahí haces tu juramento y recibes tu comisión."
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      "<strong>Si vives en Maryland:</strong> vas con el Clerk del <strong>condado donde vives</strong>, porque ahí te comisionan.",
+      "<strong>Si vives en otro estado:</strong> vas con el Clerk del condado que elegiste en tu solicitud, casi siempre donde trabajas. El correo de aprobación te dice a cuál."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Paso a paso del juramento",
+   "icono": "fas fa-gavel",
+   "bloques": [
+    {
+     "tipo": "imagen",
+     "id": 183688
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "<strong>Lee el correo de aprobación</strong> de la Secretaría y su <strong>archivo adjunto</strong>: ahí vienen las instrucciones para obtener tu comisión con el Clerk.",
+      "<strong>Ubica la oficina del Clerk</strong> del condado que te indican y revisa su horario.",
+      "<strong>Ve en persona dentro de los 30 días</strong> siguientes al aviso. Los 30 días cuentan desde la fecha del correo que te avisa que vayas con el Clerk.",
+      "<strong>Paga $11:</strong> $10 por la comisión y $1 de registro. Es aparte de los $25 que pagaste a la Secretaría.",
+      "<strong>Haz tu juramento del cargo.</strong> El Clerk te toma el juramento.",
+      "<strong>Espera tu comisión por correo electrónico</strong>, en el email que diste en tu solicitud. Con eso ya eres notario público de Maryland."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Consejo:</strong> lleva el correo de aprobación con sus instrucciones y tu identificación con foto, y pregúntale antes al Clerk qué formas de pago acepta. Lo que necesitas llevar exactamente lo dice el archivo adjunto de tu correo."
+    }
+   ]
+  },
+  {
+   "titulo": "Si se te pasan los 30 días",
+   "icono": "fas fa-hourglass-end",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      [
+       "fas fa-times-circle",
+       "La ley dice que <strong>te revocan</strong> el nombramiento y la comisión (SG § 18-103)."
+      ],
+      [
+       "fas fa-times-circle",
+       "Según la Secretaría, debes enviar una <strong>solicitud nueva</strong> y pagar <strong>otra vez</strong> la tarifa de $25."
+      ],
+      [
+       "fas fa-info-circle",
+       "La ley permite que la Secretaría <strong>restablezca</strong> una comisión revocada cuando hay una <strong>causa justificada</strong> (good cause) (SG § 18-103). Si te pasó por algo grave, escribe a la Notary Division y explica tu caso."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tu comisión",
+   "icono": "fas fa-file-signature",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "Dura <strong>4 años</strong> (SG § 18-103).",
+      "Vale en <strong>todo Maryland</strong>, siempre que estés <strong>físicamente en el estado</strong> al notarizar (SG § 18-105).",
+      "Te llega <strong>por correo electrónico</strong>. Toda la comunicación de la Secretaría llega así (COMAR 01.02.08.10).",
+      "Lleva tu nombre <strong>tal como está en tu identificación</strong>."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Desde que tienes tu comisión, cualquiera puede buscarte en <strong>«Search a Notary»</strong>, en el portal de la Secretaría. Se ve tu nombre, tu condado, la fecha en que vence tu comisión, tu teléfono de trabajo y si haces notarizaciones remotas."
+    }
+   ]
+  },
+  {
+   "titulo": "Qué revisar cuando te llegue",
+   "icono": "fas fa-search",
+   "bloques": [
+    {
+     "tipo": "imagen",
+     "id": 183689
+    }
+   ]
+  },
+  {
+   "titulo": "Copias de tu comisión",
+   "icono": "fas fa-copy",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "<strong>Copia electrónica:</strong> pídela por correo a dlnotary_sos@maryland.gov. Te mandan un PDF.",
+      "<strong>Copia en papel:</strong> manda una carta con el nombre con el que te comisionaron, tu dirección postal, tu condado y un cheque o money order de <strong>$5</strong> a nombre de «Secretary of State». Dirección: Attn: Notary Division, Secretary of State, State House, Annapolis, MD 21401."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Cada vez que renueves",
+   "icono": "fas fa-redo",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Cada vez que te dan una comisión nueva, también al <strong>renovar</strong>, tienes que volver a hacer el juramento ante el Clerk. La renovación la vemos en la lección 7.2."
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    [
+     "Una clienta vive en el condado de Prince George's pero trabaja en Montgomery. ¿A qué Clerk va?",
+     "Al de Prince George's. Si vives en Maryland, te comisionan en el condado donde vives."
+    ],
+    [
+     "Un amigo ya juró, pero su comisión dice «Jose» sin acento y su licencia dice «José».",
+     "Que escriba a la Notary Division antes de mandar a hacer su sello, para revisar cómo debe quedar su nombre."
+    ],
+    [
+     "Te aprobaron hace 28 días y no has ido con el Clerk.",
+     "Ve de inmediato: te quedan 2 días. Si se pasan los 30, te revocan la comisión."
+    ]
+   ]
+  },
+  {
+   "tipo": "errores",
+   "titulo": "Errores comunes",
+   "icono": "fas fa-exclamation-triangle",
+   "items": [
+    "Dejar pasar los 30 días para jurar.",
+    "Ir con el Clerk de un condado que no es el tuyo.",
+    "Pensar que los $11 del Clerk ya iban incluidos en los $25 de la solicitud.",
+    "Notarizar antes de hacer el juramento y recibir la comisión.",
+    "No revisar tu comisión y mandar a hacer el sello con un nombre distinto."
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {
+     "tipo": "vf",
+     "pregunta": "Puedes notarizar en cualquier parte de Maryland, siempre que estés físicamente en el estado.",
+     "ok": "V"
+    },
+    {
+     "tipo": "vf",
+     "pregunta": "Los $11 que pagas al Clerk ya están incluidos en la tarifa de la solicitud.",
+     "ok": "F",
+     "razon": "Son aparte de los $25 de la solicitud."
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Cuánto dura una comisión de notario en Maryland?",
+     "opciones": [
+      "2 años",
+      "4 años",
+      "10 años"
+     ],
+     "ok": "b"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "Vives en Maryland. ¿Ante qué Clerk haces tu juramento?",
+     "opciones": [
+      "El del condado donde trabajas",
+      "El del condado donde vives",
+      "Cualquiera que esté cerca"
+     ],
+     "ok": "b"
+    }
+   ]
+  }
  ]
 }

@@ -64,6 +64,10 @@ class Armador:
         if t == 'nota':
             return self.el('e-flexbox', 'Nota', ['clc-lec-nota'], hijos=[
                 self.svg('fas fa-info-circle', ['clc-lec-marca'], 'color: #1B7FAE;'), self.p(b['texto'])])
+        if t == 'imagen':
+            # Imagen de la biblioteca de medios (id); el alt sale de la biblioteca.
+            return self.el('e-image', 'Imagen', cfg={'image': {'src': {'id': b['id']}, 'size': 'full'}},
+                           css='width: 100%; height: auto; border-radius: 18px;')
         if t == 'formulario':
             # Gravity Forms por shortcode (etiqueta dinámica); span porque un <p> no puede llevar el <form> dentro.
             sc = f'[gravityform id="{b["id"]}" title="false" description="false" ajax="true"]'
