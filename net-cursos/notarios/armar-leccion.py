@@ -6,7 +6,7 @@ El JSON de la lección describe las secciones; la salida son los parámetros de
 elementor-build-composition (xml_structure, element_config, classes, style).
 Mismo diseño que las lecciones del capítulo 1 (generadas con leccion-v4.ps1).
 """
-import json, sys
+import html, json, sys
 
 ICONO_CSS = 'width: 22px; height: 22px;'
 GRID_CSS = ('padding: 0px; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); '
@@ -32,7 +32,7 @@ class Armador:
         if clases: self.cls[i] = clases
         if cfg: self.cfg[i] = cfg
         if css: self.sty[i] = css
-        return f'<{tag} configuration-id="{i}">' + ''.join(hijos) + f'</{tag}>'
+        return f'<{tag} configuration-id="{html.escape(i, quote=True)}">' + ''.join(hijos) + f'</{tag}>'
 
     def p(self, txt, clase='clc-lec-txt', base='Texto'):
         return self.el('e-paragraph', base, [clase], {'paragraph': txt})

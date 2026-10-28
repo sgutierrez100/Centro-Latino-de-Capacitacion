@@ -1,0 +1,63 @@
+{
+ "post": 183088,
+ "titulo": "3.3 El seguro E&O y otros materiales",
+ "fuentes": "SG §18-102, §18-103, §18-104(f), §18-218; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 28/10/2026. Precios del seguro: página de Centro Latino de Capacitación, 28/10/2026.",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Para ser notario en Maryland <strong>no te piden fianza</strong> (bond): no está entre los requisitos de la ley (SG § 18-102 y § 18-103) ni en los pasos que da la Secretaría.",
+   "El <strong>seguro de errores y omisiones (E&O)</strong> es <strong>opcional</strong>, pero te protege a ti si alguien te reclama por un error en tu trabajo.",
+   "Una persona perjudicada por un notario puede reclamarle por la vía civil, aparte de cualquier sanción del estado (SG § 18-104).",
+   "Además del sello y el journal, ten a la mano <strong>certificados sueltos</strong>, un lugar <strong>bajo llave</strong> para tus herramientas y tu <strong>Notary Handbook</strong>."]},
+
+  {"titulo": "Qué es el seguro E&O", "icono": "fas fa-umbrella", "bloques": [
+   {"tipo": "texto", "texto": "El seguro de <strong>errores y omisiones</strong> (Errors and Omissions, E&O) te protege si un cliente te reclama o te demanda por un <strong>error o una omisión sin intención</strong> al hacer un acto notarial. Por ejemplo, si llenas mal un certificado o anotas mal un dato."},
+   {"tipo": "lista", "items": [
+    "<strong>Es opcional</strong> en Maryland: tú decides si lo compras.",
+    "Te ayuda con los <strong>gastos de defensa legal</strong> y con lo que tengas que pagar por un reclamo, hasta el límite de tu póliza.",
+    "<strong>No reemplaza</strong> hacer bien tu trabajo: identificar bien al firmante, llenar bien el certificado y anotar todo en tu journal."]},
+   {"tipo": "nota", "texto": "<strong>¿Por qué considerarlo?</strong> La ley de Maryland dice que, aparte de lo que haga el estado, una persona perjudicada por un notario puede pedirle una compensación por otros medios legales (SG § 18-104). Sin seguro, esos gastos salen de tu bolsillo."}]},
+
+  {"titulo": "Fianza (bond) contra seguro E&O", "icono": "fas fa-balance-scale", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-users", "<strong>La fianza (bond)</strong> la piden algunos otros estados y protege <strong>al público</strong>. En Maryland no te la piden."],
+    ["fas fa-user-shield", "<strong>El seguro E&O</strong> te protege <strong>a ti</strong>, el notario."]]}]},
+
+  {"titulo": "Consigue tu seguro E&O", "icono": "fas fa-shield-alt", "bloques": [
+   {"tipo": "texto", "texto": "En Centro Latino de Capacitación te ayudamos con tu seguro de errores y omisiones para notarios, con un <strong>solo pago</strong> y <strong>vigencia de 4 años</strong>, lo mismo que dura tu comisión:"},
+   {"tipo": "pasos", "items": [
+    "<strong>Cobertura de $10,000:</strong> un solo pago de <strong>$40</strong>.",
+    "<strong>Cobertura de $25,000:</strong> un solo pago de <strong>$60</strong>."]},
+   {"tipo": "botones", "items": [{"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"titulo": "Otros materiales para tu oficina", "icono": "fas fa-toolbox", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Certificados sueltos</strong> (loose certificates). Si el documento no trae certificado notarial, tienes que <strong>adjuntar uno</strong> y sujetarlo bien al documento. Los vemos en la lección 4.3.",
+    "<strong>Sellos auxiliares</strong> con el texto del certificado de acknowledgment o de jurat. Te ahorran tiempo, pero revisa que el texto sea el correcto para Maryland.",
+    "<strong>Un sello de relieve</strong> (embosser), si quieres usarlo además de tu sello de tinta. Recuerda que tu sello debe poder verse en una copia.",
+    "<strong>Un bolso o una caja con llave</strong> para tu sello y tu journal. Tú eres responsable de que estén seguros (SG § 18-218).",
+    "<strong>Tu Notary Handbook</strong>, el manual de la Secretaría de Estado. Lo venden impreso por <strong>$30</strong>."]},
+   {"tipo": "nota", "texto": "<strong>Dato útil:</strong> Maryland <strong>no da número de comisión</strong>. Te identifican por tu nombre, tu condado y la fecha en que vence tu comisión. Si un formulario te pide «notary ID number», escribe <strong>«n/a»</strong>."}]},
+
+  {"titulo": "Encuéntralos en La Tienda del Notario", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación te recomendamos sellos de tinta y de relieve, journals, sellos auxiliares para acknowledgment y jurat, sellos para copias certificadas, stickers para el sello de relieve y un bolso de seguridad."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Una amiga que se va a mudar a Maryland desde otro estado pregunta cuánto cuesta la fianza de notario en Maryland.", "Explícale que en Maryland no piden fianza. Lo que sí le conviene considerar es un seguro E&O, que la protege a ella."],
+   ["Un cliente trae un documento que no tiene certificado notarial y te pide que solo le pongas el sello.", "No basta con el sello. Debes adjuntar un certificado notarial y sujetarlo bien al documento."],
+   ["Un banco te pide tu «notary commission number».", "Maryland no da número de comisión. Escribe «n/a» y da tu nombre, tu condado y la fecha en que vence tu comisión."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Comprar una fianza (bond) pensando que Maryland la pide.",
+   "Pensar que el seguro E&O te deja trabajar sin cuidado.",
+   "Poner solo el sello en un documento que no trae certificado.",
+   "Usar un sello auxiliar con un texto que no es el correcto para Maryland.",
+   "Inventar un número de comisión cuando un formulario lo pide."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En Maryland es obligatorio comprar una fianza (bond) para ser notario.", "ok": "F", "razon": "Maryland no la pide."},
+   {"tipo": "vf", "pregunta": "El seguro E&O protege al notario si alguien le reclama por un error en su trabajo.", "ok": "V"},
+   {"tipo": "om", "pregunta": "Un documento no trae certificado notarial. ¿Qué haces?", "opciones": ["Solo pones tu sello", "Adjuntas un certificado y lo sujetas bien al documento", "Escribes «notarizado» a mano"], "ok": "b"},
+   {"tipo": "om", "pregunta": "Un formulario te pide tu número de comisión de Maryland. ¿Qué escribes?", "opciones": ["n/a", "El número de tu licencia", "Inventas uno"], "ok": "a"}]}
+ ]
+}
