@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap');
-*{box-sizing:border-box;margin:0}
-body{width:800px;background:#fff;font-family:'Nunito Sans',sans-serif;color:#111}
-.lienzo{padding:44px 40px;background:#f5f8fa}
-.kicker{font-family:Poppins;font-weight:700;font-size:20px;letter-spacing:3px;color:#237a35;text-transform:uppercase}
-h1{font-family:Poppins;font-weight:800;font-size:42px;line-height:1.1;letter-spacing:-1px;margin:8px 0 30px}
-.ico{width:64px;height:64px;border-radius:18px;background:#effaf1;color:#237a35;display:flex;align-items:center;justify-content:center}
-.ico svg{width:30px;height:30px;fill:currentColor}
-.pie{margin-top:30px;font-size:18px;color:#5b6670}

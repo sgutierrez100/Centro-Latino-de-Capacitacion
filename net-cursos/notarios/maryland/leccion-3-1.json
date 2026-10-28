@@ -36,10 +36,6 @@
    "icono": "fas fa-gavel",
    "bloques": [
     {
-     "tipo": "imagen",
-     "id": 183688
-    },
-    {
      "tipo": "pasos",
      "items": [
       "<strong>Lee el correo de aprobación</strong> de la Secretaría y su <strong>archivo adjunto</strong>: ahí vienen las instrucciones para obtener tu comisión con el Clerk.",
@@ -103,8 +99,16 @@
    "icono": "fas fa-search",
    "bloques": [
     {
-     "tipo": "imagen",
-     "id": 183689
+     "tipo": "pasos",
+     "items": [
+      "<strong>Tu nombre:</strong> que esté escrito igual que en tu identificación.",
+      "<strong>El condado</strong> donde te comisionaron.",
+      "<strong>La fecha en que vence.</strong> Anótala: la vas a escribir en tus certificados y la necesitas para renovar a tiempo."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Si ves un error,</strong> escribe de inmediato a la Notary Division (dlnotary_sos@maryland.gov) o llama al 410-974-5520 antes de mandar a hacer tu sello, porque el sello debe llevar tu nombre tal como aparece en tu comisión."
     }
    ]
   },
