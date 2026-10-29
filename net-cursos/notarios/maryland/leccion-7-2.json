@@ -3,72 +3,198 @@
  "titulo": "7.2 Renovación, mudanza o renuncia",
  "fuentes": "SG §18-102, §18-103, §18-218, §18-219; COMAR 01.02.08.03, 01.02.08.09; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
  "secciones": [
-  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
-   "Tu comisión dura <strong>4 años</strong> (SG § 18-103). Puedes renovar desde <strong>60 días antes</strong> de que venza.",
-   "Para renovar necesitas <strong>el curso</strong>, pero <strong>no el examen</strong> (SG § 18-102), y pagas <strong>$25</strong> (COMAR 01.02.08.03).",
-   "Después de la renovación, tienes <strong>30 días</strong> para volver a <strong>jurar ante el Clerk</strong> y pagar los cargos (SG § 18-103).",
-   "Si dejas de ser notario, <strong>inutilizas tu sello</strong> y guardas tu <strong>journal 10 años</strong> (SG § 18-218 y § 18-219)."]},
-
-  {"titulo": "Cuándo renovar", "icono": "fas fa-calendar-alt", "bloques": [
-   {"tipo": "pasos", "items": [
-    "<strong>60 días antes</strong> de que venza tu comisión se abre el periodo de renovación.",
-    "Puedes renovar hasta <strong>30 días después</strong> de la fecha de vencimiento.",
-    "Si pasan más de 30 días, ya no renuevas: tienes que hacer una <strong>solicitud nueva</strong>."]},
-   {"tipo": "nota", "texto": "<strong>Importante:</strong> aunque puedas renovar hasta 30 días después, <strong>no puedes notarizar</strong> con la comisión vencida. Renueva a tiempo para no quedarte sin trabajar. Y si vas a estar fuera en esas fechas, la Secretaría dice que llames al <strong>410-974-5521</strong> o escribas a <strong>dlnotary_sos@maryland.gov</strong> antes de irte, para renovar antes."}]},
-
-  {"titulo": "Cómo renovar, paso a paso", "icono": "fas fa-redo", "bloques": [
-   {"tipo": "pasos", "items": [
-    "<strong>Toma el curso</strong> de un proveedor aprobado por la Secretaría. Para renovar, la ley pide el curso pero <strong>no el examen</strong> (SG § 18-102).",
-    "<strong>Haz tu solicitud de renovación</strong> en línea, en mdsos2.my.site.com.",
-    "<strong>Paga $25</strong> a la Secretaría de Estado (COMAR 01.02.08.03).",
-    "<strong>Espera la aprobación.</strong> La Secretaría dice que normalmente tarda de <strong>2 a 3 días hábiles</strong>. Los retrasos suelen venir de una dirección que no coincide o de datos que faltan.",
-    "<strong>Jura ante el Clerk of the Circuit Court</strong> dentro de los <strong>30 días</strong> después del aviso, y paga los cargos del Clerk (SG § 18-103).",
-    "<strong>Revisa tu sello.</strong> Si tu sello tiene fecha de vencimiento, necesitas uno nuevo."]},
-   {"tipo": "nota", "texto": "<strong>Si no juras a tiempo:</strong> la ley dice que te <strong>revocan</strong> la comisión si no te presentas ante el Clerk y pagas dentro de los 30 días (SG § 18-103)."}]},
-
-  {"titulo": "Tu certificado del curso de renovación", "icono": "fas fa-certificate", "bloques": [
-   {"tipo": "texto", "texto": "Como en tu primera solicitud, para renovar necesitas el <strong>certificado del curso</strong>. En Centro Latino de Capacitación te ayudamos a solicitarlo, igual que en la lección 2.1."},
-   {"tipo": "botones", "items": [{"texto": "Ir a la lección 2.1", "url": "https://centrolatinodecapacitacion.net/lesson/como-es-el-examen-y-como-se-aprueba/"}]}]},
-
-  {"titulo": "Si te mudas", "icono": "fas fa-truck-moving", "bloques": [
-   {"tipo": "comparar", "tarjetas": [
-    {"titulo": "Dentro de Maryland", "sub": "Otro condado", "filas": [
-     ["Aviso", "Actualiza tu dirección y tu condado dentro de los <strong>30 días</strong> (COMAR 01.02.08.09)."],
-     ["Comisión", "Sigue con el condado anterior hasta que renueves. Al renovar, juras en tu <strong>condado nuevo</strong>."]]},
-    {"titulo": "Fuera de Maryland", "sub": "Otro estado", "filas": [
-     ["Requisito", "Para ser notario en Maryland, la ley pide <strong>vivir en Maryland</strong> o <strong>trabajar en Maryland</strong> (SG § 18-102)."],
-     ["Aviso", "Actualiza tu dirección dentro de los <strong>30 días</strong> y consulta a la Secretaría si puedes seguir."]]}]},
-   {"tipo": "lista", "items": [
-    "Si vives en otro estado y trabajas en Maryland, la ley pide además que tu estado deje a los residentes de Maryland que trabajan allá ser notarios (SG § 18-102).",
-    "La Secretaría puede pedirte una <strong>prueba</strong> de que trabajas en Maryland, como un contrato o una factura.",
-    "Solo puedes notarizar como notario de Maryland cuando <strong>estás físicamente en Maryland</strong>."]}]},
-
-  {"titulo": "Si renuncias o dejas de ser notario", "icono": "fas fa-door-open", "bloques": [
-   {"tipo": "texto", "texto": "Cuando <strong>renuncias</strong>, te <strong>revocan</strong> la comisión o <strong>se vence</strong> sin renovar:"},
-   {"tipo": "pasos", "items": [
-    "<strong>Inutiliza tu sello</strong>: destrúyelo, bórralo o guárdalo de forma que nadie lo pueda usar (SG § 18-218).",
-    "<strong>Guarda tu journal 10 años</strong> después del último acto anotado (SG § 18-219).",
-    "<strong>Dile a la Secretaría dónde está</strong> tu journal, si renuncias o te revocan o suspenden la comisión (SG § 18-219).",
-    "En vez de guardarlo tú, la ley permite entregarlo a un <strong>depósito aprobado</strong> por la Secretaría (SG § 18-219)."]},
-   {"tipo": "nota", "texto": "<strong>Consejo:</strong> para renunciar, escribe a la Secretaría de Estado a dlnotary_sos@maryland.gov. Antes de hacerlo, confirma con ellos qué información necesitan."}]},
-
-  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
-   ["Tu comisión vence el 15 de marzo. Hoy es 1 de febrero.", "Ya puedes renovar: el periodo abre 60 días antes. Toma el curso, haz tu solicitud y paga $25."],
-   ["Se te pasó la fecha: tu comisión venció hace 20 días.", "Todavía puedes renovar, porque no han pasado 30 días. Pero mientras tanto no puedes notarizar."],
-   ["Te aprobaron la renovación, pero no has ido con el Clerk y ya pasaron 25 días.", "Ve esta semana: si pasan los 30 días sin jurar y pagar, te revocan la comisión."],
-   ["Te mudaste a Virginia, pero sigues trabajando en una oficina en Silver Spring.", "Actualiza tu dirección en 30 días y consulta a la Secretaría. La ley permite a quien trabaja en Maryland ser notario, si su estado lo permite a los residentes de Maryland."]]},
-
-  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
-   "Esperar a que venza la comisión para empezar a renovar.",
-   "Notarizar con la comisión vencida.",
-   "No jurar ante el Clerk dentro de los 30 días.",
-   "Tirar el journal al dejar de ser notario.",
-   "Guardar el sello sin inutilizarlo."]},
-
-  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
-   {"tipo": "vf", "pregunta": "Para renovar tu comisión necesitas volver a pasar el examen.", "ok": "F", "razon": "Para renovar necesitas el curso, pero no el examen (SG § 18-102)."},
-   {"tipo": "vf", "pregunta": "Puedes renovar desde 60 días antes de que venza tu comisión.", "ok": "V"},
-   {"tipo": "om", "pregunta": "¿Cuántos años dura una comisión de notario en Maryland?", "opciones": ["2 años", "4 años", "10 años"], "ok": "b"},
-   {"tipo": "om", "pregunta": "Dejas de ser notario. ¿Cuánto tiempo guardas tu journal?", "opciones": ["1 año", "4 años", "10 años"], "ok": "c"}]}
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Tu comisión dura <strong>4 años</strong> (SG § 18-103). Puedes renovar desde <strong>60 días antes</strong> de que venza.",
+    "Para renovar necesitas <strong>el curso</strong>, pero <strong>no el examen</strong> (SG § 18-102), y pagas <strong>$25</strong> (COMAR 01.02.08.03).",
+    "Después de la renovación, tienes <strong>30 días</strong> para volver a <strong>jurar ante el Clerk</strong> y pagar los cargos (SG § 18-103).",
+    "Si dejas de ser notario, <strong>inutilizas tu sello</strong> y guardas tu <strong>journal 10 años</strong> (SG § 18-218 y § 18-219)."
+   ]
+  },
+  {
+   "titulo": "Cuándo renovar",
+   "icono": "fas fa-calendar-alt",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "<strong>60 días antes</strong> de que venza tu comisión se abre el periodo de renovación.",
+      "Puedes renovar hasta <strong>30 días después</strong> de la fecha de vencimiento.",
+      "Si pasan más de 30 días, ya no renuevas: tienes que hacer una <strong>solicitud nueva</strong>."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Importante:</strong> aunque puedas renovar hasta 30 días después, <strong>no puedes notarizar</strong> con la comisión vencida. Renueva a tiempo para no quedarte sin trabajar. Y si vas a estar fuera en esas fechas, la Secretaría dice que llames al <strong>410-974-5521</strong> o escribas a <strong>dlnotary_sos@maryland.gov</strong> antes de irte, para renovar antes."
+    }
+   ]
+  },
+  {
+   "titulo": "Cómo renovar, paso a paso",
+   "icono": "fas fa-redo",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "<strong>Toma el curso</strong> de un proveedor aprobado por la Secretaría. Para renovar, la ley pide el curso pero <strong>no el examen</strong> (SG § 18-102).",
+      "<strong>Haz tu solicitud de renovación</strong> en línea, en mdsos2.my.site.com.",
+      "<strong>Paga $25</strong> a la Secretaría de Estado (COMAR 01.02.08.03).",
+      "<strong>Espera la aprobación.</strong> La Secretaría dice que normalmente tarda de <strong>2 a 3 días hábiles</strong>. Los retrasos suelen venir de una dirección que no coincide o de datos que faltan.",
+      "<strong>Jura ante el Clerk of the Circuit Court</strong> dentro de los <strong>30 días</strong> después del aviso, y paga los cargos del Clerk (SG § 18-103).",
+      "<strong>Revisa tu sello.</strong> Si tu sello tiene fecha de vencimiento, necesitas uno nuevo."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Si no juras a tiempo:</strong> la ley dice que te <strong>revocan</strong> la comisión si no te presentas ante el Clerk y pagas dentro de los 30 días (SG § 18-103)."
+    }
+   ]
+  },
+  {
+   "titulo": "Si te mudas",
+   "icono": "fas fa-truck-moving",
+   "bloques": [
+    {
+     "tipo": "comparar",
+     "tarjetas": [
+      {
+       "titulo": "Dentro de Maryland",
+       "sub": "Otro condado",
+       "filas": [
+        [
+         "Aviso",
+         "Actualiza tu dirección y tu condado dentro de los <strong>30 días</strong> (COMAR 01.02.08.09)."
+        ],
+        [
+         "Comisión",
+         "Sigue con el condado anterior hasta que renueves. Al renovar, juras en tu <strong>condado nuevo</strong>."
+        ]
+       ]
+      },
+      {
+       "titulo": "Fuera de Maryland",
+       "sub": "Otro estado",
+       "filas": [
+        [
+         "Requisito",
+         "Para ser notario en Maryland, la ley pide <strong>vivir en Maryland</strong> o <strong>trabajar en Maryland</strong> (SG § 18-102)."
+        ],
+        [
+         "Aviso",
+         "Actualiza tu dirección dentro de los <strong>30 días</strong> y consulta a la Secretaría si puedes seguir."
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      "Si vives en otro estado y trabajas en Maryland, la ley pide además que tu estado deje a los residentes de Maryland que trabajan allá ser notarios (SG § 18-102).",
+      "La Secretaría puede pedirte una <strong>prueba</strong> de que trabajas en Maryland, como un contrato o una factura.",
+      "Solo puedes notarizar como notario de Maryland cuando <strong>estás físicamente en Maryland</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Si renuncias o dejas de ser notario",
+   "icono": "fas fa-door-open",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Cuando <strong>renuncias</strong>, te <strong>revocan</strong> la comisión o <strong>se vence</strong> sin renovar:"
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "<strong>Inutiliza tu sello</strong>: destrúyelo, bórralo o guárdalo de forma que nadie lo pueda usar (SG § 18-218).",
+      "<strong>Guarda tu journal 10 años</strong> después del último acto anotado (SG § 18-219).",
+      "<strong>Dile a la Secretaría dónde está</strong> tu journal, si renuncias o te revocan o suspenden la comisión (SG § 18-219).",
+      "En vez de guardarlo tú, la ley permite entregarlo a un <strong>depósito aprobado</strong> por la Secretaría (SG § 18-219)."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Consejo:</strong> para renunciar, escribe a la Secretaría de Estado a dlnotary_sos@maryland.gov. Antes de hacerlo, confirma con ellos qué información necesitan."
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    [
+     "Tu comisión vence el 15 de marzo. Hoy es 1 de febrero.",
+     "Ya puedes renovar: el periodo abre 60 días antes. Toma el curso, haz tu solicitud y paga $25."
+    ],
+    [
+     "Se te pasó la fecha: tu comisión venció hace 20 días.",
+     "Todavía puedes renovar, porque no han pasado 30 días. Pero mientras tanto no puedes notarizar."
+    ],
+    [
+     "Te aprobaron la renovación, pero no has ido con el Clerk y ya pasaron 25 días.",
+     "Ve esta semana: si pasan los 30 días sin jurar y pagar, te revocan la comisión."
+    ],
+    [
+     "Te mudaste a Virginia, pero sigues trabajando en una oficina en Silver Spring.",
+     "Actualiza tu dirección en 30 días y consulta a la Secretaría. La ley permite a quien trabaja en Maryland ser notario, si su estado lo permite a los residentes de Maryland."
+    ]
+   ]
+  },
+  {
+   "tipo": "errores",
+   "titulo": "Errores comunes",
+   "icono": "fas fa-exclamation-triangle",
+   "items": [
+    "Esperar a que venza la comisión para empezar a renovar.",
+    "Notarizar con la comisión vencida.",
+    "No jurar ante el Clerk dentro de los 30 días.",
+    "Tirar el journal al dejar de ser notario.",
+    "Guardar el sello sin inutilizarlo."
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {
+     "tipo": "vf",
+     "pregunta": "Para renovar tu comisión necesitas volver a pasar el examen.",
+     "ok": "F",
+     "razon": "Para renovar necesitas el curso, pero no el examen (SG § 18-102)."
+    },
+    {
+     "tipo": "vf",
+     "pregunta": "Puedes renovar desde 60 días antes de que venza tu comisión.",
+     "ok": "V"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Cuántos años dura una comisión de notario en Maryland?",
+     "opciones": [
+      "2 años",
+      "4 años",
+      "10 años"
+     ],
+     "ok": "b"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "Dejas de ser notario. ¿Cuánto tiempo guardas tu journal?",
+     "opciones": [
+      "1 año",
+      "4 años",
+      "10 años"
+     ],
+     "ok": "c"
+    }
+   ]
+  }
  ]
 }
