@@ -1,0 +1,64 @@
+{
+ "post": 183162,
+ "titulo": "9.2 Qué sigue: más cursos, redes y membresía",
+ "fuentes": "Páginas de Centro Latino de Capacitación (cursos, membresía, websites y tienda), revisadas el 29/10/2026; lecciones 2.1 a 5.1 de este curso",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "<strong>¡Felicidades!</strong> Terminaste el Curso de Notario Público para Maryland de Centro Latino de Capacitación.",
+   "Descarga tu <strong>Guía del Notario Público de Maryland</strong>: tu libro de consulta para cuando ya estés notarizando.",
+   "Sigue tu camino: <strong>certificado</strong>, <strong>solicitud</strong>, <strong>juramento</strong> y tus <strong>herramientas</strong>.",
+   "Crece como notario con nuestros <strong>otros cursos</strong>, la <strong>membresía</strong> de Notarios Latinos y un <strong>website</strong> para tu negocio."]},
+
+  {"titulo": "Tu Guía del Notario Público de Maryland", "icono": "fas fa-book-open", "bloques": [
+   {"tipo": "texto", "texto": "Como alumno inscrito, tienes la <strong>Guía del Notario Público de Maryland</strong>, el libro que hicimos para nuestros alumnos. Tiene cada acto notarial paso a paso, los certificados de Maryland traducidos línea por línea, casos prácticos de la oficina y un glosario de términos en inglés."},
+   {"tipo": "nota", "texto": "<strong>Guárdala en tu computadora o tu celular.</strong> Es solo para alumnos: por favor no la compartas."},
+   {"tipo": "botones", "items": [{"texto": "Descargar la Guía (PDF)", "url": "https://centrolatinodecapacitacion.net/wp-content/uploads/2026/10/Guia-Notario-Maryland-alumnos-shu1g6qvbt.pdf"}]}]},
+
+  {"titulo": "Tu camino después del curso", "icono": "fas fa-route", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Pide tu certificado</strong> con el formulario de la lección 2.1. Lo recibes en tu email en aproximadamente 24-48 horas.",
+    "<strong>Haz tu solicitud en línea</strong> con la Secretaría de Estado (lección 2.2).",
+    "<strong>Espera la aprobación</strong> y contesta rápido cualquier email de la Secretaría (lección 2.3).",
+    "<strong>Jura ante el Clerk of the Circuit Court</strong> dentro de los 30 días y paga $11 (lección 3.1).",
+    "<strong>Compra tu sello y tu journal</strong> antes de tu primer acto (lección 3.2).",
+    "<strong>Empieza a notarizar</strong> siguiendo los seis pasos de la lección 5.1."]}]},
+
+  {"titulo": "Consigue tus herramientas", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras tu sello, tu journal, sellos de certificado y un bolso de seguridad. Y protege tu trabajo desde el primer día con el <strong>seguro E&amp;O</strong>."},
+   {"tipo": "botones", "items": [
+    {"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"},
+    {"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"titulo": "Más cursos para crecer", "icono": "fas fa-graduation-cap", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Notario de Firmas Hipotecarias", "sub": "Loan Signing Agent · $125", "filas": [["Qué aprendes", "Los documentos de un préstamo hipotecario y cómo se notarizan, paso a paso. Incluye tu certificación."]]},
+    {"titulo": "Traducción de Documentos", "sub": "Clase por Zoom · $250", "filas": [["Qué aprendes", "A ofrecer servicios de traducción de documentos, también a distancia. Incluye certificado de completación."]]},
+    {"titulo": "Oficiante de Bodas", "sub": "Online o por Zoom", "filas": [["Qué aprendes", "Las herramientas legales, administrativas y de oratoria para oficiar ceremonias y manejar las licencias matrimoniales."]]}]},
+   {"tipo": "botones", "items": [
+    {"texto": "Notario de Firmas Hipotecarias", "url": "https://centrolatinodecapacitacion.net/curso-notario-de-firmas-hipotecarias/"},
+    {"texto": "Traducción de Documentos", "url": "https://centrolatinodecapacitacion.net/curso-de-traduccion-de-documentos/"},
+    {"texto": "Oficiante de Bodas", "url": "https://centrolatinodecapacitacion.net/curso-oficiante-de-bodas/"}]}]},
+
+  {"titulo": "Próximamente para Maryland", "icono": "fas fa-hourglass-half", "bloques": [
+   {"tipo": "lista", "items": [
+    "<strong>Curso de Notario Remoto de Maryland:</strong> para notarizar a distancia, por audio y video (lección 8.3).",
+    "<strong>Curso de Renovación de Notario de Maryland:</strong> para renovar tu comisión cuando se acerque la fecha."]},
+   {"tipo": "botones", "items": [{"texto": "Próximamente"}]}]},
+
+  {"titulo": "Membresía de Notarios Latinos", "icono": "fas fa-users", "bloques": [
+   {"tipo": "texto", "texto": "Regístrate en la <strong>base de datos de Notarios Latinos</strong> en Estados Unidos, para llegar a más clientes y promover tus servicios. Es <strong>opcional</strong> y cuesta <strong>$10 al mes</strong>."},
+   {"tipo": "botones", "items": [{"texto": "Registrarme en Notarios Latinos", "url": "https://centrolatinodecapacitacion.net/registracion-a-membresia-de-notarios-latinos/"}]}]},
+
+  {"titulo": "Un website para tu negocio", "icono": "fas fa-laptop", "bloques": [
+   {"tipo": "texto", "texto": "Te diseñamos un <strong>website profesional</strong> para tu negocio de notario: moderno, rápido y que se ve bien en cualquier celular. Todas las opciones cuestan <strong>$150</strong>. Recuerda anunciarte como <strong>Notary Public</strong> y poner el aviso obligatorio (lección 6.2)."},
+   {"tipo": "botones", "items": [{"texto": "Ver los websites para notarios", "url": "https://centrolatinodecapacitacion.net/websites-para-notarios/"}]}]},
+
+  {"titulo": "Estamos para ayudarte", "icono": "fas fa-comments", "bloques": [
+   {"tipo": "texto", "texto": "¿Tienes dudas sobre el curso o sobre tu solicitud? Escríbenos por <strong>WhatsApp</strong>. Te atendemos en español de <strong>lunes a sábado, de 1 a 7 pm</strong> (hora del Este)."},
+   {"tipo": "lista", "items": [
+    ["fas fa-phone", "(760) 553-3256"],
+    ["fas fa-phone", "(909) 344-0703"],
+    ["fas fa-phone", "(909) 788-0445"]]},
+   {"tipo": "botones", "items": [{"texto": "Escríbenos por WhatsApp", "url": "https://wa.me/19093440703?text=Hola%2C%20termin%C3%A9%20el%20Curso%20de%20Notario%20P%C3%BAblico%20para%20Maryland"}]}]}
+ ]
+}
