@@ -59,7 +59,7 @@
    {"tipo": "texto", "texto": "Este mensaje te ahorra viajes y clientes molestos: llegan con todo lo que necesitas para los pasos de la lección 5.1."}]},
 
   {"titulo": "Modelo 4 · Certificados sueltos", "icono": "fas fa-file-alt", "bloques": [
-   {"tipo": "texto", "texto": "Si un documento <strong>no trae certificado</strong>, adjuntas uno y lo sujetas bien (lección 4.3). Estos son los formularios cortos de la ley de Maryland (SG § 18-216), listos para imprimir:"},
+   {"tipo": "texto", "texto": "Si un documento <strong>no trae certificado</strong>, adjuntas uno y lo sujetas bien (lección 4.3). Estos son los formularios cortos de la ley de Maryland (SG § 18-216). Puedes copiarlos tal cual en una hoja aparte:"},
    {"tipo": "certificado", "marca": "ACKNOWLEDGMENT", "lineas": [
     "State of Maryland, County of ______________",
     "This record was acknowledged before me on ______________ by ______________________.",
