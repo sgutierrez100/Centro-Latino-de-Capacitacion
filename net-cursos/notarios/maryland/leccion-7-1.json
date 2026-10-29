@@ -1,0 +1,93 @@
+{
+ "post": 183138,
+ "titulo": "7.1 Cambios de dirección, nombre o empleador, y sello o journal perdido",
+ "fuentes": "COMAR 01.02.08.09; SG §18-218, §18-219; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Avisa a la Secretaría de Estado de cualquier cambio en tu <strong>nombre, dirección, teléfono, email o condado</strong> dentro de los <strong>30 días</strong> (COMAR 01.02.08.09).",
+   "Los cambios se hacen en línea, en <strong>mdsos2.my.site.com</strong>, en «Update Your Notary Information».",
+   "Si cambias de <strong>nombre</strong>, puedes pedir una comisión con el nombre nuevo ($6 más $11 del juramento) y un <strong>sello nuevo</strong>, o seguir con el nombre anterior hasta renovar.",
+   "Si pierdes o te roban el <strong>sello</strong> o el <strong>journal</strong>, avisa <strong>de inmediato</strong> a la Secretaría (SG § 18-218 y § 18-219)."]},
+
+  {"titulo": "Qué cambios debes avisar", "icono": "fas fa-bell", "bloques": [
+   {"tipo": "texto", "texto": "Durante tu comisión, avisa a la Secretaría de Estado dentro de los <strong>30 días</strong> si cambia (COMAR 01.02.08.09):"},
+   {"tipo": "lista", "items": [
+    "Tu <strong>nombre</strong>.",
+    "Tu <strong>dirección de casa</strong> y tu <strong>condado</strong> de residencia.",
+    "Tu <strong>teléfono de casa</strong> y tu <strong>email personal</strong>.",
+    "Tu <strong>teléfono del trabajo</strong>.",
+    "Tu celular, tu dirección del trabajo y tu email del trabajo, si los diste en tu solicitud."]},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> la Secretaría te manda todo por <strong>email</strong>. Mantén tu email al día para no perderte avisos, como el de tu renovación."}]},
+
+  {"titulo": "Cómo hacer el cambio en línea", "icono": "fas fa-laptop", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Entra a <strong>mdsos2.my.site.com</strong>.",
+    "Elige «<strong>Update Your Notary Information</strong>».",
+    "Escribe el dato nuevo y envía el cambio."]},
+   {"tipo": "botones", "items": [{"texto": "Actualizar mis datos de notario", "url": "https://mdsos2.my.site.com/"}]}]},
+
+  {"titulo": "Si te cambias de casa", "icono": "fas fa-home", "bloques": [
+   {"tipo": "lista", "items": [
+    "Actualiza tu dirección en línea. La Secretaría dice que <strong>no tienes que volver a jurar</strong> ante el Clerk por un cambio de dirección.",
+    "Si te mudas a <strong>otro condado</strong> de Maryland, tu comisión sigue con el <strong>condado anterior</strong> hasta que renueves. Al renovar, juras ante el Clerk de tu <strong>condado nuevo</strong>.",
+    "Puedes notarizar en <strong>cualquier condado</strong> de Maryland, sin importar el de tu comisión (SG § 18-105).",
+    "Si te mudas <strong>fuera de Maryland</strong>, lo vemos en la lección 7.2."]}]},
+
+  {"titulo": "Si te cambias de nombre", "icono": "fas fa-id-badge", "bloques": [
+   {"tipo": "texto", "texto": "Por ejemplo, al casarte o divorciarte. La Secretaría te da <strong>dos opciones</strong>:"},
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Opción 1", "sub": "Comisión con el nombre nuevo", "filas": [
+     ["Costo", "<strong>$6</strong> a la Secretaría y <strong>$11</strong> al Clerk por el juramento."],
+     ["Vence", "En la <strong>misma fecha</strong> que tu comisión actual. No te dan 4 años nuevos."],
+     ["Sello", "Necesitas un <strong>sello nuevo</strong> con tu nombre nuevo."]]},
+    {"titulo": "Opción 2", "sub": "Solo actualizar tus datos", "filas": [
+     ["Costo", "<strong>Sin costo</strong>."],
+     ["Nombre", "Sigues como notario con tu <strong>nombre anterior</strong> y con tu <strong>sello anterior</strong> hasta que termine tu comisión."],
+     ["Al renovar", "Te comisionan con tu <strong>nombre legal nuevo</strong>."]]}]},
+   {"tipo": "nota", "texto": "<strong>Recuerda:</strong> sea cual sea la opción, avisa el cambio de nombre dentro de los <strong>30 días</strong> (COMAR 01.02.08.09)."}]},
+
+  {"titulo": "Si cambias de trabajo", "icono": "fas fa-briefcase", "bloques": [
+   {"tipo": "lista", "items": [
+    "Tu comisión es <strong>tuya</strong>, no de tu empleador.",
+    "Aunque tu empleador haya pagado la solicitud, el sello o el journal, la Secretaría dice que siguen siendo <strong>tu propiedad y tu responsabilidad</strong>.",
+    "Si dejas el trabajo, puedes llevarte el sello y el journal, y la Secretaría <strong>recomienda mucho</strong> que lo hagas.",
+    "Si diste el teléfono, la dirección o el email del trabajo en tu solicitud, actualízalos dentro de los 30 días."]}]},
+
+  {"titulo": "Si pierdes o te roban el sello", "icono": "fas fa-stamp", "bloques": [
+   {"tipo": "texto", "texto": "Avisa <strong>de inmediato</strong> a la Secretaría de Estado por email a <strong>dlnotary_sos@maryland.gov</strong> (SG § 18-218). Incluye:"},
+   {"tipo": "pasos", "items": [
+    "El <strong>nombre</strong> con el que te comisionaron.",
+    "Tu <strong>dirección</strong> y tu <strong>condado</strong>.",
+    "La <strong>fecha</strong> en que se perdió o te lo robaron.",
+    "Si fue un robo y lo reportaste a la policía: una copia del reporte, o el número del reporte y el departamento de policía."]}]},
+
+  {"titulo": "Si pierdes o te roban el journal", "icono": "fas fa-book", "bloques": [
+   {"tipo": "lista", "items": [
+    "Avisa <strong>de inmediato</strong> a la Secretaría de Estado (SG § 18-219).",
+    "Empieza un <strong>journal nuevo</strong> antes de tu siguiente acto. Es un consejo nuestro: no puedes notarizar sin anotar el acto.",
+    "Recuerda que solo puedes tener <strong>un journal de papel a la vez</strong> (lección 3.2)."]}]},
+
+  {"titulo": "Repón tu sello o tu journal", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "¿Cambiaste de nombre o perdiste tu sello o tu journal? En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras sellos y journals como los pide Maryland."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Te mudaste de Montgomery a Howard hace dos semanas.", "Actualiza tu dirección y tu condado en línea antes de que pasen 30 días. Tu comisión sigue siendo de Montgomery hasta que renueves."],
+   ["Te casaste y no quieres gastar en un sello nuevo todavía.", "Elige solo actualizar tus datos: sigues con tu nombre y tu sello anteriores hasta renovar. Igual avisa dentro de los 30 días."],
+   ["Dejaste tu trabajo en la oficina de impuestos y tu jefe quiere quedarse con tu sello.", "El sello es tuyo y tu responsabilidad, aunque él lo haya pagado. Llévatelo, junto con tu journal."],
+   ["Te robaron el carro con tu sello adentro.", "Haz el reporte a la policía y avisa de inmediato a la Secretaría por email, con tu nombre, dirección, condado, la fecha y el número del reporte."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Dejar pasar más de 30 días para avisar un cambio.",
+   "No actualizar el email y perderse avisos de la Secretaría.",
+   "Usar el sello viejo con un nombre nuevo después de pedir la comisión con el nombre nuevo.",
+   "Dejarle el sello y el journal al empleador al cambiar de trabajo.",
+   "No avisar de inmediato la pérdida o el robo del sello o del journal."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Tienes 30 días para avisar a la Secretaría un cambio de dirección.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Si cambias de dirección, tienes que volver a jurar ante el Clerk.", "ok": "F", "razon": "La Secretaría dice que un cambio de dirección no requiere un nuevo juramento."},
+   {"tipo": "om", "pregunta": "Pides la comisión con tu nombre nuevo. ¿Cuándo vence?", "opciones": ["4 años después del cambio", "En la misma fecha que tu comisión actual", "Al año"], "ok": "b"},
+   {"tipo": "om", "pregunta": "Te roban el sello. ¿Qué haces?", "opciones": ["Esperas a renovar", "Avisas de inmediato a la Secretaría por email", "Compras otro y no avisas"], "ok": "b"}]}
+ ]
+}
