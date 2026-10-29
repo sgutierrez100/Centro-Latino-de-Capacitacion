@@ -27,8 +27,8 @@ const palabra = (i, re, n = 0) => datos.escenas[i].palabras.filter((p) => re.tes
 const cuando = (i, re, n = 0) => { const w = palabra(i, re, n); return S[i] + (w ? Math.round(w.de * 30) : 0) - 3; };
 
 // Chapter of each scene (0 = review intro or closing) and its color
-const CAP = [0, 1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 8, 0];
-const CAP_NOMBRE = ['Repaso final', 'El notario en Maryland', 'El curso, el examen y la solicitud', 'El juramento y tus herramientas', 'Los actos notariales', 'La notarización correcta', 'Tarifas, ética y límites', 'Cómo mantener tu comisión', 'Tu negocio de notario'];
+const CAP = [0, 1, 1, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 8, 0];
+const CAP_NOMBRE = ['Repaso final', 'El notario en Maryland', 'La solicitud', 'El juramento y tus herramientas', 'Los actos notariales', 'La notarización correcta', 'Tarifas, ética y límites', 'Cómo mantener tu comisión', 'Tu negocio de notario'];
 const CAP_COLOR = [P.esmeralda, P.esmeralda, P.azul, P.naranja, P.morado, P.rojo, P.coral, P.ocre, P.turquesa];
 
 // The panels snake across the map: 5 per row, the direction flips on every row
@@ -189,44 +189,20 @@ const P2 = ({ u }) => {
   );
 };
 
-// 3 · Requisitos y examen
-const P3 = ({ u }) => {
-  const tC = cuando(3, /completion/), tP = cuando(3, /passing/);
-  const cert = (t, d) => (<Entra u={u} d={d} y={30}><Hoja style={{ width: 300, fontSize: 20, lineHeight: 1.4, padding: '16px 20px', textAlign: 'center' }}>
-    <div style={{ fontSize: 15, letterSpacing: 2, color: '#777' }}>MARYLAND NOTARY COURSE</div><div style={{ fontWeight: 700, marginTop: 6 }}>{t}</div>
-    <div style={{ marginTop: 8, borderTop: '2px solid #333', width: 160, marginLeft: 'auto', marginRight: 'auto' }} /></Hoja></Entra>);
+// 3 · La solicitud
+const P4 = ({ u }) => {
+  const tV = cuando(3, /veinticinco|^25$/), tA = cuando(3, /antecedentes/);
   return (
     <Panel k={3} u={u}>
-      <Cab k={3}>Requisitos y examen</Cab>
-      <div style={{ display: 'flex', gap: 18, marginTop: 26 }}>
-        <Dato u={u} d={cuando(3, /dieciocho|^18$/)} c={P.azul} n="18" t="años o más" w={210} />
-        <Dato u={u} d={cuando(3, /moral/)} c={P.azul} n="✓" t="Buen carácter moral" w={210} />
-        <Dato u={u} d={cuando(3, /trabajar/)} c={P.azul} n="MD" t="Vivir o trabajar en Maryland" w={210} />
-        <Dato u={u} d={cuando(3, /ochenta|^80$/)} c={P.esmeralda} n="80 %" t="Para aprobar el examen" w={230} />
-      </div>
-      <div style={{ display: 'flex', gap: 22, marginTop: 24, alignItems: 'center' }}>
-        {cert('Certificate of Completion', tC)}
-        {cert('Certificate of Passing', tP)}
-        <Entra u={u} d={cuando(3, /dos/)}><Txt size={26} color={P.grafito} peso={700}>Tus 2 certificados</Txt></Entra>
-      </div>
-    </Panel>
-  );
-};
-
-// 4 · La solicitud
-const P4 = ({ u }) => {
-  const tV = cuando(4, /veinticinco|^25$/), tA = cuando(4, /antecedentes/);
-  return (
-    <Panel k={4} u={u}>
-      <Cab k={4}>La solicitud en línea</Cab>
+      <Cab k={3}>La solicitud en línea</Cab>
       <div style={{ display: 'flex', gap: 44, marginTop: 28, alignItems: 'center' }}>
         <div style={{ flex: 'none', opacity: ap(u, tV, 20), transform: `scale(${0.8 + 0.2 * ap(u, tV, 20)}) rotate(-4deg)`, width: 250, height: 250, borderRadius: 40, background: P.azul, color: P.blanco, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: `0 20px 40px ${P.azul}55` }}>
           <div style={{ fontFamily: TIGHT, fontWeight: 900, fontSize: 96, letterSpacing: -3 }}>$25</div><div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 24 }}>la solicitud</div></div>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <Linea u={u} d={cuando(4, /certificados/)} ic="check" c={P.esmeralda} s={52} size={28}>Tus 2 certificados</Linea>
-          <Linea u={u} d={cuando(4, /identificación/)} ic="check" c={P.esmeralda} s={52} size={28}>Tu identificación</Linea>
-          <Linea u={u} d={cuando(4, /distrito/)} ic="check" c={P.esmeralda} s={52} size={28}>Tu distrito legislativo</Linea>
-          <Linea u={u} d={cuando(4, /referencias/)} ic="check" c={P.esmeralda} s={52} size={28}>3 referencias</Linea>
+          <Linea u={u} d={cuando(3, /certificados/)} ic="check" c={P.esmeralda} s={52} size={28}>Tus 2 certificados</Linea>
+          <Linea u={u} d={cuando(3, /identificación/)} ic="check" c={P.esmeralda} s={52} size={28}>Tu identificación</Linea>
+          <Linea u={u} d={cuando(3, /distrito/)} ic="check" c={P.esmeralda} s={52} size={28}>Tu distrito legislativo</Linea>
+          <Linea u={u} d={cuando(3, /referencias/)} ic="check" c={P.esmeralda} s={52} size={28}>3 referencias</Linea>
           <Linea u={u} d={tA} ic="alerta" c={P.rojo} s={52} size={28} tinta="#9A3B3B">Declara tus antecedentes con la verdad</Linea>
         </div>
       </div>
@@ -234,12 +210,12 @@ const P4 = ({ u }) => {
   );
 };
 
-// 5 · El juramento
+// 4 · El juramento
 const P5 = ({ u }) => {
-  const tT = cuando(5, /treinta|^30$/), tC = cuando(5, /clerk/), tO = cuando(5, /once|^11$/), tR = cuando(5, /revocan/);
+  const tT = cuando(4, /treinta|^30$/), tC = cuando(4, /clerk/), tO = cuando(4, /once|^11$/), tR = cuando(4, /revocan/);
   return (
-    <Panel k={5} u={u}>
-      <Cab k={5}>El juramento ante el Clerk</Cab>
+    <Panel k={4} u={u}>
+      <Cab k={4}>El juramento ante el Clerk</Cab>
       <div style={{ display: 'flex', gap: 30, marginTop: 28, alignItems: 'center' }}>
         <Entra u={u} d={tT} style={{ flex: 'none' }}><div style={{ width: 250, borderRadius: 26, overflow: 'hidden', boxShadow: '0 18px 40px rgba(20,60,90,0.18)', background: P.blanco, border: '3px solid #E6ECF1', textAlign: 'center' }}>
           <div style={{ background: P.naranja, color: P.blanco, fontFamily: TIGHT, fontWeight: 800, fontSize: 22, letterSpacing: 3, padding: '10px 0' }}>TIENES</div>
@@ -255,19 +231,19 @@ const P5 = ({ u }) => {
   );
 };
 
-// 6 · Sello y journal
+// 5 · Sello y journal
 const P6 = ({ u }) => {
-  const tS = cuando(6, /sello/), tN = cuando(6, /nombre/), tNP = cuando(6, /notary/), tC = cuando(6, /condado/), tJ = cuando(6, /journal/, 1), tD = cuando(6, /diez|^10$/);
+  const tS = cuando(5, /sello/), tN = cuando(5, /nombre/), tNP = cuando(5, /notary/), tC = cuando(5, /condado/), tJ = cuando(5, /journal/, 1), tD = cuando(5, /diez|^10$/);
   const linea = (t, d, size) => <div style={{ fontSize: size, opacity: ap(u, d, 14) }}>{t}</div>;
   return (
-    <Panel k={6} u={u}>
-      <Cab k={6}>Tu sello y tu journal</Cab>
+    <Panel k={5} u={u}>
+      <Cab k={5}>Tu sello y tu journal</Cab>
       <div style={{ display: 'flex', gap: 40, marginTop: 28, alignItems: 'center' }}>
         <Entra u={u} d={tS} style={{ flex: 'none', textAlign: 'center' }}>
           <div style={{ border: '6px double #1F3A68', borderRadius: 18, padding: '16px 28px', fontFamily: TIGHT, fontWeight: 800, color: '#1F3A68', background: '#F7F9FD', transform: 'rotate(-3deg)', minWidth: 330 }}>
             {linea('MARÍA G. HERNÁNDEZ', tN, 30)}{linea('NOTARY PUBLIC', tNP, 23)}{linea('MONTGOMERY COUNTY', tC, 23)}</div>
           <div style={{ marginTop: 18 }}><Sub size={21}>Tu nombre · Notary Public · tu condado</Sub></div>
-          <Entra u={u} d={cuando(6, /solo/)}><Txt size={26} color={P.rojo}>Solo tú lo usas</Txt></Entra>
+          <Entra u={u} d={cuando(5, /solo/)}><Txt size={26} color={P.rojo}>Solo tú lo usas</Txt></Entra>
         </Entra>
         <Entra u={u} d={tJ} style={{ flex: 1 }}><div style={{ display: 'flex', alignItems: 'center', gap: 22 }}>
           <div style={{ width: 170, height: 210, borderRadius: '10px 22px 22px 10px', background: '#7A3E1D', borderLeft: '16px solid #5A2C13', boxShadow: '0 18px 36px rgba(0,0,0,0.22)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#F3E3C8', fontFamily: 'Georgia, serif', fontWeight: 700, fontSize: 24, letterSpacing: 1 }}>JOURNAL</div>
@@ -280,7 +256,7 @@ const P6 = ({ u }) => {
   );
 };
 
-// 7 · Los actos
+// 6 · Los actos
 const P7 = ({ u }) => {
   const col = (en, es, c, ic, d, lineas) => (
     <Entra u={u} d={d} y={36} style={{ flex: 1, display: 'flex' }}><div style={{ flex: 1, borderRadius: 28, background: '#F6F9FB', borderTop: `10px solid ${c}`, padding: '22px 24px' }}>
@@ -289,29 +265,29 @@ const P7 = ({ u }) => {
       <div style={{ marginTop: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>{lineas.map(([t, dd]) => <Entra key={t} u={u} d={dd} y={14}><Txt size={27} peso={700}>{t}</Txt></Entra>)}</div>
     </div></Entra>);
   return (
-    <Panel k={7} u={u}>
-      <Cab k={7}>Los actos más comunes</Cab>
+    <Panel k={6} u={u}>
+      <Cab k={6}>Los actos más comunes</Cab>
       <div style={{ display: 'flex', gap: 24, marginTop: 24 }}>
-        {col('acknowledgment', 'reconocimiento de firma', P.azul, 'firma', cuando(7, /acknowledgment/), [['Declara que la firma es suya', cuando(7, /declara/)]])}
-        {col('jurat', 'verificación bajo juramento', P.esmeralda, 'mano', cuando(7, /jurat/), [['Firma frente a ti', cuando(7, /frente/)], ['Jura o afirma que es verdad', cuando(7, /afirma/)]])}
+        {col('acknowledgment', 'reconocimiento de firma', P.azul, 'firma', cuando(6, /acknowledgment/), [['Declara que la firma es suya', cuando(6, /declara/)]])}
+        {col('jurat', 'verificación bajo juramento', P.esmeralda, 'mano', cuando(6, /jurat/), [['Firma frente a ti', cuando(6, /frente/)], ['Jura o afirma que es verdad', cuando(6, /afirma/)]])}
       </div>
       <div style={{ display: 'flex', gap: 14, marginTop: 20, alignItems: 'center' }}>
-        <Entra u={u} d={cuando(7, /también/)}><Sub size={22}>También:</Sub></Entra>
-        <Chip u={u} d={cuando(7, /testigo/)} c={P.morado} size={23}>Witnessing · testigo de firma</Chip>
-        <Chip u={u} d={cuando(7, /copias/)} c={P.morado} size={23}>Certified copy · copia</Chip>
-        <Chip u={u} d={cuando(7, /protesto/)} c={P.morado} size={23}>Protest · protesto</Chip>
+        <Entra u={u} d={cuando(6, /también/)}><Sub size={22}>También:</Sub></Entra>
+        <Chip u={u} d={cuando(6, /testigo/)} c={P.morado} size={23}>Witnessing · testigo de firma</Chip>
+        <Chip u={u} d={cuando(6, /copias/)} c={P.morado} size={23}>Certified copy · copia</Chip>
+        <Chip u={u} d={cuando(6, /protesto/)} c={P.morado} size={23}>Protest · protesto</Chip>
       </div>
     </Panel>
   );
 };
 
-// 8 · El certificado
+// 7 · El certificado
 const P8 = ({ u }) => {
-  const tCo = cuando(8, /condado/), tF = cuando(8, /fecha/), tN = cuando(8, /nombre/), tFi = cuando(8, /firma/), tNP = cuando(8, /notary/), tS = cuando(8, /sello/), tV = cuando(8, /vence/), tD = cuando(8, /después/);
+  const tCo = cuando(7, /condado/), tF = cuando(7, /fecha/), tN = cuando(7, /nombre/), tFi = cuando(7, /firma/), tNP = cuando(7, /notary/), tS = cuando(7, /sello/), tV = cuando(7, /vence/), tD = cuando(7, /después/);
   return (
-    <Panel k={8} u={u}>
-      <Cab k={8}>Todo lo que lleva el certificado</Cab>
-      <Entra u={u} d={S[8] + 14} style={{ marginTop: 22 }}><Hoja style={{ fontSize: 25, lineHeight: 1.55, display: 'flex', gap: 28, alignItems: 'flex-end' }}>
+    <Panel k={7} u={u}>
+      <Cab k={7}>Todo lo que lleva el certificado</Cab>
+      <Entra u={u} d={S[7] + 14} style={{ marginTop: 22 }}><Hoja style={{ fontSize: 25, lineHeight: 1.55, display: 'flex', gap: 28, alignItems: 'flex-end' }}>
         <div style={{ flex: 1 }}>
           <div>State of Maryland, County of <Llenado u={u} d={tCo}>Montgomery</Llenado></div>
           <div>This record was acknowledged before me on <Llenado u={u} d={tF} color={P.naranja}>10/15/2026</Llenado> by <Llenado u={u} d={tN} color={P.morado}>Carlos A. Ramírez</Llenado>.</div>
@@ -322,7 +298,7 @@ const P8 = ({ u }) => {
         <div style={{ flex: 'none' }}><Sello v={ap(u, tS, 18)} s={0.9} /></div>
       </Hoja></Entra>
       <div style={{ display: 'flex', gap: 26, marginTop: 20, alignItems: 'center' }}>
-        <Linea u={u} d={cuando(8, /adjuntas/)} ic="doc" c={P.morado} s={52} size={25}>Sin certificado: adjuntas uno</Linea>
+        <Linea u={u} d={cuando(7, /adjuntas/)} ic="doc" c={P.morado} s={52} size={25}>Sin certificado: adjuntas uno</Linea>
         <Linea u={u} d={tD} ic="pluma" c={P.rojo} s={52} size={25}>Firmas solo después del acto</Linea>
       </div>
       <Ejemplo u={u} d={tV + 10} />
@@ -330,13 +306,13 @@ const P8 = ({ u }) => {
   );
 };
 
-// 9 · Casos especiales y apostilla
+// 8 · Casos especiales y apostilla
 const P9 = ({ u }) => {
-  const tN = cuando(9, /^nota$/), tX = cuando(9, /marca/), tA = cuando(9, /apostilla/), tC = cuando(9, /clerk/), tS = cuando(9, /secretaría/);
+  const tN = cuando(8, /^nota$/), tX = cuando(8, /marca/), tA = cuando(8, /apostilla/), tC = cuando(8, /clerk/), tS = cuando(8, /secretaría/);
   const paso = (ic, c, t, d) => (<Entra u={u} d={d} y={20} style={{ textAlign: 'center', width: 150 }}><div style={{ display: 'flex', justifyContent: 'center' }}><Burbuja color={c} s={70} v={ap(u, d, 20)}><Ico n={ic} s={38} /></Burbuja></div><div style={{ marginTop: 8 }}><Txt size={21}>{t}</Txt></div></Entra>);
   return (
-    <Panel k={9} u={u}>
-      <Cab k={9}>Casos especiales y apostillas</Cab>
+    <Panel k={8} u={u}>
+      <Cab k={8}>Casos especiales y apostillas</Cab>
       <div style={{ display: 'flex', gap: 34, marginTop: 24 }}>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 16 }}>
           <Entra u={u} d={tN}><Hoja style={{ fontSize: 21, lineHeight: 1.45, padding: '14px 20px' }}>Signature affixed by <b>Luis M. Ortega</b> at the direction of <b>Rosa E. Ortega</b>.</Hoja></Entra>
@@ -358,103 +334,103 @@ const P9 = ({ u }) => {
   );
 };
 
-// 10 · Los seis pasos
+// 9 · Los seis pasos
 const PASOS = [['Presencia', 'persona', /presencia/], ['Revisión', 'doc', /revisión/], ['Identificación', 'id', /identificación/], ['El acto', 'mano', /acto/], ['El certificado', 'pluma', /certificado/], ['El journal', 'libro', /journal/]];
 const PCOL = [P.esmeralda, P.azul, P.naranja, P.morado, P.rojo, P.coral];
 const P10 = ({ u }) => (
-  <Panel k={10} u={u}>
-    <Cab k={10}>Los seis pasos de toda notarización</Cab>
+  <Panel k={9} u={u}>
+    <Cab k={9}>Los seis pasos de toda notarización</Cab>
     <div style={{ display: 'flex', gap: 12, marginTop: 34, alignItems: 'flex-start' }}>
-      {PASOS.map(([t, ic, re], k) => { const d = cuando(10, re); return (
+      {PASOS.map(([t, ic, re], k) => { const d = cuando(9, re); return (
         <Entra key={t} u={u} d={d} y={30} style={{ flex: 1, textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}><Burbuja color={PCOL[k]} s={104} v={ap(u, d, 20)}><Ico n={ic} s={56} /></Burbuja></div>
           <div style={{ marginTop: 10, fontFamily: TIGHT, fontWeight: 900, fontSize: 30, color: PCOL[k] }}>{k + 1}</div>
           <Txt size={25}>{t}</Txt></Entra>); })}
     </div>
-    <div style={{ marginTop: 34 }}><Linea u={u} d={cuando(10, /saltas/)} ic="alerta" c={P.rojo} tinta="#9A3B3B">Si te saltas uno, el acto queda mal hecho</Linea></div>
+    <div style={{ marginTop: 34 }}><Linea u={u} d={cuando(9, /saltas/)} ic="alerta" c={P.rojo} tinta="#9A3B3B">Si te saltas uno, el acto queda mal hecho</Linea></div>
   </Panel>
 );
 
-// 11 · La identificación
+// 10 · La identificación
 const P11 = ({ u }) => {
-  const tC = cuando(11, /conoces/), tG = cuando(11, /gobierno/), tT = cuando(11, /testigo/);
+  const tC = cuando(10, /conoces/), tG = cuando(10, /gobierno/), tT = cuando(10, /testigo/);
   const ids = [['Pasaporte', /pasaporte/], ['Licencia de manejo', /licencia/], ['Matrícula consular', /matrícula/]];
   const col = (ic, c, t, d, extra) => (
     <Entra u={u} d={d} y={34} style={{ flex: extra ? 1.5 : 1, display: 'flex' }}><div style={{ flex: 1, borderRadius: 28, background: '#F6F9FB', borderTop: `10px solid ${c}`, padding: '22px 22px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}><Burbuja color={c} s={66} v={ap(u, d, 20)}><Ico n={ic} s={38} /></Burbuja><Txt size={29}>{t}</Txt></div>
       {extra}</div></Entra>);
   return (
-    <Panel k={11} u={u}>
-      <Cab k={11}>Cómo identificas a la persona</Cab>
+    <Panel k={10} u={u}>
+      <Cab k={10}>Cómo identificas a la persona</Cab>
       <div style={{ display: 'flex', gap: 18, marginTop: 26 }}>
         {col('persona', P.esmeralda, 'La conoces personalmente', tC)}
-        {col('id', P.naranja, 'Identificación del gobierno con foto y firma', tG, <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 16 }}>{ids.map(([t, re]) => <Chip key={t} u={u} d={cuando(11, re)} c={P.naranja} size={22}>{t}</Chip>)}</div>)}
+        {col('id', P.naranja, 'Identificación del gobierno con foto y firma', tG, <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 16 }}>{ids.map(([t, re]) => <Chip key={t} u={u} d={cuando(10, re)} c={P.naranja} size={22}>{t}</Chip>)}</div>)}
         {col('testigo', P.morado, 'Un testigo creíble que jura o afirma', tT)}
       </div>
-      <div style={{ marginTop: 24 }}><Linea u={u} d={cuando(11, /dudas/)} ic="check" c={P.azul}>¿Dudas? Pide más información</Linea></div>
+      <div style={{ marginTop: 24 }}><Linea u={u} d={cuando(10, /dudas/)} ic="check" c={P.azul}>¿Dudas? Pide más información</Linea></div>
     </Panel>
   );
 };
 
-// 12 · Cuándo negarte
+// 11 · Cuándo negarte
 const P12 = ({ u }) => (
-  <Panel k={12} u={u}>
-    <Cab k={12}>Cuándo puedes negarte</Cab>
+  <Panel k={11} u={u}>
+    <Cab k={11}>Cuándo puedes negarte</Cab>
     <div style={{ display: 'flex', gap: 40, marginTop: 26 }}>
       <div style={{ flex: 1.3, display: 'flex', flexDirection: 'column', gap: 14 }}>
-        <Linea u={u} d={cuando(12, /entiende/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">No entiende o no firma por su voluntad</Linea>
-        <Linea u={u} d={cuando(12, /identificar/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">No la puedes identificar</Linea>
-        <Linea u={u} d={cuando(12, /presión/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Está bajo presión</Linea>
-        <Linea u={u} d={cuando(12, /fraude/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Sabes que hay fraude</Linea>
+        <Linea u={u} d={cuando(11, /entiende/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">No entiende o no firma por su voluntad</Linea>
+        <Linea u={u} d={cuando(11, /identificar/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">No la puedes identificar</Linea>
+        <Linea u={u} d={cuando(11, /presión/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Está bajo presión</Linea>
+        <Linea u={u} d={cuando(11, /fraude/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Sabes que hay fraude</Linea>
       </div>
-      <Entra u={u} d={cuando(12, /respeto/)} style={{ flex: 1 }}><Tarjeta style={{ padding: '24px 24px' }}>
+      <Entra u={u} d={cuando(11, /respeto/)} style={{ flex: 1 }}><Tarjeta style={{ padding: '24px 24px' }}>
         <Txt size={28} color={P.esmeralda}>Cómo negarte bien</Txt>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 16 }}>
-          <Linea u={u} d={cuando(12, /respeto/)} ic="check" c={P.esmeralda} s={48} size={25}>Con respeto</Linea>
-          <Linea u={u} d={cuando(12, /razón/)} ic="check" c={P.esmeralda} s={48} size={25}>Explica la razón</Linea>
-          <Linea u={u} d={cuando(12, /cobres/)} ic="check" c={P.esmeralda} s={48} size={25}>No cobras</Linea>
+          <Linea u={u} d={cuando(11, /respeto/)} ic="check" c={P.esmeralda} s={48} size={25}>Con respeto</Linea>
+          <Linea u={u} d={cuando(11, /razón/)} ic="check" c={P.esmeralda} s={48} size={25}>Explica la razón</Linea>
+          <Linea u={u} d={cuando(11, /cobres/)} ic="check" c={P.esmeralda} s={48} size={25}>No cobras</Linea>
         </div></Tarjeta></Entra>
     </div>
   </Panel>
 );
 
-// 13 · Las tarifas
+// 12 · Las tarifas
 const P13 = ({ u }) => {
-  const tN = cuando(13, /nunca/);
+  const tN = cuando(12, /nunca/);
   const fila = (n, t, d, c) => (<Entra u={u} d={d} y={20} style={{ display: 'flex', alignItems: 'center', gap: 22, padding: '12px 0', borderTop: '2px solid #EEF2F5' }}>
     <div style={{ width: 170, fontFamily: TIGHT, fontWeight: 900, fontSize: 52, color: c, letterSpacing: -1 }}>{n}</div><Txt size={28} peso={700}>{t}</Txt></Entra>);
   return (
-    <Panel k={13} u={u}>
-      <Cab k={13}>Lo máximo que cobras</Cab>
+    <Panel k={12} u={u}>
+      <Cab k={12}>Lo máximo que cobras</Cab>
       <div style={{ display: 'flex', gap: 34, marginTop: 18, alignItems: 'center' }}>
         <div style={{ flex: 1 }}>
-          {fila('$8', 'por cada acto notarial', cuando(13, /ocho|^8$/), P.esmeralda)}
-          {fila('$4', 'por firma en cada copia adicional', cuando(13, /cuatro|^4$/), P.azul)}
-          {fila('+$5', 'de viaje, más el millaje del IRS', cuando(13, /cinco|^5$/), P.naranja)}
+          {fila('$8', 'por cada acto notarial', cuando(12, /ocho|^8$/), P.esmeralda)}
+          {fila('$4', 'por firma en cada copia adicional', cuando(12, /cuatro|^4$/), P.azul)}
+          {fila('+$5', 'de viaje, más el millaje del IRS', cuando(12, /cinco|^5$/), P.naranja)}
         </div>
         <div style={{ flex: 'none', width: 300, textAlign: 'center' }}>
           <div style={{ display: 'inline-block', opacity: ap(u, tN, 18), transform: `scale(${1.3 - 0.3 * ap(u, tN, 18)}) rotate(-6deg)`, border: `6px solid ${P.rojo}`, borderRadius: 18, padding: '10px 22px', fontFamily: TIGHT, fontWeight: 900, fontSize: 40, color: P.rojo, letterSpacing: 2 }}>NUNCA MÁS</div>
-          <Entra u={u} d={cuando(13, /menos/)} style={{ marginTop: 18 }}><Sub size={23}>Puedes cobrar menos o no cobrar</Sub></Entra>
-          <Entra u={u} d={cuando(13, /journal/)} style={{ marginTop: 10 }}><Txt size={24} color={P.esmeralda}>Anota la tarifa en tu journal</Txt></Entra>
+          <Entra u={u} d={cuando(12, /menos/)} style={{ marginTop: 18 }}><Sub size={23}>Puedes cobrar menos o no cobrar</Sub></Entra>
+          <Entra u={u} d={cuando(12, /journal/)} style={{ marginTop: 10 }}><Txt size={24} color={P.esmeralda}>Anota la tarifa en tu journal</Txt></Entra>
         </div>
       </div>
     </Panel>
   );
 };
 
-// 14 · Lo que no puedes hacer
+// 13 · Lo que no puedes hacer
 const P14 = ({ u }) => {
-  const tNo = cuando(14, /notario/), tNP = cuando(14, /notary/), tAv = cuando(14, /aviso/);
+  const tNo = cuando(13, /notario/), tNP = cuando(13, /notary/), tAv = cuando(13, /aviso/);
   const letrero = (t, ok, d) => (<Entra u={u} d={d} y={20} style={{ position: 'relative' }}><div style={{ border: `4px solid ${ok ? P.esmeralda : P.rojo}`, borderRadius: 18, padding: '14px 24px', textAlign: 'center', background: ok ? '#EAF8F0' : '#FDECEC', fontFamily: TIGHT, fontWeight: 900, fontSize: 36, color: ok ? '#0B6B3E' : '#9A3B3B', textDecoration: ok ? 'none' : 'line-through' }}>{t}</div>
     <div style={{ position: 'absolute', right: -16, top: -16 }}><Burbuja color={ok ? P.esmeralda : P.rojo} s={46} v={ap(u, d, 16)}><Ico n={ok ? 'check' : 'equis'} s={26} w={3} /></Burbuja></div></Entra>);
   return (
-    <Panel k={14} u={u}>
-      <Cab k={14}>Lo que no puedes hacer</Cab>
+    <Panel k={13} u={u}>
+      <Cab k={13}>Lo que no puedes hacer</Cab>
       <div style={{ display: 'flex', gap: 40, marginTop: 24, alignItems: 'center' }}>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 14 }}>
-          <Linea u={u} d={cuando(14, /consejos/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Dar consejos legales</Linea>
-          <Linea u={u} d={cuando(14, /preparar/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Preparar documentos</Linea>
-          <Linea u={u} d={cuando(14, /inmigración/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Hacer trámites de inmigración</Linea>
+          <Linea u={u} d={cuando(13, /consejos/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Dar consejos legales</Linea>
+          <Linea u={u} d={cuando(13, /preparar/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Preparar documentos</Linea>
+          <Linea u={u} d={cuando(13, /inmigración/)} ic="equis" c={P.rojo} s={54} size={27} tinta="#9A3B3B">Hacer trámites de inmigración</Linea>
         </div>
         <div style={{ flex: 'none', width: 470, display: 'flex', flexDirection: 'column', gap: 20 }}>
           {letrero('NOTARIO', false, tNo)}
@@ -466,23 +442,23 @@ const P14 = ({ u }) => {
   );
 };
 
-// 15 · Conflictos y sanciones
+// 14 · Conflictos y sanciones
 const P15 = ({ u }) => {
-  const tE = cuando(15, /esposo/), tB = cuando(15, /beneficio/), tR = cuando(15, /revocación/);
+  const tE = cuando(14, /esposo/), tB = cuando(14, /beneficio/), tR = cuando(14, /revocación/);
   return (
-    <Panel k={15} u={u}>
-      <Cab k={15}>Conflictos y sanciones</Cab>
+    <Panel k={14} u={u}>
+      <Cab k={14}>Conflictos y sanciones</Cab>
       <div style={{ display: 'flex', gap: 34, marginTop: 24 }}>
         <Entra u={u} d={tE} style={{ flex: 1 }}><Tarjeta style={{ padding: '22px 24px', borderLeft: `10px solid ${P.rojo}` }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}><Burbuja color={P.rojo} s={62} v={ap(u, tE, 20)}><Ico n="equis" s={34} w={3} /></Burbuja><Txt size={28}>Nunca notarices si…</Txt></div>
           <div style={{ marginTop: 14 }}><Txt size={26} peso={700}>tú o tu esposo o esposa son <Marca u={u} d={tE + 8} color="#FBD3D3">parte</Marca></Txt></div>
           <div style={{ marginTop: 8 }}><Txt size={26} peso={700}>o reciben un <Marca u={u} d={tB} color="#FBD3D3">beneficio</Marca></Txt></div></Tarjeta></Entra>
         <div style={{ flex: 1 }}>
-          <Entra u={u} d={cuando(15, /cuida/)}><Txt size={26} color={P.grafito}>Te pueden sancionar por…</Txt></Entra>
+          <Entra u={u} d={cuando(14, /cuida/)}><Txt size={26} color={P.grafito}>Te pueden sancionar por…</Txt></Entra>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 12 }}>
-            <Linea u={u} d={cuando(15, /identificar/)} ic="alerta" c={P.coral} s={48} size={25}>No identificar bien</Linea>
-            <Linea u={u} d={cuando(15, /cobrar/)} ic="alerta" c={P.coral} s={48} size={25}>Cobrar de más</Linea>
-            <Linea u={u} d={cuando(15, /publicidad/)} ic="alerta" c={P.coral} s={48} size={25}>Publicidad engañosa</Linea>
+            <Linea u={u} d={cuando(14, /identificar/)} ic="alerta" c={P.coral} s={48} size={25}>No identificar bien</Linea>
+            <Linea u={u} d={cuando(14, /cobrar/)} ic="alerta" c={P.coral} s={48} size={25}>Cobrar de más</Linea>
+            <Linea u={u} d={cuando(14, /publicidad/)} ic="alerta" c={P.coral} s={48} size={25}>Publicidad engañosa</Linea>
           </div>
           <Entra u={u} d={tR} style={{ marginTop: 16 }}><div style={{ display: 'inline-block', background: P.rojo, color: P.blanco, borderRadius: 16, padding: '10px 20px', fontFamily: TIGHT, fontWeight: 900, fontSize: 28 }}>Suspensión o revocación</div></Entra>
         </div>
@@ -491,44 +467,44 @@ const P15 = ({ u }) => {
   );
 };
 
-// 16 · Cuida tu comisión
+// 15 · Cuida tu comisión
 const P16 = ({ u }) => {
   const card = (n, t, s, c, d) => (<Entra u={u} d={d} y={34} style={{ flex: 1, display: 'flex' }}><div style={{ flex: 1, borderRadius: 28, background: `${c}12`, border: `3px solid ${c}`, padding: '24px 22px', textAlign: 'center' }}>
     <div style={{ fontFamily: TIGHT, fontWeight: 900, fontSize: 58, color: c, letterSpacing: -2, lineHeight: 1.05 }}>{n}</div>
     <div style={{ marginTop: 10 }}><Txt size={27}>{t}</Txt></div><Sub size={21}>{s}</Sub></div></Entra>);
   return (
-    <Panel k={16} u={u}>
-      <Cab k={16}>Cuida tu comisión</Cab>
+    <Panel k={15} u={u}>
+      <Cab k={15}>Cuida tu comisión</Cab>
       <div style={{ display: 'flex', gap: 20, marginTop: 30 }}>
-        {card('30 días', 'Para avisar un cambio', 'de nombre, dirección o email', P.ocre, cuando(16, /treinta|^30$/))}
-        {card('¡Ya!', 'Si pierdes el sello o el journal', 'avisa de inmediato a la Secretaría', P.rojo, cuando(16, /inmediato/))}
-        {card('60 días', 'Antes de que venza', 'ya puedes renovar', P.esmeralda, cuando(16, /sesenta|^60$/))}
+        {card('30 días', 'Para avisar un cambio', 'de nombre, dirección o email', P.ocre, cuando(15, /treinta|^30$/))}
+        {card('¡Ya!', 'Si pierdes el sello o el journal', 'avisa de inmediato a la Secretaría', P.rojo, cuando(15, /inmediato/))}
+        {card('60 días', 'Antes de que venza', 'ya puedes renovar', P.esmeralda, cuando(15, /sesenta|^60$/))}
       </div>
     </Panel>
   );
 };
 
-// 17 · Tu negocio
+// 16 · Tu negocio
 const P17 = ({ u }) => {
   const tile = (ic, c, t, d) => (<Entra u={u} d={d} y={30} style={{ flex: 1, textAlign: 'center' }}><div style={{ display: 'flex', justifyContent: 'center' }}><Burbuja color={c} s={96} v={ap(u, d, 20)}><Ico n={ic} s={52} /></Burbuja></div><div style={{ marginTop: 12 }}><Txt size={26}>{t}</Txt></div></Entra>);
   return (
-    <Panel k={17} u={u}>
-      <Cab k={17}>Tu negocio de notario</Cab>
+    <Panel k={16} u={u}>
+      <Cab k={16}>Tu negocio de notario</Cab>
       <div style={{ display: 'flex', gap: 14, marginTop: 30 }}>
-        {tile('edificio', P.turquesa, 'En tu oficina', cuando(17, /oficina/))}
-        {tile('casa', P.azul, 'A domicilio', cuando(17, /domicilio/))}
-        {tile('copia', P.morado, 'Copias certificadas', cuando(17, /copias/))}
-        {tile('firma', P.naranja, 'Notario de firmas hipotecarias', cuando(17, /hipotecarias/))}
+        {tile('edificio', P.turquesa, 'En tu oficina', cuando(16, /oficina/))}
+        {tile('casa', P.azul, 'A domicilio', cuando(16, /domicilio/))}
+        {tile('copia', P.morado, 'Copias certificadas', cuando(16, /copias/))}
+        {tile('firma', P.naranja, 'Notario de firmas hipotecarias', cuando(16, /hipotecarias/))}
       </div>
       <div style={{ display: 'flex', gap: 20, marginTop: 30 }}>
-        <Linea u={u} d={cuando(17, /seguro/)} ic="escudo" c={P.esmeralda} s={56} size={27}>Seguro E&amp;O</Linea>
-        <Linea u={u} d={cuando(17, /tienda/)} ic="bolsa" c={P.coral} s={56} size={27}>La Tienda del Notario</Linea>
+        <Linea u={u} d={cuando(16, /seguro/)} ic="escudo" c={P.esmeralda} s={56} size={27}>Seguro E&amp;O</Linea>
+        <Linea u={u} d={cuando(16, /tienda/)} ic="bolsa" c={P.coral} s={56} size={27}>La Tienda del Notario</Linea>
       </div>
     </Panel>
   );
 };
 
-const PANELES = [P0, P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17];
+const PANELES = [P0, P1, P2, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17];
 
 // Closing: the whole map behind, and the three things to do now
 const Cierre = ({ u }) => {
@@ -555,7 +531,7 @@ const Cierre = ({ u }) => {
 };
 
 // Final, with no voice: the numbers of the course (same list as the lesson page)
-const NUMEROS = [['18', 'años, edad mínima', P.azul], ['80 %', 'para aprobar el examen', P.azul], ['3', 'referencias', P.azul], ['$25', 'la solicitud', P.azul],
+const NUMEROS = [['3', 'referencias', P.azul], ['$25', 'la solicitud', P.azul],
   ['30 días', 'para jurar ante el Clerk', P.naranja], ['$11', 'al Clerk ($10 + $1)', P.naranja], ['4 años', 'dura tu comisión', P.naranja], ['10 años', 'guardas tu journal', P.naranja],
   ['$8', 'máximo por acto', P.coral], ['$4', 'por firma en copia adicional', P.coral], ['$5', 'de viaje · y por apostilla', P.coral],
   ['30 días', 'para avisar un cambio', P.ocre], ['10 días', 'para avisar una condena', P.ocre], ['60 días', 'antes, ya puedes renovar', P.ocre]];
@@ -565,12 +541,12 @@ const Numeros = ({ u }) => {
     <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ opacity: v, transform: `translateY(${(1 - v) * 30}px)`, width: 1600, textAlign: 'center' }}>
         <div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 28, letterSpacing: 4, color: P.esmeralda }}>LOS NÚMEROS QUE DEBES RECORDAR</div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 16, marginTop: 28 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 16, marginTop: 28 }}>
           {NUMEROS.map(([n, t, c], k) => (
-            <Entra key={k} u={u} d={d(k)} y={24}><div style={{ background: P.blanco, borderRadius: 24, padding: '18px 12px', boxShadow: '0 14px 34px rgba(20,60,90,0.10)', borderTop: `8px solid ${c}`, height: 150, boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <Entra key={k} u={u} d={d(k)} y={24} style={{ width: 296 }}><div style={{ background: P.blanco, borderRadius: 24, padding: '18px 12px', boxShadow: '0 14px 34px rgba(20,60,90,0.10)', borderTop: `8px solid ${c}`, height: 150, boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <div style={{ fontFamily: TIGHT, fontWeight: 900, fontSize: 52, color: c, letterSpacing: -1.5, lineHeight: 1 }}>{n}</div>
               <div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 21, color: P.tinta, marginTop: 10, lineHeight: 1.2 }}>{t}</div></div></Entra>))}
-          <Entra u={u} d={d(NUMEROS.length) + 10} y={24}><div style={{ background: P.esmeralda, borderRadius: 24, padding: '18px 12px', height: 150, boxSizing: 'border-box', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+          <Entra u={u} d={d(NUMEROS.length) + 10} y={24} style={{ width: 296 }}><div style={{ background: P.esmeralda, borderRadius: 24, padding: '18px 12px', height: 150, boxSizing: 'border-box', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
             <Img src={staticFile('logo-globo.png')} style={{ width: 54, height: 54 }} />
             <div style={{ fontFamily: TIGHT, fontWeight: 900, fontSize: 22, color: P.blanco, lineHeight: 1.15 }}>Centro Latino de Capacitación</div></div></Entra>
         </div>
@@ -604,21 +580,20 @@ const efectos = () => {
   pop(0, /repaso/); for (let k = 0; k < 8; k++) fx.push(['tick', cuando(0, /principio/) + k * 6]);
   pop(1, /testigo/); [/abogado/, /consejos/, /prepara/, /latinoamérica/].forEach((re) => pop(1, re, 'negativo'));
   pop(2, /senador/); pop(2, /gobernador/); [/título/, /comar/, /cuatro|^4$/, /todo/].forEach((re) => pop(2, re, 'tick'));
-  [/dieciocho|^18$/, /moral/, /trabajar/].forEach((re) => pop(3, re, 'tick')); pop(3, /ochenta|^80$/, 'check'); pop(3, /completion/, 'papel'); pop(3, /passing/, 'papel');
-  pop(4, /veinticinco|^25$/); [/certificados/, /identificación/, /distrito/, /referencias/].forEach((re) => pop(4, re, 'tick')); pop(4, /antecedentes/, 'negativo');
-  pop(5, /treinta|^30$/); pop(5, /clerk/); pop(5, /once|^11$/, 'check'); pop(5, /revocan/, 'negativo');
-  pop(6, /sello/, 'sello'); pop(6, /journal/, 'papel'); pop(6, /diez|^10$/, 'ui-pop');
-  pop(7, /acknowledgment/); pop(7, /jurat/); pop(7, /afirma/, 'check'); [/testigo/, /copias/, /protesto/].forEach((re) => pop(7, re, 'tick'));
-  pop(8, /condado/, 'pluma'); pop(8, /nombre/, 'pluma'); pop(8, /firma/, 'pluma'); pop(8, /sello/, 'sello'); pop(8, /después/, 'check');
-  pop(9, /^nota$/, 'papel'); pop(9, /marca/, 'pluma'); pop(9, /apostilla/, 'negativo'); pop(9, /clerk/); pop(9, /secretaría/);
-  PASOS.forEach(([, , re]) => pop(10, re, 'tick')); pop(10, /saltas/, 'negativo');
-  pop(11, /conoces/); pop(11, /gobierno/); [/pasaporte/, /licencia/, /matrícula/].forEach((re) => pop(11, re, 'tick')); pop(11, /testigo/);
-  [/entiende/, /identificar/, /presión/, /fraude/].forEach((re) => pop(12, re, 'negativo')); pop(12, /respeto/, 'check');
-  pop(13, /ocho|^8$/); pop(13, /cuatro|^4$/); pop(13, /cinco|^5$/); pop(13, /nunca/, 'sello');
-  [/consejos/, /preparar/, /inmigración/].forEach((re) => pop(14, re, 'negativo')); pop(14, /notario/, 'negativo'); pop(14, /notary/, 'check');
-  pop(15, /esposo/, 'negativo'); [/identificar/, /cobrar/, /publicidad/].forEach((re) => pop(15, re, 'tick')); pop(15, /revocación/, 'sello');
-  pop(16, /treinta|^30$/); pop(16, /inmediato/, 'negativo'); pop(16, /sesenta|^60$/, 'check');
-  [/oficina/, /domicilio/, /copias/, /hipotecarias/].forEach((re) => pop(17, re, 'tick')); pop(17, /seguro/, 'check'); pop(17, /tienda/);
+  pop(3, /veinticinco|^25$/); [/certificados/, /identificación/, /distrito/, /referencias/].forEach((re) => pop(3, re, 'tick')); pop(3, /antecedentes/, 'negativo');
+  pop(4, /treinta|^30$/); pop(4, /clerk/); pop(4, /once|^11$/, 'check'); pop(4, /revocan/, 'negativo');
+  pop(5, /sello/, 'sello'); pop(5, /journal/, 'papel'); pop(5, /diez|^10$/, 'ui-pop');
+  pop(6, /acknowledgment/); pop(6, /jurat/); pop(6, /afirma/, 'check'); [/testigo/, /copias/, /protesto/].forEach((re) => pop(6, re, 'tick'));
+  pop(7, /condado/, 'pluma'); pop(7, /nombre/, 'pluma'); pop(7, /firma/, 'pluma'); pop(7, /sello/, 'sello'); pop(7, /después/, 'check');
+  pop(8, /^nota$/, 'papel'); pop(8, /marca/, 'pluma'); pop(8, /apostilla/, 'negativo'); pop(8, /clerk/); pop(8, /secretaría/);
+  PASOS.forEach(([, , re]) => pop(9, re, 'tick')); pop(9, /saltas/, 'negativo');
+  pop(10, /conoces/); pop(10, /gobierno/); [/pasaporte/, /licencia/, /matrícula/].forEach((re) => pop(10, re, 'tick')); pop(10, /testigo/);
+  [/entiende/, /identificar/, /presión/, /fraude/].forEach((re) => pop(11, re, 'negativo')); pop(11, /respeto/, 'check');
+  pop(12, /ocho|^8$/); pop(12, /cuatro|^4$/); pop(12, /cinco|^5$/); pop(12, /nunca/, 'sello');
+  [/consejos/, /preparar/, /inmigración/].forEach((re) => pop(13, re, 'negativo')); pop(13, /notario/, 'negativo'); pop(13, /notary/, 'check');
+  pop(14, /esposo/, 'negativo'); [/identificar/, /cobrar/, /publicidad/].forEach((re) => pop(14, re, 'tick')); pop(14, /revocación/, 'sello');
+  pop(15, /treinta|^30$/); pop(15, /inmediato/, 'negativo'); pop(15, /sesenta|^60$/, 'check');
+  [/oficina/, /domicilio/, /copias/, /hipotecarias/].forEach((re) => pop(16, re, 'tick')); pop(16, /seguro/, 'check'); pop(16, /tienda/);
   [/repasa/, /ejercicios/, /examen/].forEach((re) => pop(FIN, re)); pop(FIN, /capacitación/, 'chime');
   fx.push(['swoosh', TF]); NUMEROS.forEach((_, k) => fx.push(['tick', TF + 30 + k * 7])); fx.push(['chime', TF + 30 + NUMEROS.length * 7 + 10]);
   return fx;
@@ -629,7 +604,7 @@ const Sonido = ({ musica, solo }) => {
   const vol = (fr) => { const u = fr / K; return (0.24 - 0.15 * enVoz(u)) * lin(u, 0, 15, 0, 1, Easing.linear) * (1 - lin(u, TOT - 60, TOT, 0, 1, Easing.linear)); };
   return (<>
     {!solo && <Audio src={staticFile(musica)} volume={vol} loop />}
-    {solo !== 'efectos' && datos.escenas.map((_, i) => <Sequence key={i} from={Math.round(S[i] * K)}><Audio src={staticFile(`notario-9-1/escena-${i + 1}.mp3`)} /></Sequence>)}
+    {solo !== 'efectos' && datos.escenas.map((e, i) => <Sequence key={i} from={Math.round(S[i] * K)}><Audio src={staticFile(`notario-9-1/${e.audio}`)} /></Sequence>)}
     {solo !== 'voz' && efectos().map(([nm, en], k) => <Sequence key={`fx${k}`} from={Math.round(Math.max(0, en) * K)} durationInFrames={150}><Audio src={staticFile(`sfx/${nm}.mp3`)} /></Sequence>)}
   </>);
 };

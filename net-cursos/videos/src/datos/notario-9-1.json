@@ -157,7 +157,8 @@
      "t": "comisión.",
      "de": 15.116
     }
-   ]
+   ],
+   "audio": "escena-1.mp3"
   },
   {
    "voz": "Primero, recuerda qué eres. El notary public es un funcionario nombrado por el estado para ser testigo imparcial de firmas. No es abogado: no da consejos legales ni prepara documentos. Y no es el notario de Latinoamérica.",
@@ -311,7 +312,8 @@
      "t": "Latinoamérica.",
      "de": 15.349
     }
-   ]
+   ],
+   "audio": "escena-2.mp3"
   },
   {
    "voz": "En Maryland te nombra el Gobernador, después de que te aprueba tu senador estatal o la Secretaría de Estado. La ley está en el Título 18 del State Government Article, y las reglas, en el COMAR. Tu comisión dura cuatro años y vale en todo Maryland, siempre que estés físicamente en el estado.",
@@ -529,185 +531,8 @@
      "t": "estado.",
      "de": 20.038
     }
-   ]
-  },
-  {
-   "voz": "Para solicitar necesitas tener dieciocho años, buen carácter moral, y vivir o trabajar en Maryland. La primera vez tomas el curso y apruebas el examen con ochenta por ciento. Así recibes tus dos certificados: el Certificate of Completion y el Certificate of Passing.",
-   "dura": 18.405,
-   "palabras": [
-    {
-     "t": "Para",
-     "de": 0.163
-    },
-    {
-     "t": "solicitar",
-     "de": 0.407
-    },
-    {
-     "t": "necesitas",
-     "de": 0.998
-    },
-    {
-     "t": "tener",
-     "de": 1.544
-    },
-    {
-     "t": "dieciocho",
-     "de": 1.822
-    },
-    {
-     "t": "años,",
-     "de": 2.542
-    },
-    {
-     "t": "buen",
-     "de": 3.227
-    },
-    {
-     "t": "carácter",
-     "de": 3.495
-    },
-    {
-     "t": "moral,",
-     "de": 3.993
-    },
-    {
-     "t": "y",
-     "de": 4.643
-    },
-    {
-     "t": "vivir",
-     "de": 4.783
-    },
-    {
-     "t": "o",
-     "de": 5.259
-    },
-    {
-     "t": "trabajar",
-     "de": 5.41
-    },
-    {
-     "t": "en",
-     "de": 6.002
-    },
-    {
-     "t": "Maryland.",
-     "de": 6.13
-    },
-    {
-     "t": "La",
-     "de": 7.221
-    },
-    {
-     "t": "primera",
-     "de": 7.361
-    },
-    {
-     "t": "vez",
-     "de": 7.697
-    },
-    {
-     "t": "tomas",
-     "de": 7.907
-    },
-    {
-     "t": "el",
-     "de": 8.209
-    },
-    {
-     "t": "curso",
-     "de": 8.347
-    },
-    {
-     "t": "y",
-     "de": 8.788
-    },
-    {
-     "t": "apruebas",
-     "de": 8.87
-    },
-    {
-     "t": "el",
-     "de": 9.358
-    },
-    {
-     "t": "examen",
-     "de": 9.474
-    },
-    {
-     "t": "con",
-     "de": 9.904
-    },
-    {
-     "t": "ochenta",
-     "de": 10.078
-    },
-    {
-     "t": "por",
-     "de": 10.634
-    },
-    {
-     "t": "ciento.",
-     "de": 10.831
-    },
-    {
-     "t": "Así",
-     "de": 11.795
-    },
-    {
-     "t": "recibes",
-     "de": 12.318
-    },
-    {
-     "t": "tus",
-     "de": 12.782
-    },
-    {
-     "t": "dos",
-     "de": 12.991
-    },
-    {
-     "t": "certificados:",
-     "de": 13.2
-    },
-    {
-     "t": "el",
-     "de": 14.327
-    },
-    {
-     "t": "Certificate",
-     "de": 14.628
-    },
-    {
-     "t": "of",
-     "de": 15.488
-    },
-    {
-     "t": "Completion",
-     "de": 15.708
-    },
-    {
-     "t": "y",
-     "de": 16.59
-    },
-    {
-     "t": "el",
-     "de": 16.729
-    },
-    {
-     "t": "Certificate",
-     "de": 16.834
-    },
-    {
-     "t": "of",
-     "de": 17.52
-    },
-    {
-     "t": "Passing.",
-     "de": 17.681
-    }
-   ]
+   ],
+   "audio": "escena-3.mp3"
   },
   {
    "voz": "La solicitud se hace en línea y cuesta veinticinco dólares. Necesitas tus certificados, tu identificación, tu distrito legislativo y tres referencias. Declara con la verdad tus antecedentes: si no lo haces, te niegan la solicitud.",
@@ -853,7 +678,8 @@
      "t": "solicitud.",
      "de": 15.593
     }
-   ]
+   ],
+   "audio": "escena-5.mp3"
   },
   {
    "voz": "Cuando te aprueban, tienes treinta días para jurar ante el Clerk of the Circuit Court y pagar once dólares. Si no vas a tiempo, te revocan la comisión y tienes que solicitar otra vez.",
@@ -995,7 +821,8 @@
      "t": "vez.",
      "de": 11.622
     }
-   ]
+   ],
+   "audio": "escena-6.mp3"
   },
   {
    "voz": "Antes de tu primer acto, compra tu sello y tu journal. Tu sello lleva tu nombre, las palabras Notary Public y tu condado, y solo tú lo usas. En el journal anotas cada acto en el momento, y lo guardas diez años.",
@@ -1169,7 +996,8 @@
      "t": "años.",
      "de": 15.493
     }
-   ]
+   ],
+   "audio": "escena-7.mp3"
   },
   {
    "voz": "Los actos más comunes son dos. En el acknowledgment, la persona declara ante ti que la firma es suya. En el jurat, firma frente a ti y jura o afirma que lo que dice el documento es verdad. También puedes ser testigo de una firma, certificar copias y hacer un protesto.",
@@ -1379,7 +1207,8 @@
      "t": "protesto.",
      "de": 17.815
     }
-   ]
+   ],
+   "audio": "escena-8.mp3"
   },
   {
    "voz": "Cada acto lleva su certificado: el condado donde estás, la fecha, el nombre de la persona, tu firma, Notary Public, tu sello y la fecha en que vence tu comisión. Si el documento no trae certificado, adjuntas uno. Y lo firmas solo después de hacer el acto.",
@@ -1573,7 +1402,8 @@
      "t": "acto.",
      "de": 18.379
     }
-   ]
+   ],
+   "audio": "escena-9.mp3"
   },
   {
    "voz": "Si alguien no puede firmar, otra persona firma por él frente a ti, y tú escribes la nota en el documento. Una marca, como una X, también puede ser una firma. Y recuerda: la apostilla no la da el notario. El documento pasa por el Clerk y después por la Secretaría de Estado.",
@@ -1791,7 +1621,8 @@
      "t": "Estado.",
      "de": 19.806
     }
-   ]
+   ],
+   "audio": "escena-10.mp3"
   },
   {
    "voz": "Toda notarización sigue seis pasos: presencia, revisión del documento, identificación, el acto, el certificado y el journal. Si te saltas uno, el acto queda mal hecho.",
@@ -1901,7 +1732,8 @@
      "t": "hecho.",
      "de": 12.318
     }
-   ]
+   ],
+   "audio": "escena-11.mp3"
   },
   {
    "voz": "Identificas a la persona porque la conoces, con una identificación del gobierno con foto y firma, como un pasaporte, una licencia de manejo o una matrícula consular, o con un testigo creíble que jura o afirma ante ti quién es. Si tienes dudas, pide más información.",
@@ -2091,7 +1923,8 @@
      "t": "información.",
      "de": 18.042
     }
-   ]
+   ],
+   "audio": "escena-12.mp3"
   },
   {
    "voz": "Puedes negarte si no estás convencido de que la persona entiende lo que firma o firma por su voluntad, si no la puedes identificar, si está bajo presión o si sabes que hay fraude. Hazlo con respeto, explica la razón y no cobres.",
@@ -2269,7 +2102,8 @@
      "t": "cobres.",
      "de": 15.058
     }
-   ]
+   ],
+   "audio": "escena-13.mp3"
   },
   {
    "voz": "Por cada acto notarial cobras hasta ocho dólares. En copias firmadas al mismo tiempo, cuatro dólares por firma en cada copia adicional. Si viajas, el millaje del IRS y hasta cinco dólares. Puedes cobrar menos, pero nunca más, y anotas la tarifa en tu journal.",
@@ -2455,7 +2289,8 @@
      "t": "journal.",
      "de": 18.46
     }
-   ]
+   ],
+   "audio": "escena-14.mp3"
   },
   {
    "voz": "Tu comisión no te autoriza a dar consejos legales, preparar documentos ni hacer trámites de inmigración. Si no eres abogado, no te anuncias como notario: usas Notary Public y pones el aviso obligatorio en cada idioma de tu anuncio.",
@@ -2617,7 +2452,8 @@
      "t": "anuncio.",
      "de": 15.568
     }
-   ]
+   ],
+   "audio": "escena-15.mp3"
   },
   {
    "voz": "Nunca notarices un documento donde tú o tu esposo o esposa son parte o reciben un beneficio. Y cuida tu comisión: no identificar bien, cobrar de más o hacer publicidad engañosa puede costarte una suspensión o la revocación.",
@@ -2775,7 +2611,8 @@
      "t": "revocación.",
      "de": 15.616
     }
-   ]
+   ],
+   "audio": "escena-16.mp3"
   },
   {
    "voz": "Avisa a la Secretaría cualquier cambio de nombre, dirección o email dentro de treinta días. Si pierdes tu sello o tu journal, avisa de inmediato. Y renueva a tiempo: puedes hacerlo desde sesenta días antes de que venza.",
@@ -2933,7 +2770,8 @@
      "t": "venza.",
      "de": 15.767
     }
-   ]
+   ],
+   "audio": "escena-17.mp3"
   },
   {
    "voz": "Con tu comisión puedes ofrecer notarizaciones en tu oficina, a domicilio y copias certificadas, y crecer como notario de firmas hipotecarias. Protégete con un seguro de errores y omisiones, y consigue tus herramientas en La Tienda del Notario.",
@@ -3091,7 +2929,8 @@
      "t": "Notario.",
      "de": 15.952
     }
-   ]
+   ],
+   "audio": "escena-18.mp3"
   },
   {
    "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas, haz los ejercicios y prepárate para tu examen. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland.",
@@ -3225,7 +3064,8 @@
      "t": "Maryland.",
      "de": 12.933
     }
-   ]
+   ],
+   "audio": "escena-19.mp3"
   }
  ]
 }

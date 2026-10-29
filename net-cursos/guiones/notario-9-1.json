@@ -1,7 +1,7 @@
 {
  "voz": "8mBRP99B2Ng2QwsJMFQl",
  "velocidad": 1.06,
- "nota": "Lección 9.1, repaso de todo el curso. Each fact comes from the published lessons 1.2–8.2 (SG Title 18; COMAR 01.02.08; SOS FAQ). No remote fees and no renewal process details (separate courses). English goes written in English.",
+ "nota": "Lección 9.1, repaso de todo el curso. Each fact comes from the published lessons 1.2–8.2 (SG Title 18; COMAR 01.02.08; SOS FAQ). No remote fees and no renewal process details (separate courses). English goes written in English. The «Requisitos y examen» scene was removed at the user's request (29/10/2026).",
  "escenas": [
   {
    "capitulo": "Repaso final",
@@ -14,10 +14,6 @@
   {
    "capitulo": "1 · El notario en Maryland",
    "voz": "En Maryland te nombra el Gobernador, después de que te aprueba tu senador estatal o la Secretaría de Estado. La ley está en el Título 18 del State Government Article, y las reglas, en el COMAR. Tu comisión dura cuatro años y vale en todo Maryland, siempre que estés físicamente en el estado."
-  },
-  {
-   "capitulo": "2 · Requisitos y examen",
-   "voz": "Para solicitar necesitas tener dieciocho años, buen carácter moral, y vivir o trabajar en Maryland. La primera vez tomas el curso y apruebas el examen con ochenta por ciento. Así recibes tus dos certificados: el Certificate of Completion y el Certificate of Passing."
   },
   {
    "capitulo": "2 · La solicitud",
