@@ -13,10 +13,13 @@ const lin = (u, a, b, de, a2, e = EXPO) => interpolate(u, [a, b], [de, a2], { ..
 const ap = (u, d, dur = 26) => lin(u, d, d + dur, 0, 1);
 const useU = () => useCurrentFrame() / K;
 
-const INICIO = 76, PAUSA = 22, CIERRE = 80;
+const INICIO = 76, PAUSA = 22;
 const EXTRA = { 7: 20 };
 const S = datos.escenas.reduce((acc, e, i) => [...acc, i ? acc[i - 1] + Math.ceil(datos.escenas[i - 1].dura * 30) + PAUSA + (EXTRA[i] || 0) : INICIO], []);
-const TOT = S.at(-1) + Math.ceil(datos.escenas.at(-1).dura * 30) + CIERRE;
+// After the summary: the complete certificate, with no voice (FINAL units)
+const FINAL = 300;
+const TF = S.at(-1) + Math.ceil(datos.escenas.at(-1).dura * 30) + 26;
+const TOT = TF + FINAL;
 export const TOTAL_IN = Math.round(TOT * K);
 const limpia = (t) => t.toLowerCase().replace(/[¿?¡!.,:;]/g, '');
 const palabra = (i, re, n = 0) => datos.escenas[i].palabras.filter((p) => re.test(limpia(p.t)))[n];
@@ -219,15 +222,45 @@ const P6 = ({ u }) => {
 
 const CLAVES = [['lugar', P.azul, /lugar/], ['fecha', P.naranja, /fecha/], ['nombre', P.morado, /nombre/], ['la frase correcta', P.esmeralda, /frase/], ['tu firma', P.coral, /firma/], ['tu sello', P.rojo, /sello/], ['el vencimiento', '#C08A00', /vencimiento/]];
 const Resumen = ({ u }) => {
-  const v = lin(u, S[7] - 6, S[7] + 30, 0, 1);
+  const v = lin(u, S[7] - 6, S[7] + 30, 0, 1), fuera = 1 - lin(u, TF - 8, TF + 16, 0, 1);
   return (
     <AbsoluteFill style={{ background: `rgba(246,250,253,${0.92 * v})`, alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ opacity: v, transform: `scale(${0.96 + 0.04 * v})`, textAlign: 'center', maxWidth: 1500 }}>
+      <div style={{ opacity: v * fuera, transform: `scale(${0.96 + 0.04 * v})`, textAlign: 'center', maxWidth: 1500 }}>
         <div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 28, letterSpacing: 4, color: P.grafito }}>EN RESUMEN, TODO CERTIFICADO LLEVA</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, justifyContent: 'center', marginTop: 34 }}>{CLAVES.map(([t, c, re]) => (
           <Entra key={t} u={u} d={cuando(7, re)} y={24}><div style={{ background: c, color: P.blanco, borderRadius: 22, padding: '18px 30px', fontFamily: TIGHT, fontWeight: 900, fontSize: 38, boxShadow: `0 16px 34px ${c}55` }}>{t}</div></Entra>))}</div>
         <Entra u={u} d={cuando(7, /siguiente/)} style={{ marginTop: 56, display: 'inline-flex', alignItems: 'center', gap: 16, background: P.blanco, borderRadius: 999, padding: '18px 34px', boxShadow: '0 20px 50px rgba(20,60,90,0.14)' }}>
           <span style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 30, color: P.grafito }}>Siguiente:</span><span style={{ fontFamily: TIGHT, fontWeight: 900, fontSize: 34, color: P.esmeralda }}>4.4 · Casos especiales de firma y apostillas →</span></Entra>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// The same example the video fills piece by piece, now complete (acknowledgment, SG § 18-216)
+const Completo = ({ u }) => {
+  const v = ap(u, TF + 6, 30), d = (k) => TF + 34 + k * 9, ts = d(7) + 6, vs = ap(u, ts, 18);
+  return (
+    <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ opacity: v, transform: `translateY(${(1 - v) * 30}px)`, width: 1240 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
+          <div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 28, letterSpacing: 4, color: P.esmeralda }}>ASÍ QUEDA EL CERTIFICADO COMPLETO</div>
+          <Sub size={22}>Acknowledgment · ejemplo con datos inventados</Sub></div>
+        <Hoja style={{ marginTop: 22, padding: '40px 54px', fontSize: 33, lineHeight: 1.75, position: 'relative' }}>
+          <div>State of <b>Maryland</b>, County of <Llenado u={u} d={d(0)} color={P.azul}>Prince George's</Llenado></div>
+          <div style={{ marginTop: 10 }}>This record was acknowledged before me on the <Llenado u={u} d={d(1)} color={P.naranja}>15th</Llenado> day of <Llenado u={u} d={d(1) + 4} color={P.naranja}>October</Llenado>, 20<Llenado u={u} d={d(1) + 8} color={P.naranja}>26</Llenado> by <Llenado u={u} d={d(2)} color={P.morado}>Carlos A. Ramírez</Llenado>.</div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: 34 }}>
+            <div>
+              <div style={{ height: 62, fontStyle: 'italic', fontSize: 44, color: '#1F3A68', opacity: ap(u, d(4), 18) }}>María G. Hernández</div>
+              <div style={{ borderTop: '2px solid #333', width: 460 }} />
+              <div style={{ fontSize: 25 }}>Signature of notarial officer</div>
+              <div style={{ fontSize: 28, marginTop: 4 }}><b>Notary Public</b></div>
+              <div style={{ fontSize: 28, marginTop: 14 }}>My commission expires: <Llenado u={u} d={d(6)} color="#C08A00">03/14/2030</Llenado></div>
+            </div>
+            <div style={{ opacity: vs, transform: `scale(${1.25 - 0.25 * vs}) rotate(-3deg)`, border: '6px double #1F3A68', borderRadius: 16, padding: '16px 26px', textAlign: 'center', fontFamily: TIGHT, fontWeight: 800, color: '#1F3A68', background: '#F7F9FD', marginRight: 20, marginBottom: 20 }}>
+              <div style={{ fontSize: 26 }}>MARÍA G. HERNÁNDEZ</div><div style={{ fontSize: 20 }}>NOTARY PUBLIC</div><div style={{ fontSize: 20 }}>MONTGOMERY COUNTY</div></div>
+          </div>
+        </Hoja>
+        <Entra u={u} d={ts + 30} style={{ marginTop: 22 }}><Txt size={26} color={P.grafito} peso={700}>La notaria está comisionada en Montgomery, pero hizo el acto en Prince George's.</Txt></Entra>
       </div>
     </AbsoluteFill>
   );
@@ -255,6 +288,7 @@ const efectos = () => {
   fx.push(['pluma', cuando(5, /firma/)], ['sello', cuando(5, /sello/)], ['check', cuando(5, /claro/)]);
   fx.push(['pluma', cuando(6, /expires/) + 10], ['ui-pop', cuando(6, /recuerda/)], ['check', cuando(6, /después/)]);
   CLAVES.forEach(([, , re]) => fx.push(['tick', cuando(7, re)])); fx.push(['chime', cuando(7, /siguiente/)]);
+  fx.push(['papel', TF + 6], ['pluma', TF + 34], ['pluma', TF + 52], ['pluma', TF + 70], ['sello', TF + 34 + 63 + 6]);
   return fx;
 };
 const Sonido = ({ musica, solo }) => {
@@ -280,6 +314,7 @@ export const NotarioCertificados = ({ musica = 'musica-clc.mp3', solo }) => {
         <P0 u={u} /><P1 u={u} /><P2 u={u} /><P3 u={u} /><P4 u={u} /><P5 u={u} /><P6 u={u} />
       </div>
       {u > S[7] - 8 && <Resumen u={u} />}
+      {u > TF && <Completo u={u} />}
       <Hud u={u} />
       <Sonido musica={musica} solo={solo} />
     </AbsoluteFill>
