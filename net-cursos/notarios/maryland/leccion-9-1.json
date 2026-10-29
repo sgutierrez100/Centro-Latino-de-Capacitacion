@@ -1,0 +1,111 @@
+{
+ "post": 183160,
+ "titulo": "9.1 Repaso final",
+ "fuentes": "Lecciones 1.2 a 8.3 de este curso: SG Título 18; COMAR 01.02.08; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Cómo usar este repaso", "icono": "fas fa-star", "items": [
+   "Mira el <strong>video</strong> de arriba: repasa todo el curso, capítulo por capítulo.",
+   "Lee los <strong>puntos clave</strong> de cada capítulo. Si algo no lo recuerdas, vuelve a esa lección.",
+   "Repasa la tabla de <strong>números</strong>: es lo que más se confunde en el examen.",
+   "Termina con los <strong>ejercicios</strong> del final."]},
+
+  {"titulo": "Capítulo 1 · El notario en Maryland", "icono": "fas fa-landmark", "bloques": [
+   {"tipo": "lista", "items": [
+    "El <strong>notary public</strong> es un funcionario nombrado por el estado para ser <strong>testigo imparcial</strong> de firmas. <strong>No es abogado</strong> y no es el notario de Latinoamérica (1.2).",
+    "En Maryland te nombra el <strong>Gobernador</strong>, después de que te aprueba tu <strong>senador estatal</strong> o la <strong>Secretaría de Estado</strong> (1.3).",
+    "La ley está en el <strong>Título 18 del State Government Article</strong>; las reglas, en el <strong>COMAR 01.02.08</strong>; y la guía oficial es el <strong>Notary Handbook</strong> (1.3).",
+    "Tu comisión dura <strong>4 años</strong> y vale en <strong>todo Maryland</strong>, siempre que estés <strong>físicamente</strong> en el estado (1.3).",
+    "Aprende los términos en <strong>inglés</strong>: acknowledgment, jurat, journal, commission. Y cuidado con los falsos amigos (1.5)."]}]},
+
+  {"titulo": "Capítulo 2 · El curso, el examen y la solicitud", "icono": "fas fa-file-alt", "bloques": [
+   {"tipo": "lista", "items": [
+    "Requisitos: <strong>18 años</strong>, buen carácter moral, y <strong>vivir o trabajar</strong> en Maryland (SG § 18-102).",
+    "La primera vez tomas el <strong>curso</strong> y apruebas el <strong>examen</strong> con <strong>80 %</strong>. Recibes el <strong>Certificate of Completion</strong> y el <strong>Certificate of Passing</strong> (2.1).",
+    "La solicitud es <strong>en línea</strong>, la firmas bajo juramento y cuesta <strong>$25</strong>. Necesitas tus certificados, tu identificación, tu distrito legislativo y <strong>3 referencias</strong> (2.2).",
+    "Declara con la verdad tus <strong>antecedentes</strong>: si no lo haces, te niegan la solicitud (2.2 y 2.4).",
+    "Te pueden negar la solicitud por falta de honestidad, integridad, capacidad o confiabilidad (2.4)."]}]},
+
+  {"titulo": "Capítulo 3 · El juramento y tus herramientas", "icono": "fas fa-tools", "bloques": [
+   {"tipo": "lista", "items": [
+    "Tienes <strong>30 días</strong> para jurar ante el <strong>Clerk of the Circuit Court</strong> y pagar <strong>$11</strong>. Si no vas, te revocan la comisión (3.1).",
+    "Tu <strong>sello</strong> lleva tu nombre como en tu comisión, «<strong>Notary Public</strong>» y tu <strong>condado</strong>. Solo tú lo usas (3.2).",
+    "En tu <strong>journal</strong> anotas cada acto en el momento y lo guardas <strong>10 años</strong> después del último acto (3.2).",
+    "Maryland <strong>no pide fianza</strong> (bond). El <strong>seguro E&amp;O</strong> es opcional, pero te protege (3.3)."]}]},
+
+  {"titulo": "Capítulo 4 · Los actos notariales", "icono": "fas fa-signature", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Acknowledgment", "sub": "Reconocimiento de firma", "filas": [["Qué pasa", "La persona <strong>declara</strong> ante ti que la firma es suya."], ["Frase", "«This record was acknowledged before me on … by …»"]]},
+    {"titulo": "Jurat", "sub": "Verificación bajo juramento", "filas": [["Qué pasa", "La persona <strong>firma frente a ti</strong> y <strong>jura o afirma</strong> que el documento dice la verdad."], ["Frase", "«Signed and sworn to (or affirmed) before me on … by …»"]]}]},
+   {"tipo": "lista", "items": [
+    "También puedes ser <strong>testigo de una firma</strong>, certificar <strong>copias</strong> y hacer el <strong>protesto</strong> de un documento negociable (4.2).",
+    "Todo certificado lleva: <strong>lugar</strong>, <strong>fecha</strong>, <strong>nombre</strong>, tu <strong>firma</strong>, «Notary Public», tu <strong>sello</strong> y la fecha en que <strong>vence</strong> tu comisión. Lo firmas solo <strong>después</strong> del acto (4.3).",
+    "Si alguien no puede firmar, otra persona firma por él frente a ti y tú escribes la nota. Una <strong>X</strong> puede ser firma (4.4).",
+    "La <strong>apostilla</strong> no la da el notario: el documento pasa por el <strong>Clerk</strong> y luego por la <strong>Secretaría de Estado</strong>, que cobra <strong>$5</strong> (4.4)."]}]},
+
+  {"titulo": "Capítulo 5 · La notarización correcta", "icono": "fas fa-check-double", "bloques": [
+   {"tipo": "pasos", "items": [
+    "<strong>Presencia:</strong> la persona se presenta ante ti.",
+    "<strong>Revisión:</strong> qué acto pide el documento y si tienes algún interés.",
+    "<strong>Identificación:</strong> la conoces, te muestra una identificación del gobierno con foto y firma, o la identifica un testigo creíble.",
+    "<strong>El acto:</strong> acknowledgment, jurat u otro.",
+    "<strong>El certificado:</strong> lo llenas, lo firmas y lo sellas.",
+    "<strong>El journal:</strong> lo anotas en el momento."]},
+   {"tipo": "nota", "texto": "<strong>Cuándo negarte:</strong> si no estás convencido de que la persona entiende o firma por su voluntad, si no la puedes identificar, si está bajo presión, si el acto sería ilegal o si sabes que hay fraude. Hazlo con respeto y no cobres (5.3)."}]},
+
+  {"titulo": "Capítulo 6 · Tarifas, ética y límites", "icono": "fas fa-balance-scale", "bloques": [
+   {"tipo": "lista", "items": [
+    "Hasta <strong>$8</strong> por acto notarial; <strong>$4</strong> por firma en cada copia adicional firmada al mismo tiempo; millaje del IRS y hasta <strong>$5</strong> si viajas (6.1).",
+    "Tu comisión <strong>no te autoriza</strong> a dar consejos legales, preparar documentos ni hacer trámites de inmigración (6.2).",
+    "Si no eres abogado, <strong>no uses</strong> «notario» ni «notario publico». Anúnciate como <strong>Notary Public</strong> y pon el <strong>aviso obligatorio</strong> en cada idioma (6.2).",
+    "<strong>Conflicto de interés:</strong> nunca notarices si tú o tu esposo o esposa son parte o reciben un beneficio. La Secretaría recomienda no notarizar para tu familia inmediata (6.3).",
+    "Te pueden <strong>suspender o revocar</strong> la comisión por no identificar bien, llenar mal un certificado, cobrar de más o llevar mal el journal (6.3)."]}]},
+
+  {"titulo": "Capítulo 7 · Cómo mantener tu comisión", "icono": "fas fa-sync-alt", "bloques": [
+   {"tipo": "lista", "items": [
+    "Avisa a la Secretaría cualquier cambio de <strong>nombre, dirección, teléfono, email o condado</strong> dentro de los <strong>30 días</strong> (7.1).",
+    "Si pierdes o te roban el <strong>sello</strong> o el <strong>journal</strong>, avisa <strong>de inmediato</strong> (7.1).",
+    "Puedes renovar desde <strong>60 días antes</strong> de que venza tu comisión, y cada vez vuelves a jurar ante el Clerk (7.2).",
+    "Si dejas de ser notario, <strong>inutilizas tu sello</strong> y guardas tu journal <strong>10 años</strong> (7.2)."]}]},
+
+  {"titulo": "Capítulo 8 · Tu negocio de notario", "icono": "fas fa-briefcase", "bloques": [
+   {"tipo": "lista", "items": [
+    "Ofrece notarizaciones en tu oficina, <strong>a domicilio</strong> y copias certificadas, con precios dentro de los máximos (8.1).",
+    "Usa los <strong>modelos listos</strong>: lista de precios, anuncio con el aviso, mensaje para clientes y certificados sueltos (8.1).",
+    "Crece como <strong>notario de firmas hipotecarias</strong> (Loan Signing Agent) (8.2).",
+    "La notarización <strong>remota y electrónica</strong> tiene reglas propias: avisa a la Secretaría antes de tu primer acto (8.3)."]}]},
+
+  {"titulo": "Los números que debes recordar", "icono": "fas fa-hashtag", "bloques": [
+   {"tipo": "ficha", "titulo": "Números clave del curso", "filas": [
+    ["18 años", "Edad mínima para ser notario"],
+    ["80 %", "Calificación para aprobar el examen"],
+    ["3", "Referencias en la solicitud"],
+    ["$25", "Tarifa de la solicitud"],
+    ["30 días", "Para jurar ante el Clerk; también para avisar un cambio de datos"],
+    ["$11", "Lo que pagas al Clerk ($10 de la comisión y $1 de registro)"],
+    ["4 años", "Lo que dura tu comisión"],
+    ["$8", "Máximo por acto notarial"],
+    ["$4", "Por firma en cada copia adicional firmada al mismo tiempo"],
+    ["$5", "Máximo de cargo de viaje; también lo que cobra la Secretaría por apostilla"],
+    ["10 años", "Lo que guardas tu journal"],
+    ["10 días", "Para avisar una condena por delito grave o de fraude"],
+    ["60 días", "Antes del vencimiento, cuando puedes empezar a renovar"]]}]},
+
+  {"titulo": "Tus herramientas", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "Antes de tu primer acto necesitas tu <strong>sello</strong> y tu <strong>journal</strong>. Encuéntralos en <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación, y protege tu trabajo con el <strong>seguro E&amp;O</strong>."},
+   {"tipo": "botones", "items": [
+    {"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"},
+    {"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios de repaso", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En Maryland, al notario lo nombra el Gobernador.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Puedes firmar el certificado antes de hacer el acto, para ahorrar tiempo.", "ok": "F", "razon": "Lo firmas solo después de hacer el acto."},
+   {"tipo": "vf", "pregunta": "Si no eres abogado, puedes anunciarte como «Notario Público» en Maryland.", "ok": "F", "razon": "Solo un abogado con licencia en Maryland puede usar esos términos (SG § 18-224)."},
+   {"tipo": "vf", "pregunta": "La apostilla la da la Secretaría de Estado, no el notario.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Cuántos días tienes para jurar ante el Clerk después de que te aprueban?", "opciones": ["10 días", "30 días", "60 días"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿En qué acto la persona firma frente a ti y jura o afirma que el documento dice la verdad?", "opciones": ["Acknowledgment", "Jurat", "Certified copy"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuánto es lo máximo por un acto notarial?", "opciones": ["$5", "$8", "$11"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuánto tiempo guardas tu journal?", "opciones": ["4 años", "10 años", "Hasta que se llene"], "ok": "b"},
+   {"tipo": "om", "pregunta": "Tu esposa te pide notarizar la venta de su carro. ¿Qué haces?", "opciones": ["Lo notarizas si trae identificación", "No puedes: tu esposa es parte del documento", "Lo notarizas sin cobrar"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuál es el primero de los seis pasos de toda notarización?", "opciones": ["El journal", "La presencia de la persona", "El certificado"], "ok": "b"}]}
+ ]
+}
