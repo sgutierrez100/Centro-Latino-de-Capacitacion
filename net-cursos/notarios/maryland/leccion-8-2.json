@@ -1,0 +1,70 @@
+{
+ "post": 183149,
+ "titulo": "8.2 Notario de firmas (Loan Signing Agent)",
+ "fuentes": "COMAR 01.02.08.02; SG §18-203, §18-206, §18-224; página del Curso de Notario de Firmas Hipotecarias de Centro Latino de Capacitación; revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "El <strong>notario de firmas</strong> (Loan Signing Agent o Notary Signing Agent) es un notario que lleva los documentos de un <strong>préstamo hipotecario</strong> al cliente y lo guía para firmarlos.",
+   "Para hacerlo en Maryland necesitas primero tu <strong>comisión de notario</strong>. La ley de notarios de Maryland no tiene una licencia aparte para el notario de firmas.",
+   "En cada firma sigues <strong>las mismas reglas</strong> de este curso: identificar, hacer bien cada acto, llenar los certificados y anotar en tu journal.",
+   "Es una forma de tener <strong>más ingresos</strong> como notario. En nuestro curso de Notario de Firmas Hipotecarias aprendes a hacerlo."]},
+
+  {"titulo": "Qué hace un notario de firmas", "icono": "fas fa-file-signature", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Recibe la orden de una <strong>compañía de títulos</strong>, un prestamista o una empresa de firmas.",
+    "Imprime o recibe el <strong>paquete de documentos</strong> del préstamo.",
+    "Se reúne con los firmantes, muchas veces en su <strong>casa</strong> o en un lugar acordado.",
+    "<strong>Identifica</strong> a cada firmante (SG § 18-206).",
+    "Muestra <strong>dónde firmar</strong> cada documento y hace los <strong>actos notariales</strong> que piden, como acknowledgments y jurats.",
+    "Revisa que no falte ninguna firma, fecha o inicial, y <strong>devuelve el paquete</strong> a tiempo."]}]},
+
+  {"titulo": "Lo que no hace", "icono": "fas fa-ban", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "<strong>No explica</strong> las condiciones del préstamo ni aconseja si conviene firmar. Eso es práctica del derecho o le toca al prestamista (SG § 18-224)."],
+    ["fas fa-times-circle", "<strong>No cambia</strong> nada de los documentos."],
+    ["fas fa-times-circle", "<strong>No notariza</strong> si él o su esposo o esposa tienen interés en el préstamo o la propiedad (SG § 18-203)."]]},
+   {"tipo": "nota", "texto": "<strong>Si el cliente pregunta</strong> por la tasa de interés, los pagos o los cargos, la respuesta correcta es: «Esa pregunta se la contesta su prestamista. Lo llamamos ahora si quiere»."}]},
+
+  {"titulo": "Cómo cobra un notario de firmas", "icono": "fas fa-dollar-sign", "bloques": [
+   {"tipo": "texto", "texto": "La compañía le paga al notario de firmas por el <strong>servicio completo</strong> de la firma: imprimir el paquete, viajar, guiar a los firmantes y devolver los documentos."},
+   {"tipo": "nota", "texto": "<strong>Importante en Maryland:</strong> lo que cobras <strong>por cada acto notarial</strong> sigue con el máximo de <strong>$8</strong> (COMAR 01.02.08.02). Separa el cobro de los actos notariales del cobro del servicio de firma, y anota cada acto y su tarifa en tu journal. Si tienes dudas sobre cómo cobrar, consulta a la Secretaría de Estado."}]},
+
+  {"titulo": "Lo que necesitas para empezar", "icono": "fas fa-clipboard-list", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "Tu <strong>comisión</strong> de notario de Maryland vigente."],
+    ["fas fa-check-circle", "Tu <strong>sello</strong> y tu <strong>journal</strong>."],
+    ["fas fa-check-circle", "Un <strong>seguro E&amp;O</strong>. Muchas compañías lo piden a sus notarios de firmas."],
+    ["fas fa-check-circle", "<strong>Capacitación</strong> en documentos hipotecarios: qué es cada documento y cómo se firma."],
+    ["fas fa-check-circle", "Una <strong>impresora</strong> que imprima en tamaño carta y legal, y un carro para moverte."]]}]},
+
+  {"titulo": "Curso de Notario de Firmas Hipotecarias", "icono": "fas fa-graduation-cap", "bloques": [
+   {"tipo": "texto", "texto": "En Centro Latino de Capacitación tenemos el <strong>Curso de Notario de Firmas Hipotecarias</strong>, en español y en línea. Aprendes:"},
+   {"tipo": "pasos", "items": [
+    "Los <strong>tipos de documentos</strong> de un préstamo hipotecario.",
+    "El <strong>proceso de notarización</strong> de los documentos hipotecarios, paso a paso.",
+    "Las <strong>herramientas</strong> que necesitas como Notary Signing Agent.",
+    "Y obtienes tu <strong>certificación</strong> de Notario de Firmas Hipotecarias."]},
+   {"tipo": "texto", "texto": "Cuesta <strong>$125</strong>, con <strong>4 meses</strong> de acceso. El requisito es ser notario en tu estado."},
+   {"tipo": "botones", "items": [
+    {"texto": "Ver el Curso de Notario de Firmas Hipotecarias", "url": "https://centrolatinodecapacitacion.net/curso-notario-de-firmas-hipotecarias/"},
+    {"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["En una firma, el cliente te pregunta si le conviene la tasa de interés.", "No le aconsejas. Le dices que esa pregunta se la contesta su prestamista."],
+   ["Uno de los dos firmantes no llegó a la cita.", "No notarizas su firma: tiene que presentarse ante ti. Avisa a la compañía para reprogramar."],
+   ["La compañía te manda una firma donde el comprador es tu hermano.", "La ley no prohíbe a los hermanos, pero la Secretaría recomienda no notarizar para tu familia inmediata (lección 6.3). Mejor rechaza la orden."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Explicar las condiciones del préstamo al cliente.",
+   "Dejar firmas, fechas o iniciales sin hacer.",
+   "Olvidar anotar cada acto notarial en el journal.",
+   "Cobrar los actos notariales por encima del máximo de Maryland.",
+   "Trabajar sin seguro E&O."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Para ser notario de firmas en Maryland primero necesitas tu comisión de notario.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "El notario de firmas le explica al cliente si le conviene el préstamo.", "ok": "F", "razon": "Eso le toca al prestamista; el notario no da consejos."},
+   {"tipo": "om", "pregunta": "En una firma hipotecaria en Maryland, ¿cuánto puedes cobrar como máximo por cada acto notarial?", "opciones": ["$8", "$25", "Lo que pague la compañía"], "ok": "a"},
+   {"tipo": "om", "pregunta": "¿Qué haces si un firmante no llega?", "opciones": ["Notarizas igual", "No notarizas su firma y avisas a la compañía", "Firmas tú por él"], "ok": "b"}]}
+ ]
+}
