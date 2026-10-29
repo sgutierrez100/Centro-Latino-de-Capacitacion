@@ -3,74 +3,212 @@
  "titulo": "2.3 Antecedentes, referencias y aprobación",
  "fuentes": "SG §18-101, §18-103; COMAR 01.02.08.10; sos.maryland.gov/Notary (New Applicant y FAQ), revisado el 26/10/2026",
  "secciones": [
-  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
-   "Después de enviar tu solicitud, la Secretaría revisa que esté <strong>completa</strong>, verifica tu <strong>dirección</strong> y hace una <strong>revisión de antecedentes</strong>.",
-   "Tus <strong>3 referencias</strong> tienen que contestar antes de que sigan con tu solicitud.",
-   "Te aprueba tu <strong>senador estatal</strong> o la <strong>Secretaría de Estado</strong>, si el senador le pasó esa tarea (SG § 18-101).",
-   "Con la Secretaría suele tardar <strong>2 a 3 días hábiles</strong>; con el senador, de <strong>2 a 8 semanas</strong>.",
-   "Si te aprueban, tienes <strong>30 días</strong> para jurar ante el <strong>Clerk of the Circuit Court</strong> y pagar <strong>$11</strong>."]},
-
-  {"titulo": "Qué pasa después de enviar tu solicitud", "icono": "fas fa-route", "bloques": [
-   {"tipo": "pasos", "items": [
-    "Te llega un <strong>correo de confirmación</strong> de la solicitud y del pago.",
-    "La Secretaría de Estado recibe tu solicitud el <strong>siguiente día hábil</strong>.",
-    "Revisan que esté <strong>completa</strong> y que tu <strong>dirección de casa</strong> sea válida.",
-    "Hacen la <strong>revisión de antecedentes</strong>.",
-    "Piden la opinión de tus <strong>referencias</strong>.",
-    "Tu senador o la Secretaría <strong>aprueban o niegan</strong> tu solicitud, y te avisan por <strong>correo electrónico</strong>."]}]},
-
-  {"titulo": "La revisión de antecedentes", "icono": "fas fa-search", "bloques": [
-   {"tipo": "texto", "texto": "La Secretaría revisa tus antecedentes para confirmar que <strong>declaraste en tu solicitud</strong> todas las <strong>condenas penales</strong> (criminal convictions) y <strong>sentencias civiles</strong> (civil judgments) en tu contra. El Notary Handbook explica qué cuenta como sentencia civil, en su parte XIII de definiciones."},
-   {"tipo": "nota", "texto": "<strong>Importante:</strong> si no declaras con exactitud tus antecedentes penales, la Secretaría <strong>niega tu solicitud</strong>. Di siempre la verdad."}]},
-
-  {"titulo": "Tus referencias", "icono": "fas fa-users", "bloques": [
-   {"tipo": "texto", "texto": "Quién contacta a tus referencias depende de quién revisa tu solicitud:"},
-   {"tipo": "lista", "items": [
-    "<strong>Si revisa la Secretaría de Estado</strong> (porque tu senador le pasó esa tarea): les manda un <strong>correo electrónico</strong> a tus referencias. <strong>Tienen que contestar</strong> antes de que sigan con tu solicitud.",
-    "<strong>Si revisa tu senador:</strong> puede contactar a tus referencias por <strong>correo postal, teléfono o correo electrónico</strong>."]},
-   {"tipo": "nota", "texto": "<strong>Consejo:</strong> antes de enviar tu solicitud, avísales a tus 3 referencias que les puede llegar un mensaje de la Secretaría de Estado de Maryland y pídeles que contesten pronto. Según la Secretaría, que las referencias no contesten es una de las causas más comunes de retraso."}]},
-
-  {"titulo": "Quién aprueba tu solicitud", "icono": "fas fa-landmark", "bloques": [
-   {"tipo": "texto", "texto": "Si vives en Maryland, tu solicitud la aprueba el <strong>senador estatal de tu distrito</strong>. Algunos senadores le pasan esa tarea a la <strong>Secretaría de Estado</strong>, y entonces aprueba ella (SG § 18-101 y § 18-103). Si vives en otro estado, la aprueba un senador estatal de Maryland. Al final, el nombramiento lo hace el <strong>Gobernador</strong>."}]},
-
-  {"titulo": "Cuánto tarda", "icono": "fas fa-clock", "bloques": [
-   {"tipo": "lista", "items": [
-    ["fas fa-check-circle", "<strong>Si revisa la Secretaría de Estado:</strong> suele tardar <strong>2 a 3 días hábiles</strong>."],
-    ["fas fa-check-circle", "<strong>Si revisa tu senador:</strong> depende de él; suele tardar entre <strong>2 y 8 semanas</strong>. La Secretaría recomienda revisar el estado de tu solicitud por lo menos <strong>cada dos semanas</strong>."]]},
-   {"tipo": "texto", "texto": "Según la Secretaría, lo que más retrasa una solicitud es:"},
-   {"tipo": "pasos", "items": [
-    "Que tus <strong>referencias no contesten</strong>.",
-    "Que a tu solicitud le <strong>falte información</strong> y tú no contestes cuando te la piden."]},
-   {"tipo": "texto", "texto": "Para ver en qué va, entra al portal y usa <strong>«Check Status of a Submitted Application»</strong> (revisar el estado de una solicitud enviada)."}]},
-
-  {"titulo": "Si te aprueban", "icono": "fas fa-check-double", "bloques": [
-   {"tipo": "pasos", "items": [
-    "Te llega un <strong>correo electrónico de aprobación</strong> (COMAR 01.02.08.10), con un archivo adjunto de instrucciones. Léelo completo.",
-    "Dentro de los <strong>30 días</strong> siguientes al aviso, ve con el <strong>Clerk of the Circuit Court</strong> (secretario del tribunal de circuito) del condado donde te comisionan.",
-    "Paga <strong>$11</strong>: $10 por la comisión y $1 de registro. Es aparte de los $25 que pagaste a la Secretaría.",
-    "Haz tu <strong>juramento del cargo</strong> (oath of office) ante el Clerk.",
-    "Después del juramento, recibes tu <strong>comisión por correo electrónico</strong>. Desde ese momento ya eres notario público de Maryland."]},
-   {"tipo": "nota", "texto": "<strong>Importante:</strong> si no vas con el Clerk dentro de los 30 días, <strong>te revocan la comisión</strong> y tienes que enviar una solicitud nueva y pagar otra vez (SG § 18-103). El juramento lo vemos con detalle en la lección 3.1."}]},
-
-  {"titulo": "Si te la niegan", "icono": "fas fa-times-circle", "bloques": [
-   {"tipo": "texto", "texto": "La Secretaría te avisa por correo electrónico. Las causas comunes y qué hacer las vemos en la lección 2.4."}]},
-
-  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
-   ["Una clienta envió su solicitud hace 3 semanas, su senador la revisa y todavía no sabe nada.", "Es normal: con el senador puede tardar de 2 a 8 semanas. Que revise el estado en el portal con «Check Status of a Submitted Application» por lo menos cada dos semanas."],
-   ["Un amigo tuvo una condena hace 15 años y piensa no ponerla porque «ya es muy vieja».", "Debe declararla. Si no declara con exactitud sus antecedentes penales, le niegan la solicitud."],
-   ["Te llegó el correo de aprobación, pero tu trabajo no te deja ir al tribunal este mes.", "Organízate para ir dentro de los 30 días. Si se pasa el plazo, te revocan la comisión y tienes que solicitar y pagar otra vez."]]},
-
-  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
-   "No declarar una condena penal o una sentencia civil.",
-   "No avisarles a tus referencias, y que no contesten el correo de la Secretaría.",
-   "No contestar cuando la Secretaría te pide información que falta.",
-   "No revisar tu correo electrónico, ni la carpeta de spam.",
-   "Dejar pasar los 30 días para jurar ante el Clerk."]},
-
-  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
-   {"tipo": "vf", "pregunta": "Si no declaras con exactitud tus antecedentes penales en la solicitud, te la niegan.", "ok": "V"},
-   {"tipo": "vf", "pregunta": "Después del aviso de aprobación tienes 90 días para jurar ante el Clerk.", "ok": "F", "razon": "Tienes 30 días."},
-   {"tipo": "om", "pregunta": "Si tu solicitud la revisa la Secretaría de Estado, ¿cuánto suele tardar?", "opciones": ["2 a 3 días hábiles", "2 a 8 semanas", "6 meses"], "ok": "a"},
-   {"tipo": "om", "pregunta": "¿Cuánto pagas al Clerk of the Circuit Court cuando haces tu juramento?", "opciones": ["$25", "$11", "$30"], "ok": "b"}]}
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Después de enviar tu solicitud, la Secretaría revisa que esté <strong>completa</strong>, verifica tu <strong>dirección</strong> y hace una <strong>revisión de antecedentes</strong>.",
+    "Tus <strong>3 referencias</strong> tienen que contestar antes de que sigan con tu solicitud.",
+    "Te aprueba tu <strong>senador estatal</strong> o la <strong>Secretaría de Estado</strong>, si el senador le pasó esa tarea (SG § 18-101).",
+    "Con la Secretaría suele tardar <strong>2 a 3 días hábiles</strong>; con el senador, de <strong>2 a 8 semanas</strong>.",
+    "Si te aprueban, tienes <strong>30 días</strong> para jurar ante el <strong>Clerk of the Circuit Court</strong> y pagar <strong>$11</strong>."
+   ]
+  },
+  {
+   "titulo": "Qué pasa después de enviar tu solicitud",
+   "icono": "fas fa-route",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "Te llega un <strong>correo de confirmación</strong> de la solicitud y del pago.",
+      "La Secretaría de Estado recibe tu solicitud el <strong>siguiente día hábil</strong>.",
+      "Revisan que esté <strong>completa</strong> y que tu <strong>dirección de casa</strong> sea válida.",
+      "Hacen la <strong>revisión de antecedentes</strong>.",
+      "Piden la opinión de tus <strong>referencias</strong>.",
+      "Tu senador o la Secretaría <strong>aprueban o niegan</strong> tu solicitud, y te avisan por <strong>correo electrónico</strong>."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "La revisión de antecedentes",
+   "icono": "fas fa-search",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "La Secretaría revisa tus antecedentes para confirmar que <strong>declaraste en tu solicitud</strong> todas las <strong>condenas penales</strong> (criminal convictions) y <strong>sentencias civiles</strong> (civil judgments) en tu contra."
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Importante:</strong> si no declaras con exactitud tus antecedentes penales, la Secretaría <strong>niega tu solicitud</strong>. Di siempre la verdad."
+    }
+   ]
+  },
+  {
+   "titulo": "Tus referencias",
+   "icono": "fas fa-users",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Quién contacta a tus referencias depende de quién revisa tu solicitud:"
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      "<strong>Si revisa la Secretaría de Estado</strong> (porque tu senador le pasó esa tarea): les manda un <strong>correo electrónico</strong> a tus referencias. <strong>Tienen que contestar</strong> antes de que sigan con tu solicitud.",
+      "<strong>Si revisa tu senador:</strong> puede contactar a tus referencias por <strong>correo postal, teléfono o correo electrónico</strong>."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Consejo:</strong> antes de enviar tu solicitud, avísales a tus 3 referencias que les puede llegar un mensaje de la Secretaría de Estado de Maryland y pídeles que contesten pronto. Según la Secretaría, que las referencias no contesten es una de las causas más comunes de retraso."
+    }
+   ]
+  },
+  {
+   "titulo": "Quién aprueba tu solicitud",
+   "icono": "fas fa-landmark",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Si vives en Maryland, tu solicitud la aprueba el <strong>senador estatal de tu distrito</strong>. Algunos senadores le pasan esa tarea a la <strong>Secretaría de Estado</strong>, y entonces aprueba ella (SG § 18-101 y § 18-103). Si vives en otro estado, la aprueba un senador estatal de Maryland. Al final, el nombramiento lo hace el <strong>Gobernador</strong>."
+    }
+   ]
+  },
+  {
+   "titulo": "Cuánto tarda",
+   "icono": "fas fa-clock",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      [
+       "fas fa-check-circle",
+       "<strong>Si revisa la Secretaría de Estado:</strong> suele tardar <strong>2 a 3 días hábiles</strong>."
+      ],
+      [
+       "fas fa-check-circle",
+       "<strong>Si revisa tu senador:</strong> depende de él; suele tardar entre <strong>2 y 8 semanas</strong>. La Secretaría recomienda revisar el estado de tu solicitud por lo menos <strong>cada dos semanas</strong>."
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Según la Secretaría, lo que más retrasa una solicitud es:"
+    },
+    {
+     "tipo": "pasos",
+     "items": [
+      "Que tus <strong>referencias no contesten</strong>.",
+      "Que a tu solicitud le <strong>falte información</strong> y tú no contestes cuando te la piden."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Para ver en qué va, entra al portal y usa <strong>«Check Status of a Submitted Application»</strong> (revisar el estado de una solicitud enviada)."
+    }
+   ]
+  },
+  {
+   "titulo": "Si te aprueban",
+   "icono": "fas fa-check-double",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "Te llega un <strong>correo electrónico de aprobación</strong> (COMAR 01.02.08.10), con un archivo adjunto de instrucciones. Léelo completo.",
+      "Dentro de los <strong>30 días</strong> siguientes al aviso, ve con el <strong>Clerk of the Circuit Court</strong> (secretario del tribunal de circuito) del condado donde te comisionan.",
+      "Paga <strong>$11</strong>: $10 por la comisión y $1 de registro. Es aparte de los $25 que pagaste a la Secretaría.",
+      "Haz tu <strong>juramento del cargo</strong> (oath of office) ante el Clerk.",
+      "Después del juramento, recibes tu <strong>comisión por correo electrónico</strong>. Desde ese momento ya eres notario público de Maryland."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "<strong>Importante:</strong> si no vas con el Clerk dentro de los 30 días, <strong>te revocan la comisión</strong> y tienes que enviar una solicitud nueva y pagar otra vez (SG § 18-103). El juramento lo vemos con detalle en la lección 3.1."
+    }
+   ]
+  },
+  {
+   "titulo": "Si te la niegan",
+   "icono": "fas fa-times-circle",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "La Secretaría te avisa por correo electrónico. Las causas comunes y qué hacer las vemos en la lección 2.4."
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    [
+     "Una clienta envió su solicitud hace 3 semanas, su senador la revisa y todavía no sabe nada.",
+     "Es normal: con el senador puede tardar de 2 a 8 semanas. Que revise el estado en el portal con «Check Status of a Submitted Application» por lo menos cada dos semanas."
+    ],
+    [
+     "Un amigo tuvo una condena hace 15 años y piensa no ponerla porque «ya es muy vieja».",
+     "Debe declararla. Si no declara con exactitud sus antecedentes penales, le niegan la solicitud."
+    ],
+    [
+     "Te llegó el correo de aprobación, pero tu trabajo no te deja ir al tribunal este mes.",
+     "Organízate para ir dentro de los 30 días. Si se pasa el plazo, te revocan la comisión y tienes que solicitar y pagar otra vez."
+    ]
+   ]
+  },
+  {
+   "tipo": "errores",
+   "titulo": "Errores comunes",
+   "icono": "fas fa-exclamation-triangle",
+   "items": [
+    "No declarar una condena penal o una sentencia civil.",
+    "No avisarles a tus referencias, y que no contesten el correo de la Secretaría.",
+    "No contestar cuando la Secretaría te pide información que falta.",
+    "No revisar tu correo electrónico, ni la carpeta de spam.",
+    "Dejar pasar los 30 días para jurar ante el Clerk."
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {
+     "tipo": "vf",
+     "pregunta": "Si no declaras con exactitud tus antecedentes penales en la solicitud, te la niegan.",
+     "ok": "V"
+    },
+    {
+     "tipo": "vf",
+     "pregunta": "Después del aviso de aprobación tienes 90 días para jurar ante el Clerk.",
+     "ok": "F",
+     "razon": "Tienes 30 días."
+    },
+    {
+     "tipo": "om",
+     "pregunta": "Si tu solicitud la revisa la Secretaría de Estado, ¿cuánto suele tardar?",
+     "opciones": [
+      "2 a 3 días hábiles",
+      "2 a 8 semanas",
+      "6 meses"
+     ],
+     "ok": "a"
+    },
+    {
+     "tipo": "om",
+     "pregunta": "¿Cuánto pagas al Clerk of the Circuit Court cuando haces tu juramento?",
+     "opciones": [
+      "$25",
+      "$11",
+      "$30"
+     ],
+     "ok": "b"
+    }
+   ]
+  }
  ]
 }
