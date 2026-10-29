@@ -14,6 +14,7 @@
    {"tipo": "lista", "items": [
     ["fas fa-times-circle", "Donde <strong>tú</strong> o tu <strong>esposo o esposa</strong> son <strong>parte</strong>."],
     ["fas fa-times-circle", "Donde tú o tu esposo o esposa tienen un <strong>beneficio directo</strong> (direct beneficial interest)."]]},
+   {"tipo": "texto", "texto": "<strong>¿Y tus hijos, tus papás, otros familiares o tus amigos?</strong> La ley solo prohíbe los casos de arriba. Pero la Secretaría de Estado <strong>recomienda</strong> no notarizar para <strong>nadie de tu familia inmediata</strong>, aunque la ley no te lo prohíba para ese familiar. Con un amigo puedes notarizar, siempre que no seas parte ni recibas un beneficio."},
    {"tipo": "nota", "texto": "<strong>Qué pasa si lo haces:</strong> la ley dice que el acto es <strong>anulable</strong> (voidable). Es decir, alguien puede pedir que no valga. Y el cliente puede tener problemas con su documento por tu culpa."}]},
 
   {"titulo": "Ejemplos de conflicto", "icono": "fas fa-exchange-alt", "bloques": [
@@ -22,8 +23,8 @@
      ["Parte", "Un contrato de renta donde <strong>tú</strong> eres el dueño."],
      ["Esposo o esposa", "Un poder notarial que tu <strong>esposa</strong> le da a otra persona."],
      ["Beneficio", "Un testamento o una carta donde <strong>tú o tu esposo</strong> reciben dinero o una propiedad."]]},
-    {"titulo": "Revisa con cuidado", "sub": "Consejo nuestro", "filas": [
-     ["Familia", "Tu mamá, tus hijos o tus hermanos. La ley no los menciona, pero si tienes <strong>cualquier interés</strong> en el documento, mejor no notarices."],
+    {"titulo": "Revisa con cuidado", "sub": "Recomendación", "filas": [
+     ["Familia", "Tus hijos, tus papás o tus hermanos. La ley no los menciona, pero la Secretaría <strong>recomienda no notarizar</strong> para tu familia inmediata."], ["Amigos", "La ley no lo prohíbe si no eres parte ni recibes un beneficio. Si sientes que no podrás ser imparcial, mándalo con otro notario."],
      ["Trabajo", "Documentos de tu empleador. Si no eres parte ni recibes un beneficio directo, no hay conflicto según la ley."]]}]},
    {"tipo": "texto", "texto": "<strong>Nuestra recomendación:</strong> cuando tengas dudas, manda al cliente con <strong>otro notario</strong>. Es la forma más segura de proteger al cliente y a ti."}]},
 
@@ -83,6 +84,7 @@
 
   {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
    "Notarizar documentos de tu esposo o esposa.",
+   "Notarizar para tus hijos o tus papás, aunque la Secretaría recomienda no hacerlo.",
    "Notarizar algo donde tú recibes dinero o una propiedad.",
    "Prestar el sello o dejarlo sin llave.",
    "No avisar a la Secretaría de una condena en 10 días.",
@@ -91,6 +93,7 @@
   {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
    {"tipo": "vf", "pregunta": "Puedes notarizar un documento donde tu esposa es parte, si ella trae su identificación.", "ok": "F", "razon": "Si tu esposa es parte, hay conflicto de interés (SG § 18-203)."},
    {"tipo": "vf", "pregunta": "Cobrar más de lo permitido puede ser razón de una sanción a tu comisión.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "La Secretaría de Estado recomienda no notarizar para tu familia inmediata.", "ok": "V"},
    {"tipo": "om", "pregunta": "Si te condenan por un delito de fraude, ¿en cuánto tiempo avisas a la Secretaría?", "opciones": ["30 días", "10 días", "No hay que avisar"], "ok": "b"},
    {"tipo": "om", "pregunta": "¿Qué pasa con un acto notarial hecho con conflicto de interés?", "opciones": ["Es válido siempre", "Es anulable", "Se convierte en jurat"], "ok": "b"}]}
  ]
