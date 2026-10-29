@@ -1,7 +1,7 @@
 {
  "post": 183162,
  "titulo": "9.2 Qué sigue: más cursos, redes y membresía",
- "fuentes": "Páginas de Centro Latino de Capacitación (cursos, membresía Notario Maryland, websites y tienda), revisadas el 29/10/2026; lecciones 2.1 a 5.1 de este curso",
+ "fuentes": "Páginas de Centro Latino de Capacitación (cursos, membresía Notario Maryland y tienda), revisadas el 29/10/2026; lecciones 2.1 a 5.1 de este curso",
  "secciones": [
   {
    "tipo": "resumen",
@@ -11,7 +11,7 @@
     "<strong>¡Felicidades!</strong> Terminaste el Curso de Notario Público para Maryland de Centro Latino de Capacitación.",
     "Consigue la <strong>Guía del Notario Público de Maryland</strong> en nuestra <strong>Librería</strong>: tu libro de consulta para cuando ya estés notarizando.",
     "Sigue tu camino: <strong>certificado</strong>, <strong>solicitud</strong>, <strong>juramento</strong> y tus <strong>herramientas</strong>.",
-    "Crece como notario con nuestros <strong>otros cursos</strong>, la <strong>Membresía Notario Maryland</strong> y un <strong>website</strong> para tu negocio."
+    "Crece como notario con nuestros <strong>otros cursos</strong>, y mantén tu curso abierto con la <strong>Membresía Notario Maryland</strong>."
    ]
   },
   {
@@ -162,7 +162,7 @@
    "bloques": [
     {
      "tipo": "texto",
-     "texto": "Inscríbete en la <strong>Membresía Notario Maryland</strong> de Centro Latino de Capacitación por <strong>$6 al mes</strong>."
+     "texto": "Con la <strong>Membresía Notario Maryland</strong> mantienes <strong>abierto</strong> tu Curso de Notario Público para Maryland, para volver a las lecciones cuando lo necesites. Cuesta <strong>$6 al mes</strong>."
     },
     {
      "tipo": "botones",
@@ -170,25 +170,6 @@
       {
        "texto": "Inscribirme en la membresía",
        "url": "https://centrolatinodecapacitacion.net/membresia/membresia-notario-maryland/"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "titulo": "Un website para tu negocio",
-   "icono": "fas fa-laptop",
-   "bloques": [
-    {
-     "tipo": "texto",
-     "texto": "Te diseñamos un <strong>website profesional</strong> para tu negocio de notario: moderno, rápido y que se ve bien en cualquier celular. Todas las opciones cuestan <strong>$150</strong>. Recuerda anunciarte como <strong>Notary Public</strong> y poner el aviso obligatorio (lección 6.2)."
-    },
-    {
-     "tipo": "botones",
-     "items": [
-      {
-       "texto": "Ver los websites para notarios",
-       "url": "https://centrolatinodecapacitacion.net/websites-para-notarios/"
       }
      ]
     }
