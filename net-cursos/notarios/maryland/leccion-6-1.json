@@ -1,0 +1,72 @@
+{
+ "post": 183127,
+ "titulo": "6.1 Tarifas del notario",
+ "fuentes": "COMAR 01.02.08.02 (vigente desde el 22/01/2024); SG §18-219; COMAR 01.02.08.08; sos.maryland.gov/Notary (FAQ); revisado en regs.maryland.gov el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Por cada acto notarial puedes cobrar <strong>hasta $8</strong>. Por un acto <strong>remoto</strong>, hasta <strong>$30</strong> (COMAR 01.02.08.02).",
+   "Si firman <strong>varias copias</strong> al mismo tiempo: $8 por firma en la primera copia y <strong>$4</strong> por firma en cada copia adicional.",
+   "Si viajas, puedes cobrar el <strong>millaje</strong> a la tarifa del IRS más un cargo de viaje de <strong>hasta $5</strong>.",
+   "Son <strong>máximos</strong>: puedes cobrar menos o no cobrar, pero <strong>nunca más</strong>. Y anotas la tarifa en tu journal."]},
+
+  {"titulo": "La tabla de tarifas de Maryland", "icono": "fas fa-dollar-sign", "bloques": [
+   {"tipo": "texto", "texto": "Las tarifas máximas están en el reglamento COMAR 01.02.08.02, vigente desde el <strong>22 de enero de 2024</strong>:"},
+   {"tipo": "ficha", "titulo": "Tarifas máximas · COMAR 01.02.08.02", "filas": [
+    ["Acto notarial", "Hasta <strong>$8</strong>"],
+    ["Acto notarial remoto", "Hasta <strong>$30</strong>"],
+    ["Copias firmadas al mismo tiempo", "<strong>$8</strong> por firma en el original o primera copia; <strong>$4</strong> por firma en cada copia adicional"],
+    ["Fotocopias de un documento notarizado o de una entrada del journal", "Hasta <strong>$2</strong> por copia"],
+    ["Copia certificada de una entrada de tu journal", "<strong>$6</strong>"],
+    ["Viaje", "Millaje a la tarifa del IRS para viajes de negocios, más hasta <strong>$5</strong> de cargo de viaje"]]},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> la tarifa de millaje del IRS cambia. Revisa la tarifa vigente en irs.gov antes de cobrar."}]},
+
+  {"titulo": "Cómo calcular el cobro", "icono": "fas fa-calculator", "bloques": [
+   {"tipo": "texto", "texto": "Un ejemplo con datos inventados: una pareja firma <strong>3 copias</strong> del mismo contrato <strong>al mismo tiempo</strong>, y tú haces un acknowledgment de las dos firmas en cada copia."},
+   {"tipo": "ficha", "titulo": "Ejemplo de cobro · datos inventados", "filas": [
+    ["Primera copia", "2 firmas × $8 = <strong>$16</strong>"],
+    ["Segunda copia", "2 firmas × $4 = <strong>$8</strong>"],
+    ["Tercera copia", "2 firmas × $4 = <strong>$8</strong>"],
+    ["Total máximo", "<strong>$32</strong>"]]},
+   {"tipo": "texto", "texto": "Si además fuiste a su casa, puedes sumar el <strong>millaje</strong> a la tarifa del IRS y hasta <strong>$5</strong> de cargo de viaje."}]},
+
+  {"titulo": "Reglas para cobrar bien", "icono": "fas fa-check-double", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "Las tarifas son <strong>máximos</strong>. Puedes cobrar menos o no cobrar."],
+    ["fas fa-check-circle", "Anota en tu <strong>journal</strong> la tarifa que cobraste o que no cobraste (SG § 18-219; COMAR 01.02.08.08)."],
+    ["fas fa-check-circle", "Dile al cliente <strong>antes</strong> cuánto le vas a cobrar. Es un consejo nuestro, para evitar malentendidos."],
+    ["fas fa-times-circle", "<strong>Nunca</strong> cobres más de lo que permite el reglamento por el acto notarial."],
+    ["fas fa-times-circle", "<strong>No cobres</strong> por un acto que no hiciste, por ejemplo si te negaste."]]},
+   {"tipo": "nota", "texto": "<strong>Otros servicios:</strong> si además das otros servicios, como imprimir, sacar copias o traducir, sepáralos del acto notarial y explícale al cliente qué cobras por cada cosa. Cómo armar tus servicios y precios lo vemos en la lección 8.1."}]},
+
+  {"titulo": "Lo que cuesta ser notario", "icono": "fas fa-receipt", "bloques": [
+   {"tipo": "texto", "texto": "Estos son cargos que <strong>tú pagas</strong>, no que cobras. Según la Secretaría de Estado:"},
+   {"tipo": "lista", "items": [
+    "<strong>$11</strong> al Clerk of the Circuit Court por tomar el juramento.",
+    "<strong>$6</strong> a la Secretaría por una comisión con cambio de nombre, más los $11 del juramento.",
+    "<strong>$5</strong> por una copia de tu comisión en papel. La copia electrónica es gratis.",
+    "La Secretaría <strong>no vende</strong> sellos ni materiales: los compras tú."]}]},
+
+  {"titulo": "Tu journal, donde anotas cada tarifa", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "Cada tarifa va en tu journal. En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras journals encuadernados y con páginas numeradas, como los pide Maryland."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un cliente trae una declaración jurada y un poder notarial. Firma los dos.", "Son dos actos notariales: puedes cobrar hasta $8 por cada uno, $16 en total."],
+   ["Una clienta te pide que vayas a notarizar al hospital, a 10 millas.", "Puedes cobrar el acto, el millaje a la tarifa del IRS y hasta $5 de cargo de viaje. Díselo antes de ir."],
+   ["Tu vecina te pide que le notarices una carta sin cobrarle.", "Puedes no cobrar. Lo anotas en tu journal: tarifa $0 o «sin cobro»."],
+   ["Un cliente te ofrece $20 por notarizar rápido un documento.", "No puedes cobrar más de $8 por el acto, aunque el cliente quiera pagar más."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Cobrar más de $8 por un acto notarial en persona.",
+   "Cobrar por firma como si cada copia fuera la primera.",
+   "Olvidar anotar la tarifa en el journal.",
+   "Mezclar en un solo cobro el acto notarial y otros servicios sin explicarlo.",
+   "Usar una tarifa de millaje vieja."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En Maryland puedes cobrar hasta $8 por un acto notarial en persona.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Si el cliente acepta, puedes cobrar $15 por un acknowledgment.", "ok": "F", "razon": "El máximo es $8, aunque el cliente acepte pagar más."},
+   {"tipo": "om", "pregunta": "¿Cuánto puedes cobrar como máximo por un acto notarial remoto?", "opciones": ["$8", "$25", "$30"], "ok": "c"},
+   {"tipo": "om", "pregunta": "Una persona firma 2 copias al mismo tiempo, con una firma en cada una. ¿Cuál es el máximo?", "opciones": ["$12", "$16", "$8"], "ok": "a"}]}
+ ]
+}
