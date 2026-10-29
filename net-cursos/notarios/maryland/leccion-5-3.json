@@ -1,0 +1,79 @@
+{
+ "post": 183118,
+ "titulo": "5.3 Cuándo negarte, con casos de la oficina",
+ "fuentes": "SG §18-203, §18-205, §18-206, §18-207; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "La ley de Maryland te deja <strong>negarte</strong> si no estás convencido de que la persona tiene <strong>capacidad</strong> o de que firma <strong>sabiendo lo que hace y por su voluntad</strong> (SG § 18-207).",
+   "La Secretaría agrega otras razones: <strong>no puedes identificar</strong> al firmante, está bajo <strong>presión</strong>, el acto sería <strong>ilegal o indebido</strong>, o sabes que hay <strong>fraude</strong>.",
+   "Hay casos en los que <strong>no puedes</strong> notarizar: si la persona <strong>no se presenta</strong> ante ti, o si tú o tu esposo o esposa <strong>tienen interés</strong> en el documento (SG § 18-203 y § 18-205).",
+   "Negarte bien es parte de tu trabajo: hazlo con <strong>respeto</strong>, explica la razón y di qué necesita la persona para regresar."]},
+
+  {"titulo": "Cuándo puedes negarte", "icono": "fas fa-hand-paper", "bloques": [
+   {"tipo": "texto", "texto": "A menos que otra ley lo prohíba, puedes negarte a hacer el acto si no estás convencido de que (SG § 18-207):"},
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "La persona tiene la <strong>capacidad</strong> de entender y firmar el documento."],
+    ["fas fa-times-circle", "La persona firma <strong>sabiendo lo que hace</strong> y por su <strong>propia voluntad</strong>."]]},
+   {"tipo": "texto", "texto": "Además, la Secretaría de Estado indica que puedes negarte cuando:"},
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "<strong>No puedes identificar</strong> al firmante de manera satisfactoria."],
+    ["fas fa-times-circle", "El firmante <strong>no parece estar consciente</strong> o capaz de entender."],
+    ["fas fa-times-circle", "El firmante está <strong>bajo presión</strong> (duress)."],
+    ["fas fa-times-circle", "La notarización resultaría en un acto <strong>ilegal o indebido</strong>."],
+    ["fas fa-times-circle", "<strong>Sabes</strong> que la transacción es un <strong>fraude</strong>."]]},
+   {"tipo": "texto", "texto": "La Secretaría también dice que puede haber <strong>otras razones válidas</strong> para negarte."}]},
+
+  {"titulo": "Cuándo no puedes notarizar", "icono": "fas fa-ban", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "La persona <strong>no se presenta</strong> ante ti, en persona o en una sesión remota autorizada (SG § 18-205)."],
+    ["fas fa-times-circle", "<strong>Tú o tu esposo o esposa</strong> son parte del documento o tienen un <strong>beneficio directo</strong> (SG § 18-203)."],
+    ["fas fa-times-circle", "Te piden notarizar <strong>documentos de naturalización o inmigración</strong>. La Secretaría indica que no se notarizan, ni originales ni copias."]]}]},
+
+  {"titulo": "Señales para poner atención", "icono": "fas fa-eye", "bloques": [
+   {"tipo": "texto", "texto": "Estas señales no te obligan a negarte, pero te dicen que <strong>revises con calma</strong>. Es un consejo nuestro:"},
+   {"tipo": "lista", "items": [
+    "Otra persona <strong>contesta por el firmante</strong> o le dice qué hacer.",
+    "El firmante <strong>no sabe</strong> qué documento firma o para qué es.",
+    "El firmante parece <strong>confundido</strong>, muy enfermo o bajo los efectos de algo.",
+    "Te piden <strong>apurarte</strong>, poner otra fecha o no anotar en el journal.",
+    "La identificación <strong>no coincide</strong> o parece alterada."]},
+   {"tipo": "nota", "texto": "<strong>Consejo:</strong> habla <strong>directo con el firmante</strong>, no con quien lo acompaña. Pregúntale con tus palabras qué documento firma y si lo firma porque quiere. Si no pueden comunicarse sin que otra persona responda por él, no podrás convencerte de su capacidad ni de su voluntad."}]},
+
+  {"titulo": "Cómo negarte bien", "icono": "fas fa-comments", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Mantén la <strong>calma</strong> y habla con <strong>respeto</strong>.",
+    "Explica la <strong>razón</strong> de forma sencilla, sin acusar a nadie.",
+    "Di qué necesita la persona para <strong>regresar</strong>: una identificación, que venga el firmante, otro día.",
+    "<strong>No cobres</strong> por un acto que no hiciste.",
+    "Devuelve el documento <strong>sin firmar ni sellar</strong>."]},
+   {"tipo": "ficha", "titulo": "Frases que puedes usar", "filas": [
+    ["Sin identificación", "«Para notarizar necesito identificarlo. Con su pasaporte, licencia o matrícula consular lo atiendo con gusto.»"],
+    ["Firmante ausente", "«La persona que firma tiene que estar aquí conmigo. Cuando pueda venir, lo atendemos.»"],
+    ["Con presión", "«Necesito hablar un momento a solas con la persona que firma antes de continuar.»"],
+    ["Interés propio", "«No puedo notarizar este documento porque yo soy parte. Le puedo recomendar otro notario.»"]]}]},
+
+  {"titulo": "Protégete con el seguro E&O", "icono": "fas fa-shield-alt", "bloques": [
+   {"tipo": "texto", "texto": "Aunque hagas todo bien, un cliente molesto puede reclamarte. El <strong>seguro de errores y omisiones (E&amp;O)</strong> te ayuda a cubrir esos reclamos. Maryland no lo exige, pero te lo recomendamos. Lo viste en la lección 3.3."},
+   {"tipo": "botones", "items": [{"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un hijo trae a su mamá, muy mayor, para firmar un poder notarial. Cuando le preguntas a ella qué firma, no sabe responder y el hijo contesta por ella.", "No estás convencida de que entiende ni de que firma por su voluntad. Puedes negarte (SG § 18-207). Sugiere que regresen cuando ella pueda explicarlo, o que consulten a un abogado."],
+   ["Un cliente te pide que pongas la fecha de la semana pasada en el certificado.", "Te niegas: el certificado lleva la fecha real del acto. Una fecha falsa sería un acto indebido."],
+   ["Una señora llega llorando y dice que su exesposo la obliga a firmar la venta de la casa.", "La firmante está bajo presión. Te niegas a notarizar."],
+   ["Un cliente no tiene identificación y no viene con nadie que lo conozca.", "No puedes identificarlo de manera satisfactoria. Te niegas con respeto y le dices qué identificaciones sirven."],
+   ["Tu cuñado te pide notarizar un contrato donde tu esposa es la compradora.", "No puedes: tu esposa es parte del documento (SG § 18-203). Recomiéndale otro notario."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Notarizar por compromiso, aunque tienes dudas.",
+   "Dejar que un acompañante responda por el firmante.",
+   "Cobrar por un acto que no hiciste.",
+   "Negarte sin explicar la razón ni qué necesita la persona.",
+   "Firmar o sellar el documento «para que no se vaya con las manos vacías»."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Puedes negarte si no estás convencido de que la persona firma por su propia voluntad.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Si el firmante está bajo presión, igual debes notarizar porque trae su identificación.", "ok": "F", "razon": "La presión es una razón para negarte."},
+   {"tipo": "om", "pregunta": "El acompañante contesta todas las preguntas por el firmante. ¿Qué haces?", "opciones": ["Notarizas porque el acompañante lo conoce", "Hablas directo con el firmante y, si no te convences, te niegas", "Le pides al acompañante que firme"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Qué haces con el documento cuando te niegas?", "opciones": ["Lo sellas sin firmar", "Lo devuelves sin firmar ni sellar", "Te lo quedas"], "ok": "b"}]}
+ ]
+}
