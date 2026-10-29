@@ -57,7 +57,7 @@
     ["fas fa-times-circle", "<strong>No</strong> puedes hacer publicidad <strong>falsa o engañosa</strong>."],
     ["fas fa-times-circle", "<strong>No</strong> puedes anunciar que ayudas a preparar documentos legales, que das consejos legales o que practicas el derecho, si no eres abogado con licencia en Maryland."],
     ["fas fa-times-circle", "<strong>No</strong> puedes quedarte con el <strong>documento original</strong> que te trae el cliente, salvo que otra ley lo permita."]]},
-   {"tipo": "texto", "texto": "La Secretaría de Estado puede negar, suspender o revocar tu comisión por, entre otras razones, usar publicidad falsa o engañosa que diga que tienes un deber, un derecho o un privilegio que no tienes (SG § 18-104). Las sanciones las vemos en la lección 6.3."}]},
+   {"tipo": "texto", "texto": "El gobernador, o la Secretaría de Estado si el gobernador se lo delega, puede negar, suspender o revocar tu comisión por, entre otras razones, usar publicidad falsa o engañosa que diga que tienes un deber, un derecho o un privilegio que no tienes (SG § 18-104). Las sanciones las vemos en la lección 6.3."}]},
 
   {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
    ["Un cliente te pregunta si le conviene un poder general o uno limitado.", "No le aconsejas. Le dices que lo consulte con un abogado; tú solo notarizas el poder que él traiga."],
