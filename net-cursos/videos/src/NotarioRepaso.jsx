@@ -515,11 +515,10 @@ const Cierre = ({ u }) => {
     <AbsoluteFill style={{ background: `rgba(246,250,253,${0.9 * v})`, alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ opacity: v * fuera, transform: `scale(${0.96 + 0.04 * v})`, textAlign: 'center', maxWidth: 1600 }}>
         <div style={{ fontFamily: TIGHT, fontWeight: 700, fontSize: 28, letterSpacing: 4, color: P.esmeralda }}>¡TERMINASTE EL CURSO!</div>
-        <div style={{ marginTop: 12 }}><T size={74}>Ahora, prepárate</T></div>
+        <div style={{ marginTop: 12 }}><T size={74}>¡Felicidades!</T></div>
         <div style={{ display: 'flex', gap: 18, justifyContent: 'center', marginTop: 36 }}>
           {accion('libro', P.azul, 'Repasa las lecciones', cuando(FIN, /repasa/))}
           {accion('check', P.morado, 'Haz los ejercicios', cuando(FIN, /ejercicios/))}
-          {accion('gorro', P.naranja, 'Prepárate para tu examen', cuando(FIN, /examen/))}
         </div>
         <Entra u={u} d={cuando(FIN, /capacitación/)} style={{ marginTop: 46, display: 'inline-flex', alignItems: 'center', gap: 18, background: P.blanco, borderRadius: 999, padding: '16px 34px', boxShadow: '0 20px 50px rgba(20,60,90,0.14)' }}>
           <Img src={staticFile('logo-globo.png')} style={{ width: 54, height: 54 }} />
@@ -594,7 +593,7 @@ const efectos = () => {
   pop(14, /esposo/, 'negativo'); [/identificar/, /cobrar/, /publicidad/].forEach((re) => pop(14, re, 'tick')); pop(14, /revocación/, 'sello');
   pop(15, /treinta|^30$/); pop(15, /inmediato/, 'negativo'); pop(15, /sesenta|^60$/, 'check');
   [/oficina/, /domicilio/, /copias/, /hipotecarias/].forEach((re) => pop(16, re, 'tick')); pop(16, /seguro/, 'check'); pop(16, /tienda/);
-  [/repasa/, /ejercicios/, /examen/].forEach((re) => pop(FIN, re)); pop(FIN, /capacitación/, 'chime');
+  [/repasa/, /ejercicios/].forEach((re) => pop(FIN, re)); pop(FIN, /capacitación/, 'chime');
   fx.push(['swoosh', TF]); NUMEROS.forEach((_, k) => fx.push(['tick', TF + 30 + k * 7])); fx.push(['chime', TF + 30 + NUMEROS.length * 7 + 10]);
   return fx;
 };

@@ -1,7 +1,7 @@
 {
  "voz": "8mBRP99B2Ng2QwsJMFQl",
  "velocidad": 1.06,
- "nota": "Lección 9.1, repaso de todo el curso. Each fact comes from the published lessons 1.2–8.2 (SG Title 18; COMAR 01.02.08; SOS FAQ). No remote fees and no renewal process details (separate courses). English goes written in English. The «Requisitos y examen» scene was removed at the user's request (29/10/2026).",
+ "nota": "Lección 9.1, repaso de todo el curso. Each fact comes from the published lessons 1.2–8.2 (SG Title 18; COMAR 01.02.08; SOS FAQ). No remote fees and no renewal process details (separate courses). English goes written in English. The «Requisitos y examen» scene was removed at the user's request (29/10/2026). Closing line without «prepárate para tu examen», at the user's request (29/10/2026).",
  "escenas": [
   {
    "capitulo": "Repaso final",
@@ -73,7 +73,7 @@
   },
   {
    "capitulo": "Repaso final",
-   "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas, haz los ejercicios y prepárate para tu examen. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland."
+   "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas y haz los ejercicios. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland."
   }
  ],
  "aprobado": "2026-10-29"

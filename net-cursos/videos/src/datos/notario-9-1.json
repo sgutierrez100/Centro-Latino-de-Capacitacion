@@ -2933,139 +2933,123 @@
    "audio": "escena-18.mp3"
   },
   {
-   "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas, haz los ejercicios y prepárate para tu examen. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland.",
-   "dura": 13.924,
+   "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas y haz los ejercicios. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland.",
+   "dura": 11.776,
    "palabras": [
     {
      "t": "Eso",
-     "de": 0.255
+     "de": 0
     },
     {
      "t": "es",
-     "de": 0.627
+     "de": 0.29
     },
     {
      "t": "todo",
-     "de": 0.755
+     "de": 0.43
     },
     {
      "t": "el",
-     "de": 1.022
+     "de": 0.778
     },
     {
      "t": "curso.",
-     "de": 1.149
+     "de": 0.917
     },
     {
      "t": "Repasa",
-     "de": 2.416
+     "de": 1.892
     },
     {
      "t": "las",
-     "de": 2.821
+     "de": 2.322
     },
     {
      "t": "lecciones",
-     "de": 2.995
+     "de": 2.496
     },
     {
      "t": "donde",
-     "de": 3.587
+     "de": 3.065
     },
     {
      "t": "tengas",
-     "de": 3.877
+     "de": 3.309
     },
     {
-     "t": "dudas,",
-     "de": 4.296
-    },
-    {
-     "t": "haz",
-     "de": 5.015
-    },
-    {
-     "t": "los",
-     "de": 5.26
-    },
-    {
-     "t": "ejercicios",
-     "de": 5.445
+     "t": "dudas",
+     "de": 3.692
     },
     {
      "t": "y",
-     "de": 6.363
+     "de": 4.377
     },
     {
-     "t": "prepárate",
-     "de": 6.548
+     "t": "haz",
+     "de": 4.551
     },
     {
-     "t": "para",
-     "de": 7.059
+     "t": "los",
+     "de": 4.748
     },
     {
-     "t": "tu",
-     "de": 7.268
-    },
-    {
-     "t": "examen.",
-     "de": 7.395
+     "t": "ejercicios.",
+     "de": 4.946
     },
     {
      "t": "En",
-     "de": 8.347
+     "de": 6.327
     },
     {
      "t": "Centro",
-     "de": 8.556
+     "de": 6.502
     },
     {
      "t": "Latino",
-     "de": 8.928
+     "de": 6.838
     },
     {
      "t": "de",
-     "de": 9.369
+     "de": 7.256
     },
     {
      "t": "Capacitación",
-     "de": 9.474
+     "de": 7.361
     },
     {
      "t": "te",
-     "de": 10.356
+     "de": 8.22
     },
     {
      "t": "deseamos",
-     "de": 10.495
+     "de": 8.359
     },
     {
      "t": "mucho",
-     "de": 11.135
+     "de": 8.986
     },
     {
      "t": "éxito",
-     "de": 11.563
+     "de": 9.416
     },
     {
      "t": "como",
-     "de": 12.017
+     "de": 9.834
     },
     {
      "t": "notario",
-     "de": 12.248
+     "de": 10.054
     },
     {
      "t": "de",
-     "de": 12.794
+     "de": 10.623
     },
     {
      "t": "Maryland.",
-     "de": 12.933
+     "de": 10.786
     }
    ],
-   "audio": "escena-19.mp3"
+   "audio": "escena-19b.mp3"
   }
  ]
 }
