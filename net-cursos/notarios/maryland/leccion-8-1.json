@@ -1,0 +1,104 @@
+{
+ "post": 183147,
+ "titulo": "8.1 Servicios, precios y modelos listos",
+ "fuentes": "COMAR 01.02.08.02; SG §18-216, §18-224; revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Como notario puedes ofrecer <strong>notarizaciones en tu oficina</strong>, <strong>a domicilio</strong> y <strong>copias certificadas</strong>, entre otros servicios.",
+   "Tus precios por el acto notarial <strong>nunca pasan</strong> los máximos de Maryland: <strong>$8</strong> por acto, más millaje y hasta <strong>$5</strong> si viajas (COMAR 01.02.08.02).",
+   "Tus anuncios dicen «<strong>Notary Public</strong>», nunca «notario», y llevan el <strong>aviso obligatorio</strong> (SG § 18-224).",
+   "En esta lección tienes <strong>modelos listos</strong>: lista de precios, anuncio, mensaje para clientes y certificados sueltos."]},
+
+  {"titulo": "Servicios que puedes ofrecer", "icono": "fas fa-concierge-bell", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "<strong>Notarizaciones en tu oficina</strong>: acknowledgment, jurat, oath, affirmation y witnessing (lecciones 4.1 y 4.2)."],
+    ["fas fa-check-circle", "<strong>Notarizaciones a domicilio</strong> (notario móvil): en casas, hospitales, asilos u oficinas."],
+    ["fas fa-check-circle", "<strong>Copias certificadas</strong> de documentos que el cliente tiene (lección 4.2)."],
+    ["fas fa-check-circle", "<strong>Notario de firmas</strong> (Loan Signing Agent), que vemos en la lección 8.2."]]},
+   {"tipo": "nota", "texto": "<strong>Si ya tienes un negocio,</strong> como una oficina de impuestos, una agencia de seguros o una tienda de envíos, la notarización es un servicio más que atrae clientes. Pero recuerda: tu comisión no te autoriza a preparar documentos legales ni a hacer trámites de inmigración (SG § 18-224)."}]},
+
+  {"titulo": "Cómo poner tus precios", "icono": "fas fa-tags", "bloques": [
+   {"tipo": "pasos", "items": [
+    "El <strong>acto notarial</strong> lo cobras hasta el máximo: <strong>$8</strong> por acto, y <strong>$4</strong> por firma en cada copia adicional firmada al mismo tiempo (COMAR 01.02.08.02).",
+    "Si <strong>viajas</strong>, sumas el millaje a la tarifa del IRS y hasta <strong>$5</strong> de cargo de viaje.",
+    "Los <strong>otros servicios</strong> que no son notariales, como imprimir o sacar copias de un documento que no notarizaste, los cobras <strong>aparte</strong> y le explicas al cliente qué es cada cobro. Es un consejo nuestro.",
+    "Dile al cliente el <strong>total antes</strong> de empezar."]},
+   {"tipo": "texto", "texto": "La tabla completa de tarifas está en la lección 6.1."}]},
+
+  {"titulo": "Modelo 1 · Lista de precios", "icono": "fas fa-list-alt", "bloques": [
+   {"tipo": "ficha", "titulo": "Lista de precios · ejemplo para adaptar", "filas": [
+    ["Acknowledgment o jurat", "$8 por acto notarial"],
+    ["Copias adicionales firmadas al mismo tiempo", "$4 por firma en cada copia"],
+    ["Copia certificada", "$8"],
+    ["Copia certificada de una entrada de mi journal", "$6"],
+    ["Servicio a domicilio", "Millaje a la tarifa del IRS + $5 de viaje"]]},
+   {"tipo": "texto", "texto": "Puedes cobrar <strong>menos</strong> que estos precios, pero <strong>nunca más</strong>. Revisa la tarifa de millaje del IRS cada año."}]},
+
+  {"titulo": "Modelo 2 · Tu anuncio", "icono": "fas fa-bullhorn", "bloques": [
+   {"tipo": "certificado", "marca": "MODELO · DATOS INVENTADOS", "lineas": [
+    "<strong>María G. Hernández · Notary Public</strong>",
+    "Notarizaciones en oficina y a domicilio · Montgomery y Prince George's",
+    "Lunes a sábado · (301) 000-0000",
+    "<em>I am not an attorney licensed to practice law in this State. I am not allowed to draft legal records, give advice on legal matters, including immigration, or charge a fee for those activities.</em>",
+    "<em>No soy abogado con licencia para practicar el derecho en este estado. No se me permite redactar documentos legales, dar consejos sobre asuntos legales, incluida la inmigración, ni cobrar por esas actividades.</em>"],
+    "pie": "Como el anuncio está en español e inglés, el aviso va en los dos idiomas (SG § 18-224). La traducción al español es nuestra."},
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "Usa «<strong>Notary Public</strong>». Nunca «notario», «notario público» ni «notaría» (lección 6.2)."],
+    ["fas fa-check-circle", "Pon el aviso en un lugar <strong>visible</strong>, también en tus redes sociales y tu página web."],
+    ["fas fa-times-circle", "No anuncies que «haces poderes», «llenas formularios» o «arreglas papeles»."]]}]},
+
+  {"titulo": "Modelo 3 · Mensaje para confirmar una cita", "icono": "fas fa-comment-dots", "bloques": [
+   {"tipo": "certificado", "marca": "MODELO PARA WHATSAPP O MENSAJE DE TEXTO", "lineas": [
+    "Hola, le confirmo su cita de notarización para el <strong>(día)</strong> a las <strong>(hora)</strong>.",
+    "Por favor traiga:",
+    "• Su <strong>identificación</strong> del gobierno con foto y firma, en la mano (pasaporte, licencia de manejo o matrícula consular).",
+    "• El <strong>documento completo</strong>, sin espacios en blanco.",
+    "• Si el documento pide <strong>jurat</strong>, <strong>no lo firme antes</strong>: lo firma frente a mí.",
+    "• Todas las personas que van a <strong>firmar</strong> tienen que venir.",
+    "El costo es de <strong>$8 por acto notarial</strong>. Soy Notary Public, no abogado: no puedo darle consejos legales."]},
+   {"tipo": "texto", "texto": "Este mensaje te ahorra viajes y clientes molestos: llegan con todo lo que necesitas para los pasos de la lección 5.1."}]},
+
+  {"titulo": "Modelo 4 · Certificados sueltos", "icono": "fas fa-file-alt", "bloques": [
+   {"tipo": "texto", "texto": "Si un documento <strong>no trae certificado</strong>, adjuntas uno y lo sujetas bien (lección 4.3). Estos son los formularios cortos de la ley de Maryland (SG § 18-216), listos para imprimir:"},
+   {"tipo": "certificado", "marca": "ACKNOWLEDGMENT", "lineas": [
+    "State of Maryland, County of ______________",
+    "This record was acknowledged before me on ______________ by ______________________.",
+    "______________________________",
+    "Signature of notarial officer",
+    "Notary Public",
+    "<em>[sello]</em>",
+    "My commission expires: ______________"]},
+   {"tipo": "certificado", "marca": "JURAT", "lineas": [
+    "State of Maryland, County of ______________",
+    "Signed and sworn to (or affirmed) before me on ______________ by ______________________.",
+    "______________________________",
+    "Signature of notarial officer",
+    "Notary Public",
+    "<em>[sello]</em>",
+    "My commission expires: ______________"]}]},
+
+  {"titulo": "Todo lo que necesitas para empezar", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "En <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras tu <strong>sello</strong>, tu <strong>journal</strong>, sellos de certificado para acknowledgment y jurat, y un bolso de seguridad. Y protege tu negocio con el <strong>seguro E&amp;O</strong>."},
+   {"tipo": "botones", "items": [
+    {"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"},
+    {"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Una clienta te pide que vayas al asilo donde está su papá, a 8 millas.", "Le dices el total antes: $8 por acto, el millaje a la tarifa del IRS y hasta $5 de viaje."],
+   ["Un cliente te pide que le imprimas el documento y además se lo notarices.", "Cobras la notarización hasta $8 y la impresión aparte, y le explicas qué es cada cobro."],
+   ["Quieres poner en Facebook «Notaría Hernández – Poderes y trámites».", "No puedes: usa «Notary Public», no anuncies poderes ni trámites, y agrega el aviso en español."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Poner en la lista de precios más de $8 por acto notarial.",
+   "Anunciarse como «notario» o «notaría».",
+   "Publicar anuncios sin el aviso obligatorio.",
+   "Mezclar el cobro de la notarización con otros servicios sin explicarlo.",
+   "No avisarle al cliente qué traer y tener que mandarlo de regreso."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En tu lista de precios puedes poner $10 por un acknowledgment si tu oficina es muy buena.", "ok": "F", "razon": "El máximo es $8 por acto notarial."},
+   {"tipo": "vf", "pregunta": "Si tu anuncio está en español e inglés, el aviso obligatorio va en los dos idiomas.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Qué puedes cobrar si vas a domicilio?", "opciones": ["Lo que quieras", "El millaje a la tarifa del IRS y hasta $5 de viaje", "$25 fijos"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuál de estos anuncios es correcto?", "opciones": ["«Notario Público – Se hacen poderes»", "«Notary Public – Notarizaciones en oficina y a domicilio» con el aviso", "«Notaría – Trámites de inmigración»"], "ok": "b"}]}
+ ]
+}
