@@ -121,7 +121,7 @@ class Armador:
         if t == 'botones':
             # Estilo local: las clases clc-btn no se cargan en las lecciones.
             return self.el('e-flexbox', 'Botones', css='display: flex; flex-direction: row; flex-wrap: wrap; gap: 12px; padding: 0px;', hijos=[
-                self.el('e-button', 'Botón', cfg={'text': x['texto'], 'link': {'destination': x['url'], 'isTargetBlank': True, 'tag': 'a'}},
+                self.el('e-button', 'Botón', cfg={'text': x['texto'], 'link': {'destination': x['url'], 'isTargetBlank': True, 'tag': 'a'}} if x.get('url') else {'text': x['texto']},
                         css=BTN_CSS if k == 0 else BTN2_CSS)
                 for k, x in enumerate(b['items'])])
         raise ValueError(t)

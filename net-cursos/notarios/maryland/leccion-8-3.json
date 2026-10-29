@@ -1,0 +1,41 @@
+{
+ "post": 183151,
+ "titulo": "8.3 Notarización remota y electrónica",
+ "fuentes": "SG §18-214, §18-220; revisado en mgaleg.maryland.gov el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "En Maryland, un notario puede hacer actos notariales para una persona que está <strong>a distancia</strong>, por medio de <strong>audio y video</strong> (SG § 18-214).",
+   "También puede notarizar <strong>documentos electrónicos</strong>, con la persona frente a él (SG § 18-220).",
+   "Antes de tu <strong>primer acto</strong> remoto o electrónico, tienes que <strong>avisar a la Secretaría de Estado</strong> y decirle qué tecnología vas a usar.",
+   "Todo esto lo aprenderás paso a paso en nuestro <strong>Curso de Notario Remoto de Maryland</strong>, que estará disponible próximamente."]},
+
+  {"titulo": "Remota y electrónica: la diferencia", "icono": "fas fa-exchange-alt", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Notarización remota", "sub": "Remote notarization", "filas": [
+     ["La persona", "Está <strong>en otro lugar</strong> y se conecta contigo por audio y video."],
+     ["Tú", "Estás <strong>en Maryland</strong> cuando haces el acto."]]},
+    {"titulo": "Notarización electrónica", "sub": "Electronic notarization", "filas": [
+     ["La persona", "Está <strong>frente a ti</strong>."],
+     ["El documento", "Es <strong>electrónico</strong> y se firma en la computadora."]]}]}]},
+
+  {"titulo": "Lo que pide la ley para lo remoto", "icono": "fas fa-video", "bloques": [
+   {"tipo": "texto", "texto": "Para hacer un acto con una persona a distancia, la ley de Maryland pide, entre otras cosas (SG § 18-214):"},
+   {"tipo": "lista", "items": [
+    "Que tú estés <strong>en Maryland</strong>.",
+    "<strong>Identificar</strong> a la persona: porque la conoces, con un testigo creíble, o con su identificación más una revisión electrónica de la identificación y de la identidad.",
+    "Poder confirmar que el documento es el <strong>mismo</strong> que la persona firma.",
+    "<strong>Grabar</strong> el acto en audio y video, y guardar la grabación por lo menos <strong>10 años</strong>.",
+    "Que el certificado diga que el acto fue con una persona a distancia y por medio de tecnología.",
+    "<strong>Avisar a la Secretaría</strong> antes de tu primer acto remoto, con la tecnología que vas a usar."]},
+   {"tipo": "nota", "texto": "<strong>Importante:</strong> no hagas actos remotos ni electrónicos hasta que conozcas todas las reglas y hayas avisado a la Secretaría. Hacerlo antes de avisar puede ser motivo de sanción (lección 6.3)."}]},
+
+  {"titulo": "Próximamente: Curso de Notario Remoto de Maryland", "icono": "fas fa-laptop-house", "bloques": [
+   {"tipo": "texto", "texto": "En Centro Latino de Capacitación estamos preparando el <strong>Curso de Notario Remoto de Maryland</strong>. Ahí aprenderás cómo avisar a la Secretaría, cómo elegir la plataforma, cómo identificar a la persona a distancia, cómo llenar los certificados y cuánto puedes cobrar."},
+   {"tipo": "botones", "items": [{"texto": "Próximamente"}]}]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Para hacer un acto remoto, el notario tiene que estar en Maryland.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "Puedes hacer tu primer acto remoto sin avisar a la Secretaría de Estado.", "ok": "F", "razon": "Antes del primer acto remoto tienes que avisar a la Secretaría."},
+   {"tipo": "om", "pregunta": "¿Cuál es la diferencia de la notarización electrónica?", "opciones": ["La persona está a distancia", "El documento es electrónico y la persona está frente a ti", "No lleva certificado"], "ok": "b"}]}
+ ]
+}
