@@ -1,7 +1,7 @@
 {
  "post": 183140,
  "titulo": "7.2 Renovación, mudanza o renuncia",
- "fuentes": "SG §18-102, §18-103, §18-218, §18-219; COMAR 01.02.08.03, 01.02.08.09; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
+ "fuentes": "SG §18-102, §18-103, §18-218, §18-219; 01.02.08.09; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
  "secciones": [
   {
    "tipo": "resumen",
@@ -9,8 +9,8 @@
    "icono": "fas fa-star",
    "items": [
     "Tu comisión dura <strong>4 años</strong> (SG § 18-103). Puedes renovar desde <strong>60 días antes</strong> de que venza.",
-    "Para renovar necesitas <strong>el curso</strong>, pero <strong>no el examen</strong> (SG § 18-102), y pagas <strong>$25</strong> (COMAR 01.02.08.03).",
-    "Después de la renovación, tienes <strong>30 días</strong> para volver a <strong>jurar ante el Clerk</strong> y pagar los cargos (SG § 18-103).",
+    "Para renovar necesitas tomar <strong>el curso</strong> otra vez (SG § 18-102). Todo el proceso lo verás en nuestro <strong>curso de renovación</strong>.",
+    "Cada vez que renuevas, vuelves a <strong>jurar ante el Clerk</strong> dentro de los <strong>30 días</strong> (SG § 18-103).",
     "Si dejas de ser notario, <strong>inutilizas tu sello</strong> y guardas tu <strong>journal 10 años</strong> (SG § 18-218 y § 18-219)."
    ]
   },
@@ -29,27 +29,6 @@
     {
      "tipo": "nota",
      "texto": "<strong>Importante:</strong> aunque puedas renovar hasta 30 días después, <strong>no puedes notarizar</strong> con la comisión vencida. Renueva a tiempo para no quedarte sin trabajar. Y si vas a estar fuera en esas fechas, la Secretaría dice que llames al <strong>410-974-5521</strong> o escribas a <strong>dlnotary_sos@maryland.gov</strong> antes de irte, para renovar antes."
-    }
-   ]
-  },
-  {
-   "titulo": "Cómo renovar, paso a paso",
-   "icono": "fas fa-redo",
-   "bloques": [
-    {
-     "tipo": "pasos",
-     "items": [
-      "<strong>Toma el curso</strong> de un proveedor aprobado por la Secretaría. Para renovar, la ley pide el curso pero <strong>no el examen</strong> (SG § 18-102).",
-      "<strong>Haz tu solicitud de renovación</strong> en línea, en mdsos2.my.site.com.",
-      "<strong>Paga $25</strong> a la Secretaría de Estado (COMAR 01.02.08.03).",
-      "<strong>Espera la aprobación.</strong> La Secretaría dice que normalmente tarda de <strong>2 a 3 días hábiles</strong>. Los retrasos suelen venir de una dirección que no coincide o de datos que faltan.",
-      "<strong>Jura ante el Clerk of the Circuit Court</strong> dentro de los <strong>30 días</strong> después del aviso, y paga los cargos del Clerk (SG § 18-103).",
-      "<strong>Revisa tu sello.</strong> Si tu sello tiene fecha de vencimiento, necesitas uno nuevo."
-     ]
-    },
-    {
-     "tipo": "nota",
-     "texto": "<strong>Si no juras a tiempo:</strong> la ley dice que te <strong>revocan</strong> la comisión si no te presentas ante el Clerk y pagas dentro de los 30 días (SG § 18-103)."
     }
    ]
   },
@@ -130,7 +109,7 @@
    "items": [
     [
      "Tu comisión vence el 15 de marzo. Hoy es 1 de febrero.",
-     "Ya puedes renovar: el periodo abre 60 días antes. Toma el curso, haz tu solicitud y paga $25."
+     "Ya puedes renovar: el periodo abre 60 días antes."
     ],
     [
      "Se te pasó la fecha: tu comisión venció hace 20 días.",
@@ -165,9 +144,8 @@
    "items": [
     {
      "tipo": "vf",
-     "pregunta": "Para renovar tu comisión necesitas volver a pasar el examen.",
-     "ok": "F",
-     "razon": "Para renovar necesitas el curso, pero no el examen (SG § 18-102)."
+     "pregunta": "Si pasan más de 30 días después del vencimiento, tienes que hacer una solicitud nueva.",
+     "ok": "V"
     },
     {
      "tipo": "vf",
