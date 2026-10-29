@@ -195,6 +195,37 @@
    ]
   },
   {
+   "titulo": "Síguenos en redes",
+   "icono": "fas fa-share-alt",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Sigue a <strong>Centro Latino de Capacitación</strong> en redes sociales para enterarte de nuestros cursos nuevos."
+    },
+    {
+     "tipo": "botones",
+     "items": [
+      {
+       "texto": "Facebook",
+       "url": "https://www.facebook.com/CentroLatinoDeCapacitacion"
+      },
+      {
+       "texto": "Instagram",
+       "url": "https://www.instagram.com/centrolatinodecapacitacion"
+      },
+      {
+       "texto": "TikTok",
+       "url": "https://www.tiktok.com/@centrolatinocursos"
+      },
+      {
+       "texto": "YouTube",
+       "url": "https://youtube.com/@centrolatinodecapacitacion5680"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "titulo": "Estamos para ayudarte",
    "icono": "fas fa-comments",
    "bloques": [
