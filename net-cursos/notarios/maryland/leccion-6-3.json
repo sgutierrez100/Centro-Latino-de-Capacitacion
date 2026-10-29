@@ -72,7 +72,7 @@
     "Aunque tu acto notarial sea válido, la persona afectada puede reclamar por el documento o la transacción con otras leyes (SG § 18-221)."]}]},
 
   {"titulo": "Protégete con el seguro E&O", "icono": "fas fa-shield-alt", "bloques": [
-   {"tipo": "texto", "texto": "Si un cliente te demanda por un <strong>error sin intención</strong>, el <strong>seguro de errores y omisiones (E&amp;O)</strong> te ayuda a cubrir el reclamo. Maryland no lo exige, pero es la mejor protección para tu bolsillo. El seguro no cubre actos con intención, como un fraude."},
+   {"tipo": "texto", "texto": "Si un cliente te demanda por un <strong>error sin intención</strong>, el <strong>seguro de errores y omisiones (E&amp;O)</strong> te ayuda a cubrir el reclamo. Maryland no lo exige, pero es la mejor protección para tu bolsillo."},
    {"tipo": "botones", "items": [{"texto": "Solicitar mi seguro E&O", "url": "https://centrolatinodecapacitacion.net/aplicacion-seguro-errores-y-omisiones-eo-notarios/"}]}]},
 
   {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
