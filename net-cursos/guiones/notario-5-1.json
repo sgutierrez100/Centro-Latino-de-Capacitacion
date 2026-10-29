@@ -3,13 +3,30 @@
  "velocidad": 1.06,
  "nota": "Lección 5.1. Presence SG § 18-205; identification SG § 18-206 (checked on mgaleg 29/10/2026); conflict SG § 18-203; certificate SG § 18-215; journal SG § 18-219 and COMAR 01.02.08.08. English goes written in English.",
  "escenas": [
-  {"voz": "Toda notarización sigue los mismos pasos, sin importar el documento. En esta lección los vemos en orden, para que no se te olvide ninguno."},
-  {"voz": "Paso uno: la persona se presenta ante ti. Tiene que estar frente a ti, o a distancia por video si estás autorizado para eso. Nunca notarizas a alguien que no está."},
-  {"voz": "Paso dos: revisas el documento. Confirma qué acto pide el certificado, y que ni tú ni tu esposo o esposa son parte del documento ni reciben un beneficio."},
-  {"voz": "Paso tres: identificas a la persona. La conoces personalmente, o te muestra un pasaporte, una licencia de manejo, una matrícula consular u otra identificación del gobierno con foto y firma. También puede identificarla un testigo creíble."},
-  {"voz": "Paso cuatro: haces el acto. En un acknowledgment, la persona declara que la firma es suya. En un jurat, firma frente a ti y le tomas el juramento o la afirmación."},
-  {"voz": "Paso cinco: llenas el certificado con el lugar, la fecha y el nombre. Después lo firmas, pones tu sello y la fecha en que vence tu comisión."},
-  {"voz": "Paso seis: lo anotas en tu journal. La fecha y la hora, el tipo de acto, el documento, el nombre y la dirección, cómo identificaste a la persona y la tarifa que cobraste."},
-  {"voz": "En resumen: presencia, revisión, identificación, el acto, el certificado y el journal. En la siguiente lección vemos con detalle cómo identificar al firmante y revisar el documento."}
- ]
+  {
+   "voz": "Toda notarización sigue los mismos pasos, sin importar el documento. En esta lección los vemos en orden, para que no se te olvide ninguno."
+  },
+  {
+   "voz": "Paso uno: la persona se presenta ante ti. Tiene que estar frente a ti, o a distancia por video si estás autorizado para eso. Nunca notarizas a alguien que no está."
+  },
+  {
+   "voz": "Paso dos: revisas el documento. Confirma qué acto pide el certificado, y que ni tú ni tu esposo o esposa son parte del documento ni reciben un beneficio."
+  },
+  {
+   "voz": "Paso tres: identificas a la persona. La conoces personalmente, o te muestra un pasaporte, una licencia de manejo, una matrícula consular u otra identificación del gobierno con foto y firma. También puede identificarla un testigo creíble."
+  },
+  {
+   "voz": "Paso cuatro: haces el acto. En un acknowledgment, la persona declara que la firma es suya. En un jurat, firma frente a ti y le tomas el juramento o la afirmación."
+  },
+  {
+   "voz": "Paso cinco: llenas el certificado con el lugar, la fecha y el nombre. Después lo firmas, pones tu sello y la fecha en que vence tu comisión."
+  },
+  {
+   "voz": "Paso seis: lo anotas en tu journal. La fecha y la hora, el tipo de acto, el documento, el nombre y la dirección, cómo identificaste a la persona y la tarifa que cobraste."
+  },
+  {
+   "voz": "En resumen: presencia, revisión, identificación, el acto, el certificado y el journal. En la siguiente lección vemos con detalle cómo identificar al firmante y revisar el documento."
+  }
+ ],
+ "aprobado": "2026-10-29"
 }

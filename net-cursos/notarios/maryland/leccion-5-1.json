@@ -1,0 +1,88 @@
+{
+ "post": 183114,
+ "titulo": "5.1 Los pasos de toda notarización",
+ "fuentes": "SG §18-203, §18-205, §18-206, §18-215, §18-219; COMAR 01.02.08.08; revisado en mgaleg.maryland.gov el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Toda notarización sigue <strong>seis pasos</strong>: presencia, revisión, identificación, el acto, el certificado y el journal.",
+   "La persona <strong>siempre</strong> se presenta ante ti: en persona o, si estás autorizado, a distancia por tecnología (SG § 18-205).",
+   "La identificas porque la <strong>conoces</strong>, con una <strong>identificación del gobierno</strong> o con un <strong>testigo creíble</strong> (SG § 18-206).",
+   "Firmas el certificado <strong>solo después</strong> de hacer el acto, y lo anotas en tu <strong>journal</strong> (SG § 18-215 y § 18-219)."]},
+
+  {"titulo": "Paso 1 · La persona se presenta ante ti", "icono": "fas fa-user-check", "bloques": [
+   {"tipo": "texto", "texto": "La persona para quien haces el acto tiene que <strong>presentarse ante ti</strong> (SG § 18-205). Puede ser:"},
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "<strong>En persona</strong>, frente a ti."],
+    ["fas fa-check-circle", "<strong>A distancia</strong>, por medio de tecnología de audio y video, solo si estás autorizado para hacer notarizaciones remotas. Lo vemos en la lección 8.3."],
+    ["fas fa-times-circle", "<strong>Nunca</strong> notarizas a alguien que no está, aunque un familiar te traiga el documento ya firmado."]]}]},
+
+  {"titulo": "Paso 2 · Revisas el documento", "icono": "fas fa-file-alt", "bloques": [
+   {"tipo": "lista", "items": [
+    "Lee el <strong>certificado</strong> que trae el documento y confirma qué <strong>acto</strong> pide: acknowledgment, jurat u otro.",
+    "Si el documento <strong>no trae certificado</strong>, adjuntas uno del acto que corresponde (SG § 18-215).",
+    "Confirma que <strong>ni tú ni tu esposo o esposa</strong> son parte del documento ni reciben un beneficio directo. Si es así, no puedes notarizarlo (SG § 18-203)."]},
+   {"tipo": "nota", "texto": "<strong>Recuerda:</strong> tú no explicas ni preparas el documento. Si el cliente no sabe qué acto necesita, que le pregunte a quien le pidió el documento o a un abogado. Lo vemos en la lección 6.2."}]},
+
+  {"titulo": "Paso 3 · Identificas a la persona", "icono": "fas fa-id-card", "bloques": [
+   {"tipo": "texto", "texto": "La ley te da tres formas de identificar a la persona (SG § 18-206):"},
+   {"tipo": "pasos", "items": [
+    "<strong>La conoces personalmente</strong>, por un trato previo que te da la seguridad razonable de que es quien dice ser.",
+    "Te muestra una <strong>identificación del gobierno</strong>: un pasaporte, una licencia de manejo, una matrícula consular, una identificación estatal para no conductores (nondriver ID) u otra identificación del gobierno con <strong>foto y firma</strong>, que a ti te parezca satisfactoria.",
+    "La identifica un <strong>testigo creíble</strong>: una persona que está presente, que tú conoces o que identificas con una identificación del gobierno, y que <strong>jura o afirma</strong> ante ti quién es la persona."]},
+   {"tipo": "texto", "texto": "Si tienes dudas, la ley te permite <strong>pedir más información</strong> o más identificaciones (SG § 18-206). Cómo revisar una identificación lo vemos en la lección 5.2."}]},
+
+  {"titulo": "Paso 4 · Haces el acto", "icono": "fas fa-hand-paper", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Acknowledgment", "sub": "Reconocimiento de firma", "filas": [["Qué pasa", "La persona <strong>declara</strong> ante ti que la firma es suya. Pudo haber firmado antes."]]},
+    {"titulo": "Jurat", "sub": "Verificación bajo juramento", "filas": [["Qué pasa", "La persona <strong>firma frente a ti</strong> y tú le tomas el <strong>juramento o la afirmación</strong>."]]}]},
+   {"tipo": "texto", "texto": "Los demás actos los repasas en las lecciones 4.1 y 4.2."}]},
+
+  {"titulo": "Paso 5 · Llenas, firmas y sellas el certificado", "icono": "fas fa-stamp", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Llenas el <strong>lugar</strong> (el condado donde estás), la <strong>fecha</strong> y el <strong>nombre</strong> de la persona.",
+    "<strong>Firmas</strong> como registraste tu firma con el Clerk, <strong>solo después</strong> de hacer el acto.",
+    "Pones tu <strong>cargo</strong> («Notary Public»), tu <strong>sello</strong> y la fecha en que <strong>vence tu comisión</strong> (SG § 18-215)."]},
+   {"tipo": "texto", "texto": "Cómo llenar cada parte lo viste en la lección 4.3."}]},
+
+  {"titulo": "Paso 6 · Lo anotas en tu journal", "icono": "fas fa-book", "bloques": [
+   {"tipo": "texto", "texto": "Anotas el acto <strong>en el momento</strong> en que lo haces (SG § 18-219; COMAR 01.02.08.08):"},
+   {"tipo": "lista", "items": [
+    "La <strong>fecha y la hora</strong>.",
+    "El <strong>tipo de acto</strong> y una descripción del <strong>documento</strong>.",
+    "El <strong>nombre completo y la dirección</strong> de la persona.",
+    "<strong>Cómo la identificaste</strong>: si fue con una identificación, cuál, su número, su fecha de emisión y su fecha de vencimiento.",
+    "La <strong>tarifa</strong> que cobraste, o que no cobraste.",
+    "Si fue <strong>en persona</strong> o <strong>a distancia</strong>."]}]},
+
+  {"titulo": "Tu lista para cada cliente", "icono": "fas fa-clipboard-check", "bloques": [
+   {"tipo": "ficha", "titulo": "Antes de firmar, revisa", "filas": [
+    ["1 · Presencia", "¿La persona está frente a mí (o en una sesión remota autorizada)?"],
+    ["2 · Documento", "¿Qué acto pide? ¿Tengo algún interés en el documento?"],
+    ["3 · Identificación", "¿La conozco, tengo una identificación válida o un testigo creíble?"],
+    ["4 · El acto", "¿Declaró su firma (acknowledgment) o firmó y juró frente a mí (jurat)?"],
+    ["5 · Certificado", "¿Lugar, fecha, nombre, firma, cargo, sello y vencimiento completos?"],
+    ["6 · Journal", "¿Lo anoté con todos los datos?"]]}]},
+
+  {"titulo": "Tus herramientas para cada notarización", "icono": "fas fa-shopping-bag", "bloques": [
+   {"tipo": "texto", "texto": "Para seguir estos pasos sin que te falte nada, en <strong>La Tienda del Notario</strong> de Centro Latino de Capacitación encuentras <strong>journals</strong>, <strong>sellos</strong> y sellos de certificado para acknowledgment y jurat."},
+   {"tipo": "botones", "items": [{"texto": "Visitar La Tienda del Notario", "url": "https://centrolatinodecapacitacion.net/las-herramientas-del-notario/"}]}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Una señora llega con un poder notarial firmado por su esposo, que está en el trabajo.", "No lo notarizas: el esposo tiene que presentarse ante ti. Que regrese con él."],
+   ["Un cliente te muestra su matrícula consular con foto y firma.", "La ley de Maryland menciona la identificación consular como una forma de identificar a la persona (SG § 18-206)."],
+   ["Tu hermana te pide que notarices la venta de un carro que tú le vas a comprar.", "No puedes: tú eres parte del documento (SG § 18-203)."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Notarizar a una persona que no está presente.",
+   "Firmar el certificado antes de hacer el acto.",
+   "Hacer un jurat sin tomar el juramento o la afirmación.",
+   "Dejar la anotación del journal para después.",
+   "Notarizar un documento donde tú o tu esposo o esposa tienen interés."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Puedes notarizar un documento que te trae un familiar del firmante, si el firmante ya lo firmó.", "ok": "F", "razon": "El firmante tiene que presentarse ante ti."},
+   {"tipo": "vf", "pregunta": "Una matrícula consular con foto y firma puede servir para identificar a la persona.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Cuál es el último paso de la notarización?", "opciones": ["Identificar a la persona", "Anotar el acto en el journal", "Leer el certificado"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuándo firmas el certificado?", "opciones": ["Antes de que llegue el cliente", "Después de hacer el acto", "Al día siguiente"], "ok": "b"}]}
+ ]
+}
