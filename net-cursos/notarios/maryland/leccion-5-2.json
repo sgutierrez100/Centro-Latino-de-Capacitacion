@@ -1,0 +1,99 @@
+{
+ "post": 183116,
+ "titulo": "5.2 Cómo identificar al firmante y revisar el documento",
+ "fuentes": "SG §18-203, §18-204, §18-206, §18-207, §18-215, §18-219; COMAR 01.02.08.08; sos.maryland.gov/Notary (FAQ); revisado el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Identificas al firmante de una de <strong>tres formas</strong>: lo conoces, te muestra una <strong>identificación del gobierno</strong> o lo identifica un <strong>testigo creíble</strong> (SG § 18-206).",
+   "Si tienes dudas, puedes <strong>pedir más información</strong> u otra identificación (SG § 18-206).",
+   "En el documento solo llenas el <strong>certificado notarial</strong>. No editas ni completas el documento por el firmante.",
+   "Si no puedes identificar al firmante, la Secretaría dice que puedes <strong>negarte</strong> a notarizar."]},
+
+  {"titulo": "Las tres formas de identificar", "icono": "fas fa-id-card", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Lo conoces", "sub": "Personal knowledge", "filas": [["Cuándo", "Lo conoces por un <strong>trato previo</strong> que te da la seguridad razonable de que es quien dice ser."]]},
+    {"titulo": "Identificación", "sub": "Satisfactory evidence", "filas": [["Cuándo", "Te muestra una <strong>identificación del gobierno</strong> que a ti te parece satisfactoria."]]},
+    {"titulo": "Testigo creíble", "sub": "Credible witness", "filas": [["Cuándo", "Otra persona <strong>presente</strong> jura o afirma ante ti quién es el firmante."]]}]},
+   {"tipo": "texto", "texto": "Las tres formas vienen de la ley de Maryland (SG § 18-206). Conocer a alguien «de vista» o porque te lo presentaron hoy <strong>no</strong> es conocerlo personalmente."}]},
+
+  {"titulo": "Las identificaciones que menciona la ley", "icono": "fas fa-address-card", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-check-circle", "<strong>Pasaporte</strong> (passport)."],
+    ["fas fa-check-circle", "<strong>Licencia de manejo</strong> (driver's license)."],
+    ["fas fa-check-circle", "<strong>Matrícula consular</strong> (consular identification)."],
+    ["fas fa-check-circle", "<strong>Identificación estatal para no conductores</strong> (nondriver identification card)."],
+    ["fas fa-check-circle", "<strong>Otra identificación del gobierno</strong> que tenga la <strong>foto</strong> y la <strong>firma</strong> de la persona, y que a ti te parezca satisfactoria."]]},
+   {"tipo": "nota", "texto": "<strong>No sirven</strong> como identificación una tarjeta del Seguro Social, una tarjeta de crédito o una credencial de trabajo sin foto y firma: la ley pide una identificación <strong>del gobierno</strong> con foto y firma."}]},
+
+  {"titulo": "Cómo revisar la identificación", "icono": "fas fa-search", "bloques": [
+   {"tipo": "texto", "texto": "Esta es la revisión que te recomendamos hacer con cada identificación. Es un consejo nuestro, para que la identificación de verdad te deje seguro:"},
+   {"tipo": "pasos", "items": [
+    "<strong>Pídela en la mano</strong>, no una foto en el celular ni una copia.",
+    "Compara la <strong>foto</strong> con la persona que tienes enfrente.",
+    "Compara el <strong>nombre</strong> con el nombre del documento y del certificado.",
+    "Compara la <strong>firma</strong> de la identificación con la firma del documento.",
+    "Revisa las <strong>fechas</strong> de emisión y de vencimiento. Las vas a anotar en tu journal.",
+    "Busca señales de <strong>alteración</strong>: laminado despegado, letras distintas, foto pegada encima."]},
+   {"tipo": "ficha", "titulo": "Ejemplo de revisión · datos inventados", "filas": [
+    ["Identificación", "Licencia de manejo de Maryland"],
+    ["Nombre en la licencia", "Carlos Alberto Ramírez"],
+    ["Nombre en el documento", "Carlos A. Ramírez · coincide"],
+    ["Foto y firma", "Coinciden con la persona y con la firma del documento"],
+    ["Número", "M-000-000-000-000"],
+    ["Emitida / vence", "01/05/2023 · 01/05/2031"]]}]},
+
+  {"titulo": "Si el nombre no coincide", "icono": "fas fa-not-equal", "bloques": [
+   {"tipo": "texto", "texto": "Si el nombre de la identificación es <strong>distinto</strong> al del documento, por ejemplo por un apellido de casada, la ley te deja <strong>pedir más información</strong> u otra identificación (SG § 18-206). Si aun así no estás seguro de quién es la persona, no notarizas."},
+   {"tipo": "nota", "texto": "<strong>Consejo:</strong> un nombre más corto en el documento, como «Carlos A. Ramírez» en vez de «Carlos Alberto Ramírez», suele ser aceptable. Un nombre <strong>totalmente distinto</strong> no lo es."}]},
+
+  {"titulo": "El testigo creíble", "icono": "fas fa-user-friends", "bloques": [
+   {"tipo": "texto", "texto": "Si el firmante no tiene identificación, puede identificarlo un <strong>testigo creíble</strong>. Según la ley (SG § 18-206), el testigo:"},
+   {"tipo": "pasos", "items": [
+    "Está <strong>presente</strong> ante ti.",
+    "Es una persona que <strong>tú conoces</strong> personalmente, o que identificas con una <strong>identificación del gobierno</strong>.",
+    "<strong>Jura o afirma</strong> ante ti que el firmante es quien dice ser."]},
+   {"tipo": "texto", "texto": "Anota en tu journal que identificaste al firmante por medio de un testigo creíble y los datos del testigo."}]},
+
+  {"titulo": "Cómo revisar el documento", "icono": "fas fa-file-signature", "bloques": [
+   {"tipo": "pasos", "items": [
+    "Pregunta qué <strong>acto notarial</strong> necesita la persona y busca el <strong>certificado</strong> en el documento. La Secretaría dice que necesitas saber qué te piden para poner el certificado correcto.",
+    "Confirma que la <strong>firma</strong> del documento es de la persona que tienes enfrente (SG § 18-204).",
+    "Revisa que <strong>ni tú ni tu esposo o esposa</strong> sean parte del documento ni reciban un beneficio (SG § 18-203).",
+    "Si no trae certificado, <strong>adjuntas uno</strong> y lo sujetas bien al documento (SG § 18-215).",
+    "Anota en tu journal una <strong>descripción del documento</strong>, por ejemplo: «Poder notarial, 4 páginas»."]}]},
+
+  {"titulo": "Lo que no haces en el documento", "icono": "fas fa-ban", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "<strong>No editas ni completas</strong> el documento por el firmante. Tú solo llenas el certificado notarial (Secretaría de Estado)."],
+    ["fas fa-times-circle", "<strong>No cambias el texto</strong> de un certificado ya impreso. Lo que sí puedes corregir es el <strong>estado y el condado</strong> impresos, para que digan dónde haces el acto (Secretaría de Estado)."],
+    ["fas fa-times-circle", "<strong>No revisas</strong> si un documento personal está correcto o completo. Por ejemplo, la Secretaría dice que el notario no está autorizado para revisar un formulario I-9."],
+    ["fas fa-times-circle", "<strong>No eliges</strong> el tipo de acto por el cliente ni le explicas qué significa el documento. Eso es práctica del derecho; lo vemos en la lección 6.2."]]},
+   {"tipo": "nota", "texto": "<strong>Dato útil:</strong> si un certificado de otro estado trae un espacio para «Notary ID number», escribe <strong>«n/a»</strong>. La Secretaría explica que Maryland no da número de notario."}]},
+
+  {"titulo": "Capacidad y voluntad", "icono": "fas fa-brain", "bloques": [
+   {"tipo": "texto", "texto": "Mientras revisas la identificación, fíjate también en la persona. Puedes <strong>negarte</strong> si no estás convencido de que (SG § 18-207):"},
+   {"tipo": "lista", "items": [
+    "Tiene la <strong>capacidad</strong> de entender y firmar el documento.",
+    "Firma <strong>sabiendo lo que hace</strong> y por su <strong>propia voluntad</strong>."]},
+   {"tipo": "texto", "texto": "Todas las razones para negarte, con casos de la oficina, las vemos en la lección 5.3."}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un cliente te muestra una foto de su licencia en el celular porque dejó la licencia en casa.", "Pídele la identificación en la mano. Una foto en el celular no te deja comparar ni revisar la identificación."],
+   ["Una señora trae su pasaporte de Guatemala con foto y firma.", "La ley de Maryland menciona el pasaporte como identificación, y no dice que tenga que ser de Estados Unidos (SG § 18-206)."],
+   ["Un señor no tiene identificación, pero viene con su vecina, que sí tiene licencia.", "La vecina puede ser testigo creíble: la identificas con su licencia y ella jura o afirma ante ti quién es el señor."],
+   ["Te piden que llenes los espacios en blanco del documento «para ayudar».", "No lo haces. Tú solo llenas el certificado notarial; el documento lo completa el firmante."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Aceptar una foto o una copia de la identificación.",
+   "No comparar la firma de la identificación con la del documento.",
+   "Notarizar aunque el nombre de la identificación es totalmente distinto.",
+   "Llenar o corregir el documento por el cliente.",
+   "Olvidar anotar en el journal los datos de la identificación."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "Una matrícula consular puede servir para identificar al firmante.", "ok": "V"},
+   {"tipo": "vf", "pregunta": "El notario puede llenar los espacios en blanco del documento para ayudar al cliente.", "ok": "F", "razon": "El notario solo llena el certificado notarial."},
+   {"tipo": "om", "pregunta": "El firmante no tiene identificación. ¿Qué opción da la ley?", "opciones": ["Que firme una declaración de que es él", "Un testigo creíble que jure o afirme quién es", "Aceptar una tarjeta del Seguro Social"], "ok": "b"},
+   {"tipo": "om", "pregunta": "Un certificado de otro estado pide «Notary ID number». ¿Qué escribes?", "opciones": ["Tu número de licencia", "n/a", "Tu número de teléfono"], "ok": "b"}]}
+ ]
+}
