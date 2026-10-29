@@ -1,0 +1,3231 @@
+{
+ "voz": "8mBRP99B2Ng2QwsJMFQl",
+ "escenas": [
+  {
+   "voz": "Llegaste al repaso final. En este video repasamos todo el curso, de principio a fin: cómo te haces notario, qué actos haces, cómo los haces bien, cuánto cobras, lo que no puedes hacer y cómo cuidas tu comisión.",
+   "dura": 15.944,
+   "palabras": [
+    {
+     "t": "Llegaste",
+     "de": 0.0
+    },
+    {
+     "t": "al",
+     "de": 0.569
+    },
+    {
+     "t": "repaso",
+     "de": 0.697
+    },
+    {
+     "t": "final.",
+     "de": 1.138
+    },
+    {
+     "t": "En",
+     "de": 2.415
+    },
+    {
+     "t": "este",
+     "de": 2.589
+    },
+    {
+     "t": "video",
+     "de": 2.81
+    },
+    {
+     "t": "repasamos",
+     "de": 3.228
+    },
+    {
+     "t": "todo",
+     "de": 3.866
+    },
+    {
+     "t": "el",
+     "de": 4.238
+    },
+    {
+     "t": "curso,",
+     "de": 4.389
+    },
+    {
+     "t": "de",
+     "de": 4.981
+    },
+    {
+     "t": "principio",
+     "de": 5.12
+    },
+    {
+     "t": "a",
+     "de": 5.909
+    },
+    {
+     "t": "fin:",
+     "de": 6.037
+    },
+    {
+     "t": "cómo",
+     "de": 6.861
+    },
+    {
+     "t": "te",
+     "de": 7.152
+    },
+    {
+     "t": "haces",
+     "de": 7.291
+    },
+    {
+     "t": "notario,",
+     "de": 7.628
+    },
+    {
+     "t": "qué",
+     "de": 8.568
+    },
+    {
+     "t": "actos",
+     "de": 8.766
+    },
+    {
+     "t": "haces,",
+     "de": 9.195
+    },
+    {
+     "t": "cómo",
+     "de": 9.996
+    },
+    {
+     "t": "los",
+     "de": 10.24
+    },
+    {
+     "t": "haces",
+     "de": 10.426
+    },
+    {
+     "t": "bien,",
+     "de": 10.751
+    },
+    {
+     "t": "cuánto",
+     "de": 11.459
+    },
+    {
+     "t": "cobras,",
+     "de": 11.912
+    },
+    {
+     "t": "lo",
+     "de": 12.725
+    },
+    {
+     "t": "que",
+     "de": 12.852
+    },
+    {
+     "t": "no",
+     "de": 12.98
+    },
+    {
+     "t": "puedes",
+     "de": 13.131
+    },
+    {
+     "t": "hacer",
+     "de": 13.549
+    },
+    {
+     "t": "y",
+     "de": 14.095
+    },
+    {
+     "t": "cómo",
+     "de": 14.269
+    },
+    {
+     "t": "cuidas",
+     "de": 14.524
+    },
+    {
+     "t": "tu",
+     "de": 15.0
+    },
+    {
+     "t": "comisión.",
+     "de": 15.116
+    }
+   ]
+  },
+  {
+   "voz": "Primero, recuerda qué eres. El notary public es un funcionario nombrado por el estado para ser testigo imparcial de firmas. No es abogado: no da consejos legales ni prepara documentos. Y no es el notario de Latinoamérica.",
+   "dura": 16.444,
+   "palabras": [
+    {
+     "t": "Primero,",
+     "de": 0.302
+    },
+    {
+     "t": "recuerda",
+     "de": 1.161
+    },
+    {
+     "t": "qué",
+     "de": 1.858
+    },
+    {
+     "t": "eres.",
+     "de": 2.102
+    },
+    {
+     "t": "El",
+     "de": 2.775
+    },
+    {
+     "t": "notary",
+     "de": 3.054
+    },
+    {
+     "t": "public",
+     "de": 3.507
+    },
+    {
+     "t": "es",
+     "de": 4.169
+    },
+    {
+     "t": "un",
+     "de": 4.447
+    },
+    {
+     "t": "funcionario",
+     "de": 4.552
+    },
+    {
+     "t": "nombrado",
+     "de": 5.318
+    },
+    {
+     "t": "por",
+     "de": 5.852
+    },
+    {
+     "t": "el",
+     "de": 6.003
+    },
+    {
+     "t": "estado",
+     "de": 6.107
+    },
+    {
+     "t": "para",
+     "de": 6.56
+    },
+    {
+     "t": "ser",
+     "de": 6.746
+    },
+    {
+     "t": "testigo",
+     "de": 6.978
+    },
+    {
+     "t": "imparcial",
+     "de": 7.512
+    },
+    {
+     "t": "de",
+     "de": 8.151
+    },
+    {
+     "t": "firmas.",
+     "de": 8.278
+    },
+    {
+     "t": "No",
+     "de": 9.312
+    },
+    {
+     "t": "es",
+     "de": 9.579
+    },
+    {
+     "t": "abogado:",
+     "de": 9.753
+    },
+    {
+     "t": "no",
+     "de": 10.798
+    },
+    {
+     "t": "da",
+     "de": 10.995
+    },
+    {
+     "t": "consejos",
+     "de": 11.146
+    },
+    {
+     "t": "legales",
+     "de": 11.761
+    },
+    {
+     "t": "ni",
+     "de": 12.284
+    },
+    {
+     "t": "prepara",
+     "de": 12.4
+    },
+    {
+     "t": "documentos.",
+     "de": 12.853
+    },
+    {
+     "t": "Y",
+     "de": 14.049
+    },
+    {
+     "t": "no",
+     "de": 14.258
+    },
+    {
+     "t": "es",
+     "de": 14.501
+    },
+    {
+     "t": "el",
+     "de": 14.676
+    },
+    {
+     "t": "notario",
+     "de": 14.792
+    },
+    {
+     "t": "de",
+     "de": 15.256
+    },
+    {
+     "t": "Latinoamérica.",
+     "de": 15.349
+    }
+   ]
+  },
+  {
+   "voz": "En Maryland te nombra el Gobernador, después de que te aprueba tu senador estatal o la Secretaría de Estado. La ley está en el Título 18 del State Government Article, y las reglas, en el COMAR. Tu comisión dura cuatro años y vale en todo Maryland, siempre que estés físicamente en el estado.",
+   "dura": 20.774,
+   "palabras": [
+    {
+     "t": "En",
+     "de": 0.139
+    },
+    {
+     "t": "Maryland",
+     "de": 0.359
+    },
+    {
+     "t": "te",
+     "de": 0.975
+    },
+    {
+     "t": "nombra",
+     "de": 1.137
+    },
+    {
+     "t": "el",
+     "de": 1.451
+    },
+    {
+     "t": "Gobernador,",
+     "de": 1.567
+    },
+    {
+     "t": "después",
+     "de": 2.612
+    },
+    {
+     "t": "de",
+     "de": 3.008
+    },
+    {
+     "t": "que",
+     "de": 3.111
+    },
+    {
+     "t": "te",
+     "de": 3.239
+    },
+    {
+     "t": "aprueba",
+     "de": 3.355
+    },
+    {
+     "t": "tu",
+     "de": 3.751
+    },
+    {
+     "t": "senador",
+     "de": 3.889
+    },
+    {
+     "t": "estatal",
+     "de": 4.307
+    },
+    {
+     "t": "o",
+     "de": 4.957
+    },
+    {
+     "t": "la",
+     "de": 5.12
+    },
+    {
+     "t": "Secretaría",
+     "de": 5.236
+    },
+    {
+     "t": "de",
+     "de": 5.922
+    },
+    {
+     "t": "Estado.",
+     "de": 6.06
+    },
+    {
+     "t": "La",
+     "de": 7.105
+    },
+    {
+     "t": "ley",
+     "de": 7.279
+    },
+    {
+     "t": "está",
+     "de": 7.57
+    },
+    {
+     "t": "en",
+     "de": 7.895
+    },
+    {
+     "t": "el",
+     "de": 8.011
+    },
+    {
+     "t": "Título",
+     "de": 8.163
+    },
+    {
+     "t": "18",
+     "de": 8.581
+    },
+    {
+     "t": "del",
+     "de": 9.265
+    },
+    {
+     "t": "State",
+     "de": 9.532
+    },
+    {
+     "t": "Government",
+     "de": 9.962
+    },
+    {
+     "t": "Article,",
+     "de": 10.566
+    },
+    {
+     "t": "y",
+     "de": 11.389
+    },
+    {
+     "t": "las",
+     "de": 11.633
+    },
+    {
+     "t": "reglas,",
+     "de": 11.901
+    },
+    {
+     "t": "en",
+     "de": 12.643
+    },
+    {
+     "t": "el",
+     "de": 12.864
+    },
+    {
+     "t": "COMAR.",
+     "de": 13.026
+    },
+    {
+     "t": "Tu",
+     "de": 14.164
+    },
+    {
+     "t": "comisión",
+     "de": 14.338
+    },
+    {
+     "t": "dura",
+     "de": 14.965
+    },
+    {
+     "t": "cuatro",
+     "de": 15.267
+    },
+    {
+     "t": "años",
+     "de": 15.743
+    },
+    {
+     "t": "y",
+     "de": 16.197
+    },
+    {
+     "t": "vale",
+     "de": 16.335
+    },
+    {
+     "t": "en",
+     "de": 16.649
+    },
+    {
+     "t": "todo",
+     "de": 16.846
+    },
+    {
+     "t": "Maryland,",
+     "de": 17.276
+    },
+    {
+     "t": "siempre",
+     "de": 18.042
+    },
+    {
+     "t": "que",
+     "de": 18.495
+    },
+    {
+     "t": "estés",
+     "de": 18.623
+    },
+    {
+     "t": "físicamente",
+     "de": 18.971
+    },
+    {
+     "t": "en",
+     "de": 19.771
+    },
+    {
+     "t": "el",
+     "de": 19.911
+    },
+    {
+     "t": "estado.",
+     "de": 20.038
+    }
+   ]
+  },
+  {
+   "voz": "Para solicitar necesitas tener dieciocho años, buen carácter moral, y vivir o trabajar en Maryland. La primera vez tomas el curso y apruebas el examen con ochenta por ciento. Así recibes tus dos certificados: el Certificate of Completion y el Certificate of Passing.",
+   "dura": 18.405,
+   "palabras": [
+    {
+     "t": "Para",
+     "de": 0.163
+    },
+    {
+     "t": "solicitar",
+     "de": 0.407
+    },
+    {
+     "t": "necesitas",
+     "de": 0.998
+    },
+    {
+     "t": "tener",
+     "de": 1.544
+    },
+    {
+     "t": "dieciocho",
+     "de": 1.822
+    },
+    {
+     "t": "años,",
+     "de": 2.542
+    },
+    {
+     "t": "buen",
+     "de": 3.227
+    },
+    {
+     "t": "carácter",
+     "de": 3.495
+    },
+    {
+     "t": "moral,",
+     "de": 3.993
+    },
+    {
+     "t": "y",
+     "de": 4.643
+    },
+    {
+     "t": "vivir",
+     "de": 4.783
+    },
+    {
+     "t": "o",
+     "de": 5.259
+    },
+    {
+     "t": "trabajar",
+     "de": 5.41
+    },
+    {
+     "t": "en",
+     "de": 6.002
+    },
+    {
+     "t": "Maryland.",
+     "de": 6.13
+    },
+    {
+     "t": "La",
+     "de": 7.221
+    },
+    {
+     "t": "primera",
+     "de": 7.361
+    },
+    {
+     "t": "vez",
+     "de": 7.697
+    },
+    {
+     "t": "tomas",
+     "de": 7.907
+    },
+    {
+     "t": "el",
+     "de": 8.209
+    },
+    {
+     "t": "curso",
+     "de": 8.347
+    },
+    {
+     "t": "y",
+     "de": 8.788
+    },
+    {
+     "t": "apruebas",
+     "de": 8.87
+    },
+    {
+     "t": "el",
+     "de": 9.358
+    },
+    {
+     "t": "examen",
+     "de": 9.474
+    },
+    {
+     "t": "con",
+     "de": 9.904
+    },
+    {
+     "t": "ochenta",
+     "de": 10.078
+    },
+    {
+     "t": "por",
+     "de": 10.634
+    },
+    {
+     "t": "ciento.",
+     "de": 10.831
+    },
+    {
+     "t": "Así",
+     "de": 11.795
+    },
+    {
+     "t": "recibes",
+     "de": 12.318
+    },
+    {
+     "t": "tus",
+     "de": 12.782
+    },
+    {
+     "t": "dos",
+     "de": 12.991
+    },
+    {
+     "t": "certificados:",
+     "de": 13.2
+    },
+    {
+     "t": "el",
+     "de": 14.327
+    },
+    {
+     "t": "Certificate",
+     "de": 14.628
+    },
+    {
+     "t": "of",
+     "de": 15.488
+    },
+    {
+     "t": "Completion",
+     "de": 15.708
+    },
+    {
+     "t": "y",
+     "de": 16.59
+    },
+    {
+     "t": "el",
+     "de": 16.729
+    },
+    {
+     "t": "Certificate",
+     "de": 16.834
+    },
+    {
+     "t": "of",
+     "de": 17.52
+    },
+    {
+     "t": "Passing.",
+     "de": 17.681
+    }
+   ]
+  },
+  {
+   "voz": "La solicitud se hace en línea y cuesta veinticinco dólares. Necesitas tus certificados, tu identificación, tu distrito legislativo y tres referencias. Declara con la verdad tus antecedentes: si no lo haces, te niegan la solicitud.",
+   "dura": 16.514,
+   "palabras": [
+    {
+     "t": "La",
+     "de": 0.162
+    },
+    {
+     "t": "solicitud",
+     "de": 0.314
+    },
+    {
+     "t": "se",
+     "de": 0.87
+    },
+    {
+     "t": "hace",
+     "de": 0.998
+    },
+    {
+     "t": "en",
+     "de": 1.23
+    },
+    {
+     "t": "línea",
+     "de": 1.37
+    },
+    {
+     "t": "y",
+     "de": 1.858
+    },
+    {
+     "t": "cuesta",
+     "de": 2.008
+    },
+    {
+     "t": "veinticinco",
+     "de": 2.427
+    },
+    {
+     "t": "dólares.",
+     "de": 3.239
+    },
+    {
+     "t": "Necesitas",
+     "de": 4.168
+    },
+    {
+     "t": "tus",
+     "de": 4.796
+    },
+    {
+     "t": "certificados,",
+     "de": 4.945
+    },
+    {
+     "t": "tu",
+     "de": 6.189
+    },
+    {
+     "t": "identificación,",
+     "de": 6.373
+    },
+    {
+     "t": "tu",
+     "de": 7.721
+    },
+    {
+     "t": "distrito",
+     "de": 7.894
+    },
+    {
+     "t": "legislativo",
+     "de": 8.453
+    },
+    {
+     "t": "y",
+     "de": 9.358
+    },
+    {
+     "t": "tres",
+     "de": 9.543
+    },
+    {
+     "t": "referencias.",
+     "de": 9.879
+    },
+    {
+     "t": "Declara",
+     "de": 11.145
+    },
+    {
+     "t": "con",
+     "de": 11.587
+    },
+    {
+     "t": "la",
+     "de": 11.737
+    },
+    {
+     "t": "verdad",
+     "de": 11.831
+    },
+    {
+     "t": "tus",
+     "de": 12.294
+    },
+    {
+     "t": "antecedentes:",
+     "de": 12.504
+    },
+    {
+     "t": "si",
+     "de": 13.757
+    },
+    {
+     "t": "no",
+     "de": 13.931
+    },
+    {
+     "t": "lo",
+     "de": 14.059
+    },
+    {
+     "t": "haces,",
+     "de": 14.175
+    },
+    {
+     "t": "te",
+     "de": 14.79
+    },
+    {
+     "t": "niegan",
+     "de": 14.999
+    },
+    {
+     "t": "la",
+     "de": 15.465
+    },
+    {
+     "t": "solicitud.",
+     "de": 15.593
+    }
+   ]
+  },
+  {
+   "voz": "Cuando te aprueban, tienes treinta días para jurar ante el Clerk of the Circuit Court y pagar once dólares. Si no vas a tiempo, te revocan la comisión y tienes que solicitar otra vez.",
+   "dura": 12.183,
+   "palabras": [
+    {
+     "t": "Cuando",
+     "de": 0.348
+    },
+    {
+     "t": "te",
+     "de": 0.685
+    },
+    {
+     "t": "aprueban,",
+     "de": 0.801
+    },
+    {
+     "t": "tienes",
+     "de": 1.358
+    },
+    {
+     "t": "treinta",
+     "de": 1.811
+    },
+    {
+     "t": "días",
+     "de": 2.322
+    },
+    {
+     "t": "para",
+     "de": 2.705
+    },
+    {
+     "t": "jurar",
+     "de": 2.891
+    },
+    {
+     "t": "ante",
+     "de": 3.216
+    },
+    {
+     "t": "el",
+     "de": 3.425
+    },
+    {
+     "t": "Clerk",
+     "de": 3.576
+    },
+    {
+     "t": "of",
+     "de": 4.029
+    },
+    {
+     "t": "the",
+     "de": 4.226
+    },
+    {
+     "t": "Circuit",
+     "de": 4.354
+    },
+    {
+     "t": "Court",
+     "de": 4.888
+    },
+    {
+     "t": "y",
+     "de": 5.491
+    },
+    {
+     "t": "pagar",
+     "de": 5.677
+    },
+    {
+     "t": "once",
+     "de": 6.095
+    },
+    {
+     "t": "dólares.",
+     "de": 6.513
+    },
+    {
+     "t": "Si",
+     "de": 7.604
+    },
+    {
+     "t": "no",
+     "de": 7.79
+    },
+    {
+     "t": "vas",
+     "de": 7.918
+    },
+    {
+     "t": "a",
+     "de": 8.127
+    },
+    {
+     "t": "tiempo,",
+     "de": 8.208
+    },
+    {
+     "t": "te",
+     "de": 8.707
+    },
+    {
+     "t": "revocan",
+     "de": 8.847
+    },
+    {
+     "t": "la",
+     "de": 9.277
+    },
+    {
+     "t": "comisión",
+     "de": 9.381
+    },
+    {
+     "t": "y",
+     "de": 10.136
+    },
+    {
+     "t": "tienes",
+     "de": 10.287
+    },
+    {
+     "t": "que",
+     "de": 10.565
+    },
+    {
+     "t": "solicitar",
+     "de": 10.693
+    },
+    {
+     "t": "otra",
+     "de": 11.378
+    },
+    {
+     "t": "vez.",
+     "de": 11.622
+    }
+   ]
+  },
+  {
+   "voz": "Antes de tu primer acto, compra tu sello y tu journal. Tu sello lleva tu nombre, las palabras Notary Public y tu condado, y solo tú lo usas. En el journal anotas cada acto en el momento, y lo guardas diez años.",
+   "dura": 16.193,
+   "palabras": [
+    {
+     "t": "Antes",
+     "de": 0.191
+    },
+    {
+     "t": "de",
+     "de": 0.586
+    },
+    {
+     "t": "tu",
+     "de": 0.679
+    },
+    {
+     "t": "primer",
+     "de": 0.795
+    },
+    {
+     "t": "acto,",
+     "de": 1.132
+    },
+    {
+     "t": "compra",
+     "de": 1.503
+    },
+    {
+     "t": "tu",
+     "de": 1.886
+    },
+    {
+     "t": "sello",
+     "de": 2.118
+    },
+    {
+     "t": "y",
+     "de": 2.664
+    },
+    {
+     "t": "tu",
+     "de": 2.803
+    },
+    {
+     "t": "journal.",
+     "de": 2.989
+    },
+    {
+     "t": "Tu",
+     "de": 4.011
+    },
+    {
+     "t": "sello",
+     "de": 4.197
+    },
+    {
+     "t": "lleva",
+     "de": 4.464
+    },
+    {
+     "t": "tu",
+     "de": 4.731
+    },
+    {
+     "t": "nombre,",
+     "de": 4.893
+    },
+    {
+     "t": "las",
+     "de": 5.741
+    },
+    {
+     "t": "palabras",
+     "de": 5.926
+    },
+    {
+     "t": "Notary",
+     "de": 6.751
+    },
+    {
+     "t": "Public",
+     "de": 7.262
+    },
+    {
+     "t": "y",
+     "de": 7.935
+    },
+    {
+     "t": "tu",
+     "de": 8.098
+    },
+    {
+     "t": "condado,",
+     "de": 8.248
+    },
+    {
+     "t": "y",
+     "de": 9.119
+    },
+    {
+     "t": "solo",
+     "de": 9.305
+    },
+    {
+     "t": "tú",
+     "de": 9.746
+    },
+    {
+     "t": "lo",
+     "de": 10.013
+    },
+    {
+     "t": "usas.",
+     "de": 10.176
+    },
+    {
+     "t": "En",
+     "de": 11.255
+    },
+    {
+     "t": "el",
+     "de": 11.441
+    },
+    {
+     "t": "journal",
+     "de": 11.569
+    },
+    {
+     "t": "anotas",
+     "de": 12.045
+    },
+    {
+     "t": "cada",
+     "de": 12.579
+    },
+    {
+     "t": "acto",
+     "de": 12.916
+    },
+    {
+     "t": "en",
+     "de": 13.229
+    },
+    {
+     "t": "el",
+     "de": 13.345
+    },
+    {
+     "t": "momento,",
+     "de": 13.45
+    },
+    {
+     "t": "y",
+     "de": 14.32
+    },
+    {
+     "t": "lo",
+     "de": 14.46
+    },
+    {
+     "t": "guardas",
+     "de": 14.599
+    },
+    {
+     "t": "diez",
+     "de": 15.203
+    },
+    {
+     "t": "años.",
+     "de": 15.493
+    }
+   ]
+  },
+  {
+   "voz": "Los actos más comunes son dos. En el acknowledgment, la persona declara ante ti que la firma es suya. En el jurat, firma frente a ti y jura o afirma que lo que dice el documento es verdad. También puedes ser testigo de una firma, certificar copias y hacer un protesto.",
+   "dura": 18.713,
+   "palabras": [
+    {
+     "t": "Los",
+     "de": 0.192
+    },
+    {
+     "t": "actos",
+     "de": 0.424
+    },
+    {
+     "t": "más",
+     "de": 0.888
+    },
+    {
+     "t": "comunes",
+     "de": 1.178
+    },
+    {
+     "t": "son",
+     "de": 1.736
+    },
+    {
+     "t": "dos.",
+     "de": 2.003
+    },
+    {
+     "t": "En",
+     "de": 2.804
+    },
+    {
+     "t": "el",
+     "de": 3.001
+    },
+    {
+     "t": "acknowledgment,",
+     "de": 3.141
+    },
+    {
+     "t": "la",
+     "de": 4.162
+    },
+    {
+     "t": "persona",
+     "de": 4.313
+    },
+    {
+     "t": "declara",
+     "de": 4.917
+    },
+    {
+     "t": "ante",
+     "de": 5.346
+    },
+    {
+     "t": "ti",
+     "de": 5.613
+    },
+    {
+     "t": "que",
+     "de": 5.857
+    },
+    {
+     "t": "la",
+     "de": 5.973
+    },
+    {
+     "t": "firma",
+     "de": 6.113
+    },
+    {
+     "t": "es",
+     "de": 6.473
+    },
+    {
+     "t": "suya.",
+     "de": 6.565
+    },
+    {
+     "t": "En",
+     "de": 7.425
+    },
+    {
+     "t": "el",
+     "de": 7.622
+    },
+    {
+     "t": "jurat,",
+     "de": 7.761
+    },
+    {
+     "t": "firma",
+     "de": 8.504
+    },
+    {
+     "t": "frente",
+     "de": 8.853
+    },
+    {
+     "t": "a",
+     "de": 9.213
+    },
+    {
+     "t": "ti",
+     "de": 9.305
+    },
+    {
+     "t": "y",
+     "de": 9.63
+    },
+    {
+     "t": "jura",
+     "de": 9.805
+    },
+    {
+     "t": "o",
+     "de": 10.304
+    },
+    {
+     "t": "afirma",
+     "de": 10.443
+    },
+    {
+     "t": "que",
+     "de": 10.954
+    },
+    {
+     "t": "lo",
+     "de": 11.07
+    },
+    {
+     "t": "que",
+     "de": 11.198
+    },
+    {
+     "t": "dice",
+     "de": 11.326
+    },
+    {
+     "t": "el",
+     "de": 11.639
+    },
+    {
+     "t": "documento",
+     "de": 11.767
+    },
+    {
+     "t": "es",
+     "de": 12.568
+    },
+    {
+     "t": "verdad.",
+     "de": 12.788
+    },
+    {
+     "t": "También",
+     "de": 13.717
+    },
+    {
+     "t": "puedes",
+     "de": 14.065
+    },
+    {
+     "t": "ser",
+     "de": 14.379
+    },
+    {
+     "t": "testigo",
+     "de": 14.599
+    },
+    {
+     "t": "de",
+     "de": 15.133
+    },
+    {
+     "t": "una",
+     "de": 15.261
+    },
+    {
+     "t": "firma,",
+     "de": 15.481
+    },
+    {
+     "t": "certificar",
+     "de": 16.004
+    },
+    {
+     "t": "copias",
+     "de": 16.677
+    },
+    {
+     "t": "y",
+     "de": 17.223
+    },
+    {
+     "t": "hacer",
+     "de": 17.397
+    },
+    {
+     "t": "un",
+     "de": 17.734
+    },
+    {
+     "t": "protesto.",
+     "de": 17.815
+    }
+   ]
+  },
+  {
+   "voz": "Cada acto lleva su certificado: el condado donde estás, la fecha, el nombre de la persona, tu firma, Notary Public, tu sello y la fecha en que vence tu comisión. Si el documento no trae certificado, adjuntas uno. Y lo firmas solo después de hacer el acto.",
+   "dura": 18.985,
+   "palabras": [
+    {
+     "t": "Cada",
+     "de": 0.162
+    },
+    {
+     "t": "acto",
+     "de": 0.535
+    },
+    {
+     "t": "lleva",
+     "de": 0.893
+    },
+    {
+     "t": "su",
+     "de": 1.3
+    },
+    {
+     "t": "certificado:",
+     "de": 1.44
+    },
+    {
+     "t": "el",
+     "de": 2.728
+    },
+    {
+     "t": "condado",
+     "de": 2.903
+    },
+    {
+     "t": "donde",
+     "de": 3.333
+    },
+    {
+     "t": "estás,",
+     "de": 3.668
+    },
+    {
+     "t": "la",
+     "de": 4.517
+    },
+    {
+     "t": "fecha,",
+     "de": 4.691
+    },
+    {
+     "t": "el",
+     "de": 5.446
+    },
+    {
+     "t": "nombre",
+     "de": 5.713
+    },
+    {
+     "t": "de",
+     "de": 6.096
+    },
+    {
+     "t": "la",
+     "de": 6.2
+    },
+    {
+     "t": "persona,",
+     "de": 6.316
+    },
+    {
+     "t": "tu",
+     "de": 7.209
+    },
+    {
+     "t": "firma,",
+     "de": 7.418
+    },
+    {
+     "t": "Notary",
+     "de": 8.161
+    },
+    {
+     "t": "Public,",
+     "de": 8.661
+    },
+    {
+     "t": "tu",
+     "de": 9.405
+    },
+    {
+     "t": "sello",
+     "de": 9.637
+    },
+    {
+     "t": "y",
+     "de": 10.251
+    },
+    {
+     "t": "la",
+     "de": 10.403
+    },
+    {
+     "t": "fecha",
+     "de": 10.518
+    },
+    {
+     "t": "en",
+     "de": 10.798
+    },
+    {
+     "t": "que",
+     "de": 10.924
+    },
+    {
+     "t": "vence",
+     "de": 11.1
+    },
+    {
+     "t": "tu",
+     "de": 11.494
+    },
+    {
+     "t": "comisión.",
+     "de": 11.609
+    },
+    {
+     "t": "Si",
+     "de": 12.596
+    },
+    {
+     "t": "el",
+     "de": 12.748
+    },
+    {
+     "t": "documento",
+     "de": 12.84
+    },
+    {
+     "t": "no",
+     "de": 13.49
+    },
+    {
+     "t": "trae",
+     "de": 13.688
+    },
+    {
+     "t": "certificado,",
+     "de": 13.966
+    },
+    {
+     "t": "adjuntas",
+     "de": 14.906
+    },
+    {
+     "t": "uno.",
+     "de": 15.743
+    },
+    {
+     "t": "Y",
+     "de": 16.428
+    },
+    {
+     "t": "lo",
+     "de": 16.567
+    },
+    {
+     "t": "firmas",
+     "de": 16.684
+    },
+    {
+     "t": "solo",
+     "de": 17.054
+    },
+    {
+     "t": "después",
+     "de": 17.438
+    },
+    {
+     "t": "de",
+     "de": 17.856
+    },
+    {
+     "t": "hacer",
+     "de": 17.948
+    },
+    {
+     "t": "el",
+     "de": 18.251
+    },
+    {
+     "t": "acto.",
+     "de": 18.379
+    }
+   ]
+  },
+  {
+   "voz": "Si alguien no puede firmar, otra persona firma por él frente a ti, y tú escribes la nota en el documento. Una marca, como una X, también puede ser una firma. Y recuerda: la apostilla no la da el notario. El documento pasa por el Clerk y después por la Secretaría de Estado.",
+   "dura": 20.578,
+   "palabras": [
+    {
+     "t": "Si",
+     "de": 0.163
+    },
+    {
+     "t": "alguien",
+     "de": 0.383
+    },
+    {
+     "t": "no",
+     "de": 0.756
+    },
+    {
+     "t": "puede",
+     "de": 0.965
+    },
+    {
+     "t": "firmar,",
+     "de": 1.359
+    },
+    {
+     "t": "otra",
+     "de": 2.079
+    },
+    {
+     "t": "persona",
+     "de": 2.381
+    },
+    {
+     "t": "firma",
+     "de": 2.88
+    },
+    {
+     "t": "por",
+     "de": 3.228
+    },
+    {
+     "t": "él",
+     "de": 3.472
+    },
+    {
+     "t": "frente",
+     "de": 3.635
+    },
+    {
+     "t": "a",
+     "de": 4.006
+    },
+    {
+     "t": "ti,",
+     "de": 4.088
+    },
+    {
+     "t": "y",
+     "de": 4.691
+    },
+    {
+     "t": "tú",
+     "de": 4.889
+    },
+    {
+     "t": "escribes",
+     "de": 5.225
+    },
+    {
+     "t": "la",
+     "de": 5.852
+    },
+    {
+     "t": "nota",
+     "de": 6.026
+    },
+    {
+     "t": "en",
+     "de": 6.34
+    },
+    {
+     "t": "el",
+     "de": 6.444
+    },
+    {
+     "t": "documento.",
+     "de": 6.549
+    },
+    {
+     "t": "Una",
+     "de": 7.883
+    },
+    {
+     "t": "marca,",
+     "de": 8.186
+    },
+    {
+     "t": "como",
+     "de": 8.685
+    },
+    {
+     "t": "una",
+     "de": 8.975
+    },
+    {
+     "t": "X,",
+     "de": 9.242
+    },
+    {
+     "t": "también",
+     "de": 9.881
+    },
+    {
+     "t": "puede",
+     "de": 10.276
+    },
+    {
+     "t": "ser",
+     "de": 10.635
+    },
+    {
+     "t": "una",
+     "de": 10.913
+    },
+    {
+     "t": "firma.",
+     "de": 11.112
+    },
+    {
+     "t": "Y",
+     "de": 11.959
+    },
+    {
+     "t": "recuerda:",
+     "de": 12.156
+    },
+    {
+     "t": "la",
+     "de": 13.085
+    },
+    {
+     "t": "apostilla",
+     "de": 13.201
+    },
+    {
+     "t": "no",
+     "de": 14.026
+    },
+    {
+     "t": "la",
+     "de": 14.281
+    },
+    {
+     "t": "da",
+     "de": 14.444
+    },
+    {
+     "t": "el",
+     "de": 14.653
+    },
+    {
+     "t": "notario.",
+     "de": 14.792
+    },
+    {
+     "t": "El",
+     "de": 15.825
+    },
+    {
+     "t": "documento",
+     "de": 16.011
+    },
+    {
+     "t": "pasa",
+     "de": 16.719
+    },
+    {
+     "t": "por",
+     "de": 17.008
+    },
+    {
+     "t": "el",
+     "de": 17.16
+    },
+    {
+     "t": "Clerk",
+     "de": 17.311
+    },
+    {
+     "t": "y",
+     "de": 18.019
+    },
+    {
+     "t": "después",
+     "de": 18.217
+    },
+    {
+     "t": "por",
+     "de": 18.739
+    },
+    {
+     "t": "la",
+     "de": 18.889
+    },
+    {
+     "t": "Secretaría",
+     "de": 18.995
+    },
+    {
+     "t": "de",
+     "de": 19.668
+    },
+    {
+     "t": "Estado.",
+     "de": 19.806
+    }
+   ]
+  },
+  {
+   "voz": "Toda notarización sigue seis pasos: presencia, revisión del documento, identificación, el acto, el certificado y el journal. Si te saltas uno, el acto queda mal hecho.",
+   "dura": 12.926,
+   "palabras": [
+    {
+     "t": "Toda",
+     "de": 0.139
+    },
+    {
+     "t": "notarización",
+     "de": 0.464
+    },
+    {
+     "t": "sigue",
+     "de": 1.323
+    },
+    {
+     "t": "seis",
+     "de": 1.707
+    },
+    {
+     "t": "pasos:",
+     "de": 2.055
+    },
+    {
+     "t": "presencia,",
+     "de": 2.868
+    },
+    {
+     "t": "revisión",
+     "de": 3.982
+    },
+    {
+     "t": "del",
+     "de": 4.539
+    },
+    {
+     "t": "documento,",
+     "de": 4.713
+    },
+    {
+     "t": "identificación,",
+     "de": 5.735
+    },
+    {
+     "t": "el",
+     "de": 7.128
+    },
+    {
+     "t": "acto,",
+     "de": 7.349
+    },
+    {
+     "t": "el",
+     "de": 8.034
+    },
+    {
+     "t": "certificado",
+     "de": 8.208
+    },
+    {
+     "t": "y",
+     "de": 9.079
+    },
+    {
+     "t": "el",
+     "de": 9.206
+    },
+    {
+     "t": "journal.",
+     "de": 9.346
+    },
+    {
+     "t": "Si",
+     "de": 10.356
+    },
+    {
+     "t": "te",
+     "de": 10.542
+    },
+    {
+     "t": "saltas",
+     "de": 10.646
+    },
+    {
+     "t": "uno,",
+     "de": 11.064
+    },
+    {
+     "t": "el",
+     "de": 11.354
+    },
+    {
+     "t": "acto",
+     "de": 11.528
+    },
+    {
+     "t": "queda",
+     "de": 11.784
+    },
+    {
+     "t": "mal",
+     "de": 12.074
+    },
+    {
+     "t": "hecho.",
+     "de": 12.318
+    }
+   ]
+  },
+  {
+   "voz": "Identificas a la persona porque la conoces, con una identificación del gobierno con foto y firma, como un pasaporte, una licencia de manejo o una matrícula consular, o con un testigo creíble que jura o afirma ante ti quién es. Si tienes dudas, pide más información.",
+   "dura": 19.033,
+   "palabras": [
+    {
+     "t": "Identificas",
+     "de": 0.163
+    },
+    {
+     "t": "a",
+     "de": 0.999
+    },
+    {
+     "t": "la",
+     "de": 1.056
+    },
+    {
+     "t": "persona",
+     "de": 1.173
+    },
+    {
+     "t": "porque",
+     "de": 1.753
+    },
+    {
+     "t": "la",
+     "de": 2.043
+    },
+    {
+     "t": "conoces,",
+     "de": 2.171
+    },
+    {
+     "t": "con",
+     "de": 3.077
+    },
+    {
+     "t": "una",
+     "de": 3.274
+    },
+    {
+     "t": "identificación",
+     "de": 3.518
+    },
+    {
+     "t": "del",
+     "de": 4.493
+    },
+    {
+     "t": "gobierno",
+     "de": 4.667
+    },
+    {
+     "t": "con",
+     "de": 5.225
+    },
+    {
+     "t": "foto",
+     "de": 5.457
+    },
+    {
+     "t": "y",
+     "de": 5.793
+    },
+    {
+     "t": "firma,",
+     "de": 5.898
+    },
+    {
+     "t": "como",
+     "de": 6.583
+    },
+    {
+     "t": "un",
+     "de": 6.896
+    },
+    {
+     "t": "pasaporte,",
+     "de": 7.059
+    },
+    {
+     "t": "una",
+     "de": 8.115
+    },
+    {
+     "t": "licencia",
+     "de": 8.312
+    },
+    {
+     "t": "de",
+     "de": 8.858
+    },
+    {
+     "t": "manejo",
+     "de": 8.963
+    },
+    {
+     "t": "o",
+     "de": 9.578
+    },
+    {
+     "t": "una",
+     "de": 9.729
+    },
+    {
+     "t": "matrícula",
+     "de": 9.938
+    },
+    {
+     "t": "consular,",
+     "de": 10.53
+    },
+    {
+     "t": "o",
+     "de": 11.552
+    },
+    {
+     "t": "con",
+     "de": 11.842
+    },
+    {
+     "t": "un",
+     "de": 12.028
+    },
+    {
+     "t": "testigo",
+     "de": 12.121
+    },
+    {
+     "t": "creíble",
+     "de": 12.667
+    },
+    {
+     "t": "que",
+     "de": 13.247
+    },
+    {
+     "t": "jura",
+     "de": 13.398
+    },
+    {
+     "t": "o",
+     "de": 13.769
+    },
+    {
+     "t": "afirma",
+     "de": 13.862
+    },
+    {
+     "t": "ante",
+     "de": 14.292
+    },
+    {
+     "t": "ti",
+     "de": 14.571
+    },
+    {
+     "t": "quién",
+     "de": 14.989
+    },
+    {
+     "t": "es.",
+     "de": 15.337
+    },
+    {
+     "t": "Si",
+     "de": 16.231
+    },
+    {
+     "t": "tienes",
+     "de": 16.417
+    },
+    {
+     "t": "dudas,",
+     "de": 16.695
+    },
+    {
+     "t": "pide",
+     "de": 17.264
+    },
+    {
+     "t": "más",
+     "de": 17.717
+    },
+    {
+     "t": "información.",
+     "de": 18.042
+    }
+   ]
+  },
+  {
+   "voz": "Puedes negarte si no estás convencido de que la persona entiende lo que firma o firma por su voluntad, si no la puedes identificar, si está bajo presión o si sabes que hay fraude. Hazlo con respeto, explica la razón y no cobres.",
+   "dura": 15.793,
+   "palabras": [
+    {
+     "t": "Puedes",
+     "de": 0.162
+    },
+    {
+     "t": "negarte",
+     "de": 0.581
+    },
+    {
+     "t": "si",
+     "de": 1.149
+    },
+    {
+     "t": "no",
+     "de": 1.3
+    },
+    {
+     "t": "estás",
+     "de": 1.428
+    },
+    {
+     "t": "convencido",
+     "de": 1.684
+    },
+    {
+     "t": "de",
+     "de": 2.438
+    },
+    {
+     "t": "que",
+     "de": 2.553
+    },
+    {
+     "t": "la",
+     "de": 2.694
+    },
+    {
+     "t": "persona",
+     "de": 2.821
+    },
+    {
+     "t": "entiende",
+     "de": 3.344
+    },
+    {
+     "t": "lo",
+     "de": 3.808
+    },
+    {
+     "t": "que",
+     "de": 3.947
+    },
+    {
+     "t": "firma",
+     "de": 4.109
+    },
+    {
+     "t": "o",
+     "de": 4.632
+    },
+    {
+     "t": "firma",
+     "de": 4.772
+    },
+    {
+     "t": "por",
+     "de": 5.154
+    },
+    {
+     "t": "su",
+     "de": 5.328
+    },
+    {
+     "t": "voluntad,",
+     "de": 5.468
+    },
+    {
+     "t": "si",
+     "de": 6.374
+    },
+    {
+     "t": "no",
+     "de": 6.536
+    },
+    {
+     "t": "la",
+     "de": 6.663
+    },
+    {
+     "t": "puedes",
+     "de": 6.791
+    },
+    {
+     "t": "identificar,",
+     "de": 7.221
+    },
+    {
+     "t": "si",
+     "de": 8.266
+    },
+    {
+     "t": "está",
+     "de": 8.44
+    },
+    {
+     "t": "bajo",
+     "de": 8.672
+    },
+    {
+     "t": "presión",
+     "de": 8.928
+    },
+    {
+     "t": "o",
+     "de": 9.81
+    },
+    {
+     "t": "si",
+     "de": 10.053
+    },
+    {
+     "t": "sabes",
+     "de": 10.204
+    },
+    {
+     "t": "que",
+     "de": 10.529
+    },
+    {
+     "t": "hay",
+     "de": 10.647
+    },
+    {
+     "t": "fraude.",
+     "de": 10.797
+    },
+    {
+     "t": "Hazlo",
+     "de": 11.853
+    },
+    {
+     "t": "con",
+     "de": 12.284
+    },
+    {
+     "t": "respeto,",
+     "de": 12.469
+    },
+    {
+     "t": "explica",
+     "de": 13.445
+    },
+    {
+     "t": "la",
+     "de": 13.978
+    },
+    {
+     "t": "razón",
+     "de": 14.118
+    },
+    {
+     "t": "y",
+     "de": 14.629
+    },
+    {
+     "t": "no",
+     "de": 14.838
+    },
+    {
+     "t": "cobres.",
+     "de": 15.058
+    }
+   ]
+  },
+  {
+   "voz": "Por cada acto notarial cobras hasta ocho dólares. En copias firmadas al mismo tiempo, cuatro dólares por firma en cada copia adicional. Si viajas, el millaje del IRS y hasta cinco dólares. Puedes cobrar menos, pero nunca más, y anotas la tarifa en tu journal.",
+   "dura": 19.173,
+   "palabras": [
+    {
+     "t": "Por",
+     "de": 0.163
+    },
+    {
+     "t": "cada",
+     "de": 0.395
+    },
+    {
+     "t": "acto",
+     "de": 0.697
+    },
+    {
+     "t": "notarial",
+     "de": 0.975
+    },
+    {
+     "t": "cobras",
+     "de": 1.591
+    },
+    {
+     "t": "hasta",
+     "de": 2.008
+    },
+    {
+     "t": "ocho",
+     "de": 2.38
+    },
+    {
+     "t": "dólares.",
+     "de": 2.717
+    },
+    {
+     "t": "En",
+     "de": 3.599
+    },
+    {
+     "t": "copias",
+     "de": 3.797
+    },
+    {
+     "t": "firmadas",
+     "de": 4.157
+    },
+    {
+     "t": "al",
+     "de": 4.702
+    },
+    {
+     "t": "mismo",
+     "de": 4.818
+    },
+    {
+     "t": "tiempo,",
+     "de": 5.132
+    },
+    {
+     "t": "cuatro",
+     "de": 5.863
+    },
+    {
+     "t": "dólares",
+     "de": 6.328
+    },
+    {
+     "t": "por",
+     "de": 6.746
+    },
+    {
+     "t": "firma",
+     "de": 6.955
+    },
+    {
+     "t": "en",
+     "de": 7.303
+    },
+    {
+     "t": "cada",
+     "de": 7.431
+    },
+    {
+     "t": "copia",
+     "de": 7.768
+    },
+    {
+     "t": "adicional.",
+     "de": 8.162
+    },
+    {
+     "t": "Si",
+     "de": 9.428
+    },
+    {
+     "t": "viajas,",
+     "de": 9.625
+    },
+    {
+     "t": "el",
+     "de": 10.368
+    },
+    {
+     "t": "millaje",
+     "de": 10.577
+    },
+    {
+     "t": "del",
+     "de": 11.03
+    },
+    {
+     "t": "IRS",
+     "de": 11.344
+    },
+    {
+     "t": "y",
+     "de": 12.423
+    },
+    {
+     "t": "hasta",
+     "de": 12.586
+    },
+    {
+     "t": "cinco",
+     "de": 12.876
+    },
+    {
+     "t": "dólares.",
+     "de": 13.306
+    },
+    {
+     "t": "Puedes",
+     "de": 14.443
+    },
+    {
+     "t": "cobrar",
+     "de": 14.803
+    },
+    {
+     "t": "menos,",
+     "de": 15.163
+    },
+    {
+     "t": "pero",
+     "de": 15.662
+    },
+    {
+     "t": "nunca",
+     "de": 16.092
+    },
+    {
+     "t": "más,",
+     "de": 16.544
+    },
+    {
+     "t": "y",
+     "de": 17.125
+    },
+    {
+     "t": "anotas",
+     "de": 17.23
+    },
+    {
+     "t": "la",
+     "de": 17.659
+    },
+    {
+     "t": "tarifa",
+     "de": 17.787
+    },
+    {
+     "t": "en",
+     "de": 18.193
+    },
+    {
+     "t": "tu",
+     "de": 18.31
+    },
+    {
+     "t": "journal.",
+     "de": 18.46
+    }
+   ]
+  },
+  {
+   "voz": "Tu comisión no te autoriza a dar consejos legales, preparar documentos ni hacer trámites de inmigración. Si no eres abogado, no te anuncias como notario: usas Notary Public y pones el aviso obligatorio en cada idioma de tu anuncio.",
+   "dura": 16.419,
+   "palabras": [
+    {
+     "t": "Tu",
+     "de": 0.22
+    },
+    {
+     "t": "comisión",
+     "de": 0.394
+    },
+    {
+     "t": "no",
+     "de": 1.091
+    },
+    {
+     "t": "te",
+     "de": 1.299
+    },
+    {
+     "t": "autoriza",
+     "de": 1.416
+    },
+    {
+     "t": "a",
+     "de": 2.112
+    },
+    {
+     "t": "dar",
+     "de": 2.194
+    },
+    {
+     "t": "consejos",
+     "de": 2.426
+    },
+    {
+     "t": "legales,",
+     "de": 3.076
+    },
+    {
+     "t": "preparar",
+     "de": 3.935
+    },
+    {
+     "t": "documentos",
+     "de": 4.411
+    },
+    {
+     "t": "ni",
+     "de": 5.409
+    },
+    {
+     "t": "hacer",
+     "de": 5.56
+    },
+    {
+     "t": "trámites",
+     "de": 5.862
+    },
+    {
+     "t": "de",
+     "de": 6.373
+    },
+    {
+     "t": "inmigración.",
+     "de": 6.466
+    },
+    {
+     "t": "Si",
+     "de": 7.638
+    },
+    {
+     "t": "no",
+     "de": 7.847
+    },
+    {
+     "t": "eres",
+     "de": 7.998
+    },
+    {
+     "t": "abogado,",
+     "de": 8.265
+    },
+    {
+     "t": "no",
+     "de": 8.788
+    },
+    {
+     "t": "te",
+     "de": 8.927
+    },
+    {
+     "t": "anuncias",
+     "de": 9.043
+    },
+    {
+     "t": "como",
+     "de": 9.519
+    },
+    {
+     "t": "notario:",
+     "de": 9.74
+    },
+    {
+     "t": "usas",
+     "de": 10.808
+    },
+    {
+     "t": "Notary",
+     "de": 11.516
+    },
+    {
+     "t": "Public",
+     "de": 12.039
+    },
+    {
+     "t": "y",
+     "de": 12.782
+    },
+    {
+     "t": "pones",
+     "de": 12.956
+    },
+    {
+     "t": "el",
+     "de": 13.281
+    },
+    {
+     "t": "aviso",
+     "de": 13.385
+    },
+    {
+     "t": "obligatorio",
+     "de": 13.734
+    },
+    {
+     "t": "en",
+     "de": 14.43
+    },
+    {
+     "t": "cada",
+     "de": 14.546
+    },
+    {
+     "t": "idioma",
+     "de": 14.849
+    },
+    {
+     "t": "de",
+     "de": 15.325
+    },
+    {
+     "t": "tu",
+     "de": 15.44
+    },
+    {
+     "t": "anuncio.",
+     "de": 15.568
+    }
+   ]
+  },
+  {
+   "voz": "Nunca notarices un documento donde tú o tu esposo o esposa son parte o reciben un beneficio. Y cuida tu comisión: no identificar bien, cobrar de más o hacer publicidad engañosa puede costarte una suspensión o la revocación.",
+   "dura": 16.606,
+   "palabras": [
+    {
+     "t": "Nunca",
+     "de": 0.221
+    },
+    {
+     "t": "notarices",
+     "de": 0.639
+    },
+    {
+     "t": "un",
+     "de": 1.254
+    },
+    {
+     "t": "documento",
+     "de": 1.347
+    },
+    {
+     "t": "donde",
+     "de": 1.951
+    },
+    {
+     "t": "tú",
+     "de": 2.299
+    },
+    {
+     "t": "o",
+     "de": 2.612
+    },
+    {
+     "t": "tu",
+     "de": 2.728
+    },
+    {
+     "t": "esposo",
+     "de": 2.879
+    },
+    {
+     "t": "o",
+     "de": 3.576
+    },
+    {
+     "t": "esposa",
+     "de": 3.75
+    },
+    {
+     "t": "son",
+     "de": 4.551
+    },
+    {
+     "t": "parte",
+     "de": 4.818
+    },
+    {
+     "t": "o",
+     "de": 5.294
+    },
+    {
+     "t": "reciben",
+     "de": 5.457
+    },
+    {
+     "t": "un",
+     "de": 5.944
+    },
+    {
+     "t": "beneficio.",
+     "de": 6.037
+    },
+    {
+     "t": "Y",
+     "de": 7.419
+    },
+    {
+     "t": "cuida",
+     "de": 7.581
+    },
+    {
+     "t": "tu",
+     "de": 7.895
+    },
+    {
+     "t": "comisión:",
+     "de": 8.034
+    },
+    {
+     "t": "no",
+     "de": 8.998
+    },
+    {
+     "t": "identificar",
+     "de": 9.207
+    },
+    {
+     "t": "bien,",
+     "de": 9.996
+    },
+    {
+     "t": "cobrar",
+     "de": 10.646
+    },
+    {
+     "t": "de",
+     "de": 11.088
+    },
+    {
+     "t": "más",
+     "de": 11.215
+    },
+    {
+     "t": "o",
+     "de": 11.773
+    },
+    {
+     "t": "hacer",
+     "de": 11.97
+    },
+    {
+     "t": "publicidad",
+     "de": 12.249
+    },
+    {
+     "t": "engañosa",
+     "de": 12.818
+    },
+    {
+     "t": "puede",
+     "de": 13.63
+    },
+    {
+     "t": "costarte",
+     "de": 13.944
+    },
+    {
+     "t": "una",
+     "de": 14.443
+    },
+    {
+     "t": "suspensión",
+     "de": 14.594
+    },
+    {
+     "t": "o",
+     "de": 15.407
+    },
+    {
+     "t": "la",
+     "de": 15.476
+    },
+    {
+     "t": "revocación.",
+     "de": 15.616
+    }
+   ]
+  },
+  {
+   "voz": "Avisa a la Secretaría cualquier cambio de nombre, dirección o email dentro de treinta días. Si pierdes tu sello o tu journal, avisa de inmediato. Y renueva a tiempo: puedes hacerlo desde sesenta días antes de que venza.",
+   "dura": 16.432,
+   "palabras": [
+    {
+     "t": "Avisa",
+     "de": 0.163
+    },
+    {
+     "t": "a",
+     "de": 0.615
+    },
+    {
+     "t": "la",
+     "de": 0.685
+    },
+    {
+     "t": "Secretaría",
+     "de": 0.813
+    },
+    {
+     "t": "cualquier",
+     "de": 1.51
+    },
+    {
+     "t": "cambio",
+     "de": 1.998
+    },
+    {
+     "t": "de",
+     "de": 2.404
+    },
+    {
+     "t": "nombre,",
+     "de": 2.555
+    },
+    {
+     "t": "dirección",
+     "de": 3.379
+    },
+    {
+     "t": "o",
+     "de": 4.272
+    },
+    {
+     "t": "email",
+     "de": 4.447
+    },
+    {
+     "t": "dentro",
+     "de": 5.108
+    },
+    {
+     "t": "de",
+     "de": 5.502
+    },
+    {
+     "t": "treinta",
+     "de": 5.62
+    },
+    {
+     "t": "días.",
+     "de": 6.038
+    },
+    {
+     "t": "Si",
+     "de": 7.0
+    },
+    {
+     "t": "pierdes",
+     "de": 7.187
+    },
+    {
+     "t": "tu",
+     "de": 7.593
+    },
+    {
+     "t": "sello",
+     "de": 7.755
+    },
+    {
+     "t": "o",
+     "de": 8.243
+    },
+    {
+     "t": "tu",
+     "de": 8.382
+    },
+    {
+     "t": "journal,",
+     "de": 8.545
+    },
+    {
+     "t": "avisa",
+     "de": 9.264
+    },
+    {
+     "t": "de",
+     "de": 9.718
+    },
+    {
+     "t": "inmediato.",
+     "de": 9.822
+    },
+    {
+     "t": "Y",
+     "de": 10.959
+    },
+    {
+     "t": "renueva",
+     "de": 11.146
+    },
+    {
+     "t": "a",
+     "de": 11.599
+    },
+    {
+     "t": "tiempo:",
+     "de": 11.692
+    },
+    {
+     "t": "puedes",
+     "de": 12.829
+    },
+    {
+     "t": "hacerlo",
+     "de": 13.2
+    },
+    {
+     "t": "desde",
+     "de": 13.688
+    },
+    {
+     "t": "sesenta",
+     "de": 14.014
+    },
+    {
+     "t": "días",
+     "de": 14.594
+    },
+    {
+     "t": "antes",
+     "de": 15.07
+    },
+    {
+     "t": "de",
+     "de": 15.534
+    },
+    {
+     "t": "que",
+     "de": 15.639
+    },
+    {
+     "t": "venza.",
+     "de": 15.767
+    }
+   ]
+  },
+  {
+   "voz": "Con tu comisión puedes ofrecer notarizaciones en tu oficina, a domicilio y copias certificadas, y crecer como notario de firmas hipotecarias. Protégete con un seguro de errores y omisiones, y consigue tus herramientas en La Tienda del Notario.",
+   "dura": 16.803,
+   "palabras": [
+    {
+     "t": "Con",
+     "de": 0.302
+    },
+    {
+     "t": "tu",
+     "de": 0.499
+    },
+    {
+     "t": "comisión",
+     "de": 0.616
+    },
+    {
+     "t": "puedes",
+     "de": 1.242
+    },
+    {
+     "t": "ofrecer",
+     "de": 1.626
+    },
+    {
+     "t": "notarizaciones",
+     "de": 2.171
+    },
+    {
+     "t": "en",
+     "de": 3.251
+    },
+    {
+     "t": "tu",
+     "de": 3.402
+    },
+    {
+     "t": "oficina,",
+     "de": 3.564
+    },
+    {
+     "t": "a",
+     "de": 4.481
+    },
+    {
+     "t": "domicilio",
+     "de": 4.597
+    },
+    {
+     "t": "y",
+     "de": 5.538
+    },
+    {
+     "t": "copias",
+     "de": 5.712
+    },
+    {
+     "t": "certificadas,",
+     "de": 6.118
+    },
+    {
+     "t": "y",
+     "de": 7.198
+    },
+    {
+     "t": "crecer",
+     "de": 7.337
+    },
+    {
+     "t": "como",
+     "de": 7.709
+    },
+    {
+     "t": "notario",
+     "de": 7.906
+    },
+    {
+     "t": "de",
+     "de": 8.371
+    },
+    {
+     "t": "firmas",
+     "de": 8.498
+    },
+    {
+     "t": "hipotecarias.",
+     "de": 8.87
+    },
+    {
+     "t": "Protégete",
+     "de": 10.449
+    },
+    {
+     "t": "con",
+     "de": 11.134
+    },
+    {
+     "t": "un",
+     "de": 11.331
+    },
+    {
+     "t": "seguro",
+     "de": 11.459
+    },
+    {
+     "t": "de",
+     "de": 11.958
+    },
+    {
+     "t": "errores",
+     "de": 12.074
+    },
+    {
+     "t": "y",
+     "de": 12.655
+    },
+    {
+     "t": "omisiones,",
+     "de": 12.736
+    },
+    {
+     "t": "y",
+     "de": 13.642
+    },
+    {
+     "t": "consigue",
+     "de": 13.781
+    },
+    {
+     "t": "tus",
+     "de": 14.199
+    },
+    {
+     "t": "herramientas",
+     "de": 14.385
+    },
+    {
+     "t": "en",
+     "de": 15.023
+    },
+    {
+     "t": "La",
+     "de": 15.162
+    },
+    {
+     "t": "Tienda",
+     "de": 15.348
+    },
+    {
+     "t": "del",
+     "de": 15.766
+    },
+    {
+     "t": "Notario.",
+     "de": 15.952
+    }
+   ]
+  },
+  {
+   "voz": "Eso es todo el curso. Repasa las lecciones donde tengas dudas, haz los ejercicios y prepárate para tu examen. En Centro Latino de Capacitación te deseamos mucho éxito como notario de Maryland.",
+   "dura": 13.924,
+   "palabras": [
+    {
+     "t": "Eso",
+     "de": 0.255
+    },
+    {
+     "t": "es",
+     "de": 0.627
+    },
+    {
+     "t": "todo",
+     "de": 0.755
+    },
+    {
+     "t": "el",
+     "de": 1.022
+    },
+    {
+     "t": "curso.",
+     "de": 1.149
+    },
+    {
+     "t": "Repasa",
+     "de": 2.416
+    },
+    {
+     "t": "las",
+     "de": 2.821
+    },
+    {
+     "t": "lecciones",
+     "de": 2.995
+    },
+    {
+     "t": "donde",
+     "de": 3.587
+    },
+    {
+     "t": "tengas",
+     "de": 3.877
+    },
+    {
+     "t": "dudas,",
+     "de": 4.296
+    },
+    {
+     "t": "haz",
+     "de": 5.015
+    },
+    {
+     "t": "los",
+     "de": 5.26
+    },
+    {
+     "t": "ejercicios",
+     "de": 5.445
+    },
+    {
+     "t": "y",
+     "de": 6.363
+    },
+    {
+     "t": "prepárate",
+     "de": 6.548
+    },
+    {
+     "t": "para",
+     "de": 7.059
+    },
+    {
+     "t": "tu",
+     "de": 7.268
+    },
+    {
+     "t": "examen.",
+     "de": 7.395
+    },
+    {
+     "t": "En",
+     "de": 8.347
+    },
+    {
+     "t": "Centro",
+     "de": 8.556
+    },
+    {
+     "t": "Latino",
+     "de": 8.928
+    },
+    {
+     "t": "de",
+     "de": 9.369
+    },
+    {
+     "t": "Capacitación",
+     "de": 9.474
+    },
+    {
+     "t": "te",
+     "de": 10.356
+    },
+    {
+     "t": "deseamos",
+     "de": 10.495
+    },
+    {
+     "t": "mucho",
+     "de": 11.135
+    },
+    {
+     "t": "éxito",
+     "de": 11.563
+    },
+    {
+     "t": "como",
+     "de": 12.017
+    },
+    {
+     "t": "notario",
+     "de": 12.248
+    },
+    {
+     "t": "de",
+     "de": 12.794
+    },
+    {
+     "t": "Maryland.",
+     "de": 12.933
+    }
+   ]
+  }
+ ]
+}
