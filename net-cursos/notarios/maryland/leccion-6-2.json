@@ -1,0 +1,81 @@
+{
+ "post": 183129,
+ "titulo": "6.2 Lo que no puedes hacer: práctica del derecho y la palabra «notario»",
+ "fuentes": "SG §18-224, §18-104; revisado en mgaleg.maryland.gov el 29/10/2026",
+ "secciones": [
+  {"tipo": "resumen", "titulo": "Lo más importante", "icono": "fas fa-star", "items": [
+   "Ser notario <strong>no te autoriza</strong> a preparar documentos legales, dar consejos legales ni hacer trámites de <strong>inmigración</strong> (SG § 18-224).",
+   "En Maryland <strong>no puedes usar</strong> las palabras «<strong>notario</strong>» ni «<strong>notario público</strong>» para anunciarte, a menos que seas abogado con licencia en el estado.",
+   "Si anuncias tus servicios de notario, tu anuncio debe llevar un <strong>aviso</strong> de que no eres abogado, en <strong>cada idioma</strong> del anuncio.",
+   "La publicidad falsa o engañosa puede costarte la <strong>comisión</strong> (SG § 18-104)."]},
+
+  {"titulo": "En Estados Unidos, el notario no es abogado", "icono": "fas fa-balance-scale", "bloques": [
+   {"tipo": "texto", "texto": "En muchos países de Latinoamérica, el «notario público» es un <strong>abogado</strong> con muchas funciones. En Estados Unidos <strong>no</strong>: el notary public es un funcionario que <strong>certifica firmas y actos</strong>, nada más. Lo viste en la lección 1.2."},
+   {"tipo": "texto", "texto": "Por eso la comunidad latina confunde a veces al notario con un abogado, y algunas personas se aprovechan. La ley de Maryland protege a los clientes con las reglas de esta lección."}]},
+
+  {"titulo": "Lo que la comisión no te autoriza a hacer", "icono": "fas fa-ban", "bloques": [
+   {"tipo": "texto", "texto": "La ley dice que tu comisión de notario <strong>no te autoriza</strong> a (SG § 18-224):"},
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "<strong>Ayudar a preparar</strong> documentos legales, <strong>dar consejos legales</strong> o practicar el derecho de cualquier otra forma."],
+    ["fas fa-times-circle", "Actuar como <strong>consultor de inmigración</strong> o experto en temas de inmigración."],
+    ["fas fa-times-circle", "<strong>Representar</strong> a una persona en un proceso ante un tribunal o una agencia sobre inmigración, ciudadanía o temas relacionados."],
+    ["fas fa-times-circle", "<strong>Cobrar</strong> por cualquiera de esas actividades."]]},
+   {"tipo": "nota", "texto": "<strong>Ojo:</strong> estas reglas son para tu trabajo <strong>como notario</strong>. Si además eres abogado con licencia en Maryland, esa licencia es la que te permite dar consejos legales, no la comisión de notario."}]},
+
+  {"titulo": "Ejemplos: qué sí y qué no", "icono": "fas fa-exchange-alt", "bloques": [
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Sí puedes", "sub": "Tu trabajo de notario", "filas": [
+     ["Actos", "Hacer el acto que el cliente te pide: acknowledgment, jurat, copia certificada y los demás."],
+     ["Certificado", "Llenar el certificado notarial y adjuntar uno si falta."],
+     ["Recomendar", "Decirle al cliente que consulte a un abogado o a quien le pidió el documento."]]},
+    {"titulo": "No puedes", "sub": "Práctica del derecho", "filas": [
+     ["Elegir", "Decirle al cliente qué tipo de documento o de acto le conviene."],
+     ["Preparar", "Redactar un poder, un contrato o una declaración por el cliente."],
+     ["Inmigración", "Llenar formularios de inmigración o aconsejar sobre un caso."]]}]}]},
+
+  {"titulo": "La palabra «notario»", "icono": "fas fa-font", "bloques": [
+   {"tipo": "texto", "texto": "La ley de Maryland es muy clara: un notario público <strong>no puede usar</strong> los términos «<strong>notario</strong>» ni «<strong>notario publico</strong>», a menos que sea <strong>abogado con licencia</strong> para practicar el derecho en Maryland (SG § 18-224)."},
+   {"tipo": "comparar", "tarjetas": [
+    {"titulo": "Correcto", "sub": "Puedes anunciarte así", "filas": [["Ejemplo", "«Notary Public» · «Servicios de Notary Public»"]]},
+    {"titulo": "Prohibido", "sub": "Si no eres abogado", "filas": [["Ejemplo", "«Notario» · «Notario Público» · «Notaría»"]]}]},
+   {"tipo": "nota", "texto": "<strong>Consejo:</strong> en tus tarjetas, letreros y redes sociales usa siempre «<strong>Notary Public</strong>» en inglés. Evita también palabras que hagan pensar que eres abogado, como «Notaría» o «Licenciado»."}]},
+
+  {"titulo": "El aviso obligatorio en tus anuncios", "icono": "fas fa-bullhorn", "bloques": [
+   {"tipo": "texto", "texto": "Si no eres abogado y anuncias tus servicios de notario <strong>de cualquier forma</strong> (de palabra o por escrito, en radio, televisión, periódico o internet), tu anuncio debe llevar este aviso, u otro que autorice la Secretaría de Estado (SG § 18-224):"},
+   {"tipo": "certificado", "lineas": [
+    "<strong>I am not an attorney licensed to practice law in this State. I am not allowed to draft legal records, give advice on legal matters, including immigration, or charge a fee for those activities.</strong>"],
+    "pie": "Texto exacto de la ley (SG § 18-224)."},
+   {"tipo": "certificado", "marca": "NUESTRA TRADUCCIÓN", "lineas": [
+    "<strong>No soy abogado con licencia para practicar el derecho en este estado. No se me permite redactar documentos legales, dar consejos sobre asuntos legales, incluida la inmigración, ni cobrar por esas actividades.</strong>"],
+    "pie": "Traducción de Centro Latino de Capacitación. La ley no da una versión oficial en español."},
+   {"tipo": "lista", "items": [
+    "El aviso va en un lugar <strong>visible</strong> y en <strong>cada idioma</strong> que uses en el anuncio. Si tu anuncio está en español e inglés, el aviso va en los dos idiomas.",
+    "Si el anuncio es tan pequeño que el aviso no cabe, y no es en radio, televisión, periódico ni internet, el aviso se muestra o se entrega en el <strong>lugar donde haces el acto</strong>, <strong>antes</strong> de hacerlo."]}]},
+
+  {"titulo": "Otras reglas de la misma ley", "icono": "fas fa-gavel", "bloques": [
+   {"tipo": "lista", "items": [
+    ["fas fa-times-circle", "<strong>No</strong> puedes hacer publicidad <strong>falsa o engañosa</strong>."],
+    ["fas fa-times-circle", "<strong>No</strong> puedes anunciar que ayudas a preparar documentos legales, que das consejos legales o que practicas el derecho, si no eres abogado con licencia en Maryland."],
+    ["fas fa-times-circle", "<strong>No</strong> puedes quedarte con el <strong>documento original</strong> que te trae el cliente, salvo que otra ley lo permita."]]},
+   {"tipo": "texto", "texto": "La Secretaría de Estado puede negar, suspender o revocar tu comisión por, entre otras razones, usar publicidad falsa o engañosa que diga que tienes un deber, un derecho o un privilegio que no tienes (SG § 18-104). Las sanciones las vemos en la lección 6.3."}]},
+
+  {"tipo": "casos", "titulo": "Casos de la oficina", "icono": "fas fa-briefcase", "items": [
+   ["Un cliente te pregunta si le conviene un poder general o uno limitado.", "No le aconsejas. Le dices que lo consulte con un abogado; tú solo notarizas el poder que él traiga."],
+   ["Una señora te pide que le llenes su formulario de inmigración y te ofrece pagarte.", "No puedes: la comisión no te autoriza a actuar como consultor de inmigración ni a cobrar por eso (SG § 18-224)."],
+   ["Quieres poner un letrero que diga «Notario Público – Se hacen poderes».", "No puedes usar «Notario Público» ni anunciar que preparas poderes. Pon «Notary Public» y el aviso obligatorio."],
+   ["Tu página de Facebook está en español y anuncias tus servicios de notary public.", "El aviso tiene que estar en español, en un lugar visible de la página. Si también usas inglés, va en inglés también."]]},
+
+  {"tipo": "errores", "titulo": "Errores comunes", "icono": "fas fa-exclamation-triangle", "items": [
+   "Anunciarse como «Notario» o «Notario Público».",
+   "Olvidar el aviso obligatorio en redes sociales, tarjetas o volantes.",
+   "Poner el aviso solo en inglés cuando el anuncio está en español.",
+   "Recomendarle al cliente qué documento le conviene.",
+   "Llenar formularios de inmigración o cobrar por ayudar con un trámite legal."]},
+
+  {"tipo": "ejercicios", "titulo": "Ejercicios", "icono": "fas fa-edit", "items": [
+   {"tipo": "vf", "pregunta": "En Maryland, un notario que no es abogado puede anunciarse como «Notario Público».", "ok": "F", "razon": "Solo un abogado con licencia en Maryland puede usar esos términos."},
+   {"tipo": "vf", "pregunta": "Si tu anuncio está en español, el aviso de que no eres abogado también debe estar en español.", "ok": "V"},
+   {"tipo": "om", "pregunta": "¿Qué te autoriza a hacer tu comisión de notario?", "opciones": ["Llenar formularios de inmigración", "Hacer actos notariales como el acknowledgment y el jurat", "Dar consejos legales sencillos"], "ok": "b"},
+   {"tipo": "om", "pregunta": "¿Cuál de estas palabras sí puedes usar en tu letrero?", "opciones": ["Notario", "Notary Public", "Notaría"], "ok": "b"}]}
+ ]
+}
