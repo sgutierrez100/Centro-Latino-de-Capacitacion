@@ -41,7 +41,7 @@ TEXTOS = {
  '3d3d5f68': 'A tu ritmo y desde tu casa, con ejemplos, casos de la oficina y ejercicios.',
  '21ac24cc': '1. Bienvenida y el notario en Maryland',
  '244cd789': 'Qué es un notario en Estados Unidos, quién te nombra en Maryland, la ley y el inglés que necesitas.',
- '3ebb545': '2. El curso, el examen y la solicitud',
+ '3ebb545': '2. La solicitud',
  '2c2d043': 'El certificado que pide el estado, la solicitud en línea paso a paso, antecedentes y aprobación.',
  '4e54d0d5': '3. El juramento y tus herramientas',
  '78227931': 'El juramento ante el Clerk of the Circuit Court, tu comisión, el sello, el journal y el seguro E&O.',
