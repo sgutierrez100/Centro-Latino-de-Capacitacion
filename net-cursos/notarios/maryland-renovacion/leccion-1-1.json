@@ -1,0 +1,110 @@
+{
+ "post": 183839,
+ "titulo": "1.1 Bienvenida: cómo funciona el curso de renovación",
+ "fuentes": "SG §18-102, §18-103; COMAR 01.02.08.03; sos.maryland.gov/Notary (Renewal Applicant Info y FAQ), revisado el 30/10/2026",
+ "secciones": [
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Este curso es para <strong>notarios de Maryland</strong> que quieren <strong>renovar su comisión</strong>.",
+    "Para renovar, Maryland pide tomar un <strong>curso de estudio</strong> y subir tu <strong>Certificate of Completion</strong> en la solicitud de renovación (SG § 18-102).",
+    "Al terminar este curso pides tu certificado en la <strong>lección 2.1</strong>. Te llega a tu <strong>email</strong> en aproximadamente <strong>24-48 horas</strong>.",
+    "Tu comisión dura <strong>4 años</strong> (SG § 18-103). Puedes renovar desde <strong>60 días antes</strong> de que venza."
+   ]
+  },
+  {
+   "titulo": "Los pasos de tu renovación",
+   "icono": "fas fa-route",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "Termina este curso y pide tu <strong>Certificate of Completion</strong> (lección 2.1).",
+      "Haz tu <strong>solicitud de renovación en línea</strong>, sube tu certificado y paga <strong>$25</strong> a la Secretaría de Estado (lección 2.2).",
+      "La Secretaría revisa tu solicitud y tus antecedentes. La respuesta te llega por <strong>email</strong>, normalmente en 2 o 3 días hábiles.",
+      "Ve con el <strong>Clerk of the Circuit Court</strong> dentro de los <strong>30 días</strong> siguientes, haz tu juramento y paga <strong>$11</strong> (lección 2.3).",
+      "Recibes tu <strong>nueva comisión</strong> por email y sigues trabajando como notario."
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "Importante: puedes renovar hasta 30 días después de la fecha en que vence tu comisión, pero mientras esté vencida no puedes notarizar. Si pasan más de 30 días, ya no renuevas: tienes que hacer una solicitud nueva."
+    }
+   ]
+  },
+  {
+   "titulo": "Cómo está organizado el curso",
+   "icono": "fas fa-list-ol",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      ["fas fa-calendar-check", "<strong>1. Tu renovación:</strong> cuándo renovar, qué necesitas y cuánto cuesta."],
+      ["fas fa-laptop", "<strong>2. La renovación paso a paso:</strong> tu certificado, la solicitud en línea, el juramento y tu nueva comisión."],
+      ["fas fa-balance-scale", "<strong>3. Repaso de la ley notarial de Maryland:</strong> tus deberes, los actos notariales, la notarización correcta y cuándo negarte."],
+      ["fas fa-dollar-sign", "<strong>4. Tarifas, ética y sanciones:</strong> lo que puedes cobrar y lo que no puedes hacer."],
+      ["fas fa-flag-checkered", "<strong>5. Repaso final y qué sigue.</strong>"]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Cada lección empieza con <strong>lo más importante</strong> y trae <strong>casos de la oficina</strong>, <strong>errores comunes</strong> y <strong>ejercicios</strong> para practicar. Tienes <strong>1 mes de acceso</strong> desde que compras el curso, así que avanza a tu ritmo."
+    }
+   ]
+  },
+  {
+   "titulo": "Qué vas a necesitar para renovar",
+   "icono": "fas fa-clipboard-list",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      "Tu <strong>Certificate of Completion</strong> de este curso.",
+      "Una copia de tu <strong>licencia de manejo</strong> u otra identificación válida del gobierno.",
+      "Tu <strong>distrito legislativo</strong>, si vives en Maryland. Lo buscas con tu dirección en la página de la Asamblea General de Maryland.",
+      "Tu <strong>Change of Address Card</strong> (tarjeta de cambio de dirección), si la dirección de tu identificación no es la misma que pones en la solicitud.",
+      "Tu forma de pago para los <strong>$25</strong> de la solicitud."
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "casos",
+   "titulo": "Casos de la oficina",
+   "icono": "fas fa-briefcase",
+   "items": [
+    ["Tu comisión vence el 15 de febrero. Hoy es 30 de octubre.", "Todavía no puedes renovar: el periodo abre 60 días antes, el 17 de diciembre. Mientras tanto, avanza con este curso para tener tu certificado listo."],
+    ["Tu comisión venció hace 45 días.", "Ya no puedes renovar, porque pasaron más de 30 días. Tienes que hacer una solicitud nueva como notario. Para eso está el Curso de Notario Público para Maryland."]
+   ]
+  },
+  {
+   "titulo": "¿Necesitas ayuda?",
+   "icono": "fas fa-comments",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Escríbenos por WhatsApp al <strong>(909) 344-0703</strong>. Te atendemos en español de lunes a sábado, de 1 a 7 pm (hora del Este)."
+    },
+    {
+     "tipo": "botones",
+     "items": [
+      {"texto": "Escríbenos por WhatsApp", "url": "https://wa.me/19093440703?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20el%20curso%20de%20renovaci%C3%B3n%20de%20notario%20de%20Maryland"},
+      {"texto": "Curso de Notario Público para Maryland", "url": "https://centrolatinodecapacitacion.net/course/curso-de-notario-publico-para-maryland/"}
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {"tipo": "vf", "pregunta": "Para renovar tu comisión en Maryland necesitas subir tu Certificate of Completion en la solicitud.", "ok": "V"},
+    {"tipo": "vf", "pregunta": "Si tu comisión venció hace 20 días, todavía puedes notarizar mientras renuevas.", "ok": "F", "razon": "Puedes renovar hasta 30 días después del vencimiento, pero con la comisión vencida no puedes notarizar."},
+    {"tipo": "om", "pregunta": "¿Cuánto pagas a la Secretaría de Estado por la solicitud de renovación?", "opciones": ["$11", "$25", "$50"], "ok": "b"}
+   ]
+  }
+ ]
+}

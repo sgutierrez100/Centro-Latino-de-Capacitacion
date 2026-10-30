@@ -1,0 +1,89 @@
+{
+ "curso": 183835,
+ "plan": 183837,
+ "permalink": "https://centrolatinodecapacitacion.net/?post_type=course&p=183835",
+ "capitulos": [
+  {
+   "id": 183838,
+   "titulo": "1. Tu renovación",
+   "lecciones": [
+    [
+     183839,
+     "1.1 Bienvenida: cómo funciona el curso de renovación"
+    ],
+    [
+     183841,
+     "1.2 Cuándo renovar, requisitos y costos"
+    ]
+   ]
+  },
+  {
+   "id": 183843,
+   "titulo": "2. La renovación paso a paso",
+   "lecciones": [
+    [
+     183844,
+     "2.1 Solicitar tu certificado de renovación"
+    ],
+    [
+     183846,
+     "2.2 La solicitud de renovación en línea, paso a paso"
+    ],
+    [
+     183848,
+     "2.3 Aprobación, juramento y tu nueva comisión"
+    ]
+   ]
+  },
+  {
+   "id": 183850,
+   "titulo": "3. Repaso de la ley notarial de Maryland",
+   "lecciones": [
+    [
+     183851,
+     "3.1 La ley y tus deberes como notario"
+    ],
+    [
+     183853,
+     "3.2 Los actos notariales y sus certificados"
+    ],
+    [
+     183855,
+     "3.3 La notarización correcta: pasos, identificación, sello y journal"
+    ],
+    [
+     183857,
+     "3.4 Cuándo negarte y casos especiales"
+    ]
+   ]
+  },
+  {
+   "id": 183859,
+   "titulo": "4. Tarifas, ética y sanciones",
+   "lecciones": [
+    [
+     183860,
+     "4.1 Tarifas del notario"
+    ],
+    [
+     183862,
+     "4.2 Lo que no puedes hacer y sanciones"
+    ]
+   ]
+  },
+  {
+   "id": 183864,
+   "titulo": "5. Repaso final y qué sigue",
+   "lecciones": [
+    [
+     183865,
+     "5.1 Repaso final"
+    ],
+    [
+     183867,
+     "5.2 Qué sigue"
+    ]
+   ]
+  }
+ ]
+}
