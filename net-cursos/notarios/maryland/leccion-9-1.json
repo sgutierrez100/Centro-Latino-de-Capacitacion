@@ -10,7 +10,7 @@
    "items": [
     "Mira el <strong>video</strong> de arriba: repasa todo el curso, capítulo por capítulo.",
     "Lee los <strong>puntos clave</strong> de cada capítulo. Si algo no lo recuerdas, vuelve a esa lección.",
-    "Repasa la tabla de <strong>números</strong>: es lo que más se confunde en el examen.",
+    "Repasa la tabla de <strong>números</strong>: son los datos que más se confunden.",
     "Termina con los <strong>ejercicios</strong> del final."
    ]
   },
@@ -38,7 +38,6 @@
      "tipo": "lista",
      "items": [
       "Requisitos: <strong>18 años</strong>, buen carácter moral, y <strong>vivir o trabajar</strong> en Maryland (SG § 18-102).",
-      "La primera vez tomas el <strong>curso</strong> y apruebas el <strong>examen</strong> con <strong>80 %</strong>. Recibes el <strong>Certificate of Completion</strong> y el <strong>Certificate of Passing</strong> (2.1).",
       "La solicitud es <strong>en línea</strong>, la firmas bajo juramento y cuesta <strong>$25</strong>. Necesitas tus certificados, tu identificación, tu distrito legislativo y <strong>3 referencias</strong> (2.2).",
       "Declara con la verdad tus <strong>antecedentes</strong>: si no lo haces, te niegan la solicitud (2.2 y 2.4).",
       "Te pueden negar la solicitud por falta de honestidad, integridad, capacidad o confiabilidad (2.4)."
@@ -187,10 +186,6 @@
       [
        "18 años",
        "Edad mínima para ser notario"
-      ],
-      [
-       "80 %",
-       "Calificación para aprobar el examen"
       ],
       [
        "3",
