@@ -1,0 +1,105 @@
+{
+ "post": 183049,
+ "titulo": "1.1 Bienvenida: cómo funciona el curso",
+ "fuentes": "Video de bienvenida (media 183042); plan de acceso 183778; estructura del curso 183043, revisado el 30/10/2026",
+ "video": "https://centrolatinodecapacitacion.net/wp-content/uploads/2026/10/notario-maryland-leccion-1-1-bienvenida.mp4",
+ "secciones": [
+  {
+   "tipo": "resumen",
+   "titulo": "Lo más importante",
+   "icono": "fas fa-star",
+   "items": [
+    "Bienvenido al <strong>Curso de Notario Público para Maryland</strong> de Centro Latino de Capacitación.",
+    "El curso es <strong>en español</strong>, <strong>en línea</strong> y <strong>a tu ritmo</strong>. Entras cuando quieras, desde tu computadora o tu celular.",
+    "Las lecciones del <strong>capítulo 1 son gratis</strong>. Cuando compras el curso, tienes <strong>2 meses de acceso</strong> a todo.",
+    "Ve <strong>en orden</strong>, una lección a la vez, y haz los <strong>ejercicios</strong> antes de avanzar."
+   ]
+  },
+  {
+   "titulo": "Cómo está organizado el curso",
+   "icono": "fas fa-list-ol",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "El curso va en orden: desde qué es un notario y cómo hacer tu solicitud, hasta los actos notariales y cómo empezar tu negocio."
+    },
+    {
+     "tipo": "lista",
+     "items": [
+      ["fas fa-flag", "<strong>1. Bienvenida y el notario en Maryland:</strong> qué es un notario, quién te nombra, tu ruta y el inglés que necesitas."],
+      ["fas fa-laptop", "<strong>2. La solicitud:</strong> tus certificados, la solicitud en línea paso a paso y la aprobación."],
+      ["fas fa-gavel", "<strong>3. El juramento y tus herramientas:</strong> el Clerk, tu comisión, el sello, el journal y el seguro E&amp;O."],
+      ["fas fa-stamp", "<strong>4. Los actos notariales:</strong> acknowledgment, jurat, oath, affirmation, copias certificadas y cómo llenar los certificados."],
+      ["fas fa-user-check", "<strong>5. La notarización correcta:</strong> los pasos, cómo identificar al firmante y cuándo negarte."],
+      ["fas fa-dollar-sign", "<strong>6. Tarifas, ética y límites:</strong> lo que puedes cobrar y lo que no puedes hacer."],
+      ["fas fa-sync-alt", "<strong>7. Cómo mantener tu comisión:</strong> cambios de datos, renovación, mudanza o renuncia."],
+      ["fas fa-briefcase", "<strong>8. Tu negocio de notario:</strong> servicios, precios y notario de firmas."],
+      ["fas fa-flag-checkered", "<strong>9. Repaso final y qué sigue:</strong> un video de repaso con todo lo que aprendiste."]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Qué trae cada lección",
+   "icono": "fas fa-layer-group",
+   "bloques": [
+    {
+     "tipo": "lista",
+     "items": [
+      ["fas fa-star", "<strong>Lo más importante</strong>, al principio, para que sepas qué vas a aprender."],
+      ["fas fa-balance-scale", "<strong>La ley con su fuente</strong>, para que sepas de dónde sale cada regla."],
+      ["fas fa-briefcase", "<strong>Casos de la oficina</strong>, con lo que debes hacer en cada uno."],
+      ["fas fa-exclamation-triangle", "<strong>Errores comunes</strong> que debes evitar."],
+      ["fas fa-edit", "<strong>Ejercicios con sus respuestas</strong>, para practicar."]
+     ]
+    },
+    {
+     "tipo": "nota",
+     "texto": "Las palabras en inglés que usa un notario, como acknowledgment, jurat, journal o seal, te las explicamos en español para que las entiendas y las uses con confianza. En la lección 1.5 está el inglés para el notario."
+    }
+   ]
+  },
+  {
+   "titulo": "Cómo sacarle el máximo provecho",
+   "icono": "fas fa-lightbulb",
+   "bloques": [
+    {
+     "tipo": "pasos",
+     "items": [
+      "Ve <strong>en orden</strong>: cada lección usa lo que aprendiste en la anterior.",
+      "Lee primero <strong>lo más importante</strong> y después toda la lección.",
+      "Haz los <strong>ejercicios</strong> antes de pasar a la siguiente lección.",
+      "Anota tus dudas y <strong>escríbenos por WhatsApp</strong>.",
+      "Al final, mira el <strong>video de repaso</strong> de la lección 9.1."
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "¿Necesitas ayuda?",
+   "icono": "fas fa-comments",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "texto": "Escríbenos por WhatsApp al <strong>(909) 344-0703</strong>. Te atendemos en español de lunes a sábado, de 1 a 7 pm (hora del Este)."
+    },
+    {
+     "tipo": "botones",
+     "items": [
+      {"texto": "Escríbenos por WhatsApp", "url": "https://wa.me/19093440703?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20el%20curso%20de%20notario%20de%20Maryland"}
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "ejercicios",
+   "titulo": "Ejercicios",
+   "icono": "fas fa-edit",
+   "items": [
+    {"tipo": "vf", "pregunta": "Las lecciones del capítulo 1 son gratis.", "ok": "V"},
+    {"tipo": "om", "pregunta": "¿Qué te recomendamos hacer antes de pasar a la siguiente lección?", "opciones": ["Saltar al repaso final", "Hacer los ejercicios", "Ver solo el resumen"], "ok": "b"},
+    {"tipo": "vf", "pregunta": "Cuando compras el curso, tienes 2 meses de acceso.", "ok": "V"}
+   ]
+  }
+ ]
+}
