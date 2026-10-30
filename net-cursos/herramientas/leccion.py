@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # uso: leccion.py armar <json> <captura>   |   leccion.py publicar <post_id>
 import json,subprocess,sys,time,os
+CLAVE='CLC:<CLAVE>'
 D=os.path.dirname(os.path.abspath(__file__)); R='/home/user/Centro-Latino-de-Capacitacion/net-cursos/notarios'
 def call(t,a):
   for k in range(5):
@@ -10,7 +11,7 @@ def call(t,a):
       if os.path.exists(D+'/.mcp-session'): os.remove(D+'/.mcp-session')
       time.sleep(2**(k+1))
   sys.exit('sin respuesta: '+t)
-def curl(*a): return subprocess.run(['curl','-sS','--retry','4','-u','CLC:<CLAVE>',*a],capture_output=True,text=True).stdout
+def curl(*a): return subprocess.run(['curl','-sS','--retry','4','-u',CLAVE,*a],capture_output=True,text=True).stdout
 if sys.argv[1]=='armar':
   L=json.load(open(sys.argv[2])); pid=L['post']; cap=sys.argv[3]
   curl('-X','POST',f'https://centrolatinodecapacitacion.net/wp-json/llms/v1/lessons/{pid}','-H','Content-Type: application/json','-d','{"meta":{"_elementor_edit_mode":"builder","_elementor_template_type":"wp-post"}}','-o','/dev/null')
@@ -24,4 +25,6 @@ if sys.argv[1]=='armar':
 else:
   pid=int(sys.argv[2]); d=call('elementor-publish-document',{'post_id':pid}); print('publish',d.get('status'))
   d=call('elementor-get-page-structure',{'post_id':pid}); print('raíces',len(d['elements']),[x.get('title') for x in d['elements'][0]['elements']] if d['elements'] else 'VACÍA')
+  print(subprocess.run(['python3','/home/user/Centro-Latino-de-Capacitacion/net-cursos/herramientas/formulario-v3.py',str(pid)],capture_output=True,text=True,
+        env=dict(os.environ,CLC_AUTH=CLAVE)).stdout.strip())
   print('cache',curl('-X','DELETE','https://centrolatinodecapacitacion.net/wp-json/elementor/v1/cache','-o','/dev/null','-w','%{http_code}'))

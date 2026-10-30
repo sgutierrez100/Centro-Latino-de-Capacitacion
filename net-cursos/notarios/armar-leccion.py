@@ -120,6 +120,7 @@ class Armador:
             return self.el('e-flexbox', 'Imagen con pie', css='display: flex; flex-direction: column; gap: 6px; padding: 0px;', hijos=[img, self.p(b['pie'], 'clc-lec-def')])
         if t == 'formulario':
             # Gravity Forms por shortcode (etiqueta dinámica); span porque un <p> no puede llevar el <form> dentro.
+            # El párrafo atómico quita <form> y <script>: al publicar, herramientas/formulario-v3.py lo cambia por el widget «Shortcode» clásico.
             sc = f'[gravityform id="{b["id"]}" title="false" description="false" ajax="true"]'
             return self.el('e-flexbox', 'Formulario', ['clc-lec-caso'], hijos=[
                 self.el('e-paragraph', 'Shortcode', cfg={'tag': 'span', 'paragraph': {'name': 'shortcode', 'settings': {'shortcode': sc}}})])
