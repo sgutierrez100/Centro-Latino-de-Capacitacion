@@ -2,6 +2,7 @@
 # Builds the Maryland sales page from the Georgia one (page 159876): same design, Maryland texts.
 # usage: pagina-venta.py georgia_data.json out_data.json
 # All facts come from the published Maryland lessons. No number of lessons on the sales page.
+# After the build: the «Firmas de hipotecas» card (60e0c47c) is removed and chapters 7-9 are added as copies of card 6.
 import json, sys
 
 CURSO = 'https://centrolatinodecapacitacion.net/course/curso-de-notario-publico-para-maryland/'
@@ -36,8 +37,6 @@ TEXTOS = {
  '48239a0f': 'Certified copies: confirmas que la copia es completa, fiel y exacta.',
  '355bba4': 'Protestos',
  '2d8c3333': 'De documentos negociables, como un cheque o un pagaré, cuando no se pagan o no se aceptan.',
- '3afd3bc7': 'Firmas de hipotecas',
- '204ac7f4': 'Como agente de firmas notariales (Notary Signing Agent).',
  # Syllabus (the chapters 7, 8 and 9 are added later as copies of the 6th card)
  '3d3d5f68': 'A tu ritmo y desde tu casa, con ejemplos, casos de la oficina y ejercicios.',
  '21ac24cc': '1. Bienvenida y el notario en Maryland',
@@ -66,9 +65,6 @@ TEXTOS = {
  '65f30c1c': 'Paga $95 en un solo pago y tienes 2 meses de acceso.',
  '657f0efc': 'Solicita tu comisión',
  '5535f29c': 'Pide tu certificado, haz tu solicitud en línea y jura ante el Clerk of the Circuit Court.',
- # Grow your business: the remote course card becomes the Maryland membership
- '7330c4aa': 'Membresía Notario Maryland',
- '6de9c00': 'Mantén tu curso abierto por $6 al mes, para volver a las lecciones cuando lo necesites.',
  # FAQ
  '78f5563': '$95 en un solo pago, con 2 meses de acceso. Si quieres mantener el curso abierto después, tienes la Membresía Notario Maryland por $6 al mes.',
  '53f789bf': f'Los explicamos en la lección 1.4 del curso, «Tu ruta para ser notario en Maryland», que es gratis. Mírala en la <a href="{CURSO}" target="_blank">página del curso</a>.',
@@ -81,7 +77,7 @@ TEXTOS = {
  '6790372b': 'Aprende a ejercer con seguridad y cumpliendo la ley de Maryland.',
 }
 LINKS = {'5c702022': CURSO, '1c23d036': CURSO, '1f2d68e6': CURSO, '5c965861': CURSO, '3cc4f342': CURSO,
-         '5a73f048': MEMB, '2e0c2680': WA}
+         '5a73f048': 'https://centrolatinodecapacitacion.net/curso-de-notario-remoto/', '2e0c2680': WA}
 ICONOS = {'697355f9': 'fas fa-copy', '7ce3b868': 'fas fa-file-invoice-dollar', '5a73f048': None}
 
 D = json.loads(open(sys.argv[1]).read())
