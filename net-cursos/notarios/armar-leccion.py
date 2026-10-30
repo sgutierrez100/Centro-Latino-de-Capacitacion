@@ -110,9 +110,14 @@ class Armador:
             return self.el('e-grid', 'Comparación', css='padding: 0px; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); '
                            'grid-template-rows: none; @media(--mobile) { gap: 16px; }', hijos=tarjetas)
         if t == 'imagen':
-            # Imagen de la biblioteca de medios (id); el alt sale de la biblioteca.
-            return self.el('e-image', 'Imagen', cfg={'image': {'src': {'id': b['id']}, 'size': 'full'}},
-                           css='width: 100%; height: auto; border-radius: 18px;')
+            # Imagen de la biblioteca de medios (id); el alt sale de la biblioteca. Con «borde», un marco fino (capturas de pantalla);
+            # con «url», la imagen abre en grande en otra pestaña; con «pie», un texto chico debajo.
+            borde = ' border: 1px solid #D9E2EA; box-shadow: 0 6px 18px rgba(20,60,90,0.08);' if b.get('borde') else ''
+            cfg = {'image': {'src': {'id': b['id']}, 'size': 'full'}}
+            if b.get('url'): cfg['link'] = {'destination': b['url'], 'isTargetBlank': True, 'tag': 'a'}
+            img = self.el('e-image', 'Imagen', cfg=cfg, css=f"width: 100%; height: auto; border-radius: {12 if borde else 18}px;{borde}")
+            if not b.get('pie'): return img
+            return self.el('e-flexbox', 'Imagen con pie', css='display: flex; flex-direction: column; gap: 6px; padding: 0px;', hijos=[img, self.p(b['pie'], 'clc-lec-def')])
         if t == 'formulario':
             # Gravity Forms por shortcode (etiqueta dinámica); span porque un <p> no puede llevar el <form> dentro.
             sc = f'[gravityform id="{b["id"]}" title="false" description="false" ajax="true"]'
