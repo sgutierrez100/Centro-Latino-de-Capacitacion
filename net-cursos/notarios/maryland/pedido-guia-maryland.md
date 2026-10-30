@@ -75,6 +75,11 @@ Va a tener su propio curso: el Curso de Notario Remoto de Maryland, que estará 
   - En el glosario (pág. 236), «ver el tema 35» pasa a remitir al curso.
   - En las respuestas, la pág. 271.
 
+### 5. Portada y contraportada nuevas (hechas en Canva)
+- **Portada:** cambia la página 1 por la portada nueva. Ya trae los temas de esta edición, sin «Tu comisión paso a paso», «Notarización remota» ni «Examen de práctica». Diseño en Canva: https://www.canva.com/d/GQczOX9Yh-vdM9V. Imagen: `net-cursos/notarios/maryland/guia-portadas/portada-guia-maryland.png`.
+- **Contraportada:** agrégala como última página. Diseño en Canva: https://www.canva.com/d/V9B1mykfz-s8q6m. Imagen: `net-cursos/notarios/maryland/guia-portadas/contraportada-guia-maryland.png`.
+- Las dos son de tamaño carta (8.5 × 11 pulgadas), igual que el libro. Si las necesitas en PDF, expórtalas desde Canva.
+
 ## Al terminar
 - **Vuelve a numerar** las partes y los capítulos. Arma otra vez el índice con sus páginas y enlaces, y corrige las referencias internas («ver el tema 35», «lee el aviso VERIFÍCALO…»).
 - **Busca en todo el libro** «handbook», «manual», «examen», «exam», «course of study», «certificate of completion», «certificate of passing», «remot», «electrónic», «loan signing» y «agente de firmas», y confirma que no quede nada de lo que se quitó.
